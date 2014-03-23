@@ -9,7 +9,7 @@
         <!--The title for the page is set by setting the $title variable in the PHP include statement on the corresponding page-->
         <title><?php echo $title; ?></title>
         <meta name="description" content="The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="/css/bootstrap.css">
         <style>
