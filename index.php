@@ -8,17 +8,16 @@
     
     /*Use $ExtraTags to add additional scripts or CSS files for specific pages
     *Use $title to set the title of the webpage
+    *In this instance, the extra header tags are for the WOWSlider
     */
-    $ExtraTags='<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-    <script type="text/javascript" src="engine1/jquery.js"></script>';
+    $ExtraHeaderTags='<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+      <script type="text/javascript" src="engine1/jquery.js"></script>';
     $title='1294: Top Gun Robotics';
     require'/includes/header.php'; 
  ?>
 
 	<!-- Start WOWSlider.com BODY section -->
-	<!--<link rel="stylesheet" type="text/css" href="engine1/style.css" />-->
-    <!--<script type="text/javascript" src="engine1/jquery.js"></script>-->
-
+  <!--The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
 	<div id="wowslider-container1">
 	    <div class="ws_images">
             <ul>
@@ -43,9 +42,12 @@
         <span class="wsl"><a href="http://wowslider.com">Gallery Script</a> by WOWSlider.com v5.2</span>
 	    <div class="wdss_shadow"></div>
 	</div>
+  <!--These script tags must be placed near the WOWSlider html to make it work correctly-->
 	<script type="text/javascript" src="engine1/wowslider.js"></script>
 	<script type="text/javascript" src="engine1/script.js"></script>
+
     <!--End of WOWSlider Body Section-->
+
     </div>
     <div class="body-container">
     <!-- Main jumbotron-->

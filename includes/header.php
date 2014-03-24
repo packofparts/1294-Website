@@ -26,10 +26,11 @@
             /*
             *There might be some extra tags that need to be placed in the header,
             *Any extra tags needed will be added by setting the $ExtraTags Variable right before the include statement
-            *on a webpage, first we check if there is a tag set, if it is, we add itthe extra tags to the header
+            *on a webpage, first we check if there is a tag set, if it is, we add it the extra tags to the header.
+            *There is also a $ExtraFooterTags variable that can be set to add extra tags to the footer.
             */
-            if (!empty($ExtraTags)) {
-                echo $ExtraTags;
+            if (!empty($ExtraHeaderTags)) {
+                echo $ExtraHeaderTags;
             }
 
             //Figures out what page your on for the top bar menu
@@ -39,13 +40,13 @@
             // loop through each directory, check against the known directories, and add class   
             $directories = array("", "about","contact","media","calendar"); // "" is the homepage sense we are using clean URL's
             foreach ($directories as $folder){
-                $active[$folder] = ($directory[0] == $folder)? "active":"noactive";
+                $active[$folder] = ($directory[0] == $folder)? "active":"";
             }
         ?>
     </head>
     <body>
         <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <p class="chromeframe">You are using a <strong>VERY outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser to one that supports current web standards *cough*Google Chrome*cough*</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         <div class="navbar navbar-inverse navbar-fixed-top">
             <!--<img alt="All Team members" class="headerimage" src="/img/Big_Header.JPG" width="1271px" />-->
@@ -75,7 +76,7 @@
                         <li class="<?php echo $active['contact']?>"><a href="/contact">Contact</a></li>
                         <li class="<?php echo $active['media']?>"><a href="/media">Media</a></li>
                         <li class="<?php echo $active['calendar']?>"><a href="/media">Calendar</a></li>
-                        <li class="dropdown <?php echo $active['something']?>">
+                        <!--<li class="dropdown startPHP echo $active['something'] endPHP">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
@@ -86,7 +87,7 @@
                             <li><a href="#">Separated link</a></li>
                             <li><a href="#">One more separated link</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                     <form class="navbar-form navbar-right">
                     <a href="/donate"class="btn btn-success">Donate</a>
