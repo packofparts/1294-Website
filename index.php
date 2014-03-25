@@ -50,33 +50,40 @@
 
     </div>
     <div class="body-container">
-    <!-- Main jumbotron-->
-    <div class="jumbotron">
-      <div class="container">
-        <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
-        <h1>We are Top Gun Robotics</h1>
-        <p>We are a High School Robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington that has been playing in FRC since 2004. </p>
-        <p><a class="btn btn-primary btn-lg learn-more" href="/about/team">Learn more &raquo;</a></p>
-      </div>
-    </div>
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>News/Announcments</h2>
-          <p>INSERT RSS FEED HERE!</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        <!-- Main jumbotron-->
+        <div class="jumbotron">
+            <div class="container">
+            <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
+            <h1>We are Top Gun Robotics</h1>
+            <p>We are a High School Robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington that has been playing in FRC since 2004. </p>
+            <p><a class="btn btn-primary btn-lg learn-more" href="/about/team">Learn more &raquo;</a></p>
+            </div>
         </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h2>Facebook</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        <!--Begin Live Event Streaming Block. This block can be commented out during the off-season-->
+        <div class="live-stream-container">
+            <h1>Live Stream our Event!</h1>
+            <p>We are currently Live Streaming our Event at </p>
+            <iframe id="Live-Stream" class="img-responsive" src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
         </div>
-      </div>
-    </div>
+        <!--End of Live Stream Block-->
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+            <div class="col-lg-4">
+                <h2>News/Announcments</h2>
+                <p>INSERT RSS FEED HERE!</p>
+                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Facebook</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+            </div>
+            </div>
+        </div>
 <?php require'/includes/footer.php'; ?>

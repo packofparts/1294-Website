@@ -60,6 +60,26 @@
     background: white;
 }
 
+/********************************************************************
+*    FRONT PAGE ONLY
+*
+*   Only Items that can be found on the front page
+*********************************************************************/
+
+#Live-Stream{
+    margin-left: auto;
+    margin-right: auto;
+    height: 437px; 
+    width: 720px;
+    display: block;
+}
+
+.live-stream-container {
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+    background: url('http://minecraftgame.net/resources/shadow-up.png') no-repeat scroll center bottom transparent;
+}
 
 /********************************************************************
     FOOTER SPONSERS
