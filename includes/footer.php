@@ -2,11 +2,24 @@
           <hr>
 
           <footer class="container">
-            <p id="sponser-title">At Top Gun Robotics, We Love Our Sponsers</p>
-            <img alt="Boeing Logo" style="padding-top: 40px"width="500em" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
-            <img alt="SAE Northwest Logo" style="float: right" height="200px" src="http://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>
+            <p><span id="sponser-title">At Top Gun Robotics, We Love Our Sponsers</span></p><a id="donate-btn" href="/donate" class="btn btn-success">Donate/Sponsor</a>
+                   
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="sponser-SAE" class="img-responsive" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="sponser-boeing" alt="Boeing Logo" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="sponser-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>
+                    </div>
+                </div>
+            </div>
           </footer>
-    </div> <!-- /body-container -->
+    </div>  <!--/body-container-->
         <?php
             /*To Add extra footer tags such as scripts, just set the $ExtraFooterTags Variable before the include footer*/
             if (!empty($ExtraFooterTags)) {

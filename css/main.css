@@ -1,11 +1,54 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   Header Tags (Navigation bar and other stuff)
    ========================================================================== */
 
-.body-container { /*The Body Container must have 15px of seperation between the seperate containers*/
+.body-container#top {
+    margin-top: 50px;
+}
+
+/*
+.headerimage {
     width: 1271px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#frc-txt {
+    color: #0066FF;
+    font-weight: 900;
+    font-style:italic;
+    letter-spacing:2px
+}
+*/
+
+#eastlake-logo {
+    max-height: 350px;
+    padding-top: 10px;
+    margin-right: 25px;
+    margin-left: -15px;
+    float: left;
+}
+
+.popup {
+    top: 7.5%;
+    left: 20%;
+    right: 20%;
+    margin-right: auto;
+    position: fixed;
+    z-index: 999;
+    text-align: center;
+
+}
+#Google-Chrome-Frame-Hint {
+    font-style: italic;
+    font-size: 75%;
+}
+
+.body-container { /*The Body Container must have 15px of seperation between the seperate containers*/
+    max-width: 1271px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -17,33 +60,34 @@
     background: white;
 }
 
-.body-container#top {
-    margin-top: 50px;
-}
 
-.headerimage {
-    width: 1271px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-/*
-#frc-txt {
-    color: #0066FF;
-    font-weight: 900;
-    font-style:italic;
-    letter-spacing:2px
-}
-*/
+/********************************************************************
+    FOOTER SPONSERS
 
-#eastlake-logo {
-    padding-top: 10px;
-    margin-right: 25px;
-    margin-left: -15px;
-    float: left;
+All sponser logos have ideas that go as follows "sponser.SPONSERNAME"
+*********************************************************************/
+#donate-btn {
+    float: right;
+    margin-top: -50px;
 }
-
 #sponser-title {
     font-weight: bolder;
     font-size: x-large;
+}
+
+#sponser-boeing {    
+    max-width: 100%;
+    padding-top: 40px;
+    min-width: 5px;
+}
+
+#sponser-SAE {
+    max-height: 200px;
+}
+#sponser-orora {
+}
+@media (min-width: 992px) {
+  #sponser-orora {
+    padding-top: 40px;
+  }
 }

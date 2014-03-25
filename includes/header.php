@@ -45,9 +45,7 @@
         ?>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using a <strong>VERY outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser to one that supports current web standards *cough*Google Chrome*cough*</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+
         <div class="navbar navbar-inverse navbar-fixed-top">
             <!--<img alt="All Team members" class="headerimage" src="/img/Big_Header.JPG" width="1271px" />-->
             <div class="container">
@@ -63,19 +61,23 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="<?php echo $active['']?>"><a href="/">Home</a></li>
+                        <li class="<?php echo $active['']?>"><a href="/"><i class="glyphicon glyphicon-home"></i> Home</a></li>
                         <li class="dropdown <?php echo $active['about']?>">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li class="dropdown-header"><a href="/about/">About</a></li>
-                                <li class="divider"></li>
-                                <li><a href="/about/team/">The Team</a></li>
-                                <li><a href="/about/website">Website</a></li>
+                                <li><a href="/about/team/"><span class="glyphicon glyphicon-user"></span> The Team</a></li>
+                                <li><a href="/about/website"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
                             </ul>
                         </li>
-                        <li class="<?php echo $active['contact']?>"><a href="/contact">Contact</a></li>
-                        <li class="<?php echo $active['media']?>"><a href="/media">Media</a></li>
-                        <li class="<?php echo $active['calendar']?>"><a href="/media">Calendar</a></li>
+                        <li class="dropdown <?php echo $active['media']?>">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"></span> Media <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/media/video"><span class="glyphicon glyphicon-facetime-video"></span> Videos</a></li>
+                                <li><a href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
+                            </ul>
+                        </li>
+                        <li class="<?php echo $active['calendar']?>"><a href="/media"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
+                        <li class="<?php echo $active['contact']?>"><a href="/contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
                         <!--<li class="dropdown startPHP echo $active['something'] endPHP">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -89,10 +91,17 @@
                             </ul>
                         </li>-->
                     </ul>
-                    <form class="navbar-form navbar-right">
-                    <a href="/donate"class="btn btn-success">Donate</a>
-                    </form>
+
                 </div><!--/.navbar-collapse -->
             </div>
         </div>
+        <!--[if lt IE 7]>
+             <div class="alert alert-dismissable alert-warning popup">
+                <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
+                <h4>Warning!</h4>
+                <p class="chromeframe">You are using a <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser to one that supports current web standards</a> <span id="Google-Chrome-Frame-Hint">*cough*</span><a class="alert-link" href="https://www.google.com/intl/en/chrome/browser/"/>Google Chrome</a><span id="Google-Chrome-Frame-Hint">*cough*</span></a> or <a class="alert-link" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            </div>
+        <![endif]-->
+
         <div class="body-container" id="top">
+ 
