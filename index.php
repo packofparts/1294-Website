@@ -61,9 +61,42 @@
         </div>
         <!--Begin Live Event Streaming Block. This block can be commented out during the off-season-->
         <div class="live-stream-container">
-            <h1>Live Stream our Event!</h1>
-            <p>We are currently Live Streaming our Event at </p>
-            <iframe id="Live-Stream" class="img-responsive" src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
+            <h1 id="live-stream-title">Live Stream our Event!</h1>
+            <p class="lead">We will be live streaming for the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">Autodesk PNW FRC Championship 2014</a> which will be airing from</p>
+            <p class="event-times">April 10th 5pm to April 12th 5pm
+
+            </p>
+
+        <iframe id="Live-Stream" class="img-responsive" src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
+            <?php
+            /*The following code is to get ride of the calendar button when the event is in progress or when the event has passed*/
+            $eventDate='25-03-2014';
+            if(!strtotime($eventDate) >= strtotime('today')){
+                /*Its not passed the event date, show the button*/ ?>
+                <a href="http://www.thebluealliance.com/event/2014pncmp" title="Add to Calendar" class="addthisevent" >
+                    Add to Calendar
+                    <span class="_start">10-04-2014 9:00:00</span>
+                    <span class="_end">11-04-2014 17:00:00</span>
+                    <span class="_zonecode">6</span>
+                    <span class="_summary">Autodesk PNW FRC Championship</span>
+                    <span class="_description">PNW Regional Championship</span>
+                    <span class="_location">300 North Winning Way Portland, OR 97227</span>
+                    <span class="_organizer">Oregon First Robotics</span>
+                    <span class="_organizer_email">Organizer e-mail</span>
+                    <span class="_all_day_event">false</span>
+                    <span class="_date_format">DD/MM/YYYY</span>
+                </a>
+            <?php
+                }
+                else
+                {
+                    /*It has passed the event date*/
+                    echo'something else';
+                }
+            ?>
+            <a href="http://www.thebluealliance.com/event/2014pncmp" title="Go to Ustream" class="go-to-scores" >
+                <span class="glyphicon glyphicon-list-alt"></span> Get Scores
+            </a>
         </div>
         <!--End of Live Stream Block-->
         <div class="container">
@@ -86,4 +119,7 @@
             </div>
             </div>
         </div>
-<?php require'/includes/footer.php'; ?>
+<?php 
+    $ExtraFooterTags='<script type="text/javascript" src="http://js.addthisevent.com/atemay.js"></script>';
+    require'/includes/footer.php';
+?>

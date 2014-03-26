@@ -20,18 +20,20 @@
             </div>
           </footer>
     </div>  <!--/body-container-->
+
+    </div>
         <?php
-            /*To Add extra footer tags such as scripts, just set the $ExtraFooterTags Variable before the include footer*/
+            /*To Add extra footer tags such as scripts, just set the $ExtraFooterTags Variable before the include statement at the top of the document*/
             if (!empty($ExtraFooterTags)) {
-                echo $ExtraHeaderTags;
+                echo $ExtraFooterTags;
             }
         ?>
-    </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
         <script src="/js/vendor/bootstrap.js"></script>
         <script src="/js/main.js"></script>
         <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
         <script>
             /*Google Analytics*/
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

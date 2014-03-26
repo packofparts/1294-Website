@@ -72,13 +72,56 @@
     height: 437px; 
     width: 720px;
     display: block;
+    padding-bottom: 20px;
+    z-index: 0;
 }
 
 .live-stream-container {
     display: block;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     background: url('http://minecraftgame.net/resources/shadow-up.png') no-repeat scroll center bottom transparent;
+}
+
+.event-link {
+    color: black;
+    font-weight: 800;
+}
+.event-link:hover {
+    color: black;
+
+}
+.event-times {
+    font-size: x-large;
+}
+
+.go-to-scores {
+    display: inline-block;
+    position: relative;
+    font-family: arial;
+    color: #333!important;
+    background: #f4f4f4;
+    text-decoration: none!important;
+    border: 1px solid #d9d9d9;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 9px 12px 8px 11px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    margin-left: 5px;
+}
+.go-to-scores:hover {
+    border: 1px solid #aab9d4;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none!important;
+}
+
+.go-to-scores:active {
+top: 1px;
 }
 
 /********************************************************************
