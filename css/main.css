@@ -24,13 +24,7 @@
 }
 */
 
-#eastlake-logo {
-    max-height: 350px;
-    padding-top: 10px;
-    margin-right: 25px;
-    margin-left: -15px;
-    float: left;
-}
+
 
 .popup {
     top: 7.5%;
@@ -66,6 +60,14 @@
 *   Only Items that can be found on the front page
 *********************************************************************/
 
+#eastlake-logo {
+    max-height: 350px;
+    padding-top: 0px;
+    margin-right: 25px;
+    margin-left: -15px;
+    float: left;
+}
+
 #Live-Stream{
     margin-left: auto;
     margin-right: auto;
@@ -79,8 +81,15 @@
 .live-stream-container {
     display: block;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     background: url('http://minecraftgame.net/resources/shadow-up.png') no-repeat scroll center bottom transparent;
+}
+
+#stream-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-top: 0px;
 }
 
 .event-link {
@@ -110,6 +119,7 @@
     padding: 9px 12px 8px 11px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
+    float: left;
     margin-left: 5px;
 }
 .go-to-scores:hover {
@@ -122,6 +132,35 @@
 
 .go-to-scores:active {
 top: 1px;
+}
+.go-to-stream {
+    display: inline-block;
+    position: relative;
+    font-family: arial;
+    color: #333!important;
+    background: #f4f4f4;
+    text-decoration: none!important;
+    border: 1px solid #d9d9d9;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 9px 12px 8px 11px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    float: right;
+    margin-right: 5px
+}
+.go-to-stream:hover {
+    border: 1px solid #aab9d4;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none!important;
+}
+
+.go-to-stream:active {
+    top: 1px;
 }
 
 /********************************************************************

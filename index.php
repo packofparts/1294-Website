@@ -68,57 +68,91 @@
             </p>
 
         <iframe id="Live-Stream" class="img-responsive" src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
-            <?php
-            /*The following code is to get ride of the calendar button when the event is in progress or when the event has passed*/
-            $eventDate='25-03-2014';
-            if(!strtotime($eventDate) >= strtotime('today')){
-                /*Its not passed the event date, show the button*/ ?>
-                <a href="http://www.thebluealliance.com/event/2014pncmp" title="Add to Calendar" class="addthisevent" >
-                    Add to Calendar
-                    <span class="_start">10-04-2014 9:00:00</span>
-                    <span class="_end">11-04-2014 17:00:00</span>
-                    <span class="_zonecode">6</span>
-                    <span class="_summary">Autodesk PNW FRC Championship</span>
-                    <span class="_description">PNW Regional Championship</span>
-                    <span class="_location">300 North Winning Way Portland, OR 97227</span>
-                    <span class="_organizer">Oregon First Robotics</span>
-                    <span class="_organizer_email">Organizer e-mail</span>
-                    <span class="_all_day_event">false</span>
-                    <span class="_date_format">DD/MM/YYYY</span>
-                </a>
-            <?php
-                }
-                else
-                {
-                    /*It has passed the event date*/
-                    echo'something else';
-                }
-            ?>
-            <a href="http://www.thebluealliance.com/event/2014pncmp" title="Go to Ustream" class="go-to-scores" >
-                <span class="glyphicon glyphicon-list-alt"></span> Get Scores
-            </a>
+        <table id="stream-buttons">
+            <tbody>
+                <tr style="width:100%;">
+                    <td style="width: 50%;">
+                        <?php
+                        /*
+                        *The following code is to get ride of the calendar button when the event is in progress or when the event has passed
+                        *We'll eventually be able to do this by checking the event database
+                        */
+                        $eventDate='29-04-2014';
+                        if(strtotime($eventDate) > strtotime('today')){
+                            $passedDate = FALSE;
+                            /*Its not passed the event date, show the button*/ ?>
+                            <a href="http://www.thebluealliance.com/event/2014pncmp" title="Add to Calendar" class="addthisevent" >
+                                Add to Calendar
+                                <span class="_start">10-04-2014 9:00:00</span>
+                                <span class="_end">11-04-2014 17:00:00</span>
+                                <span class="_zonecode">6</span>
+                                <span class="_summary">Autodesk PNW FRC Championship</span>
+                                <span class="_description">PNW Regional Championship</span>
+                                <span class="_location">300 North Winning Way Portland, OR 97227</span>
+                                <span class="_organizer">Oregon First Robotics</span>
+                                <span class="_organizer_email">Organizer e-mail</span>
+                                <span class="_all_day_event">false</span>
+                                <span class="_date_format">DD/MM/YYYY</span>
+                            </a>
+                        <?php
+                        }
+                        else
+                        {
+                            /*It has passed the event date*/
+                            $passedDate = TRUE;
+                        ?>
+                            <a href="http://www.ustream.tv/channel/firstwa-blue" title="Go to Ustream" class="go-to-stream">
+                                <span class="glyphicon glyphicon-facetime-video"></span> Direct Video Stream
+                                <!--Well eventually get the link through the database and do everything automatically-->
+                            </a>
+                        <?php
+                        } /*End of PHP for date checking, well evetually do everything automatically with the database at some point*/
+                        ?>
+                    </td>
+                    <td style="width: 50%;">
+                        <?php
+                         if($passedDate == TRUE)
+                         {
+                        ?>
+                        <a href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" title="Go to Scores" class="go-to-scores" >
+                            <span class="glyphicon glyphicon-list-alt"></span> Get Scores
+                        <?php
+                         }
+                         else
+                         {
+                        ?>
+                        <a href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" title="Go to Team List" class="go-to-scores" >
+                            <span class="glyphicon glyphicon-list-alt"></span> Get Team List
+                        <?php
+                         }
+                        ?>
+                    </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--End of Live Stream Block-->
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+        <div class="col-lg-4">
+            <h2>News/Announcments</h2>
+            <p>INSERT RSS FEED HERE!</p>
+            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
-        <!--End of Live Stream Block-->
-        <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-            <div class="col-lg-4">
-                <h2>News/Announcments</h2>
-                <p>INSERT RSS FEED HERE!</p>
-                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Facebook</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-            </div>
-            </div>
+        <div class="col-lg-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
+        <div class="col-lg-4">
+            <h2>Facebook</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        </div>
+        </div>
+    </div>
 <?php 
     $ExtraFooterTags='<script type="text/javascript" src="http://js.addthisevent.com/atemay.js"></script>';
     require'/includes/footer.php';
