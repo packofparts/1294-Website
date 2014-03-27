@@ -31,5 +31,6 @@ Test Test
           <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
       </div>
+    </div>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>

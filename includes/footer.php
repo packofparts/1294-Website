@@ -21,7 +21,6 @@
           </footer>
     </div>  <!--/body-container-->
 
-    </div>
         <?php
             /*To Add extra footer tags such as scripts, just set the $ExtraFooterTags Variable before the include statement at the top of the document*/
             if (!empty($ExtraFooterTags)) {

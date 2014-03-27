@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!--The title for the page is set by setting the $title variable in the PHP include statement on the corresponding page-->
         <title><?php echo $title; ?></title>
-        <meta name="description" content="The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics">
+        <meta name="description" content="<?php echo $descriptionContent; ?>"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="/css/bootstrap.css">
@@ -45,7 +45,7 @@
         ?>
     </head>
     <body>
-
+        <!--Remember to ALWAYS add a '/' at the end of a URL or else bad things will happen-->
         <div class="navbar navbar-inverse navbar-fixed-top">
             <!--<img alt="All Team members" class="headerimage" src="/img/Big_Header.JPG" width="1271px" />-->
             <div class="container">
@@ -66,18 +66,18 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="/about/team/"><span class="glyphicon glyphicon-user"></span> The Team</a></li>
-                                <li><a href="/about/website"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
+                                <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
                             </ul>
                         </li>
                         <li class="dropdown <?php echo $active['media']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"></span> Media <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/media/video"><span class="glyphicon glyphicon-facetime-video"></span> Videos</a></li>
-                                <li><a href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
+                                <li><a href="/media/video/"><span class="glyphicon glyphicon-facetime-video"></span> Videos</a></li>
+                                <li><a href="/media/pictures/"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
                             </ul>
                         </li>
-                        <li class="<?php echo $active['calendar']?>"><a href="/media"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
-                        <li class="<?php echo $active['contact']?>"><a href="/contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                        <li class="<?php echo $active['calendar']?>"><a href="/media/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
+                        <li class="<?php echo $active['contact']?>"><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
                         <!--<li class="dropdown startPHP echo $active['something'] endPHP">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                             <ul class="dropdown-menu">

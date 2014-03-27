@@ -104,6 +104,10 @@
     font-size: x-large;
 }
 
+.addthisevent {
+    margin-right: 5px;
+}
+
 .go-to-scores {
     display: inline-block;
     position: relative;
@@ -178,7 +182,7 @@ All sponser logos have ideas that go as follows "sponser.SPONSERNAME"
 }
 
 #sponser-boeing {    
-    max-width: 100%;
+    max-width: 360px;
     padding-top: 40px;
     min-width: 5px;
 }
