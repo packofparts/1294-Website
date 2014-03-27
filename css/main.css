@@ -54,16 +54,32 @@
     background: white;
 }
 
+.footer-links {
+    color: black!important;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.footer-links:hover {
+    color: black!important;
+    text-align: center;
+}
+
 /********************************************************************
 *    FRONT PAGE ONLY
 *
 *   Only Items that can be found on the front page
 *********************************************************************/
 
+a:visited {
+    color:  inherit;
+}
+
 #eastlake-logo {
     max-height: 350px;
     padding-top: 0px;
-    margin-right: 25px;
+    margin-right: 0px;
     margin-left: -15px;
     float: left;
 }
@@ -165,6 +181,13 @@ top: 1px;
 
 .go-to-stream:active {
     top: 1px;
+}
+
+hr.footer-seperator {
+    width: 100%;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
 }
 
 /********************************************************************

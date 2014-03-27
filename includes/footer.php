@@ -1,5 +1,5 @@
 
-          <hr>
+          <hr class="footer-seperator">
 
           <footer class="container">
             <p><span id="sponser-title">At Top Gun Robotics, We Love Our Sponsers</span></p><a id="donate-btn" href="/donate" class="btn btn-success">Donate/Sponsor</a>
@@ -17,6 +17,9 @@
                         <img id="sponser-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>
                     </div>
                 </div>
+            </div>
+            <div class="footer-links">
+                <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="usfirst.org">US First</a> | <a class="footer-links" title="Washingotn First Robotics"href="http://firstwa.org/">First WA</a>
             </div>
           </footer>
     </div>  <!--/body-container-->

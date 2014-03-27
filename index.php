@@ -19,11 +19,11 @@
 
 	<!-- Start WOWSlider.com BODY section -->
   <!--The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
-	<div id="wowslider-container1">
+	<div class="hidden-print hidden-xs" id="wowslider-container1">
 	    <div class="ws_images">
             <ul>
                 <li><img src="data1/images/big_header.jpg" alt="The Team" title="The Team" id="wows1_0"/></li>
-                <li><img src="data1/images/img_0131.jpg" alt="Professionialism" title="Professionialism" id="wows1_1"/></li>
+                <li><img src="data1/images/img_0131.jpg" alt="Professionialism" title="Professionialism" id="wows1_1"/>We Strive To be as Proffesional as possible</li>
                 <li><img src="data1/images/img_0158.jpg" alt="Precision and Execution" title="Precision and Execution" id="wows1_2"/></li>
                 <li><img src="data1/images/img_0206.jpg" alt="We strive for the best" title="We strive for the best" id="wows1_3"/>Even if it means destroying the competition, we'll do it.</li>
                 <li><img src="data1/images/img_0217.jpg" alt="Collaboration" title="Collaboration" id="wows1_4"/></li>
@@ -62,14 +62,14 @@
             </div>
         </div>
         <!--Begin Live Event Streaming Block. This block can be commented out during the off-season-->
-        <div class="live-stream-container">
+        <div class="live-stream-container hidden-print">
             <h2 id="live-stream-title">Watch our event LIVE here!</h2>
-            <p class="lead">We will be live streaming for the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">Autodesk PNW FRC Championship 2014</a> which will be airing from</p>
-            <p class="event-times">April 10th 5pm to April 12th 5pm
+            <p class="lead">We will be live streaming for the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">Autodesk PNW FRC Championship 2014</a> which will be airing from <br>
+            <span class="event-times">April 10th 5pm to April 12th 5pm
 
-            </p>
+            </span></p>
 
-        <iframe id="Live-Stream" class="img-responsive" src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
+        <iframe id="Live-Stream" class="img-responsive " src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
         <table id="stream-buttons">
             <tbody>
                 <tr style="width:100%;">

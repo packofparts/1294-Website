@@ -1,5 +1,6 @@
 <?php
     $title="1294: About the website";
+    $descriptionContent = 'Everything you would ever need to know about the Official Website of Top Gun team 1294.';
     include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php');
 ?>
 
