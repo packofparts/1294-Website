@@ -1,8 +1,11 @@
 <?php 
-    $title="1294: About the team";
-    include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php'); 
+    include($_SERVER['DOCUMENT_ROOT'].'/includes/upper_header.php'); 
 ?>
-
+<title>1294: About the Team</title>
+<meta name="description" content="Everything you ever wanted to know about Team 1294">
+<?php
+    include($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php')
+?>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">

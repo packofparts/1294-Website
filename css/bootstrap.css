@@ -288,9 +288,8 @@ textarea {
   line-height: inherit;
 }
 a {
-    /*
+    
   color: #ffffff;
-     */
   text-decoration: none;
 }
 a:hover,
@@ -3022,7 +3021,9 @@ input[type="button"].btn-block {
   margin: 2px 0 0;
   list-style: none;
   font-size: 14px;
-  background-color: #3a3f44;
+  background-image: url('/img/gun_metal.png');
+  background-repeat: repeat;
+  /*background-color: #3a3f44;*/
   border: 1px solid #272b30;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -3467,7 +3468,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
+  /* This was glitching the navbar colors
   background-color: #3e444c;
+  */
 }
 .nav > li.disabled > a {
   color: #7a8288;
@@ -3941,8 +3944,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #3a3f44;
-  border-color: #2b2e32;
+    /*
+  background-image: url('/img/gun_metal.png');
+  background-repeat: repeat;
+     */
 }
 .navbar-default .navbar-brand {
   color: #c8c8c8;
@@ -4024,8 +4029,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .navbar-inverse {
-  background-color: #7a8288;
-  border-color: #62686d;
+    
+  background-color: #080807;
+  border-color: #080807;
+    
 }
 .navbar-inverse .navbar-brand {
   color: #cccccc;
@@ -4044,7 +4051,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
+  /* No need to have :focus on the navbar, it glitchs most of the time
   background-color: #5d6368;
+  */
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -4082,13 +4091,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-form {
   border-color: #697075;
 }
+
+  /*
+  background-color: #5d6368;
+  */
 /*NavBar Dropdown, Not hover*/
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  /*
-  background-color: #5d6368;
-  */
+
     color: #ffffff;
     background-color: #357ebd;
     background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#357ebd));
@@ -5725,20 +5736,24 @@ button.close {
   }
 }
 .navbar {
+    /*Some stupid styling that im not using
   background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
   background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff484e55', endColorstr='#ff313539', GradientType=0);
   filter: none;
+    */
   border: 1px solid rgba(0, 0, 0, 0.6);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 .navbar-inverse {
+  /*These colors were glitching the navbar when the page loaded
   background-image: -webkit-linear-gradient(#8a9196, #7a8288 60%, #70787d);
   background-image: linear-gradient(#8a9196, #7a8288 60%, #70787d);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8a9196', endColorstr='#ff70787d', GradientType=0);
   filter: none;
+  */
 }
 /*Ugly Ass border around navbar while hovering
 .navbar-nav > li > a {
@@ -5747,13 +5762,24 @@ button.close {
 }
 */
 .navbar-nav > li > a:hover {
+    /*
   background-image: -webkit-linear-gradient(#020202, #101112 40%, #191b1d);
   background-image: linear-gradient(#020202, #101112 40%, #191b1d);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff020202', endColorstr='#ff191b1d', GradientType=0);
   filter: none;
   border-left-color: transparent;
+    */
+    color: #ffffff;
+    background-color: #357ebd;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#357ebd));
+    background-image: -webkit-linear-gradient(top, #428bca, 0%, #357ebd, 100%);
+    background-image: -moz-linear-gradient(top, #428bca 0%, #357ebd 100%);
+    background-image: linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
 }
+
 .navbar .nav .open > a {
   border-color: transparent;
 }

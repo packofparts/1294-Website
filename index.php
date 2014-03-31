@@ -5,39 +5,44 @@
     *@author Alex Friedberg <blueal22@hotmail.com>
     *@link https://github.com/blueal/FRC-Team-1294
     */
-    
-    /*Use $ExtraTags to add additional scripts or CSS files for specific pages
-    *Use $title to set the title of the webpage
-    *In this instance, the extra header tags are for the WOWSlider
+    require'includes/upper_header.php'; 
+    /*
+    *The header code is set up so that you can code in page specific tags in the pages .php file easily.
+    *Just include in the upper_header.php and than add the page specific tags.
+    *Then all you have to do is add the lower_header.php file and your done with the header.
     */
-    $ExtraHeaderTags='<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-      <script type="text/javascript" src="engine1/jquery.js"></script>';
-    $title='1294: Top Gun Robotics';
-    $descriptionContent = 'The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics';
-    require'includes/header.php'; 
  ?>
+    <title>1294: Top Gun Robotics</title>
+    <meta name="description" content="The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
+<?php
+    require'includes/lower_header.php';
+?>
 
 	<!-- Start WOWSlider.com BODY section -->
   <!--The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
-	<div class="hidden-print hidden-xs" id="wowslider-container1">
+	<div class="hidden-xs" style="margin-top: 32px;"id="wowslider-container1">
 	    <div class="ws_images">
             <ul>
-                <li><img src="data1/images/big_header.jpg" alt="The Team" title="The Team" id="wows1_0"/></li>
+                <li><img src="data1/images/big_header.jpg" alt="The Team" title="The Team" id="wows1_0" /></li>
                 <li><img src="data1/images/img_0131.jpg" alt="Professionialism" title="Professionialism" id="wows1_1"/>We Strive To be as Proffesional as possible</li>
                 <li><img src="data1/images/img_0158.jpg" alt="Precision and Execution" title="Precision and Execution" id="wows1_2"/></li>
-                <li><img src="data1/images/img_0206.jpg" alt="We strive for the best" title="We strive for the best" id="wows1_3"/>Even if it means destroying the competition, we'll do it.</li>
+                <li><img src="data1/images/img_0206.jpg" alt="We strive for the best" title="We strive for the best" id="wows1_3" />Even if it means destroying the competition, we'll do it.</li>
                 <li><img src="data1/images/img_0217.jpg" alt="Collaboration" title="Collaboration" id="wows1_4"/></li>
-                <li><img src="data1/images/img_0226.jpg" alt="Speed and Efficency" title="Speed and Efficency" id="wows1_5"/></li>
+                <li><img src="data1/images/img_0226.jpg" alt="Speed and Efficency" title="Speed and Efficency" id="wows1_5" /></li>
             </ul>
         </div>
         <div class="ws_bullets">
             <div>
-                <a href="#" title="The Team"><img src="data1/tooltips/big_header.jpg" alt="The Team"/>1</a>
-                <a href="#" title="Professionialism"><img src="data1/tooltips/img_0131.jpg" alt="Professionialism"/>2</a>
-                <a href="#" title="Precision and Execution"><img src="data1/tooltips/img_0158.jpg" alt="Precision and Execution"/>3</a>
-                <a href="#" title="We strive for the best"><img src="data1/tooltips/img_0206.jpg" alt="We strive for the best"/>4</a>
-                <a href="#" title="Collaboration"><img src="data1/tooltips/img_0217.jpg" alt="Collaboration"/>5</a>
-                <a href="#" title="Speed and Efficency"><img src="data1/tooltips/img_0226.jpg" alt="Speed and Efficency"/>6</a>
+                <a href="#" title="The Team"><img src="data1/tooltips/big_header.jpg" alt="The Team" width="101px" height="48px"/>1</a>
+                <a href="#" title="Professionialism"><img src="data1/tooltips/img_0131.jpg" alt="Professionialism" width="101px" height="48px"/>2</a>
+                <a href="#" title="Precision and Execution"><img src="data1/tooltips/img_0158.jpg" alt="Precision and Execution" width="101px" height="48px"/>3</a>
+                <a href="#" title="We strive for the best"><img src="data1/tooltips/img_0206.jpg" alt="We strive for the best" width="101px" height="48px"/>4</a>
+                <a href="#" title="Collaboration"><img src="data1/tooltips/img_0217.jpg" alt="Collaboration" width="101px" height="48px"/>5</a>
+                <a href="#" title="Speed and Efficency"><img src="data1/tooltips/img_0226.jpg" alt="Speed and Efficency" width="101px" height="48px"/>6</a>
             </div>
         </div>
         <span class="wsl"><a href="http://wowslider.com">Gallery Script</a> by WOWSlider.com v5.2</span>
@@ -49,84 +54,18 @@
 
     <!--End of WOWSlider Body Section-->
 
-    </div>
-    <div class="body-container">
-        <!-- Main jumbotron-->
-        <div class="jumbotron">
-            <div class="container">
-            <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
-            <h1>We are Top Gun Robotics</h1>
-            <p>We are a High School Robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington that has been playing in FRC since 2004.
-                 Our goal statement would go here that would talk about why we do what we do.</p>
-            <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
-            </div>
+
+<div class="body-container">
+    <!-- Main jumbotron-->
+    <div class="jumbotron">
+        <div class="container">
+        <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
+        <h1>We are Top Gun Robotics</h1>
+        <p>We are a High School Robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington that has been playing in FRC since 2004.
+                Our goal statement would go here that would talk about why we do what we do.</p>
+        <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
         </div>
-        <!--Begin Live Event Streaming Block. This block can be commented out during the off-season-->
-        <div class="live-stream-container hidden-print">
-            <h2 id="live-stream-title">Watch our event LIVE here!</h2>
-            <p class="lead">We will be live streaming for the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">Autodesk PNW FRC Championship 2014</a> which will be airing from <br>
-            <span class="event-times">April 10th 5pm to April 12th 5pm
-
-            </span></p>
-
-        <iframe id="Live-Stream" class="img-responsive " src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
-        <table id="stream-buttons">
-            <tbody>
-                <tr style="width:100%;">
-                    <?php
-                    /*
-                    *The following code is to get ride of the calendar button when the event is in progress or when the event has passed
-                    *We'll eventually be able to do this by checking the event database
-                    */
-                    $eventDate='26-03-2014';
-                    if(strtotime($eventDate) > strtotime('today')){
-                        /*Its not passed the event date, show the "before event" button*/ ?>
-                    <td style="width: 50%;">
-                        <a href="http://www.thebluealliance.com/event/2014pncmp" title="Add to Calendar" class="addthisevent">
-                            Add to Calendar
-                            <span class="_start">10-04-2014 9:00:00</span>
-                            <span class="_end">11-04-2014 17:00:00</span>
-                            <span class="_zonecode">6</span>
-                            <span class="_summary">Autodesk PNW FRC Championship</span>
-                            <span class="_description">PNW Regional Championship</span>
-                            <span class="_location">300 North Winning Way Portland, OR 97227</span>
-                            <span class="_organizer">Oregon First Robotics</span>
-                            <span class="_organizer_email">Organizer e-mail</span>
-                            <span class="_all_day_event">false</span>
-                            <span class="_date_format">DD/MM/YYYY</span>
-                        </a>
-                    </td>
-                    <td style="width: 50%;">
-                        <a href="http://www.thebluealliance.com/event/2014pncmp/" target="_blank" title="Go to Team List" class="go-to-scores" >
-                            <span class="glyphicon glyphicon-list-alt"></span> Get Team List
-                        </a>
-                    </td>
-                    <?php
-                    }
-                    else
-                    {
-                        /*It has passed the event date, the event may be live streaming right now so show the correct buttons accordingly*/
-                    ?>
-                    <td style="width: 50%">
-                        <a href="http://www.ustream.tv/channel/firstwa-blue" title="Go to Ustream" class="go-to-stream">
-                            <span class="glyphicon glyphicon-facetime-video"></span> Direct Video Stream
-                            <!--Well eventually get the link through the database and do everything automatically-->
-                        </a>
-                    </td>
-                    <td style="width: 50%">
-                        <a href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" title="Go to Scores" class="go-to-scores" >
-                            <span class="glyphicon glyphicon-list-alt"></span> Get Scores
-                        </a>
-                    </td>
-                    <?php
-                    } 
-                    /*End of PHP for date checking, well evetually do everything automatically with the database at some point*/
-                    ?>
-                </tr>
-            </tbody>
-        </table>
     </div>
-    <!--End of Live Stream Block-->
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
@@ -142,7 +81,7 @@
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-            <h2>Facebook</h2>
+            <h2>Join the Team</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
@@ -150,5 +89,6 @@
     </div>
 <?php 
     $ExtraFooterTags='<script type="text/javascript" src="http://js.addthisevent.com/atemay.js"></script>';
+
     require'/includes/footer.php';
 ?>

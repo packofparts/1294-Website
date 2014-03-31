@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <!--The title for the page is set by setting the $title variable in the PHP include statement on the corresponding page-->
-        <title><?php echo $title; ?></title>
-        <meta name="description" content="<?php echo $descriptionContent; ?>"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="/css/bootstrap.css">
         <style>
             body {
                 padding-top: 0px;
                 padding-bottom: 20px;
-                /*background: #78866B;*/
-                background:  #eeeeee url('http://i610.photobucket.com/albums/tt185/ndruqltn/Camouflage/NavyBlueCamo.png');
+                background: #78866B;
+                background:  #eeeeee; 
+                background-image: url('/img/NavyBlueCamo.png');
             }
         </style>
         <link rel="stylesheet" href="/css/bootstrap-theme.css">
-        <link rel="stylesheet" href="/css/main.css">
+	    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	    <script type="text/javascript" src="engine1/jquery.js"></script>
+        
         <?php
             /*
             *There might be some extra tags that need to be placed in the header,
@@ -29,9 +19,6 @@
             *on a webpage, first we check if there is a tag set, if it is, we add it the extra tags to the header.
             *There is also a $ExtraFooterTags variable that can be set to add extra tags to the footer.
             */
-            if (!empty($ExtraHeaderTags)) {
-                echo $ExtraHeaderTags;
-            }
 
             //Figures out what page your on for the top bar menu
             // gets the current URI, remove the left / and then everything after the / on the right
@@ -76,7 +63,7 @@
                                 <li><a href="/media/pictures/"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
                             </ul>
                         </li>
-                        <li class="<?php echo $active['calendar']?>"><a href="/media/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
+                        <li class="<?php echo $active['calendar']?>"><a href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
                         <li class="<?php echo $active['contact']?>"><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
                         <!--<li class="dropdown startPHP echo $active['something'] endPHP">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -90,8 +77,11 @@
                             <li><a href="#">One more separated link</a></li>
                             </ul>
                         </li>-->
+                        
                     </ul>
-
+                <ul class="nav pull-right">
+                    <li><button id="donate-btn" href="/donate" class="btn btn-success navbar-btn">Donate/Sponsor</button></li>
+                </ul>
                 </div><!--/.navbar-collapse -->
             </div>
         </div>
@@ -103,5 +93,4 @@
             </div>
         <![endif]-->
 
-        <div class="body-container" id="top">
  

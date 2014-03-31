@@ -4,9 +4,7 @@
    Header Tags (Navigation bar and other stuff)
    ========================================================================== */
 
-.body-container#top {
-    margin-top: 50px;
-}
+
 
 /*
 .headerimage {
@@ -54,16 +52,8 @@
     background: white;
 }
 
-.footer-links {
-    color: black!important;
-    text-align: center;
-    margin-top: 10px;
-    
-}
-
-.footer-links:hover {
-    color: black!important;
-    text-align: center;
+.top-container {
+    padding-top: 47px;
 }
 
 /********************************************************************
@@ -71,6 +61,11 @@
 *
 *   Only Items that can be found on the front page
 *********************************************************************/
+
+.wowslider-container1 {
+    margin-top: 32px;
+}
+
 
 a:visited {
     color:  inherit;
@@ -84,28 +79,48 @@ a:visited {
     float: left;
 }
 
+
+@media (max-width: 695px) {
+  #eastlake-logo {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+
+
+
+/*
+@media (min-width: 497px) {
+  #eastlake-logo {
+    padding-right: 0px;
+  }
+}
+*/
+
 #Live-Stream{
     margin-left: auto;
     margin-right: auto;
     height: 437px; 
     width: 720px;
     display: block;
-    padding-bottom: 20px;
     z-index: 0;
+    -webkit-box-shadow: 0 0 35px rgba(0,0,0,.4);
+    box-shadow: 0 0 35px rgba(0,0,0,.4);
 }
 
 .live-stream-container {
     display: block;
     text-align: center;
     padding-bottom: 30px;
-    background: url('http://minecraftgame.net/resources/shadow-up.png') no-repeat scroll center bottom transparent;
+    background: url('/img/shadow-up.png') no-repeat scroll center bottom transparent;
 }
 
 #stream-buttons {
     margin-left: auto;
     margin-right: auto;
     background: white;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .event-link {
@@ -191,14 +206,29 @@ hr.footer-seperator {
 }
 
 /********************************************************************
+    Everything Else
+
+*********************************************************************/
+
+.calendar-container { 
+   position: relative; /* keeps the aspect ratio */ 
+   padding-bottom: 50%; /* fine tunes the video positioning */ 
+   margin-top: 10px;
+   margin-left: 25px;
+   margin-right: 25px;
+   padding-top: 60px; overflow: hidden;
+}
+
+.calendar-container iframe,
+.calendar-container object,
+.calendar-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/********************************************************************
     FOOTER SPONSERS
 
-All sponser logos have ideas that go as follows "sponser.SPONSERNAME"
+All sponser logos have ideas that go as follows "sponser-SPONSERNAME"
 *********************************************************************/
-#donate-btn {
-    float: right;
-    margin-top: -50px;
-}
+
 #sponser-title {
     font-weight: bolder;
     font-size: x-large;
@@ -209,14 +239,35 @@ All sponser logos have ideas that go as follows "sponser.SPONSERNAME"
     padding-top: 40px;
     min-width: 5px;
 }
+@media (max-width: 350px) {
+    #sponser-boeing {
+        max-width: 250px;
+    }
+}
+
 
 #sponser-SAE {
     max-height: 200px;
 }
 #sponser-orora {
+    
 }
+
 @media (min-width: 992px) {
   #sponser-orora {
     padding-top: 40px;
   }
+}
+
+
+.footer-links {
+    color: black!important;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.footer-links:hover {
+    color: black!important;
+    text-align: center;
 }
