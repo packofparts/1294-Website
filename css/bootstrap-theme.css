@@ -25,12 +25,13 @@
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
+/*
 .btn:active,
 .btn.active {
   background-image: none;
 }
 
-/*
+
 .btn-default {
   text-shadow: 0 1px 0 #fff;
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ffffff), to(#e6e6e6));
@@ -42,13 +43,14 @@
   border-color: #ccc;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
 }
-*/
+
 
 .btn-default:active,
 .btn-default.active {
   background-color: #e6e6e6;
   border-color: #e0e0e0;
 }
+*/
 
 .btn-primary {
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#3071a9));

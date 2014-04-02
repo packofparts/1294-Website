@@ -9,8 +9,8 @@
             }
         </style>
         <link rel="stylesheet" href="/css/bootstrap-theme.css">
-	    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-	    <script type="text/javascript" src="engine1/jquery.js"></script>
+
+
         
         <?php
             /*
@@ -79,9 +79,9 @@
                         </li>-->
                         
                     </ul>
-                <ul class="nav pull-right">
-                    <li><a id="donate-btn" href="/donate" class="btn btn-success navbar-btn">Donate/Sponsor</a></li>
-                </ul>
+                    <ul class="nav navbar-right">
+                        <li><a id="donate-btn" href="/donate" class="btn btn-success navbar-btn">Donate/Sponsor</a></li>
+                    </ul>
                 </div><!--/.navbar-collapse -->
             </div>
         </div>

@@ -17,14 +17,15 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 <?php
     require'includes/lower_header.php';
 ?>
 
 	<!-- Start WOWSlider.com BODY section -->
   <!--The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
-	<div class="hidden-xs" style="margin-top: 32px;"id="wowslider-container1">
+	<div class="hidden-xs" id="wowslider-container1">
 	    <div class="ws_images">
             <ul>
                 <li><img src="data1/images/big_header.jpg" alt="The Team" title="The Team" id="wows1_0" /></li>
@@ -55,17 +56,19 @@
     <!--End of WOWSlider Body Section-->
 
 
-<div class="body-container">
+<div class="body-container" style="padding-bottom: 0px">
     <!-- Main jumbotron-->
     <div class="jumbotron">
         <div class="container">
         <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
         <h1>We are Top Gun Robotics</h1>
-        <p>We are a High School Robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington that has been playing in FRC since 2004.
+        <p>We are a High School Robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish Washington that has been playing in FRC since 2004.
                 Our goal statement would go here that would talk about why we do what we do.</p>
         <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
         </div>
     </div>
+</div>
+<div class="body-container">
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
@@ -80,17 +83,17 @@
             <div style="width:100%;">
                 <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " height="300" frameborder="0" scrolling="no"></iframe>
             </div>
-            <p><a class="btn btn-default" href="/calendar">View Calendar &raquo;</a></p>
+            <p><a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Highlight Video</h2>
-            <h4>Check out our Featured Video, Updated Regularly</h4>
-            <p>INSERT EMBEDED YOUTUBE VIDEO HERE</p>
-            <p><a class="btn btn-default" href="#"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a>
-               <a class="btn btn-default" href="#"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
+            <h2>Featured Video</h2>
+            <iframe class="img-responsive" style="height: 203px!important;"width="360" height="203" src="//www.youtube-nocookie.com/embed/-KhwzHqkZag" frameborder="0" allowfullscreen></iframe><br />
+            <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a>
+               <a class="btn btn-default" href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
         </div>
         </div>
     </div>
+</div>
 <?php 
     $ExtraFooterTags='<script type="text/javascript" src="http://js.addthisevent.com/atemay.js"></script>';
 

@@ -43,17 +43,19 @@
     max-width: 1271px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    padding-bottom: 10px;
     position: relative;
     -moz-box-shadow: 0 0 35px rgba(0,0,0,.4);
     -webkit-box-shadow: 0 0 35px rgba(0,0,0,.4);
     box-shadow: 0 0 35px rgba(0,0,0,.4);
     z-index: 200;
-    margin-top: 15px;
+
     background: white;
 }
 
 .top-container {
-    padding-top: 47px;
+    margin-top:65px;
 }
 
 /********************************************************************
@@ -62,8 +64,8 @@
 *   Only Items that can be found on the front page
 *********************************************************************/
 
-.wowslider-container1 {
-    margin-top: 32px;
+#wowslider-container1 {
+    margin-top: 70px!important;
 }
 
 
@@ -207,22 +209,37 @@ hr.footer-seperator {
 
 
 /********************************************************************
-    Everything Else
+    Calendar Stuff (on any page that has a calendar)
 
 *********************************************************************/
 
 .calendar-container { 
    position: relative; /* keeps the aspect ratio */ 
-   padding-bottom: 50%; /* fine tunes the video positioning */ 
+   padding-bottom: 50%; /* sets the overall height */ 
    margin-top: 10px;
    margin-left: 25px;
    margin-right: 25px;
-   padding-top: 60px; overflow: hidden;
+   padding-top: 60px;
+   overflow: hidden;
 }
 
 .calendar-container iframe,
 .calendar-container object,
 .calendar-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/*Mobile only calendar*/
+.mobile-calendar-container {
+    position: relative;
+    padding-bottom: 90%;
+    margin-left: 7px;
+    margin-right: 7x;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.mobile-calendar-container iframe,
+.mobile-calendar-container object,
+.mobile-calendar-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 /********************************************************************
     FOOTER SPONSERS
@@ -235,10 +252,10 @@ All sponser logos have ideas that go as follows "sponser-SPONSERNAME"
     font-size: x-large;
 }
 
-#sponser-boeing {    
+#sponser-boeing {   
     max-width: 360px;
-    padding-top: 40px;
-    min-width: 5px;
+    margin-top: 40px;
+    z-index: 50;
 }
 @media (max-width: 350px) {
     #sponser-boeing {
@@ -249,14 +266,15 @@ All sponser logos have ideas that go as follows "sponser-SPONSERNAME"
 
 #sponser-SAE {
     max-height: 200px;
+    z-index: 50;
 }
 #sponser-orora {
-    
+   z-index: 50;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 767px) {
   #sponser-orora {
-    padding-top: 40px;
+    margin-top: 40px;
   }
 }
 

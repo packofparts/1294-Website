@@ -288,8 +288,8 @@ textarea {
   line-height: inherit;
 }
 a {
-    
-  color: #ffffff;
+  color: black;
+  /*color: #ffffff;*/
   text-decoration: none;
 }
 a:hover,
@@ -4400,7 +4400,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   color: #c8c8c8;
   background-color: #1c1e22;
 }
