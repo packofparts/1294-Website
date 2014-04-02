@@ -5884,6 +5884,7 @@ button.close {
 .btn-link:hover {
   border-color: transparent;
 }
+/*
 h1,
 h2,
 h3,
@@ -5892,6 +5893,7 @@ h5,
 h6 {
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
 }
+*/
 .text-primary,
 .text-primary:hover {
   color: #7a8288;

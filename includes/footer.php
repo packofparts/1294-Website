@@ -7,13 +7,13 @@
             <div class="container">
                 <!-- Example row of columns -->
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                         <img class="img-responsive" id="sponser-SAE" class="img-responsive" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                         <img class="img-responsive" id="sponser-boeing" alt="Boeing Logo" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                         <img class="img-responsive" id="sponser-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>
                     </div>
                 </div>

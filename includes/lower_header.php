@@ -80,7 +80,7 @@
                         
                     </ul>
                 <ul class="nav pull-right">
-                    <li><button id="donate-btn" href="/donate" class="btn btn-success navbar-btn">Donate/Sponsor</button></li>
+                    <li><a id="donate-btn" href="/donate" class="btn btn-success navbar-btn">Donate/Sponsor</a></li>
                 </ul>
                 </div><!--/.navbar-collapse -->
             </div>

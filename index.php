@@ -69,21 +69,25 @@
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-        <div class="col-lg-4">
+        <div class="col-md-4">
             <h2>News/Announcments</h2>
             <p>Join our mailing list by clicking here!</p>
             <p>INSERT RSS FEED HERE!</p>
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
-        <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        <div class="col-md-4">
+            <h2>Upcoming Events</h2>
+            <div style="width:100%;">
+                <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " height="300" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <p><a class="btn btn-default" href="/calendar">View Calendar &raquo;</a></p>
         </div>
-        <div class="col-lg-4">
-            <h2>Join the Team</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        <div class="col-md-4">
+            <h2>Highlight Video</h2>
+            <h4>Check out our Featured Video, Updated Regularly</h4>
+            <p>INSERT EMBEDED YOUTUBE VIDEO HERE</p>
+            <p><a class="btn btn-default" href="#"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a>
+               <a class="btn btn-default" href="#"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
         </div>
         </div>
     </div>
