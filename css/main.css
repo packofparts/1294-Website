@@ -279,10 +279,11 @@ All sponser logos have ideas that go as follows "sponser-SPONSERNAME"
 }
 
 
-.footer-links {
-    color: black!important;
+footer {
+    color: black;
     text-align: center;
     margin-top: 10px;
+    background-color: #f8f8f8;
     
 }
 

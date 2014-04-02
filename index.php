@@ -87,7 +87,7 @@
         </div>
         <div class="col-md-4">
             <h2>Featured Video</h2>
-            <iframe class="img-responsive" style="height: 203px!important;"width="360" height="203" src="//www.youtube-nocookie.com/embed/-KhwzHqkZag" frameborder="0" allowfullscreen></iframe><br />
+            <iframe class="img-responsive" style="height: 203px!important;"width="360" src="//www.youtube-nocookie.com/embed/-KhwzHqkZag" frameborder="0" allowfullscreen></iframe><br />
             <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a>
                <a class="btn btn-default" href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
         </div>
