@@ -232,7 +232,7 @@ hr.footer-seperator {
     position: relative;
     padding-bottom: 90%;
     margin-left: 7px;
-    margin-right: 7x;
+    margin-right: 7px;
     padding-top: 60px;
     overflow: hidden;
 }
@@ -253,6 +253,7 @@ All sponser logos have ideas that go as follows "sponser-SPONSERNAME"
 }
 
 #sponser-boeing {   
+position: static;
     max-width: 360px;
     margin-top: 40px;
     z-index: 50;
@@ -279,15 +280,13 @@ All sponser logos have ideas that go as follows "sponser-SPONSERNAME"
 }
 
 
-footer {
-    color: black;
+.footer {
     text-align: center;
-    margin-top: 10px;
-    background-color: #f8f8f8;
+    background-color: white;
     
 }
 
-.footer-links:hover {
-    color: black!important;
-    text-align: center;
+.footer-links {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }

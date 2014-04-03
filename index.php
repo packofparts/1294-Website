@@ -12,7 +12,7 @@
     *Then all you have to do is add the lower_header.php file and your done with the header.
     */
  ?>
-    <title>1294: Top Gun Robotics</title>
+    <title>1294 - Top Gun Robotics</title>
     <meta name="description" content="The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -29,21 +29,21 @@
 	    <div class="ws_images">
             <ul>
                 <li><img src="data1/images/big_header.jpg" alt="The Team" title="The Team" id="wows1_0" /></li>
-                <li><img src="data1/images/img_0131.jpg" alt="Professionialism" title="Professionialism" id="wows1_1"/>We Strive To be as Proffesional as possible</li>
+                <li><img src="data1/images/img_0131.jpg" alt="Professionalism" title="Professionalism" id="wows1_1"/>We Strive To be as Proffesional as possible</li>
                 <li><img src="data1/images/img_0158.jpg" alt="Precision and Execution" title="Precision and Execution" id="wows1_2"/></li>
                 <li><img src="data1/images/img_0206.jpg" alt="We strive for the best" title="We strive for the best" id="wows1_3" />Even if it means destroying the competition, we'll do it.</li>
                 <li><img src="data1/images/img_0217.jpg" alt="Collaboration" title="Collaboration" id="wows1_4"/></li>
-                <li><img src="data1/images/img_0226.jpg" alt="Speed and Efficency" title="Speed and Efficency" id="wows1_5" /></li>
+                <li><img src="data1/images/img_0226.jpg" alt="Speed and Efficiency" title="Speed and Efficiency" id="wows1_5" /></li>
             </ul>
         </div>
         <div class="ws_bullets">
             <div>
                 <a href="#" title="The Team"><img src="data1/tooltips/big_header.jpg" alt="The Team" width="101px" height="48px"/>1</a>
-                <a href="#" title="Professionialism"><img src="data1/tooltips/img_0131.jpg" alt="Professionialism" width="101px" height="48px"/>2</a>
+                <a href="#" title="Professionalism"><img src="data1/tooltips/img_0131.jpg" alt="Professionialism" width="101px" height="48px"/>2</a>
                 <a href="#" title="Precision and Execution"><img src="data1/tooltips/img_0158.jpg" alt="Precision and Execution" width="101px" height="48px"/>3</a>
                 <a href="#" title="We strive for the best"><img src="data1/tooltips/img_0206.jpg" alt="We strive for the best" width="101px" height="48px"/>4</a>
                 <a href="#" title="Collaboration"><img src="data1/tooltips/img_0217.jpg" alt="Collaboration" width="101px" height="48px"/>5</a>
-                <a href="#" title="Speed and Efficency"><img src="data1/tooltips/img_0226.jpg" alt="Speed and Efficency" width="101px" height="48px"/>6</a>
+                <a href="#" title="Speed and Efficiency"><img src="data1/tooltips/img_0226.jpg" alt="Speed and Efficiency" width="101px" height="48px"/>6</a>
             </div>
         </div>
         <span class="wsl"><a href="http://wowslider.com">Gallery Script</a> by WOWSlider.com v5.2</span>
@@ -62,18 +62,23 @@
         <div class="container">
         <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
         <h1>We are Top Gun Robotics</h1>
-        <p>We are a High School Robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish Washington that has been playing in FRC since 2004.
-                Our goal statement would go here that would talk about why we do what we do.</p>
+        <p>We are a high school robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been playing in FRC since 2004.
+                <span style="font-style: italic">Our goal statement would go here that would talk about why we do what we do.</span></p>
         <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
         </div>
     </div>
 </div>
+<!--
+<div class="body-container">
+<?php /*include 'includes/live_stream.php' */ ?>
+</div>
+-->
 <div class="body-container">
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
         <div class="col-md-4">
-            <h2>News/Announcments</h2>
+            <h2>News/Announcements</h2>
             <p>Join our mailing list by clicking here!</p>
             <p>INSERT RSS FEED HERE!</p>
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>

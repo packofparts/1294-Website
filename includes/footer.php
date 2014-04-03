@@ -1,8 +1,8 @@
-        <div class="body-container">
+        <div class="body-container footer" style="margin-bottom: 0px!important; padding-bottom: 0px!important;">
             <footer class="container ">
-                <h2><span id="sponser-title">At Top Gun Robotics, We Love Our Sponsers</span></h2>
+                <h2><span id="sponser-title">At Top Gun Robotics, We Love Our Sponosors</span></h2>
                    
-                <div class="container">
+
                     <!-- Example row of columns -->
                     <div class="row">
                         <div class="col-sm-4">
@@ -15,7 +15,7 @@
                             <img class="img-responsive" id="sponser-boeing" alt="Boeing Logo" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
                         </div>
                     </div>
-                </div>
+
                 <div class="footer-links">
                     <a class="footer-links" title="Contact Us" href="/contact">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org">US First</a> | <a class="footer-links" title="Washingotn First Robotics"href="http://firstwa.org/">First WA</a>
                 </div>
@@ -49,6 +49,7 @@
 		            closeEffect	: 'none'
 	            });
             });
+            $('.add-tooltip').tooltip();
         </script>
         <script>
             /*Google Analytics*/

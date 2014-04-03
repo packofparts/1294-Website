@@ -1,36 +1,77 @@
 <?php 
-    $title='1294: Contact Us';
-    include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php'); 
+    require($_SERVER['DOCUMENT_ROOT'].'/includes/upper_header.php'); 
 ?>
-Test Test
-    <!--Main jumbotron for a primary marketing message or call to action-->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Contact</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-      </div>
-    </div>
-
+    <title>1294 | Contact Us</title>
+    <meta name="description" content="Directly Contact Steve Evans for any Information about Top Gun Robotics Team 1294"/>
+<?php
+    require($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php');
+?>
+<div class="body-container top-container">
     <div class="container">
-      <!-- Example row of columns-->
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
+        <h1>This is the contact page</h1>
+        <p>A very nice contact form as well with mailing list sign up, and direct contact information can be found here</p>
+        <p>A form similar to the following will be found on this page, but it will look a little bit nicer</p>
+        <form class="form-horizontal">
+          <fieldset>
+            <legend>Legend</legend>
+            <div class="form-group">
+              <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+              <div class="col-lg-10">
+                <textarea class="form-control" rows="3" id="textArea"></textarea>
+                <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Radios</label>
+              <div class="col-lg-10">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                    Option one is this
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Option two can be something else
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="select" class="col-lg-2 control-label">Selects</label>
+              <div class="col-lg-10">
+                <select class="form-control" id="select">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+                <br>
+                <select multiple="" class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-lg-10 col-lg-offset-2">
+                <button class="btn btn-danger">Cancel</button>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
     </div>
-
+</div>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>

@@ -72,12 +72,13 @@
                 </div>
             </div>
         </div>
-        <div class="alert alert-dismissable alert-warning popup">
+        
         <!--[if lt IE 7]>
+        <div class="alert alert-dismissable alert-warning popup">
                 <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
                 <h4>Warning!</h4>
                 <p class="chromeframe">You are using a <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser to one that supports current web standards</a> <span id="Google-Chrome-Frame-Hint">*cough*</span><a class="alert-link" href="https://www.google.com/intl/en/chrome/browser/"/>Google Chrome</a><span id="Google-Chrome-Frame-Hint">*cough*</span></a> or <a class="alert-link" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-           
-        <![endif]-->
         </div>
+        <![endif]-->
+    
  
