@@ -17,14 +17,13 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	<script type="text/javascript" src="engine1/jquery.js"></script>
-	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<link rel="stylesheet" type="text/css" href="engine1/style.min.css" />
 <?php
     require'includes/lower_header.php';
 ?>
 
-	<!-- Start WOWSlider.com BODY section -->
-  <!--The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
+    <!--Start WOWSlider.com BODY section
+    The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
 	<div class="hidden-xs" id="wowslider-container1">
 	    <div class="ws_images">
             <ul>

@@ -1,9 +1,6 @@
         <div class="body-container footer" style="margin-bottom: 0px!important; padding-bottom: 0px!important;">
             <footer class="container ">
                 <h2><span id="sponser-title">At Top Gun Robotics, We Love Our Sponosors</span></h2>
-                   
-
-                    <!-- Example row of columns -->
                     <div class="row">
                         <div class="col-sm-4">
                             <img class="img-responsive" id="sponser-SAE" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>

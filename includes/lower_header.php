@@ -67,7 +67,7 @@
                         <li class="<?php echo $active['contact']?>"><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>                        
                     </ul>
                     <ul class="nav navbar-right">
-                        <li><a id="donate-btn" href="/donate" class="btn btn-success navbar-btn">Donate/Sponsor</a></li>
+                        <li><a id="donate-btn" href="/portal" class="btn btn-success navbar-btn">Portal</a></li>
                     </ul>
                 </div>
             </div>
