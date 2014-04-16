@@ -15,6 +15,7 @@
 
                 <div class="footer-links">
                     <a class="footer-links" title="Contact Us" href="/contact">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org">US First</a> | <a class="footer-links" title="Washingotn First Robotics"href="http://firstwa.org/">First WA</a>
+                    <div class="fb-like" data-href="https://www.facebook.com/topgunrobotics" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
                 </div>
             </footer>
         </div>

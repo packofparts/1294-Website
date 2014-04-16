@@ -3722,6 +3722,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
+  
+  /*This is VERY VERY important, this forces Chrome to use hardware acceleration
+      to continuously paint the fixed element and avoid a bizzare behavior in chrome
+      where the fixed element will jump around wildly while scorlling*/
+      -webkit-transform: translateZ(0);
+  
   right: 0;
   left: 0;
   z-index: 1030;

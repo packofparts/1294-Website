@@ -21,7 +21,14 @@
 <?php
     require'includes/lower_header.php';
 ?>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <!--Start WOWSlider.com BODY section
     The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
 	<div class="hidden-xs" id="wowslider-container1">
@@ -79,7 +86,7 @@
         <div class="col-md-4">
             <h2>News/Announcements</h2>
             <p>Join our mailing list by clicking here!</p>
-            <p>INSERT RSS FEED HERE!</p>
+<div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">

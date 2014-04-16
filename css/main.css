@@ -66,6 +66,9 @@
 
 #wowslider-container1 {
     margin-top: 70px!important;
+    /*This fixes a webkit bug that causes the wowslider
+         to make the text on the page change size randomly*/
+    -webkit-transform: translateZ(0);
 }
 
 
@@ -205,6 +208,15 @@ hr.footer-seperator {
     height: 12px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+#fb-root {
+  display: none;
+}
+ 
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
 }
 
 
