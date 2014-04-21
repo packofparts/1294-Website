@@ -1,3 +1,4 @@
+        <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bootstrap.css">
         <style>
             body {
@@ -29,20 +30,40 @@
             foreach ($directories as $folder){
                 $active[$folder] = ($directory[0] == $folder)? "active":"";
             }
+
+
+            /*This will be for automatically turning off fancybox for mobile
+            $fancybox_types = array("various", "about","contact","media","calendar");
+            foreach ($fancybox_types as $folder){
+                $active[$folder] = ($directory[0] == $folder)? "active":"";
+            }
+            $browserlocale_ = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
+            */
         ?>
     </head>
     <body>
-        <!--Remember to ALWAYS add a '/' at the end of a URL or else bad things will happen-->
+
+        <!--Begin Facebook SDK-->
+        <div id="fb-root"></div>
+
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/<?php echo $browserlocale_ ?>/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <!--END Facebook SDK-->
         <div class="navbar navbar-inverse navbar-fixed-top">
             <!--<img alt="All Team members" class="headerimage" src="/img/Big_Header.JPG" width="1271px" />-->
             <div class="container">
                 <div class="navbar-header">
                     <!--Start of Mobile Only Buttons-->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                     </button>
                     <!--End of Mobile Only Buttons-->
                     <a class="navbar-brand" href="/"><strong>Top Gun Robotics</strong></a>
                 </div>

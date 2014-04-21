@@ -44,15 +44,27 @@
                     /*It has passed the event date, the event may be live streaming right now so show the correct buttons accordingly*/
                 ?>
                 <td>
-                    <a href="http://www.ustream.tv/channel/firstwa-blue" title="Go to Ustream" class="go-to-stream">
+                    <a href="http://www.ustream.tv/channel/firstwa-blue" data-placement="top" data-toggle="tooltip" title="Go to ustream.com to view this live stream directly" class="add-tooltip go-to-stream">
                         <span class="glyphicon glyphicon-facetime-video"></span> Direct Video Stream
                         <!--Well eventually get the link through the database and do everything automatically-->
                     </a>
                 </td>
                 <td>
-                    <button href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" title='Current Scores from <a href="http://thebluealliance.com/">theblueallaince.com</a>' data-fancybox-type="iframe" class="go-to-scores various" >
+                    <?php if($mobile_device == true){?>
+                    <a href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" title='Get Current Scores from thebluealliance.com' class="go-to-scores add-tooltip" >
+                        <span class="glyphicon glyphicon-list-alt"></span> Get Scores
+                    </a>
+                    <?php
+                    }
+                    else
+                    {
+                    ?>
+                    <button href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" data-toggle="tooltip" data-placement="top" data-title="Click here to get current match scores for this event" data-fancybox-title='Current Scores from <a href="http://theblueallaince.com"> thebluealliance.com</a> ' data-fancybox-type="iframe" class="add-tooltip go-to-scores various" >
                         <span class="glyphicon glyphicon-list-alt"></span> Get Scores
                     </button>
+                    <?php 
+                    }
+                    ?>
                 </td>
                 <?php
                 } 

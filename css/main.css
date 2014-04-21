@@ -110,15 +110,17 @@ a:visited {
     width: 720px;
     display: block;
     z-index: 0;
-    -webkit-box-shadow: 0 0 35px rgba(0,0,0,.4);
-    box-shadow: 0 0 35px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.4);
+    box-shadow: 0 0 15px rgba(0,0,0,.4);
 }
 
 .live-stream-container {
     display: block;
     text-align: center;
     padding-bottom: 30px;
+    /*
     background: url('/img/shadow-up.png') no-repeat scroll center bottom transparent;
+    */
 }
 
 #stream-buttons {

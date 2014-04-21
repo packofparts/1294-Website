@@ -36,12 +36,12 @@
             $(document).ready(function() {
 	            $(".fancybox").fancybox();
                 $(".various").fancybox({
-		            maxWidth	: 800,
-		            maxHeight	: 600,
+		            maxWidth	: 2000,
+		            maxHeight	: 2000,
 		            fitToView	: false,
-		            width		: '70%',
-		            height		: '70%',
-		            autoSize	: false,
+		            width		: '80%',
+		            height		: '80%',
+		            autoSize	: true,
 		            closeClick	: false,
 		            openEffect	: 'none',
 		            closeEffect	: 'none'

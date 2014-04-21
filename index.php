@@ -1,4 +1,5 @@
 <?php    
+
     /**
     *The front page to 1294's website
     *
@@ -21,14 +22,8 @@
 <?php
     require'includes/lower_header.php';
 ?>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
+
     <!--Start WOWSlider.com BODY section
     The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
 	<div class="hidden-xs" id="wowslider-container1">
@@ -74,18 +69,19 @@
         </div>
     </div>
 </div>
-<!--
+
 <div class="body-container">
-<?php /*include 'includes/live_stream.php' */ ?>
+<?php include 'includes/live_stream.php'  ?>
 </div>
--->
+
 <div class="body-container">
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
         <div class="col-md-4">
             <h2>News/Announcements</h2>
-            <p>Join our mailing list by clicking here!</p>
+            <p>Join our mailing list by clicking here!
+</p>
 <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
@@ -98,7 +94,7 @@
         </div>
         <div class="col-md-4">
             <h2>Featured Video</h2>
-            <iframe class="img-responsive" style="height: 203px!important;"width="360" src="//www.youtube-nocookie.com/embed/-KhwzHqkZag" frameborder="0" allowfullscreen></iframe><br />
+            <iframe class="img-responsive" style="height: 203px!important;"width="360" src="//www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" frameborder="0" allowfullscreen></iframe><br />
             <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a>
                <a class="btn btn-default" href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
         </div>
