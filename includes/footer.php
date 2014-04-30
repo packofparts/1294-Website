@@ -1,15 +1,15 @@
         <div class="body-container footer" style="margin-bottom: 0px!important; padding-bottom: 0px!important;">
             <footer class="container ">
-                <h2><span id="sponser-title">At Top Gun Robotics, We Love Our Sponosors</span></h2>
+                <h2><span id="sponsor-title">At Top Gun Robotics, We Love Our Sponosors</span></h2>
                     <div class="row">
                         <div class="col-sm-4">
-                            <img class="img-responsive" id="sponser-SAE" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>
+                            <img class="img-responsive" id="sponsor-SAE" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>
                         </div>
                         <div class="col-sm-4">                        
-                            <img class="img-responsive" id="sponser-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>
+                            <img class="img-responsive" id="sponsor-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>
                         </div>
                         <div class="col-sm-4">
-                            <img class="img-responsive" id="sponser-boeing" alt="Boeing Logo" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
+                            <img class="img-responsive" id="sponsor-boeing" alt="Boeing Logo" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
                         </div>
                     </div>
 
