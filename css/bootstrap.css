@@ -3725,7 +3725,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   
   /*This is VERY VERY important, this forces Chrome to use hardware acceleration
       to continuously paint the fixed element and avoid a bizzare behavior in chrome
-      where the fixed element will jump around wildly while scorlling*/
+      where the fixed element will jump around wildly while scorlling
+      DO NOT REMOVE*/
       -webkit-transform: translateZ(0);
   
   right: 0;
@@ -4065,7 +4066,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
   
-  background-color: #5d6368;
+  background-color: #222222;
   /*
     background-color: #357ebd;
     background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#357ebd));

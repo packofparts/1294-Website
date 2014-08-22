@@ -1,7 +1,12 @@
 <?php
-    $title="1294: About the website";
-    $descriptionContent = 'Everything you would ever need to know about the Official Website of Top Gun team 1294.';
-    include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php');
+    include($_SERVER['DOCUMENT_ROOT'].'/includes/upper_header.php');
+?>
+
+    <title>1294 - About the Website</title>
+    <meta name="description" content="Everything you ever needed to know about our Website"/>\
+
+<?php
+    include($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php');
 ?>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->

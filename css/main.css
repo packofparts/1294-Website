@@ -22,7 +22,69 @@
 }
 */
 
+.navbar-fixed-top, .navbar-fixed-bottom {
+    /*This is VERY VERY important, this forces Chrome to use hardware acceleration
+      to continuously paint the fixed element and avoid a bizzare behavior in chrome
+      where the fixed element will jump around wildly while scorlling
+      DO NOT REMOVE*/
+    -webkit-transform: translateZ(0);
+}
 
+.navbar-inverse {
+  background-color: #080807; 
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+.dropdown-menu {
+    background-image: url('/img/gun_metal.png');
+    background-repeat: repeat;
+    background-color: none;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  /* This was glitching the navbar colors
+  background-color: transparent;*/
+}
+
+
+/*
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  
+  background-color: #222222;
+    background-color: transparent;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: none;
+}
+*/
+.navbar-inverse .navbar-form {
+  border-color: #697075;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+body{
+    color: black;
+}
 
 .popup {
     top: 7.5%;
@@ -55,8 +117,21 @@
 }
 
 .top-container {
-    margin-top:65px;
+    margin-top:50px;
 }
+
+/********************************************************************
+*    GLOBAL STUFF
+*********************************************************************/
+
+a, a:visited {
+    color:  inherit;
+    font-weight: 800;
+}
+
+
+
+
 
 /********************************************************************
 *    FRONT PAGE ONLY
@@ -65,16 +140,13 @@
 *********************************************************************/
 
 #wowslider-container1 {
-    margin-top: 70px!important;
+    margin-top: 60px!important;
     /*This fixes a webkit bug that causes the wowslider
          to make the text on the page change size randomly*/
     -webkit-transform: translateZ(0);
 }
 
 
-a:visited {
-    color:  inherit;
-}
 
 #eastlake-logo {
     max-height: 350px;

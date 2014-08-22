@@ -2,7 +2,7 @@
     require($_SERVER['DOCUMENT_ROOT'].'/includes/upper_header.php'); 
 ?>
     <title>1294 | Contact Us</title>
-    <meta name="description" content="Directly Contact Steve Evans for any Information about Top Gun Robotics Team 1294"/>
+    <meta name="description" content="Contact the Team for any Information about Sponsoring or other Information"/>
 <?php
     require($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php');
 ?>

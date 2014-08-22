@@ -1,5 +1,7 @@
+  
+        <link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/bootstrap.css">
         <style>
             body {
                 padding-top: 0px;
@@ -9,7 +11,7 @@
                 background-image: url('/img/NavyBlueCamo.png');
             }
         </style>
-        <link rel="stylesheet" href="/css/bootstrap-theme.css">
+
 
 
         
@@ -87,9 +89,10 @@
                         <li class="<?php echo $active['calendar']?>"><a href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
                         <li class="<?php echo $active['contact']?>"><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>                        
                     </ul>
-                    <ul class="nav navbar-right">
+                    <!--<ul class="nav navbar-right">
                         <li><a id="donate-btn" href="/portal" class="btn btn-success navbar-btn">Portal</a></li>
                     </ul>
+                    -->
                 </div>
             </div>
         </div>
