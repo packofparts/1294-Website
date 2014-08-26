@@ -41,6 +41,8 @@
             }
             */
             $browserlocale_ = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
+
+            set_include_path(get_include_path() . PATH_SEPARATOR . '/subtrees/google-api-php-client/src');
             
         ?>
     </head>

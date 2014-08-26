@@ -12,6 +12,7 @@
     *Just include in the upper_header.php and than add the page specific tags.
     *Then all you have to do is add the lower_header.php file and your done with the header.
     */
+
  ?>
     <title>1294 - Top Gun Robotics</title>
     <meta name="description" content="The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
@@ -88,7 +89,210 @@
         <div class="col-md-4">
             <h2>Upcoming Events</h2>
             <div style="width:100%;">
-                <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " height="300" frameborder="0" scrolling="no"></iframe>
+                <?php
+                    /*
+                    set_include_path("subtrees/google-api-client-library/src/" . PATH_SEPARATOR . get_include_path());
+                    /*set_include_path(get_include_path() . '/subtrees/google-api-php-client/src');
+                    set_include_path(get_include_path() . PATH_SEPARATOR . '/subtrees/google-api-php-client/src/');
+                    $client_id = '253596219209-9dic7493era4ot9r42f859ba2tc50r3a.apps.googleusercontent.com'; //Client ID
+                    $service_account_name = '253596219209-9dic7493era4ot9r42f859ba2tc50r3a@developer.gserviceaccount.com'; //Email Address 
+                    $key_file_location = 'key.p12'; //key.p12
+
+                    session_start();
+                    require_once '/subtrees/google-api-client-library/src/Google/Client.php';
+                    require_once 'Google/Service/calendar.php';
+                    
+                    
+                    $client = new Google_Client();
+                    $client->setApplicationName("Calendar-Tester");
+                    
+                    if (isset($_SESSION['token'])) {
+                        $client->setAccessToken($_SESSION['token']);
+                    }
+                    
+                    $key = file_get_contents($key_file_location);
+                    $client->setClientId($client_id);
+                    $cred = new Google_Auth_AssertionCredentials(
+                        $service_account,
+                        array('https://www.googleapis.com/auth/calendar'),
+                        $key);
+
+                    $client->setAssertionCredentials($cred);
+                    
+                    if($client->getAuth()->isAccessTokenExpired()) {
+                      $client->getAuth()->refreshTokenWithAssertion($cred);
+                    }
+                    
+                    $_SESSION['token'] = $client->getAccessToken();
+                    
+                    $cal = new Google_Service_Calendar($client);
+
+                    $events = $cal->events->listEvents('frc1294@gmail.com', $optionalParams);
+                    echo "<pre>";
+                    print_r($events);
+                    echo"</pre>";
+
+                    while(true) {
+                        foreach ($events->getItems() as $event) {
+                        echo $event->getSummary();
+                            print_r($event);
+                      }
+                      $pageToken = $events->getNextPageToken();
+                      if ($pageToken) {
+                        $optParams = array('pageToken' => $pageToken);
+                        $events = $service->calendarList->listCalendarList($optParams);
+                      } else {
+                        break;
+                      }
+                    }
+                    */
+
+                    //The Following PHP Code is for reading the Google Calendar that has all of our meetings in it. This code was initally written by jamescrodland on github (https://github.com/media-uk/GCalPHP)
+
+                    // Your private feed - which you get by right-clicking the 'xml' button in the 'Private Address' section of 'Calendar Details'.
+                    if (!isset($calendarfeed)) {$calendarfeed = "https://www.google.com/calendar/feeds/frc1294%40gmail.com/public/basic"; }
+
+                    // Date format you want your details to appear
+                    $dateformat="j F Y"; // 10 March 2009 - see http://www.php.net/date for details
+                    $timeformat="g.ia"; // 12.15am
+
+                    // The timezone that your user/venue is in (i.e. the time you're entering stuff in Google Calendar.) http://www.php.net/manual/en/timezones.php has a full list
+                    date_default_timezone_set('America/Los_Angeles');
+
+                    // How you want each thing to display.
+                    // By default, this contains all the bits you can grab. You can put ###DATE### in here too if you want to, and disable the 'group by date' below.
+                    $event_display="<P><B>###TITLE###</b> - from ###FROM### ###DATESTART### until ###UNTIL### ###DATEEND### (<a href='###LINK###'>add this</a>)<BR>###WHERE### (<a href='###MAPLINK###'>map</a>)<br>###DESCRIPTION###</p>";
+
+                    // What happens if there's nothing to display
+                    $event_error="<P>There are no events to display.</p>";
+
+                    // The separate date header is here
+                    $event_dateheader="<P><B>###DATE###</b></P>";
+                    $GroupByDate=true;
+                    // Change the above to 'false' if you don't want to group this by dates.
+
+                    // ...and how many you want to display (leave at 999 for everything)
+                    $items_to_show=50;
+
+                    // ...and here's where you tell it to use a cache.
+                    // Your PHP will need to be able to write to a file called "gcal.xml" in your root. Create this file by SSH'ing into your box and typing these three commands...
+                    // > touch gcal.xml
+                    // > chmod 666 gcal.xml
+                    // > touch -t 01101200 gcal.xml
+                    // If you don't need this, or this is all a bit complex, change this to 'false'
+                    $use_cache=false;
+
+                    // And finally, change this to 'true' to see lots of fancy debug code
+                    $debug_mode=false;
+
+                    //
+                    //End of configuration block
+                    /////////
+
+                    if ($debug_mode) {error_reporting (E_ALL); ini_set('display_errors', 1);
+                    ini_set('error_reporting', E_ALL); echo "<P>Debug mode is on. Hello there.<BR>Your server thinks the time is ".date(DATE_RFC822)."</p>";}
+
+                    // Form the XML address.
+                    $calendar_xml_address = str_replace("/basic","/full?singleevents=true&futureevents=true&max-results".$items_to_show."&orderby=starttime&sortorder=a",$calendarfeed); //This goes and gets future events in your feed.
+
+                    if ($debug_mode) {
+                    echo "<P>We're going to go and grab <a href='$calendar_xml_address'>this feed</a>.<P>";}
+
+                    if ($use_cache) {
+                            ////////
+                            //Cache
+                            //
+       
+                            $cache_time = 3600*12; // 12 hours
+                            $cache_file = $_SERVER['DOCUMENT_ROOT'].'/gcal.xml'; //xml file saved on server
+       
+                            if ($debug_mode) {echo "<P>Your cache is saved at ".$cache_file."</P>";}
+       
+                            $timedif = @(time() - filemtime($cache_file));
+ 
+                            $xml = "";
+                            if (file_exists($cache_file) && $timedif < $cache_time) {
+                                    if ($debug_mode) {echo "<P>I'll use the cache.</P>";}
+                                    $str = file_get_contents($cache_file);
+                                    $xml = simplexml_load_string($str);
+                            } else { //not here
+                                    if ($debug_mode) {echo "<P>I don't have any valid cached copy.</P>";}
+                                    $xml = simplexml_load_file($calendar_xml_address); //come here
+                                    if ($f = fopen($cache_file, 'w')) { //save info
+                                            $str = $xml->asXML();
+                                            fwrite ($f, $str, strlen($str));
+                                            fclose($f);
+                                            if ($debug_mode) {echo "<P>Cache saved :)</P>";}
+                                    } else { echo "<P>Can't write to the cache.</P>"; }
+                            }
+       
+                            //done!
+                    } else {
+	                    $xml = simplexml_load_file($calendar_xml_address);
+                    }
+
+                    if ($debug_mode) {echo "<P>Successfully got the GCal feed.</p>";}
+
+                    $items_shown=0;
+                    $old_date="";
+                    $xml->asXML();
+
+                    foreach ($xml->entry as $entry){
+	                    $ns_gd = $entry->children('http://schemas.google.com/g/2005');
+
+	                    //Do some niceness to the description
+	                    //Make any URLs used in the description clickable
+	                    $description = preg_replace('"\b(http://\S+)"', '<a href="$1">$1</a>', $entry->content);
+	
+	                    // Make email addresses in the description clickable
+	                    $description = preg_replace("`([-_a-z0-9]+(\.[-_a-z0-9]+)*@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]{2,6})`i","<a href=\"mailto:\\1\" title=\"mailto:\\1\">\\1</a>", $description);
+
+	                    if ($debug_mode) { echo "<P>Here's the next item's start time... GCal says ".$ns_gd->when->attributes()->startTime." PHP says ".date("g.ia  -Z",strtotime($ns_gd->when->attributes()->startTime))."</p>"; }
+
+	                    // These are the dates we'll display
+	                    $gCalDate = date($dateformat, strtotime($ns_gd->when->attributes()->startTime));
+	                    $gCalDateStart = date($dateformat, strtotime($ns_gd->when->attributes()->startTime));
+	                    $gCalDateEnd = date($dateformat, strtotime($ns_gd->when->attributes()->endTime));
+	                    $gCalStartTime = date($timeformat, strtotime($ns_gd->when->attributes()->startTime));
+	                    $gCalEndTime = date($timeformat, strtotime($ns_gd->when->attributes()->endTime));
+                   
+	                    // Now, let's run it through some str_replaces, and store it with the date for easy sorting later
+	                    $temp_event=$event_display;
+	                    $temp_dateheader=$event_dateheader;
+	                    $temp_event=str_replace("###TITLE###",$entry->title,$temp_event);
+	                    $temp_event=str_replace("###DESCRIPTION###",$description,$temp_event);
+
+	                    if ($gCalDateStart!=$gCalDateEnd) {
+	                    //This starts and ends on a different date, so show the dates
+	                    $temp_event=str_replace("###DATESTART###",$gCalDateStart,$temp_event);
+	                    $temp_event=str_replace("###DATEEND###",$gCalDateEnd,$temp_event);
+	                    } else {
+	                    $temp_event=str_replace("###DATESTART###",'',$temp_event);
+	                    $temp_event=str_replace("###DATEEND###",'',$temp_event);
+	                    }
+
+	                    $temp_event=str_replace("###DATE###",$gCalDate,$temp_event);
+	                    $temp_dateheader=str_replace("###DATE###",$gCalDate,$temp_dateheader);
+	                    $temp_event=str_replace("###FROM###",$gCalStartTime,$temp_event);
+	                    $temp_event=str_replace("###UNTIL###",$gCalEndTime,$temp_event);
+	                    $temp_event=str_replace("###WHERE###",$ns_gd->where->attributes()->valueString,$temp_event);
+	                    $temp_event=str_replace("###LINK###",$entry->link->attributes()->href,$temp_event);
+	                    $temp_event=str_replace("###MAPLINK###","http://maps.google.com/?q=".urlencode($ns_gd->where->attributes()->valueString),$temp_event);
+	                    // Accept and translate HTML
+	                    $temp_event=str_replace("&lt;","<",$temp_event);
+	                    $temp_event=str_replace("&gt;",">",$temp_event);
+	                    $temp_event=str_replace("&quot;","\"",$temp_event);
+                   
+	                    if (($items_to_show>0 AND $items_shown<$items_to_show)) {
+                                    if ($GroupByDate) {if ($gCalDate!=$old_date) { echo $temp_dateheader; $old_date=$gCalDate;}}
+		                    echo $temp_event;
+		                    $items_shown++;
+	                    }
+                    }
+
+                    if (!$items_shown) { echo $event_error; }
+                ?>
+                <!--<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " height="300" frameborder="0" scrolling="no"></iframe>-->
             </div>
             <p><a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
         </div>

@@ -38,7 +38,7 @@ class Google_Config
   {
     $this->configuration = array(
       // The application_name is included in the User-Agent HTTP header.
-      'application_name' => '',
+      'application_name' => 'Upcoming events calendar',
 
       // Which Authentication, Storage and HTTP IO classes to use.
       'auth_class'    => 'Google_Auth_OAuth2',
