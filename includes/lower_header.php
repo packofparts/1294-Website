@@ -39,8 +39,9 @@
             foreach ($fancybox_types as $folder){
                 $active[$folder] = ($directory[0] == $folder)? "active":"";
             }
-            $browserlocale_ = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
             */
+            $browserlocale_ = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
+            
         ?>
     </head>
     <body>

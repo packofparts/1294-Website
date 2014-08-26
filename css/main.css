@@ -82,10 +82,6 @@ h6 {
   text-shadow: 0px 0px 0 rgba(0, 0, 0, 0);
 }
 
-body{
-    color: black;
-}
-
 .popup {
     top: 7.5%;
     left: 20%;
@@ -117,18 +113,18 @@ body{
 }
 
 .top-container {
-    margin-top:50px;
+    margin-top:60px;
 }
 
 /********************************************************************
 *    GLOBAL STUFF
 *********************************************************************/
-
+/*
 a, a:visited {
     color:  inherit;
     font-weight: 800;
 }
-
+*/
 
 
 
@@ -341,7 +337,7 @@ All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
 .sponsor {
 
 }
-
+/*
 #sponsor-boeing {   
     max-width: 360px;
     margin-top: 40px;
@@ -353,7 +349,7 @@ All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
         max-width: 250px;
     }
 }
-
+*/
 
 #sponsor-SAE {
     
