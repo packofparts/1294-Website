@@ -126,6 +126,11 @@ a, a:visited {
 }
 */
 
+.section-header {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
 
 
 
@@ -172,12 +177,6 @@ a, a:visited {
 */
 
 #Live-Stream{
-    margin-left: auto;
-    margin-right: auto;
-    height: 437px; 
-    width: 720px;
-    display: block;
-    z-index: 0;
     -webkit-box-shadow: 0 0 15px rgba(0,0,0,.4);
     box-shadow: 0 0 15px rgba(0,0,0,.4);
 }
@@ -289,6 +288,28 @@ hr.footer-seperator {
   width: 100% !important;
 }
 
+/*Upcoming Events
+
+.upcomingevents{
+    margin: 15px 0px 5px 0px;
+}
+
+.upcomingevents-title {
+    font-weight: bold;
+}
+/*
+.upcomingevents-event {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+    */
+.upcomingevents-dateheader {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
 
 /********************************************************************
     Calendar Stuff (on any page that has a calendar)

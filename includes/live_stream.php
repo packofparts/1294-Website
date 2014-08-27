@@ -1,11 +1,13 @@
 <div class="live-stream-container hidden-print">
     <h2 id="live-stream-title">Watch our event LIVE here!</h2>
     <p class="lead">We will be live streaming for the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">Autodesk PNW FRC Championship 2014</a> which will be airing from <br>
-    <span class="event-times">April 10th 5pm to April 12th 5pm
-
-    </span></p>
-
-    <iframe id="Live-Stream" class="img-responsive " src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct&wmode=opaque" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
+    <span class="event-times">April 10th 5pm to April 12th 5pm</span>
+    </p>
+    <div style="margin-left:5%; margin-right: 5%;">
+        <div class="embed-responsive embed-responsive-16by9" id="">
+            <iframe id="Live-Stream" class="embed-responsive-item" src="http://www.ustream.tv/embed/17281416?v=3&amp;wmode=direct&wmode=opaque" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
+        </div>
+    </div>
     <table id="stream-buttons">
         <tbody>
             <tr style="width:100%;">

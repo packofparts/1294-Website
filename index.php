@@ -80,15 +80,13 @@
         <!-- Example row of columns -->
         <div class="row">
         <div class="col-md-4">
-            <h2>News/Announcements</h2>
-            <p>Join our mailing list by clicking here!
-</p>
-<div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+            <h2 class="section-header">Find us on Facebook!</h2>
+        <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Upcoming Events</h2>
-            <div style="width:100%;">
+            <h2 class="section-header">Upcoming Events</h2>
+            <div class="upcomingevents" style="width:100%;">
                 <?php
                     /*
                     set_include_path("subtrees/google-api-client-library/src/" . PATH_SEPARATOR . get_include_path());
@@ -147,32 +145,34 @@
                     }
                     */
 
-                    //The Following PHP Code is for reading the Google Calendar that has all of our meetings in it. This code was initally written by jamescrodland on github (https://github.com/media-uk/GCalPHP)
+                    //The Following PHP Code is for reading the Google Calendar that has all of our meetings in it. 
+                    //This code was initally written by 'jamescrodland' on github (https://github.com/media-uk/GCalPHP)
+                    //The code has been edited from its original version to best suit our website
 
                     // Your private feed - which you get by right-clicking the 'xml' button in the 'Private Address' section of 'Calendar Details'.
                     if (!isset($calendarfeed)) {$calendarfeed = "https://www.google.com/calendar/feeds/frc1294%40gmail.com/public/basic"; }
 
                     // Date format you want your details to appear
-                    $dateformat="j F Y"; // 10 March 2009 - see http://www.php.net/date for details
-                    $timeformat="g.ia"; // 12.15am
+                    $dateformat="l F j"; // 10 March 2009 - see http://www.php.net/date for details
+                    $timeformat="g:ia"; // 12.15am
 
                     // The timezone that your user/venue is in (i.e. the time you're entering stuff in Google Calendar.) http://www.php.net/manual/en/timezones.php has a full list
                     date_default_timezone_set('America/Los_Angeles');
 
                     // How you want each thing to display.
                     // By default, this contains all the bits you can grab. You can put ###DATE### in here too if you want to, and disable the 'group by date' below.
-                    $event_display="<P><B>###TITLE###</b> - from ###FROM### ###DATESTART### until ###UNTIL### ###DATEEND### (<a href='###LINK###'>add this</a>)<BR>###WHERE### (<a href='###MAPLINK###'>map</a>)<br>###DESCRIPTION###</p>";
+                    $event_display='<div class="upcomingevents-event panel-footer"><div class="upcomingevents-title">###TITLE###</div> From <strong>###FROM### ###DATESTART###</strong> until <b>###UNTIL### ###DATEEND###</b> (<a href="###LINK###">add this</a>)<BR>###WHERE### (<a href="###MAPLINK###">map</a>)<br>###DESCRIPTION###</div></div>';
 
                     // What happens if there's nothing to display
                     $event_error="<P>There are no events to display.</p>";
 
                     // The separate date header is here
-                    $event_dateheader="<P><B>###DATE###</b></P>";
+                    $event_dateheader='<div class="panel panel-default"><div class="panel-body upcomingevents-dateheader text-center"><div class="">###DATE###</div></div>';
                     $GroupByDate=true;
                     // Change the above to 'false' if you don't want to group this by dates.
 
                     // ...and how many you want to display (leave at 999 for everything)
-                    $items_to_show=50;
+                    $items_to_show=4;
 
                     // ...and here's where you tell it to use a cache.
                     // Your PHP will need to be able to write to a file called "gcal.xml" in your root. Create this file by SSH'ing into your box and typing these three commands...
@@ -180,7 +180,7 @@
                     // > chmod 666 gcal.xml
                     // > touch -t 01101200 gcal.xml
                     // If you don't need this, or this is all a bit complex, change this to 'false'
-                    $use_cache=false;
+                    $use_cache=true;
 
                     // And finally, change this to 'true' to see lots of fancy debug code
                     $debug_mode=false;
@@ -196,7 +196,7 @@
                     $calendar_xml_address = str_replace("/basic","/full?singleevents=true&futureevents=true&max-results".$items_to_show."&orderby=starttime&sortorder=a",$calendarfeed); //This goes and gets future events in your feed.
 
                     if ($debug_mode) {
-                    echo "<P>We're going to go and grab <a href='$calendar_xml_address'>this feed</a>.<P>";}
+                    echo "<P>We're going to go and grab <a href='$calendar_xml_address'>this feed</a>.</P>";}
 
                     if ($use_cache) {
                             ////////
@@ -258,7 +258,7 @@
                    
 	                    // Now, let's run it through some str_replaces, and store it with the date for easy sorting later
 	                    $temp_event=$event_display;
-	                    $temp_dateheader=$event_dateheader;
+	                    $temp_dateheader=($event_dateheader);
 	                    $temp_event=str_replace("###TITLE###",$entry->title,$temp_event);
 	                    $temp_event=str_replace("###DESCRIPTION###",$description,$temp_event);
 
@@ -284,11 +284,26 @@
 	                    $temp_event=str_replace("&quot;","\"",$temp_event);
                    
 	                    if (($items_to_show>0 AND $items_shown<$items_to_show)) {
-                                    if ($GroupByDate) {if ($gCalDate!=$old_date) { echo $temp_dateheader; $old_date=$gCalDate;}}
+                            /*
+                            if ($GroupByDate) {
+                                if ($gCalDate!=$old_date) {
+                                    //An event as occured on a new date
+                                    echo $temp_dateheader; $old_date=$gCalDate;
+                                }
+                                else{
+                                    //an event has occured on the same date
+                                }
+                            }
+                            */
+                            echo $temp_dateheader; $old_date=$gCalDate;
+                            //before the event
 		                    echo $temp_event;
+                            //after the event
 		                    $items_shown++;
 	                    }
+                       
                     }
+
 
                     if (!$items_shown) { echo $event_error; }
                 ?>
@@ -297,10 +312,15 @@
             <p><a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Featured Video</h2>
-            <iframe class="img-responsive" style="height: 203px!important;"width="360" src="//www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" frameborder="0" allowfullscreen></iframe><br />
-            <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a>
-               <a class="btn btn-default" href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
+            <h2 class="section-header">Featured Video</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="//www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" allowfullscreen></iframe>
+            </div>
+            <br><br>
+            <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
+            <h2 class="section-header">Featured Picture</h2>
+
+            <p></p><a class="btn btn-default" href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
         </div>
         </div>
     </div>
