@@ -1,6 +1,6 @@
   
         <link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap-theme.min.css">
+        <!--<link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap-theme.min.css">-->
         <link rel="stylesheet" href="/css/main.css">
         <style>
             body {
@@ -45,6 +45,9 @@
             set_include_path(get_include_path() . PATH_SEPARATOR . '/subtrees/google-api-php-client/src');
             
         ?>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <!--In oreder to get the WOWSlider to work, we have to put the jquery tags in the head section-->
     </head>
     <body>
 
@@ -104,7 +107,7 @@
         <div class="alert alert-dismissable alert-warning popup">
                 <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
                 <h4>Warning!</h4>
-                <p class="chromeframe">You are using a <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser to one that supports current web standards</a> <span id="Google-Chrome-Frame-Hint">*cough*</span><a class="alert-link" href="https://www.google.com/intl/en/chrome/browser/"/>Google Chrome</a><span id="Google-Chrome-Frame-Hint">*cough*</span></a> or <a class="alert-link" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+                <p class="chromeframe">You are using a <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser to one that supports current web standards</a> <span id="Google-Chrome-Frame-Hint">*cough*</span><a class="alert-link" href="https://www.google.com/intl/en/chrome/browser/"/>Google Chrome</a><span id="Google-Chrome-Frame-Hint">*cough*</span></a> to improve your experience witht the internet as a whole</p>
         </div>
         <![endif]-->
     

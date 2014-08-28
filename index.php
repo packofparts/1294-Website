@@ -7,17 +7,10 @@
     *@link https://github.com/blueal/FRC-Team-1294
     */
     require'includes/upper_header.php'; 
-    /*
-    *The header code is set up so that you can code in page specific tags in the pages .php file easily.
-    *Just include in the upper_header.php and than add the page specific tags.
-    *Then all you have to do is add the lower_header.php file and your done with the header.
-    */
-
- ?>
+?>
     <title>1294 - Top Gun Robotics</title>
     <meta name="description" content="The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="engine1/style.min.css" />
 <?php
@@ -81,8 +74,9 @@
         <div class="row">
         <div class="col-md-4">
             <h2 class="section-header">Find us on Facebook!</h2>
-        <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
-            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+            <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div><br>
+            <br>
+            <p><a class="btn btn-default" href="https://www.facebook.com/topgunrobotics">View us on Facebook! <span class="glyphicon glyphicon-new-window"></span></a></p>
         </div>
         <div class="col-md-4">
             <h2 class="section-header">Upcoming Events</h2>
@@ -309,7 +303,7 @@
                 ?>
                 <!--<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " height="300" frameborder="0" scrolling="no"></iframe>-->
             </div>
-            <p><a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
+            <p><a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
         </div>
         <div class="col-md-4">
             <h2 class="section-header">Featured Video</h2>

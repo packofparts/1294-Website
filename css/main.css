@@ -33,11 +33,6 @@
 .navbar-inverse {
   background-color: #080807; 
   background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
   background-repeat: no-repeat;
   filter: none;
 }
@@ -188,6 +183,10 @@ a, a:visited {
     /*
     background: url('/img/shadow-up.png') no-repeat scroll center bottom transparent;
     */
+}
+
+#live-stream-title {
+    padding-top: 20px;
 }
 
 #stream-buttons {
@@ -358,13 +357,13 @@ All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
 .sponsor {
 
 }
-/*
-#sponsor-boeing {   
-    max-width: 360px;
-    margin-top: 40px;
-    z-index: 50;
-}
 
+#sponsor-boeing {   
+    /*max-width: 550px;*/
+    margin-top: 40px;
+    max-height: 155px;
+}
+/*
 @media (max-width: 350px) {
     #sponsor-boeing {
         max-width: 250px;
@@ -373,25 +372,31 @@ All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
 */
 
 #sponsor-SAE {
-    
+    margin-top: 40px;
+    margin-bottom: 40px;
     max-height: 200px;
     z-index: 50;
 }
 
 #sponsor-orora {
-   z-index: 50;
+
 }
 
 @media (min-width: 767px) {
-  #sponsor-orora {
-    margin-top: 40px;
-  }
+    #sponsor-orora {
+        margin-top: 80px;
+    }
+    #sponsor-boeing {
+        margin-top: 80px;
+    }
 }
+
 
 
 .footer {
     text-align: center;
     background-color: white;
+    padding-bottom: 40px;
     
 }
 
