@@ -8,8 +8,8 @@
     */
     require'includes/upper_header.php'; 
 ?>
-    <title>1294 - Top Gun Robotics</title>
-    <meta name="description" content="The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
+    <title>1294 | Top Gun Robotics</title>
+    <meta name="description" content="The Official Website of the Top Gun Robotics (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
 
     <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="engine1/style.min.css" />

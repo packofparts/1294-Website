@@ -9,7 +9,7 @@
 
  ?>
     <title>1294 | Calendar</title>
-    <meta name="description" content="The Official Website of the Top Gun (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
+    <meta name="description" content="The Official Calendar of Top Gun Robotics"/>
 <?php
     require($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php');
 ?>
