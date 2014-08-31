@@ -9,6 +9,5 @@ node_js:
   - "0.8"
 env:
  - TEST_DIR=subtrees/bootstrap
-before_install: cd $TEST_DIR && npm install -g grunt-cli
-install: cd $TEST_DIR && npm install
-before_script: cd $TEST_DIR && grunt dist
+
+script: cd TEST_DIR && npm install -g grunt-cli && npm test && grunt dist
