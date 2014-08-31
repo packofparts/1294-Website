@@ -7,7 +7,7 @@ php:
 language: node_js
 node_js:
   - "0.8"
-before_install: cd subtrees/bootstrap/ npm install -g grunt-cli
+before_install: cd subtrees/bootstrap/
 before_install: npm install -g grunt-cli
 install: cd subtrees/bootstrap/
 install: npm install
