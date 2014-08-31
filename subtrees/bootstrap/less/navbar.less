@@ -12,7 +12,7 @@
   position: relative;
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: @navbar-margin-bottom;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
 
   // Prevent floats from breaking the navbar
   &:extend(.clearfix all);
@@ -127,7 +127,7 @@
 // Static top (unfixed, but 100% wide) navbar
 .navbar-static-top {
   z-index: @zindex-navbar;
-  border-width: 0 0 1px;
+  border-width: 0 0 0px;
 
   @media (min-width: @grid-float-breakpoint) {
     border-radius: 0;
@@ -150,7 +150,7 @@
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  border-width: 0 0 0px;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -241,7 +241,7 @@
       position: static;
       float: none;
       width: auto;
-      margin-top: 0;
+      margin-top: -1px; /*I removed the .navbar border*/
       background-color: transparent;
       border: 0;
       box-shadow: none;

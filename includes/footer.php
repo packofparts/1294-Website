@@ -6,7 +6,7 @@
                          <img class="img-responsive center-block" id="sponsor-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>
                     </div>
                     <div class="col-sm-4" style="background-image: url()">                        
-                       <img class="img-responsive center-block" id="sponsor-SAE" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>
+                       <img class="img-responsive center-block" id="sponsor-SAE" alt="SAE Northwest Logo" src="https://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>
                     </div>
                     <div class="col-sm-4" style="background-image: url('')">
                         <img class="img-responsive center-block" id="sponsor-boeing" alt="Boeing Logo" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
@@ -16,12 +16,12 @@
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
                         <div class="">
-                            <div class="fb-like fb_iframe_widget" style="padding: 0px 30px 0px 30px;" data-width="450" data-href="https://www.facebook.com/topgunrobotics" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" fb-xfbml-state="rendered"></div>
+                            <div class="fb-like fb_iframe_widget" style="padding: 0px 30px 0px 30px;" data-width="450" data-href="https://www.facebook.com/topgunrobotics/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" fb-xfbml-state="rendered"></div>
                             <hr>
                         </div>
 
                         <div class="footer-links">
-                            <a class="footer-links" title="Contact Us" href="/contact">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org">US First</a> | <a class="footer-links" title="Washingotn First Robotics"href="http://firstwa.org/">First WA</a>
+                            <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org/">US First</a> | <a class="footer-links" title="Washingotn First Robotics"href="http://firstwa.org/">First WA</a>
                         </div>
 
                     </div>

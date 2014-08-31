@@ -92,18 +92,17 @@ h6 {
     font-size: 75%;
 }
 
-.body-container { /*The Body Container must have 15px of seperation between the seperate containers*/
+.body-container { /*The Body Container must have 30px of seperation between the seperate containers*/
     max-width: 1271px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 30px;
     padding-bottom: 10px;
     position: relative;
     -moz-box-shadow: 0 0 35px rgba(0,0,0,.4);
     -webkit-box-shadow: 0 0 35px rgba(0,0,0,.4);
     box-shadow: 0 0 35px rgba(0,0,0,.4);
     z-index: 200;
-
     background: white;
 }
 
@@ -125,6 +124,17 @@ a, a:visited {
     margin-bottom: 25px;
     text-align: center;
 }
+
+
+
+::-webkit-scrollbar{
+  width:20px;
+} 
+
+::-webkit-scrollbar-thumb{
+   background-color: rgba(255,255,255,1);
+
+}  
 
 
 
@@ -179,14 +189,15 @@ a, a:visited {
 .live-stream-container {
     display: block;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 0px;   
     /*
     background: url('/img/shadow-up.png') no-repeat scroll center bottom transparent;
     */
 }
 
 #live-stream-title {
-    padding-top: 20px;
+    
 }
 
 #stream-buttons {

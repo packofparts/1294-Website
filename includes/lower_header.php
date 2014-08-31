@@ -1,7 +1,7 @@
   
-        <link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
         <!--<link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap-theme.min.css">-->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
         <style>
             body {
                 padding-top: 0px;
@@ -50,6 +50,7 @@
         <!--In oreder to get the WOWSlider to work, we have to put the jquery tags in the head section-->
     </head>
     <body>
+
 
         <!--Begin Facebook SDK-->
         <div id="fb-root"></div>

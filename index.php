@@ -64,9 +64,7 @@
     </div>
 </div>
 
-<div class="body-container">
 <?php include 'includes/live_stream.php'  ?>
-</div>
 
 <div class="body-container">
     <div class="container">
@@ -320,7 +318,7 @@
     </div>
 </div>
 <?php 
-    $ExtraFooterTags='<script type="text/javascript" src="http://js.addthisevent.com/atemay.js"></script>';
+    $ExtraFooterTags='<script type="text/javascript" src="//js.addthisevent.com/atemay.js"></script>';
 
     require'/includes/footer.php';
 ?>
