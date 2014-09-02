@@ -18,7 +18,7 @@
 ?>
 
 
-    <!--Start WOWSlider.com BODY section
+    <!--Start WOWSlider.com BODY section     WE WILL UPDATE THIS EVENTUALLY
     The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
 	<div class="hidden-xs" id="wowslider-container1">
 	    <div class="ws_images">
