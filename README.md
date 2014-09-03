@@ -11,6 +11,7 @@ Contributions
 -------------
 Contributions are GREATLY appreciated.
 To contribute follow these easy step by step instructions
+
 0. Fork this project!
 1. Make your changes on your branch
 2. Send a pull request!
