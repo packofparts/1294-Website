@@ -1,5 +1,16 @@
 
-/Eastlake-Logo.psd
+#### The Official .gitignore file for the 1294 website! ###
+
+
+#
+#Store temp files in the Miscellaneous Folder
+#
 /.Miscellaneous
+
+
+#Use Grunt to compile bootstrap
 /GRUNT.bat
+
+
+#This is a cache file and updates itself constantly
 /gcal.xml
