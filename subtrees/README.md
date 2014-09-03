@@ -19,3 +19,7 @@ More information about subtrees:
 - https://help.github.com/articles/working-with-subtree-merge
 - http://git-scm.com/book/en/Git-Tools-Subtree-Merging
 - http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/
+
+
+*This pages readme was taken from [the-blue-alliance's subtree page](https://github.com/the-blue-alliance/the-blue-alliance/tree/master/subtrees)*
+

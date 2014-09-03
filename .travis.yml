@@ -6,10 +6,13 @@ php:
 
 language: node_js
 node_js:
-  - "0.8"
+  - "0.10"
 env:
  - TEST_DIR=subtrees/bootstrap
 
-before_install: npm install -g grunt-cli
-install: cd $TEST_DIR && npm install
-before_script: cd $TEST_DIR && grunt dist
+before_install: 
+ - npm install -g grunt-cli
+install: 
+ - cd $TEST_DIR && npm install
+script: 
+ - cd $TEST_DIR && grunt dist
