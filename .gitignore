@@ -12,5 +12,5 @@
 /GRUNT.bat
 
 
-#This is a cache file and updates itself constantly
-/gcal.xml
+#Cache files are generated automatically
+/cache/*

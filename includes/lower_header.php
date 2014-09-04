@@ -1,7 +1,7 @@
   
         <link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
         <!--<link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap-theme.min.css">-->
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.min.css">
         <style>
             body {
                 padding-top: 0px;
@@ -40,7 +40,7 @@
                 $active[$folder] = ($directory[0] == $folder)? "active":"";
             }
             */
-            $browserlocale_ = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
+            $browserlocale = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
 
             set_include_path(get_include_path() . PATH_SEPARATOR . '/subtrees/google-api-php-client/src');
             
@@ -59,7 +59,7 @@
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
           js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/<?php echo $browserlocale_ ?>/all.js#xfbml=1";
+          js.src = "//connect.facebook.net/<?php echo $browserlocale ?>/all.js#xfbml=1";
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
         <!--END Facebook SDK-->
@@ -104,7 +104,7 @@
             </div>
         </div>
         
-        <!--[if lt IE 7]>
+        <!--[if lt IE 8]>
         <div class="alert alert-dismissable alert-warning popup">
                 <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
                 <h4>Warning!</h4>

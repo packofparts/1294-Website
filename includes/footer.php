@@ -21,7 +21,7 @@
                         </div>
 
                         <div class="footer-links">
-                            <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org/">US First</a> | <a class="footer-links" title="Washingotn First Robotics"href="http://firstwa.org/">First WA</a>
+                            <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org/">US First</a> | <a class="footer-links" title="Washingotn First Robotics" href="http://firstwa.org/">First WA</a>
                         </div>
 
                     </div>
@@ -36,7 +36,7 @@
         ?>
 
         <script src="/subtrees/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="/js/main.js"></script>
+        <script src="/js/main.min.js"></script>
         <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
         <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
@@ -71,11 +71,7 @@
             $('.add-tooltip').tooltip();
         </script>
         <script>
-            /*Google Analytics*/
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+            /*Google Analytics Goes Here*/
         </script>
     </body>
 </html>

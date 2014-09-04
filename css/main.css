@@ -124,20 +124,16 @@ a, a:visited {
     margin-bottom: 25px;
     text-align: center;
 }
+ 
+*{
+    -webkit-font-smoothing: antialiased;
+}
 
-
-
-::-webkit-scrollbar{
-  width:20px;
-} 
-
-::-webkit-scrollbar-thumb{
-   background-color: rgba(255,255,255,1);
-
-}  
-
-
-
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
 /********************************************************************
 *    FRONT PAGE ONLY
@@ -303,16 +299,13 @@ hr.footer-seperator {
 .upcomingevents{
     margin: 15px 0px 5px 0px;
 }
-
-.upcomingevents-title {
-    font-weight: bold;
-}
-/*
-.upcomingevents-event {
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
     */
+
+.upcomingevents-event {
+   
+    font-family: 'Clear Sans';
+}
+
 .upcomingevents-dateheader {
     font-size: 24px;
     font-weight: 500;
@@ -320,6 +313,28 @@ hr.footer-seperator {
     margin-top: -5px;
     margin-bottom: -5px;
 }
+.upcomingevents-title {
+    font-weight: 700;
+    font-size: 150%;
+    padding-bottom: 7px;
+}
+
+.upcomingevents-time {
+    font-weight: 700;
+}
+
+.upcomingevents-date {
+    font-weight: 700;
+}
+.upcomingevents-description{
+    font-style: italic;
+}
+.upcomingevents-hr {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+    
+
 
 /********************************************************************
     Calendar Stuff (on any page that has a calendar)

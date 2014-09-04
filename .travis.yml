@@ -9,10 +9,11 @@ node_js:
   - "0.10"
 env:
  - TEST_DIR=subtrees/bootstrap
+ - FINAL_DIR=build/FRC-1294/1294-Website/subtrees/bootstrap
 
 before_install: 
  - npm install -g grunt-cli
 install: 
  - cd $TEST_DIR && npm install
 script: 
- - cd $TEST_DIR && grunt dist
+ - cd $FINAL_DIR && grunt dist

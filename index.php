@@ -72,7 +72,7 @@
         <div class="row">
         <div class="col-md-4">
             <h2 class="section-header">Find us on Facebook!</h2>
-            <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div><br>
+            <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div><br>
             <br>
             <p><a class="btn btn-default" href="https://www.facebook.com/topgunrobotics">View us on Facebook! <span class="glyphicon glyphicon-new-window"></span></a></p>
         </div>
@@ -80,63 +80,6 @@
             <h2 class="section-header">Upcoming Events</h2>
             <div class="upcomingevents" style="width:100%;">
                 <?php
-                    /*
-                    set_include_path("subtrees/google-api-client-library/src/" . PATH_SEPARATOR . get_include_path());
-                    /*set_include_path(get_include_path() . '/subtrees/google-api-php-client/src');
-                    set_include_path(get_include_path() . PATH_SEPARATOR . '/subtrees/google-api-php-client/src/');
-                    $client_id = '253596219209-9dic7493era4ot9r42f859ba2tc50r3a.apps.googleusercontent.com'; //Client ID
-                    $service_account_name = '253596219209-9dic7493era4ot9r42f859ba2tc50r3a@developer.gserviceaccount.com'; //Email Address 
-                    $key_file_location = 'key.p12'; //key.p12
-
-                    session_start();
-                    require_once '/subtrees/google-api-client-library/src/Google/Client.php';
-                    require_once 'Google/Service/calendar.php';
-                    
-                    
-                    $client = new Google_Client();
-                    $client->setApplicationName("Calendar-Tester");
-                    
-                    if (isset($_SESSION['token'])) {
-                        $client->setAccessToken($_SESSION['token']);
-                    }
-                    
-                    $key = file_get_contents($key_file_location);
-                    $client->setClientId($client_id);
-                    $cred = new Google_Auth_AssertionCredentials(
-                        $service_account,
-                        array('https://www.googleapis.com/auth/calendar'),
-                        $key);
-
-                    $client->setAssertionCredentials($cred);
-                    
-                    if($client->getAuth()->isAccessTokenExpired()) {
-                      $client->getAuth()->refreshTokenWithAssertion($cred);
-                    }
-                    
-                    $_SESSION['token'] = $client->getAccessToken();
-                    
-                    $cal = new Google_Service_Calendar($client);
-
-                    $events = $cal->events->listEvents('frc1294@gmail.com', $optionalParams);
-                    echo "<pre>";
-                    print_r($events);
-                    echo"</pre>";
-
-                    while(true) {
-                        foreach ($events->getItems() as $event) {
-                        echo $event->getSummary();
-                            print_r($event);
-                      }
-                      $pageToken = $events->getNextPageToken();
-                      if ($pageToken) {
-                        $optParams = array('pageToken' => $pageToken);
-                        $events = $service->calendarList->listCalendarList($optParams);
-                      } else {
-                        break;
-                      }
-                    }
-                    */
-
                     //The Following PHP Code is for reading the Google Calendar that has all of our meetings in it. 
                     //This code was initally written by 'jamescrodland' on github (https://github.com/media-uk/GCalPHP)
                     //The code has been edited from its original version to best suit our website
@@ -145,21 +88,24 @@
                     if (!isset($calendarfeed)) {$calendarfeed = "https://www.google.com/calendar/feeds/frc1294%40gmail.com/public/basic"; }
 
                     // Date format you want your details to appear
-                    $dateformat="l F j"; // 10 March 2009 - see http://www.php.net/date for details
-                    $timeformat="g:ia"; // 12.15am
+                    $dateformat="l F jS"; // Wednesday September 1st - see http://www.php.net/date for details
+                    $dateformat2="n/j/y"; // 9/1/14
+                    $timeformat="g:i A"; // 12.15 AM
 
                     // The timezone that your user/venue is in (i.e. the time you're entering stuff in Google Calendar.) http://www.php.net/manual/en/timezones.php has a full list
                     date_default_timezone_set('America/Los_Angeles');
 
                     // How you want each thing to display.
                     // By default, this contains all the bits you can grab. You can put ###DATE### in here too if you want to, and disable the 'group by date' below.
-                    $event_display='<div class="upcomingevents-event panel-footer"><div class="upcomingevents-title">###TITLE###</div> From <strong>###FROM### ###DATESTART###</strong> until <b>###UNTIL### ###DATEEND###</b> (<a href="###LINK###">add this</a>)<BR>###WHERE### (<a href="###MAPLINK###">map</a>)<br>###DESCRIPTION###</div></div>';
+                    $event_display='<div class="upcomingevents-event panel-footer"><div class="upcomingevents-title text-center">###TITLE###</div><hr class="upcomingevents-hr"><span class="upcomingevents-description">###DESCRIPTION###</span> From <span class="upcomingevents-time">###FROM###</span> <span class="upcomingevents-date">###DATESTART###</span> until <span class="upcomingevents-time">###UNTIL###</span> <span class="upcomingevents-date">###DATEEND###</span><br> ###WHERE###  
+                    ###MAPLINK###
+                    <a rel="nofollow" href="###LINK###" class="btn btn-default btn-xs">Add This</a></div></div>';
 
                     // What happens if there's nothing to display
-                    $event_error="<P>There are no events to display.</p>";
+                    $event_error='<div class="panel panel-default"><div class="panel-body upcomingevents-dateheader text-center">There are no events to display.</div><div class="upcomingevents-event panel-footer">Sorry, There Are Currently No Upcoming Events On Our Calendar</div></div>';
 
                     // The separate date header is here
-                    $event_dateheader='<div class="panel panel-default"><div class="panel-body upcomingevents-dateheader text-center"><div class="">###DATE###</div></div>';
+                    $event_dateheader='<div class="panel panel-default"><div class="panel-body upcomingevents-dateheader text-center">###DATE###</div>';
                     $GroupByDate=true;
                     // Change the above to 'false' if you don't want to group this by dates.
 
@@ -196,7 +142,7 @@
                             //
        
                             $cache_time = 3600*12; // 12 hours
-                            $cache_file = $_SERVER['DOCUMENT_ROOT'].'/gcal.xml'; //xml file saved on server
+                            $cache_file = $_SERVER['DOCUMENT_ROOT'].'/cache/gcal.xml'; //xml file saved on server
        
                             if ($debug_mode) {echo "<P>Your cache is saved at ".$cache_file."</P>";}
        
@@ -242,34 +188,50 @@
 	                    if ($debug_mode) { echo "<P>Here's the next item's start time... GCal says ".$ns_gd->when->attributes()->startTime." PHP says ".date("g.ia  -Z",strtotime($ns_gd->when->attributes()->startTime))."</p>"; }
 
 	                    // These are the dates we'll display
-	                    $gCalDate = date($dateformat, strtotime($ns_gd->when->attributes()->startTime));
-	                    $gCalDateStart = date($dateformat, strtotime($ns_gd->when->attributes()->startTime));
-	                    $gCalDateEnd = date($dateformat, strtotime($ns_gd->when->attributes()->endTime));
-	                    $gCalStartTime = date($timeformat, strtotime($ns_gd->when->attributes()->startTime));
-	                    $gCalEndTime = date($timeformat, strtotime($ns_gd->when->attributes()->endTime));
+	                    $gCalDate       = date($dateformat, strtotime($ns_gd->when->attributes()->startTime));
+	                    $gCalDateStart  = date($dateformat2, strtotime($ns_gd->when->attributes()->startTime));
+	                    $gCalDateEnd    = date($dateformat2, strtotime($ns_gd->when->attributes()->endTime));
+	                    $gCalStartTime  = date($timeformat, strtotime($ns_gd->when->attributes()->startTime));
+	                    $gCalEndTime    = date($timeformat, strtotime($ns_gd->when->attributes()->endTime));
+                        $gCalLocation   = $ns_gd->where->attributes()->valueString;
                    
 	                    // Now, let's run it through some str_replaces, and store it with the date for easy sorting later
 	                    $temp_event=$event_display;
 	                    $temp_dateheader=($event_dateheader);
 	                    $temp_event=str_replace("###TITLE###",$entry->title,$temp_event);
-	                    $temp_event=str_replace("###DESCRIPTION###",$description,$temp_event);
-
+                        if(!$description == ''){
+                            $temp_event=str_replace("###DESCRIPTION###",$description . '<br>',$temp_event);
+                        } else {
+                            $temp_event=str_replace("###DESCRIPTION###",$description,$temp_event);
+                        }
 	                    if ($gCalDateStart!=$gCalDateEnd) {
-	                    //This starts and ends on a different date, so show the dates
-	                    $temp_event=str_replace("###DATESTART###",$gCalDateStart,$temp_event);
-	                    $temp_event=str_replace("###DATEEND###",$gCalDateEnd,$temp_event);
+	                        //This starts and ends on a different date, so show the dates
+	                        $temp_event=str_replace("###DATESTART###",$gCalDateStart,$temp_event);
+	                        $temp_event=str_replace("###DATEEND###",$gCalDateEnd,$temp_event);
 	                    } else {
-	                    $temp_event=str_replace("###DATESTART###",'',$temp_event);
-	                    $temp_event=str_replace("###DATEEND###",'',$temp_event);
+	                        $temp_event=str_replace("###DATESTART###",'',$temp_event);
+	                        $temp_event=str_replace("###DATEEND###",'',$temp_event);
 	                    }
 
 	                    $temp_event=str_replace("###DATE###",$gCalDate,$temp_event);
 	                    $temp_dateheader=str_replace("###DATE###",$gCalDate,$temp_dateheader);
 	                    $temp_event=str_replace("###FROM###",$gCalStartTime,$temp_event);
 	                    $temp_event=str_replace("###UNTIL###",$gCalEndTime,$temp_event);
-	                    $temp_event=str_replace("###WHERE###",$ns_gd->where->attributes()->valueString,$temp_event);
+                        
+                        //If the location is Eastlake High School, show a different set of text. If empty, show nothing
+                        if (strpos($gCalLocation,'Eastlake High School') !== false) {
+                            $temp_event=str_replace("###WHERE###",('Eastlake High School, Room D123<br>'),$temp_event);
+                            $temp_event=str_replace("###MAPLINK###", '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode($gCalLocation).'" class="btn btn-primary btn-xs">Map It</a>',$temp_event);
+                        } else if(strpos($gCalLocation,' ')) {
+                            $temp_event=str_replace("###WHERE###",($gCalLocation . '<br>'),$temp_event);
+                            $temp_event=str_replace("###MAPLINK###", '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode($gCalLocation).'" class="btn btn-primary btn-xs">Map It</a>',$temp_event);
+                        } else {
+                            $temp_event=str_replace("###WHERE###",(''),$temp_event);
+                            $temp_event=str_replace("###MAPLINK###", '<a rel="nofollow" disabled="disabled" href="" class="btn btn-primary btn-xs">No Location</a>',$temp_event);
+                        }
+                        $temp_event=str_replace("###WHERE###",($gCalLocation . '</br>'),$temp_event);
 	                    $temp_event=str_replace("###LINK###",$entry->link->attributes()->href,$temp_event);
-	                    $temp_event=str_replace("###MAPLINK###","http://maps.google.com/?q=".urlencode($ns_gd->where->attributes()->valueString),$temp_event);
+	                    $temp_event=str_replace("###MAPLINK###","https://maps.google.com/?q=".urlencode($gCalLocation),$temp_event);//OLD CODE DOWN HERE
 	                    // Accept and translate HTML
 	                    $temp_event=str_replace("&lt;","<",$temp_event);
 	                    $temp_event=str_replace("&gt;",">",$temp_event);
@@ -312,7 +274,7 @@
             <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
             <h2 class="section-header">Featured Picture</h2>
 
-            <p></p><a class="btn btn-default" href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
+            <p><a class="btn btn-default" href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
         </div>
         </div>
     </div>
