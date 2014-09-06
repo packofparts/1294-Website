@@ -316,7 +316,11 @@ hr.footer-seperator {
 .upcomingevents-title {
     font-weight: 700;
     font-size: 150%;
-    padding-bottom: 7px;
+    padding-bottom: 0px;
+}
+
+.upcomingevents-date-time{
+    font-size:13px;
 }
 
 .upcomingevents-time {
@@ -330,8 +334,12 @@ hr.footer-seperator {
     font-style: italic;
 }
 .upcomingevents-hr {
-    margin-top: 0px;
-    margin-bottom: 7px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.upcomingevents-buttons{
+    margin-top: 10px;
 }
     
 

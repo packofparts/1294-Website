@@ -97,9 +97,9 @@
 
                     // How you want each thing to display.
                     // By default, this contains all the bits you can grab. You can put ###DATE### in here too if you want to, and disable the 'group by date' below.
-                    $event_display='<div class="upcomingevents-event panel-footer"><div class="upcomingevents-title text-center">###TITLE###</div><hr class="upcomingevents-hr"><span class="upcomingevents-description">###DESCRIPTION###</span> From <span class="upcomingevents-time">###FROM###</span> <span class="upcomingevents-date">###DATESTART###</span> until <span class="upcomingevents-time">###UNTIL###</span> <span class="upcomingevents-date">###DATEEND###</span><br> ###WHERE###  
-                    ###MAPLINK###
-                    <a rel="nofollow" href="###LINK###" class="btn btn-default btn-xs">Add This</a></div></div>';
+                    $event_display='<div class="upcomingevents-event panel-footer"><div class="upcomingevents-title text-center">###TITLE###</div><div class="upcomingevents-date-time text-center"><span class="upcomingevents-time">###FROM###</span> <span class="upcomingevents-date">###DATESTART###</span> until <span class="upcomingevents-time">###UNTIL###</span> <span class="upcomingevents-date">###DATEEND###</span></div><hr class="upcomingevents-hr"><span class="upcomingevents-description">###DESCRIPTION###</span> ###WHERE###  
+                    <div class="btn-group btn-group-justified upcomingevents-buttons">###MAPLINK###
+                    <a rel="nofollow" href="###LINK###" class="btn btn-default btn-xs">Add This</a></div></div></div>';
 
                     // What happens if there's nothing to display
                     $event_error='<div class="panel panel-default"><div class="panel-body upcomingevents-dateheader text-center">There are no events to display.</div><div class="upcomingevents-event panel-footer">Sorry, There Are Currently No Upcoming Events On Our Calendar</div></div>';
@@ -110,7 +110,7 @@
                     // Change the above to 'false' if you don't want to group this by dates.
 
                     // ...and how many you want to display (leave at 999 for everything)
-                    $items_to_show=4;
+                    $items_to_show=3;
 
                     // ...and here's where you tell it to use a cache.
                     // Your PHP will need to be able to write to a file called "gcal.xml" in your root. Create this file by SSH'ing into your box and typing these three commands...
@@ -118,7 +118,7 @@
                     // > chmod 666 gcal.xml
                     // > touch -t 01101200 gcal.xml
                     // If you don't need this, or this is all a bit complex, change this to 'false'
-                    $use_cache=true;
+                    $use_cache=false;
 
                     // And finally, change this to 'true' to see lots of fancy debug code
                     $debug_mode=false;

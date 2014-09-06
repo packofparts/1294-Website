@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Clear Sans'), url(//brick.a.ssl.fastly.net/fonts/clearsans/400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Clear Sans Italic'), url(//brick.a.ssl.fastly.net/fonts/clearsans/400i.woff) format('woff');
+}
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Clear Sans Medium'), url(//brick.a.ssl.fastly.net/fonts/clearsans/500.woff) format('woff');
+}
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''), url(//brick.a.ssl.fastly.net/fonts/clearsans/600.woff) format('woff');
+}
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Clear Sans Bold'), url(//brick.a.ssl.fastly.net/fonts/clearsans/700.woff) format('woff');
+}

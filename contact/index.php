@@ -83,18 +83,13 @@
                     <div class="form-group">
                         <label class="col-lg-2 control-label">Radios</label>
                         <div class="col-lg-10">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="" id="" value="mailing-list">
-                            We only send out Mailing Lists when its crucial
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                            Option two can be something else
-                            </label>
-                        </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="" id="" value="mailing-list">
+                                    We only send out Mailing Lists when its crucial
+                                    </input>
+                                </label>
+                            </div>
                         </div>
                     </div>
 

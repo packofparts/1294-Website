@@ -25,16 +25,12 @@ Setting up your machine to edit the website is easy.
 (These steps assume you are familiar on how to use git and are able to clone the repository)
 
 0. Download [Microsoft WebMatrix](http://www.microsoft.com/web/webmatrix/)
-1. When the web installer is down downloading/installing you will get to a splash screen
-    * Search for PHP
-    * Click "Add" to PHP 5.5 (Do not add the deferred install)
-    * You should now have 2 programs ready to be installed, WebMatrix and PHP 5.5.
-    * Click "Install Now"
+1. When the web installer is down downloading/installing click the "Install Now" button
 2. Open WebMatrix
     * Click on "Open"
     * Click on "Folder"
     * Navigate to the Website Repository and click "select folder"
-    * WebMatrix will now install any missing components
+    * WebMatrix will now install PHP and any missing components
 3. Your done! Just like Run in the top left to run the server and view the website.
 
 Using Bootstrap
@@ -44,7 +40,7 @@ You should make yourself familiar with bootstraps [built in styling](http://getb
 
 0. Install [Node.js](http://nodejs.org/download/)
 1. Using command prompt, install grunt
-    * Use Command `npm install -g grunt-cli
+    * Use Command `npm install -g grunt-cli`
     * Navigate to 1294-Website/subtrees/bootstrap and run `npm install` 
 3. Grunt is now installed and ready to use
     * Stay in that folder and run `grunt dist` to recompile everything in bootstraps /dist/ folder (CSS and Javascript)
