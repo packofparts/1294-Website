@@ -40,36 +40,6 @@
         <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
         <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
         <script type="text/javascript" src="/js/main.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-	            $(".fancybox").fancybox();
-                $(".various").fancybox({
-		            maxWidth	: 2000,
-		            maxHeight	: 2000,
-		            fitToView	: false,
-		            width		: '80%',
-		            height		: '80%',
-		            autoSize	: true,
-		            closeClick	: false,
-		            openEffect	: 'none',
-		            closeEffect	: 'none'
-	            });
-                $(".icds").fancybox({
-		            maxWidth	: 800,
-		            maxHeight	: 600,
-		            fitToView	: false,
-		            width		: '70%',
-		            height		: '70%',
-		            autoSize	: false,
-		            closeClick	: false,
-		            openEffect	: 'none',
-		            closeEffect	: 'none',
-                    href        : '#ics-link',
-                    modal       : true
-	            });
-            });
-            $('.add-tooltip').tooltip();
-        </script>
         <script>
             /*Google Analytics Goes Here*/
         </script>

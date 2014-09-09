@@ -1,3 +1,34 @@
+/*Place all Custom JavaScript in this file*/
+
+$(document).ready(function() {
+	$(".fancybox").fancybox();
+    $(".various").fancybox({
+		maxWidth	: 2000,
+		maxHeight	: 2000,
+		fitToView	: false,
+		width		: '80%',
+		height		: '80%',
+		autoSize	: true,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+    $(".icds").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none',
+        href        : '#ics-link',
+        modal       : true
+	});
+});
+$('.add-tooltip').tooltip();
+
 //Fixes old IE Problems
 if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   var msViewportStyle = document.createElement('style')
@@ -16,3 +47,4 @@ $(function () {
     $('select.form-control').removeClass('form-control').css('width', '100%')
   }
 }) 
+

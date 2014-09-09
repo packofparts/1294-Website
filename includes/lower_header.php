@@ -1,6 +1,5 @@
   
         <link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
-        <!--<link rel="stylesheet" href="/subtrees/bootstrap/dist/css/bootstrap-theme.min.css">-->
         <link rel="stylesheet" type="text/css" href="/css/main.min.css">
         <style>
             body {
@@ -12,9 +11,6 @@
             }
         </style>
 
-
-
-        
         <?php
             /*
             *There might be some extra tags that need to be placed in the header,
@@ -41,27 +37,24 @@
             }
             */
             $browserlocale = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
-
-            set_include_path(get_include_path() . PATH_SEPARATOR . '/subtrees/google-api-php-client/src');
             
         ?>
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script>window.jQuery || document.write('<script type="text/javascript" src="/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
         <!--In oreder to get the WOWSlider to work, we have to put the jquery tags in the head section-->
     </head>
     <body>
 
 
         <!--Begin Facebook SDK-->
-        <div id="fb-root"></div>
-
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/<?php echo $browserlocale ?>/all.js#xfbml=1";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/<?php echo $browserlocale ?>/all.js#xfbml=1";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
         <!--END Facebook SDK-->
         <div class="navbar navbar-inverse navbar-fixed-top">
             <!--<img alt="All Team members" class="headerimage" src="/img/Big_Header.JPG" width="1271px" />-->

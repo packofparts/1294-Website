@@ -19,10 +19,10 @@
     <h1>The Official Calendar of Top Gun Robotics</h1>
     </div>
     <div class="calendar-container hidden-xs">
-        <iframe style="max-width: 1271px"src="https://www.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0" height="800" frameborder="0" scrolling="no"></iframe>
+        <iframe style="max-width: 1271px; border-width:0" src="https://www.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" height="800" frameborder="0" scrolling="no"></iframe>
     </div>    
     <div class="mobile-calendar-container visible-xs">
-        <iframe style="max-width: 1271px"src="https://www.google.com/calendar/embed?showTitle=0&showTabs=0&showPrint=0&mode=AGENDA&amp;showCalendars=0&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0" height="800" frameborder="0" scrolling="no"></iframe>
+        <iframe style="max-width: 1271px; border-width:0" src="https://www.google.com/calendar/embed?showTitle=0&showTabs=0&showPrint=0&mode=AGENDA&amp;showCalendars=0&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frc1294%40gmail.com&amp;color=%232952A3&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" height="800" frameborder="0" scrolling="no"></iframe>
     </div>
 
     <div class="container">
@@ -36,7 +36,7 @@
 
             <h3>For Match scores from events visit <a href="http://www.thebluealliance.com/team/1294">thebluealliance.com</a></h3>
             <a style="margin-top: -40px;" id="ics-btn" class="btn btn-default pull-right visible-md visible-lg add-tooltip" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics" data-toggle="tooltip" data-placement="top" title="Use This Link To Add This Calendar to Your Personal Calendar">Click Here To Get .ics Feed</a>
-            <a class="btn btn-default pull-left visible-sm visible-xs" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics">Click Here Get .ics Feed</a>
+            <a class="btn btn-default pull-left visible-sm visible-xs center-content" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics">Click Here Get .ics Feed</a>
         </div>
        
     </div>
