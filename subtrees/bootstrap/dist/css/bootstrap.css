@@ -3176,8 +3176,8 @@ tbody.collapse.in {
   background-color: #fff;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, .15);
+  border: 0 solid #ccc;
+  border: 0 solid rgba(0, 0, 0, .15);
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -3971,7 +3971,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     position: static;
     float: none;
     width: auto;
-    margin-top: -1px;
+    margin-top: -2px;
     /*I removed the .navbar border*/
     background-color: transparent;
     border: 0;
