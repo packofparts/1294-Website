@@ -49,7 +49,7 @@
             </div>
             <div class="col-sm-6 col-sm-offset-1">
                 <br>
-                <form id="contactForm" class="form-horizontal">
+                <form id="contactForm" class="form-horizontal" role="form">
                     <fieldset>
                         <legend><h2>Contact us directly with this form!</h2></legend>
                         <div class="form-group">
@@ -61,15 +61,15 @@
                         
                         
                         <div class="form-group">
-                            <label for="select" class="col-lg-2 control-label">Subject</label>
-                            <div class="col-lg-10">
-                                <select class="form-control" id="select">
+                            <label for="subject" class="col-lg-2 control-label">Subject</label>
+                            <div class="col-lg-10 selectContainer">
+                                <select class="form-control" name="subject" id="subject">
                                     <option value="" disabled selected >Select an option</option>
-                                    <option>Sponsor</option>
-                                    <option>Join the Team</option>
-                                    <option>Team Information</option>
-                                    <option>Competition Info</option>
-                                    <option>Other</option>
+                                    <option value="sponsor" >Sponsor</option>
+                                    <option value="joinTeam" >Join the Team</option>
+                                    <option value="info" >Team Information</option>
+                                    <option value="compInfo">Competition Info</option>
+                                    <option value="other" >Other</option>
                                 </select>
                                 <span class="help-block">What is it that you are contacting us about?</span>
                             </div>
@@ -78,23 +78,23 @@
                         <div class="form-group">
                             <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                             <div class="col-lg-10">
-                            <!--input type="email" class="form-control" id="inputEmail" placeholder="Your Email" data-bv-emailaddress-message="try again" required />-->
-                            <input type="email" class="form-control" name="email" placeholder="Your Email Address" required/>
+                                <!--input type="email" class="form-control" id="inputEmail" placeholder="Your Email" data-bv-emailaddress-message="try again" required />-->
+                                <input type="email" class="form-control" name="email" placeholder="Your Email Address" required/>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+                            <label for="formMessage" class="col-lg-2 control-label">Message</label>
                             <div class="col-lg-10">
-                            <textarea class="form-control" rows="3" id="textArea" required></textarea>
-                            <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+                                <textarea class="form-control" rows="3" id="formMessage" name="formMessage" required></textarea>
+                                <span class="help-block">Please Provide as Much Information as Possible</span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-2 control-label">Radios</label>
+                            <label for="mailingList" class="col-lg-2 control-label">Radios</label>
                             <div class="col-lg-10">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="" id="" value="mailing-list">
+                                        <input type="checkbox" name="" id="mailingList" value="mailing-list">
                                         We only send out Mailing Lists when its crucial
                                         </input>
                                     </label>
@@ -104,8 +104,8 @@
 
                         <div class="form-group">
                             <div class="col-lg-10 col-lg-offset-2">
-                            <button class="btn btn-danger pull-left" id="resetForm" data-resetFormData="true"> Reset Form <span class="glyphicon glyphicon-remove-sign"></span></button>
-                            <button type="submit" name="submit" class="btn btn-success pull-right"> Submit <span class="glyphicon glyphicon-send"></span></button>
+                            <button type="button" class="btn btn-danger pull-left add-tooltip" id="resetBtn" data-resetFormData="true" data-toggle="tooltip" data-placement="top" title="Click Here to Reset Form"> Reset Form <span class="glyphicon glyphicon-remove-sign"></span></button>
+                            <button type="submit" class="btn btn-success pull-right" id="submitForm" name="submit" disabled="disabled" data-loading-text="Submiting..."> Submit <span class="glyphicon glyphicon-send"></span></button>
                             </div>
                         </div>
                     </fieldset>
