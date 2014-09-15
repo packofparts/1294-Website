@@ -125,7 +125,7 @@ a, a:visited {
     text-align: center;
 }
  
-*{
+html{
     -webkit-font-smoothing: antialiased;
 }
 
@@ -294,12 +294,7 @@ hr.footer-seperator {
   width: 100% !important;
 }
 
-/*Upcoming Events
-
-.upcomingevents{
-    margin: 15px 0px 5px 0px;
-}
-    */
+/*Upcoming Events*/
 
 .upcomingevents-event {
    

@@ -3,6 +3,14 @@
 ?>
     <title>1294 | Contact Us</title>
     <meta name="description" content="Contact the Team for any Information about Sponsoring or General Information"/>
+    <style type="text/css">
+        #contactForm .inputGroupContainer .form-control-feedback,
+        #contactForm .selectContainer .form-control-feedback,
+        #contactForm .btn-group .form-control-feedback {
+            top: 0;
+            right: -30px;
+        }
+    </style>
 <?php
     require($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php');
 ?>
@@ -17,8 +25,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-5">
-                <h2>This is some contact Information</h2>
+            <div class="col-sm-6">
+                <h2>Contact Information</h2>
+                <hr style="margin-top: 0px; margin-bottom: 0px">
                 <p class=""></p><br>
 
                 <div class="row">
@@ -47,36 +56,61 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-sm-offset-1">
+            <div class="col-sm-6 col-sm-offset-0">
                 <br>
                 <form id="contactForm" class="form-horizontal" role="form">
                     <fieldset>
                         <legend><h2>Contact us directly with this form!</h2></legend>
                         <div class="form-group">
-                            <label for="fullName" class="col-lg-2 control-label">Full Name</label>
-                            <div class="col-lg-10">
-                                <input type="text" id="fullName" class="form-control" name="fullName" placeholder="Full Name"/>
+                            <label for="firstName" class="col-lg-2 control-label">Full Name</label>
+                            <div class="col-lg-5">
+                                <input type="text" id="firstName" class="form-control" name="firstName" placeholder="First Name"/>
+                            </div>
+                            <label for="lastName" class="col-lg-2 control-label hidden-lg">Last Name</label>
+                            <div class="col-lg-5">
+                                <input type="text" id="lastName" class="form-control" name="lastName" placeholder="Last Name"/>
                             </div>
                         </div>                      
                         
                         
-                        <div class="form-group">
+                        <!--div class="form-group">
                             <label for="subject" class="col-lg-2 control-label">Subject</label>
-                            <div class="col-lg-10 selectContainer">
-                                <select class="form-control" name="subject" id="subject">
-                                    <option value="" disabled selected >Select an option</option>
+                            <div class="col-lg-10 selectContainer inputGroupContainer">
+                                <select class="form-control" name="subject[]" id="subject">
+                                    <option value="" selected>Select an option</option>
                                     <option value="sponsor" >Sponsor</option>
                                     <option value="joinTeam" >Join the Team</option>
                                     <option value="info" >Team Information</option>
                                     <option value="compInfo">Competition Info</option>
                                     <option value="other" >Other</option>
                                 </select>
-                                <span class="help-block">What is it that you are contacting us about?</span>
+                            </div>
+                        </div-->
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label">Subject</label>
+                            <div class="col-lg-10">
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="subject" value="sponsor" /> Sponsor
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="subject" value="General" /> General
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="subject" value="comp-info" /> Competition Info
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="subject" value="join-team" /> Join the Team
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="subject" value="other" /> Other
+                                    </label>
+                                </div>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                            <label for="email" class="col-lg-2 control-label">Email</label>
                             <div class="col-lg-10">
                                 <!--input type="email" class="form-control" id="inputEmail" placeholder="Your Email" data-bv-emailaddress-message="try again" required />-->
                                 <input type="email" class="form-control" name="email" placeholder="Your Email Address" required/>
@@ -85,17 +119,16 @@
                         <div class="form-group">
                             <label for="formMessage" class="col-lg-2 control-label">Message</label>
                             <div class="col-lg-10">
-                                <textarea class="form-control" rows="3" id="formMessage" name="formMessage" required></textarea>
-                                <span class="help-block">Please Provide as Much Information as Possible</span>
+                                <textarea class="form-control" rows="3" id="formMessage" name="formMessage" placeholder="We need to know what you're contacting us about" maxlength="10" required></textarea>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="mailingList" class="col-lg-2 control-label">Radios</label>
+                            <label for="mailingList" class="col-lg-2 control-label">Mailing List</label>
                             <div class="col-lg-10">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="" id="mailingList" value="mailing-list">
-                                        We only send out Mailing Lists when its crucial
+                                        <input type="checkbox" name="mailingBtn[]" id="mailingList" value="mailing-list">
+                                        If you plan to be a part of the team, Click This!
                                         </input>
                                     </label>
                                 </div>
@@ -104,7 +137,7 @@
 
                         <div class="form-group">
                             <div class="col-lg-10 col-lg-offset-2">
-                            <button type="button" class="btn btn-danger pull-left add-tooltip" id="resetBtn" data-resetFormData="true" data-toggle="tooltip" data-placement="top" title="Click Here to Reset Form"> Reset Form <span class="glyphicon glyphicon-remove-sign"></span></button>
+                            <button type="button" class="btn btn-danger pull-left add-tooltip" id="resetBtn" data-resetFormData="true" data-toggle="tooltip" data-placement="top" title="Click Here To Reset The Form"> Reset Form <span class="glyphicon glyphicon-remove-sign"></span></button>
                             <button type="submit" class="btn btn-success pull-right" id="submitForm" name="submit" disabled="disabled" data-loading-text="Submiting..."> Submit <span class="glyphicon glyphicon-send"></span></button>
                             </div>
                         </div>
