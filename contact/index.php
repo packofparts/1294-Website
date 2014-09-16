@@ -62,13 +62,13 @@
                     <fieldset>
                         <legend><h2>Contact us directly with this form!</h2></legend>
                         <div class="form-group">
-                            <label for="firstName" class="col-lg-2 control-label">Full Name</label>
+                            <label for="firstName" class="col-lg-2 control-label">Name</label>
                             <div class="col-lg-5">
-                                <input type="text" id="firstName" class="form-control" name="firstName" placeholder="First Name"/>
+                                <input type="text" id="firstName" class="form-control" name="firstName" placeholder="First Name" maxlength="30"/>
                             </div>
                             <label for="lastName" class="col-lg-2 control-label hidden-lg">Last Name</label>
                             <div class="col-lg-5">
-                                <input type="text" id="lastName" class="form-control" name="lastName" placeholder="Last Name"/>
+                                <input type="text" id="lastName" class="form-control" name="lastName" placeholder="Last Name"  maxlength="30"/>
                             </div>
                         </div>                      
                         
@@ -94,13 +94,13 @@
                                         <input type="radio" name="subject" value="sponsor" /> Sponsor
                                     </label>
                                     <label class="btn btn-default">
-                                        <input type="radio" name="subject" value="General" /> General
-                                    </label>
-                                    <label class="btn btn-default">
                                         <input type="radio" name="subject" value="comp-info" /> Competition Info
                                     </label>
                                     <label class="btn btn-default">
                                         <input type="radio" name="subject" value="join-team" /> Join the Team
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="subject" value="general" /> General
                                     </label>
                                     <label class="btn btn-default">
                                         <input type="radio" name="subject" value="other" /> Other
@@ -119,7 +119,7 @@
                         <div class="form-group">
                             <label for="formMessage" class="col-lg-2 control-label">Message</label>
                             <div class="col-lg-10">
-                                <textarea class="form-control" rows="3" id="formMessage" name="formMessage" placeholder="We need to know what you're contacting us about" maxlength="10" required></textarea>
+                                <textarea class="form-control" rows="3" id="formMessage" name="formMessage" placeholder="We need to know what you're contacting us about" maxlength="500" required></textarea>
                             </div>
                         </div>
                         <div class="form-group">

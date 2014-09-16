@@ -15,11 +15,12 @@ $(document).ready(function () {
                     group: '.col-lg-5',
                     validators: {
                         notEmpty: {
-                            message: 'Name is Required'
+                            message: 'First Name is a Required Field'
                         },
                         stringLength: {
-                            min: 2,
-                            message: 'Name must be atleast 2 characters'
+                            min: 3,
+                            max: 30,
+                            message: 'First Name must be between 3 and 30 characters long'
                         }
                     }
                 },
@@ -27,25 +28,26 @@ $(document).ready(function () {
                     group: '.col-lg-5',
                     validators: {
                         notEmpty: {
-                            messgae: 'Name is Required'
+                            messgae: 'Last Name is a Required Field'
                         },
                         stringLength: {
                             min: 2,
-                            message: 'Name must be atleast 2 characters'
+                            max: 30,
+                            message: 'First Name must be between 3 and 30 characters long'
                         }
                     }
                 },
                 subject: {
                     validators: {
                         notEmpty: {
-                            message: 'Name is Required'
+                            message: 'A Subject is Required'
                         }
                     }
                 },
                 email: {
                     validators: {
                         emailAddress: {
-                            message: 'The value is not a valid email address'
+                            message: 'Please Enter a Valid Email Address'
                         }
                     }
                 },
@@ -53,6 +55,11 @@ $(document).ready(function () {
                     validators: {
                         notEmpty: {
                             message: 'Please provide a message'
+                        },
+                        stringLength: {
+                            min: 25,
+                            max: 500,
+                            message: 'Message must be between 25 and 500 characters long. Try contacting us via email if your having trouble.'
                         }
                     }
                 }
