@@ -282,5 +282,5 @@
 <?php 
     $ExtraFooterTags='<script type="text/javascript" src="//js.addthisevent.com/atemay.js"></script>';
 
-    require'/includes/footer.php';
+    require'includes/footer.php';
 ?>
