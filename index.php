@@ -118,7 +118,7 @@
                     // > chmod 666 gcal.xml
                     // > touch -t 01101200 gcal.xml
                     // If you don't need this, or this is all a bit complex, change this to 'false'
-                    $use_cache=false;
+                    $use_cache=true;
 
                     // And finally, change this to 'true' to see lots of fancy debug code
                     $debug_mode=false;
