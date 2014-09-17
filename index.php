@@ -57,7 +57,7 @@
         <div class="container">
         <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
         <h1>We are Top Gun Robotics</h1>
-        <p>We are a high school robotics club/team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been playing in FRC since 2004.
+        <p>We are a high school robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been playing in FRC since 2004.
                 <span style="font-style: italic">Our goal statement would go here that would talk about why we do what we do.</span></p>
         <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
         </div>
