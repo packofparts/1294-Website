@@ -274,7 +274,7 @@
             <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
             <h2 class="section-header">Featured Picture</h2>
 
-            <p><a class="btn btn-default" href="/media/pictures"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
+            <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
         </div>
         </div>
     </div>

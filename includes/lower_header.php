@@ -83,7 +83,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"></span> Media <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="/media/video/"><span class="glyphicon glyphicon-facetime-video"></span> Videos</a></li>
-                                <li><a href="/media/pictures/"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
+                                <li><a href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
                             </ul>
                         </li>
                         <li class="<?php echo $active['calendar']?>"><a href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>

@@ -2,9 +2,9 @@ FRC-Team-1294
 =============
 
 The Official Website of the FRC Team 1294.
-http://team1294.net (Not currently Live)
+http://team1294.org (Not currently Live)
 
-The website is built in PHP utilizing the bootstrap framework
+The website is built in PHP utilizing the bootstrap framework.
 Anticpated Release Time is Septemeber of 2014
 
 Contributions
