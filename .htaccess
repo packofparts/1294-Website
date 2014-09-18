@@ -26,8 +26,10 @@ DirectoryIndex index.php
 # Block access to backup and source files
 # This files may be left by some text/html editors and
 # pose a great security danger, when someone can access them
-<FilesMatch "(\.(bak|config|sql|fla|psd|ini|log|sh|inc|swp|dist)|~)$">
+# We also need to block access to the .htaccess file so it can't be viewed from the web
+<FilesMatch "(\.(bak|config|sql|fla|psd|ini|log|sh|inc|swp|dist|htaccess)|~)$">
   Order allow,deny
   Deny from all
   Satisfy All
 </FilesMatch>
+

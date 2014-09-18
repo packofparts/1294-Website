@@ -4,6 +4,7 @@
     <title>1294 | Contact Us</title>
     <meta name="description" content="Contact the Team for any Information about Sponsoring or General Information"/>
     <style type="text/css">
+        /*Moves over the "vali" or "invalid" glyphicon if it is a field that overlaps with it in a ugly way*/
         #contactForm .inputGroupContainer .form-control-feedback,
         #contactForm .selectContainer .form-control-feedback,
         #contactForm .btn-group .form-control-feedback {
@@ -53,6 +54,11 @@
                             Sammamish, WA 98074<br>
                             <abbr title="Phone">P:</abbr> +1 (425) 936-1500
                         </address>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>A really cool google map overaly will go here</p>
                     </div>
                 </div>
             </div>

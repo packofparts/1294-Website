@@ -15,4 +15,4 @@ before_install:
 install: 
  - cd $TEST_DIR && npm install
 script: 
- - cd build/FRC-1294/1294-Website/subtrees/bootstrap && grunt dist
+ - cd /FRC-1294/1294-Website/subtrees/bootstrap && grunt dist

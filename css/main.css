@@ -78,9 +78,9 @@ h6 {
 }
 
 .popup {
-    top: 7.5%;
-    left: 20%;
-    right: 20%;
+    top: 10%;
+    left: 21.5%;
+    right: 21.5%;
     margin-right: auto;
     position: fixed;
     z-index: 999;
@@ -151,6 +151,12 @@ html{
 
 
 #eastlake-logo {
+    /*IE will not accept the max-width/max-height without it being defined first
+        http://stackoverflow.com/questions/17392265/css-max-width-in-ie8
+    */
+    width: 100%;
+    height: 100%;
+    max-width: 25em;
     max-height: 350px;
     padding-top: 0px;
     margin-right: 0px;
@@ -379,8 +385,10 @@ All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
 *********************************************************************/
 
 #sponsor-title {
+    margin-top: 25px;
+    font-style: italic;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 30px;
 }
 
 .sponsor {

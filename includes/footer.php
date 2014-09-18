@@ -1,6 +1,10 @@
         <div class="body-container footer" style="">
             <footer class="container">
-                <div class="row"><h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponosors</h2></div>
+                <div class="row">
+                    <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponosors!</h2><br>
+                    <hr style="margin-top: -7px; ">
+                </div>
+                
                 <div class="row" class="sponsors">
                     <div class="col-sm-4" style="background-image: url();">
                          <img class="img-responsive center-block" id="sponsor-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>

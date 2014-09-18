@@ -57,7 +57,7 @@
         <div class="container">
         <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
         <h1>We are Top Gun Robotics</h1>
-        <p>We are a high school robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been playing in FRC since 2004.
+        <p>We are a high school robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been participating in FRC since 2004.
                 <span style="font-style: italic">Our goal statement would go here that would talk about why we do what we do.</span></p>
         <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
         </div>
@@ -88,9 +88,9 @@
                     if (!isset($calendarfeed)) {$calendarfeed = "https://www.google.com/calendar/feeds/frc1294%40gmail.com/public/basic"; }
 
                     // Date format you want your details to appear
-                    $dateformat="l F jS"; // Wednesday September 1st - see http://www.php.net/date for details
+                    $dateformat="l, F jS"; // Wednesday, September 1st - see http://www.php.net/date for details
                     $dateformat2="n/j/y"; // 9/1/14
-                    $timeformat="g:i A"; // 12.15 AM
+                    $timeformat="g:i A"; // 12:15 AM
 
                     // The timezone that your user/venue is in (i.e. the time you're entering stuff in Google Calendar.) http://www.php.net/manual/en/timezones.php has a full list
                     date_default_timezone_set('America/Los_Angeles');
@@ -220,7 +220,7 @@
                         
                         //If the location is Eastlake High School, show a different set of text. If empty, show nothing
                         if (strpos($gCalLocation,'Eastlake High School') !== false) {
-                            $temp_event=str_replace("###WHERE###",('Eastlake High School, Room D123<br>'),$temp_event);
+                            $temp_event=str_replace("###WHERE###",('Eastlake High School<br>'),$temp_event);
                             $temp_event=str_replace("###MAPLINK###", '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode($gCalLocation).'" class="btn btn-primary btn-xs">Map It</a>',$temp_event);
                         } else if(strpos($gCalLocation,' ')) {
                             $temp_event=str_replace("###WHERE###",($gCalLocation . '<br>'),$temp_event);
@@ -231,7 +231,7 @@
                         }
                         $temp_event=str_replace("###WHERE###",($gCalLocation . '</br>'),$temp_event);
 	                    $temp_event=str_replace("###LINK###",$entry->link->attributes()->href,$temp_event);
-	                    $temp_event=str_replace("###MAPLINK###","https://maps.google.com/?q=".urlencode($gCalLocation),$temp_event);//OLD CODE DOWN HERE
+	                    //$temp_event=str_replace("###MAPLINK###","https://maps.google.com/?q=".urlencode($gCalLocation),$temp_event);//OLD CODE DOWN HERE
 	                    // Accept and translate HTML
 	                    $temp_event=str_replace("&lt;","<",$temp_event);
 	                    $temp_event=str_replace("&gt;",">",$temp_event);
@@ -274,7 +274,7 @@
             <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
             <h2 class="section-header">Featured Picture</h2>
 
-            <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Pictures &raquo;</a></p>
+            <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Gallery &raquo;</a></p>
         </div>
         </div>
     </div>

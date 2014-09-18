@@ -4,7 +4,6 @@ $(document).ready(function () {
             excluded: [':disabled', ':hidden', ':not(:visible)'],
             container: 'popover',
             feedbackIcons: {
-                required: 'glyphicon glyphicon-asterisk',
                 valid: 'glyphicon glyphicon-ok',
                 invalid: 'glyphicon glyphicon-remove',
                 validating: 'glyphicon glyphicon-refresh'
@@ -31,7 +30,7 @@ $(document).ready(function () {
                             messgae: 'Last Name is a Required Field'
                         },
                         stringLength: {
-                            min: 2,
+                            min: 3,
                             max: 30,
                             message: 'First Name must be between 3 and 30 characters long'
                         }

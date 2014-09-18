@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 id="live-stream-title">Watch our event LIVE here!</h2>
-                <p class="lead">We will be live streaming for the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">Autodesk PNW FRC Championship 2014</a> which will be airing from <br>
-                <span class="event-times">April 10th 5pm to April 12th 5pm</span>
+                <p class="lead">We will be live streaming from the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">Autodesk PNW FRC Championship 2014</a> on <br>
+                <span class="event-times">April 10th 5pm until April 12th 5pm</span>
                 </p>
             </div>
         </div>
@@ -56,27 +56,15 @@
                                 /*It has passed the event date, the event may be live streaming right now so show the correct buttons accordingly*/
                             ?>
                             <td>
-                                <a href="http://www.ustream.tv/channel/firstwa-blue" data-placement="top" data-toggle="tooltip" title="Go to ustream.com to view this live stream directly" class="add-tooltip go-to-stream">
+                                <a href="http://www.ustream.tv/channel/firstwa-blue" data-placement="top" data-toggle="tooltip" title="Go to ustream.com to view this live stream directly" class="add-tooltip btn btn-default">
                                     <span class="glyphicon glyphicon-facetime-video"></span> Direct Video Stream
                                     <!--Well eventually get the link through the database and do everything automatically-->
                                 </a>
                             </td>
                             <td>
-                                <?php if($mobile_device == true){?>
-                                <a href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" title='Get Current Scores from thebluealliance.com' class="go-to-scores add-tooltip" >
+                                <a href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" class="add-tooltip btn btn-default" data-toggle="tooltip" data-placement="top" data-title="Click here to get current match scores for this event"  >
                                     <span class="glyphicon glyphicon-list-alt"></span> Get Scores
                                 </a>
-                                <?php
-                                }
-                                else
-                                {
-                                ?>
-                                <a href="http://www.thebluealliance.com/event/2014pncmp" target="_blank" class="add-tooltip go-to-scores" data-toggle="tooltip" data-fancybox-type="iframe" data-placement="top" data-title="Click here to get current match scores for this event" data-fancybox-title='Current Scores from <a href="http://theblueallaince.com"> thebluealliance.com</a> ' >
-                                    <span class="glyphicon glyphicon-list-alt"></span> Get Scores
-                                </a>
-                                <?php 
-                                }
-                                ?>
                             </td>
                             <?php
                             } 
