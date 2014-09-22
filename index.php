@@ -11,44 +11,41 @@
     <title>1294 | Top Gun Robotics</title>
     <meta name="description" content="The Official Website of the Top Gun Robotics (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
 
-    <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="engine1/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/WOWSlider/engine1/style.min.css" />
 <?php
     require'includes/lower_header.php';
 ?>
 
 
-    <!--Start WOWSlider.com BODY section     WE WILL UPDATE THIS EVENTUALLY
+    <!--Start WOWSlider.com BODY section     Updated with Version 6.2
     The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
-	<div class="hidden-xs" id="wowslider-container1">
+	<div id="wowslider-container1">
 	    <div class="ws_images">
             <ul>
-                <li><img src="data1/images/big_header.jpg" alt="The Team" title="The Team" id="wows1_0" /></li>
-                <li><img src="data1/images/img_0131.jpg" alt="Professionalism" title="Professionalism" id="wows1_1"/>We Strive To be as Proffesional as possible</li>
-                <li><img src="data1/images/img_0158.jpg" alt="Precision and Execution" title="Precision and Execution" id="wows1_2"/></li>
-                <li><img src="data1/images/img_0206.jpg" alt="We strive for the best" title="We strive for the best" id="wows1_3" />Even if it means destroying the competition, we'll do it.</li>
-                <li><img src="data1/images/img_0217.jpg" alt="Collaboration" title="Collaboration" id="wows1_4"/></li>
-                <li><img src="data1/images/img_0226.jpg" alt="Speed and Efficiency" title="Speed and Efficiency" id="wows1_5" /></li>
+                <li><img src="/WOWSlider/data1/images/img_0256.jpg" alt="The Team" title="The Team" id="wows1_0"/></li>
+                <li><img src="/WOWSlider/data1/images/img_0131.jpg" alt="Professionalism" title="Professionalism" id="wows1_1"/>We Strive to be the most Professional  as possible</li>
+                <li><img src="/WOWSlider/data1/images/img_0158.jpg" alt="Precision and Execution" title="Precision and Execution" id="wows1_2"/></li>
+                <li><img src="/WOWSlider/data1/images/img_0206.jpg" alt="Nothing but the Best" title="Nothing but the Best" id="wows1_3"/>Even if it means destroying the competition, we'll do it!</li>
+                <li><img src="/WOWSlider/data1/images/img_0217.jpg" alt="wordpress slider" title="Collaboration" id="wows1_4"/></a></li>
+                <li><img src="/WOWSlider/data1/images/img_0226.jpg" alt="Speed and Efficency" title="Speed and Efficency" id="wows1_5"/></li>
             </ul>
         </div>
-        <div class="ws_bullets">
-            <div>
-                <a href="#" title="The Team"><img src="data1/tooltips/big_header.jpg" alt="The Team" width="101px" height="48px"/>1</a>
-                <a href="#" title="Professionalism"><img src="data1/tooltips/img_0131.jpg" alt="Professionialism" width="101px" height="48px"/>2</a>
-                <a href="#" title="Precision and Execution"><img src="data1/tooltips/img_0158.jpg" alt="Precision and Execution" width="101px" height="48px"/>3</a>
-                <a href="#" title="We strive for the best"><img src="data1/tooltips/img_0206.jpg" alt="We strive for the best" width="101px" height="48px"/>4</a>
-                <a href="#" title="Collaboration"><img src="data1/tooltips/img_0217.jpg" alt="Collaboration" width="101px" height="48px"/>5</a>
-                <a href="#" title="Speed and Efficiency"><img src="data1/tooltips/img_0226.jpg" alt="Speed and Efficiency" width="101px" height="48px"/>6</a>
-            </div>
+        <div class="ws_bullets"><div>
+            <a href="#" title="The Team"><img src="/WOWSlider/data1/tooltips/img_0256.jpg" alt="The Team"/>1</a>
+            <a href="#" title="Professionalism"><img src="/WOWSlider/data1/tooltips/img_0131.jpg" alt="Professionalism"/>2</a>
+            <a href="#" title="Precision and Execution"><img src="/WOWSlider/data1/tooltips/img_0158.jpg" alt="Precision and Execution"/>3</a>
+            <a href="#" title="Nothing but the Best"><img src="/WOWSlider/data1/tooltips/img_0206.jpg" alt="Nothing but the Best"/>4</a>
+            <a href="#" title="Collaboration"><img src="/WOWSlider/data1/tooltips/img_0217.jpg" alt="Collaboration"/>5</a>
+            <a href="#" title="Speed and Efficency"><img src="/WOWSlider/data1/tooltips/img_0226.jpg" alt="Speed and Efficency"/>6</a>
         </div>
-        <span class="wsl"><a href="http://wowslider.com">Gallery Script</a> by WOWSlider.com v5.2</span>
-	    <div class="wdss_shadow"></div>
-	</div>
-  <!--These script tags must be placed near the WOWSlider html to make it work correctly-->
-	<script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
-
-    <!--End of WOWSlider Body Section-->
+    </div>
+    <span class="wsl"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v6.4</span>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="/WOWSlider/engine1/wowslider.min.js"></script>
+	<script type="text/javascript" src="/WOWSlider/engine1/script.min.js"></script>
+	<!-- End WOWSlider.com BODY section -->
 
 
 <div class="body-container" style="padding-bottom: 0px">
