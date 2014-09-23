@@ -33,3 +33,8 @@ DirectoryIndex index.php
   Satisfy All
 </FilesMatch>
 
+# Lets use gzip compression!
+# compress certain file types by extension:
+<FilesMatch "(\.(txt|html|xml|css|xml|xhtml|js|less|php|eot|svg|ttf|woff)|~)$">
+    SetOutputFilter DEFLATE
+</FilesMatch>
