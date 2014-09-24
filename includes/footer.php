@@ -38,12 +38,16 @@
                 echo $ExtraFooterTags;
             }
         ?>
-
-        <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script>window.jQuery || document.write('<script type="text/javascript" src="/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+	    <script type="text/javascript" src="/WOWSlider/engine1/wowslider.min.js"></script>
+	    <script type="text/javascript" src="/WOWSlider/engine1/script.min.js"></script>
+        <script type="text/javascript" async src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+        <script type="text/javascript" async src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <script type="text/javascript" async src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
         <script type="text/javascript" src="/js/main.min.js"></script>
+
         <script>
             /*Google Analytics Tracking Code*/
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

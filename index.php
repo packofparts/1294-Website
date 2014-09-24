@@ -43,8 +43,6 @@
     <span class="wsl"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v6.4</span>
 	<div class="ws_shadow"></div>
 	</div>	
-	<script type="text/javascript" src="/WOWSlider/engine1/wowslider.min.js"></script>
-	<script type="text/javascript" src="/WOWSlider/engine1/script.min.js"></script>
 	<!-- End WOWSlider.com BODY section -->
 
 

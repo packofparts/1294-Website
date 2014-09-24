@@ -1,15 +1,14 @@
-  
-        <link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/main.min.css">
         <style>
             body {
                 padding-top: 0px;
                 padding-bottom: 20px;
                 background: #78866B;
-                background:  #eeeeee; 
                 background-image: url('/img/NavyBlueCamo.png');
             }
         </style>
+        <link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
 
         <?php
             /*
@@ -39,8 +38,7 @@
             $browserlocale = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
             
         ?>
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script>window.jQuery || document.write('<script type="text/javascript" src="/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        
         <!--In oreder to get the WOWSlider to work, we have to put the jquery tags in the head section-->
     </head>
     <body>
