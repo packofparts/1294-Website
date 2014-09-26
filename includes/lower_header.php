@@ -2,7 +2,6 @@
             body {
                 padding-top: 0px;
                 padding-bottom: 20px;
-                background: #78866B;
                 background-image: url('/img/NavyBlueCamo.png');
             }
         </style>

@@ -35,6 +35,22 @@ DirectoryIndex index.php
 
 # Lets use gzip compression!
 # compress certain file types by extension:
-<FilesMatch "(\.(txt|html|xml|css|xml|xhtml|js|less|php|eot|svg|ttf|woff)|~)$">
-    SetOutputFilter DEFLATE
-</FilesMatch>
+<ifmodule mod_deflate.c>
+    <FilesMatch "(\.(txt|html|xml|css|xml|xhtml|js|less|php|eot|svg|ttf|woff)|~)$">
+        SetOutputFilter DEFLATE
+    </FilesMatch>
+</ifmodule>
+
+# Cache pictures by putting a header on them.
+<ifModule mod_headers.c>
+    <filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
+    Header set Cache-Control "max-age=1296000, public"
+    </filesMatch>
+</ifModule>
+
+# Removes comments before they are sent to the user
+<IfModule pagespeed_module>
+    ModPagespeed on
+    ModPagespeedEnableFilters remove_comments
+</IfModule>
+

@@ -17,7 +17,7 @@ $(document).ready(function () {
                             message: 'First Name is a Required Field'
                         },
                         stringLength: {
-                            min: 3,
+               b             min: 3,
                             max: 30,
                             message: 'First Name must be between 3 and 30 characters long'
                         }
@@ -72,7 +72,7 @@ $(document).ready(function () {
             alert("We would submit the form but theres no backend to support it yet");
             //insert some Ajax here
             btn.button('reset');
-            //Do some cool fadeing so that the form disapears
+            //Do some cool fadeing after this so that the form disapears
         })
         .on('error.field.bv', function (e, data) {
             data.element

@@ -22,12 +22,15 @@
 }
 */
 
-.navbar-fixed-top, .navbar-fixed-bottom {
+.navbar-fixed-top, .navbar-fixed-bottom, #wowslider-container1 {
     /*This is VERY VERY important, this forces Chrome to use hardware acceleration
       to continuously paint the fixed element and avoid a bizzare behavior in chrome
       where the fixed element will jump around wildly while scorlling
       DO NOT REMOVE*/
     -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    /*This also has the ability to speed up graphically intense elements*/
 }
 
 .navbar-inverse {
