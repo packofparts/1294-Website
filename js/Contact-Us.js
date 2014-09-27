@@ -17,7 +17,7 @@ $(document).ready(function () {
                             message: 'First Name is a Required Field'
                         },
                         stringLength: {
-               b             min: 3,
+                            min: 3,
                             max: 30,
                             message: 'First Name must be between 3 and 30 characters long'
                         }
