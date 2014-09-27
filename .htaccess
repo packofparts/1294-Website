@@ -1,9 +1,9 @@
 Order deny,allow
 ExpiresActive on
 ExpiresDefault M86400
-ErrorDocument 403 /403.html
-ErrorDocument 404 /404.html
-ErrorDocument 500 /500.html
+ErrorDocument 403 errors/403.html
+ErrorDocument 404 errors/404.html
+ErrorDocument 500 errors/500.html
 DirectoryIndex index.php
 
 # "-Indexes" will have Apache block users from browsing folders without a default document
@@ -51,6 +51,6 @@ DirectoryIndex index.php
 # Removes comments before they are sent to the user
 <IfModule pagespeed_module>
     ModPagespeed on
-    ModPagespeedEnableFilters remove_comments
+    ModPagespeedEnableFilters remove_comments,rewrite_images,lazyload_images
 </IfModule>
 

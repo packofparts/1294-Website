@@ -12,6 +12,7 @@
             right: -30px;
         }
     </style>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.1/css/bootstrapValidator.min.css"/>
 <?php
     require($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php');
 ?>
@@ -33,32 +34,21 @@
 
                 <div class="row">
                     <div class="col-xs-12">
-                        <p class="">All meetings will take place in room D123 unless otherwise noted on Calendar</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-6">
                         <address>
                             <strong><a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a></strong><br>
                             Steve Evans | Robotics Team<br>
                             400 228th Ave, NE<br>
                             Sammamish, WA 98074<br>
-                            <abbr title="Phone">P:</abbr> +1 (425) 936-1500
-                        </address>
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <address>
-                            <strong><a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a></strong><br>
-                            Steve Evans | Robotics Team<br>
-                            400 228th Ave, NE<br>
-                            Sammamish, WA 98074<br>
-                            <abbr title="Phone">P:</abbr> +1 (425) 936-1500
+                            <abbr title="Phone"><span class="glyphicon glyphicon-phone-alt"></span>:</abbr> +1 (425) 936-1500
                         </address>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <p>A really cool google map overaly will go here</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Eastlake%20High%20School%2C%20228th%20Avenue%20Northeast%2C%20Sammamish%2C%20WA%2C%20United%20States&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <br>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,9 +145,9 @@
 </div>
 <?php 
     
-    $ExtraFooterTags = '<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.1/css/bootstrapValidator.min.css"/>
+    $ExtraFooterTags = '
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js"></script>
-    <script type="text/javascript" src="/js/Contact-Us.min.js"></script>';
+    <script type="text/javascript" async src="/js/Contact-Us.min.js"></script>';
     
     require($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php');
  ?>

@@ -35,8 +35,8 @@
             </div>
 
             <h3>For Match scores from events visit <a href="http://www.thebluealliance.com/team/1294">thebluealliance.com</a></h3>
-            <a style="margin-top: -40px;" id="ics-btn" class="btn btn-default pull-right visible-md visible-lg add-tooltip" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics" data-toggle="tooltip" data-placement="top" title="Use This Link To Add This Calendar to Your Personal Calendar">Click Here To Get .ics Feed</a>
-            <a class="btn btn-default pull-left visible-sm visible-xs center-content" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics">Click Here Get .ics Feed</a>
+            <a style="margin-top: -40px;" id="ics-btn" class="btn btn-default pull-right visible-md visible-lg add-tooltip" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics" data-toggle="tooltip" data-placement="top" title="Use This Link To Add This Calendar to Your Personal Calendar"><span class="glyphicon glyphicon-cloud-download"></span> Click Here To Get .ics Feed</a>
+            <a class="btn btn-default pull-left visible-sm visible-xs center-content" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics"><span class="glyphicon glyphicon-cloud-download"></span> Click Here Get .ics Feed</a>
         </div>
        
     </div>

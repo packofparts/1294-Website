@@ -68,7 +68,6 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="<?php echo $active['']?>"><a href="/"><i class="glyphicon glyphicon-home"></i> Home</a></li>
                         <li class="dropdown <?php echo $active['about']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> About <b class="caret"></b></a>
                             <ul class="dropdown-menu">

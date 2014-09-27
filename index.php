@@ -268,14 +268,17 @@
             <br><br>
             <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
             <h2 class="section-header">Featured Picture</h2>
-
+            <img class="img-responsive img-thumbnail" alt="A super high score in Aerial Assist" src="http://www.gallery.team1294.org/galleries/2014/img_0206.jpg" />
+            <br><br>
             <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Gallery &raquo;</a></p>
         </div>
         </div>
     </div>
 </div>
 <?php 
-    $ExtraFooterTags='<script type="text/javascript" src="//js.addthisevent.com/atemay.js"></script>';
+    $ExtraFooterTags='<script type="text/javascript" src="//js.addthisevent.com/atemay.js"></script>
+        <script type="text/javascript" src="/WOWSlider/engine1/wowslider.min.js"></script>
+	    <script type="text/javascript" src="/WOWSlider/engine1/script.min.js"></script>';
 
     require'includes/footer.php';
 ?>
