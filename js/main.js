@@ -1,6 +1,7 @@
 /*Place all Custom JavaScript in this file*/
 
 $(document).ready(function() {
+    addthis.init()
 	$(".fancybox").fancybox();
     $(".various").fancybox({
 		maxWidth	: 2000,

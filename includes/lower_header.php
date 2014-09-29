@@ -85,6 +85,7 @@
                         <li class="<?php echo $active['calendar']?>"><a href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
                         <li class="<?php echo $active['contact']?>"><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>                        
                     </ul>
+                    <div class="addthis_horizontal_follow_toolbox navbar-right"></div>
                     <!--<ul class="nav navbar-right">
                         <li><a id="donate-btn" href="/portal" class="btn btn-success navbar-btn">Portal</a></li>
                     </ul>

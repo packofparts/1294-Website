@@ -263,12 +263,12 @@
         <div class="col-md-4">
             <h2 class="section-header">Featured Video</h2>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="//www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" allowfullscreen></iframe>
             </div>
             <br><br>
             <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
             <h2 class="section-header">Featured Picture</h2>
-            <img class="img-responsive img-thumbnail" alt="A super high score in Aerial Assist" src="http://www.gallery.team1294.org/galleries/2014/img_0206.jpg" />
+            <img class="img-responsive img-thumbnail" alt="A super high score in Aerial Assist" src="/WOWSlider/data1/images/img_0206.jpg" />
             <br><br>
             <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Gallery &raquo;</a></p>
         </div>
