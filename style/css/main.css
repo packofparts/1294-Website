@@ -115,6 +115,7 @@ h6 {
 
 /********************************************************************
 *    GLOBAL STUFF
+*    stuff that can be found on almost ever page
 *********************************************************************/
 /*
 a, a:visited {
@@ -382,7 +383,7 @@ hr.footer-seperator {
 .mobile-calendar-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 /********************************************************************
-    FOOTER sponsorS
+    FOOTER sponsors
 
 All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
 *********************************************************************/

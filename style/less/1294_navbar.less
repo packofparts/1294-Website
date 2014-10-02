@@ -1,0 +1,96 @@
+
+
+/* ==========================================================================
+   Header Tags (Navigation bar and other stuff)
+   ========================================================================== */
+
+
+
+/*
+.headerimage {
+    width: 1271px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#frc-txt {
+    color: #0066FF;
+    font-weight: 900;
+    font-style:italic;
+    letter-spacing:2px
+}
+*/
+
+.navbar-fixed-top, .navbar-fixed-bottom, #wowslider-container1 {
+    /*This is VERY VERY important, this forces Chrome to use hardware acceleration
+      to continuously paint the fixed element and avoid a bizzare behavior in chrome
+      where the fixed element will jump around wildly while scorlling
+      DO NOT REMOVE*/
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    /*This also has the ability to speed up graphically intense elements*/
+}
+
+.navbar-inverse {
+  background-color: #080807; 
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+.dropdown-menu {
+    background-image: url('/img/gun_metal.png');
+    background-repeat: repeat;
+    background-color: none;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  /* This was glitching the navbar colors
+  background-color: transparent;*/
+}
+
+
+/*
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  
+  background-color: #222222;
+    background-color: transparent;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: none;
+}
+*/
+.navbar-inverse .navbar-form {
+  border-color: #697075;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+.popup {
+    top: 10%;
+    left: 21.5%;
+    right: 21.5%;
+    margin-right: auto;
+    position: fixed;
+    z-index: 999;
+    text-align: center;
+
+}
+#Google-Chrome-Frame-Hint {
+    font-style: italic;
+    font-size: 75%;
+}

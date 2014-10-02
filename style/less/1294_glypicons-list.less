@@ -1,0 +1,35 @@
+/*This Allows us to use Glyphicons as bullet points
+*   https://github.com/twbs/bootstrap/issues/10490
+*
+*/
+.icon-list li {
+  padding: 0 0 5px 20px;
+  display: block;
+  position: relative;
+}
+.icon-list li:before {
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  left: 0px;
+  top:3px;
+  font-size:80%
+}
+.gi-chevron-right li:before {
+ content: '\e080';
+}
+
+.checkmark li:before {
+ content: '\e067';
+}
+
+.gi-arrow-right li:before {
+ content: '\e092';
+}
+
+.gi-file li:before {
+    content: '\e022';
+}
+
+.gi-save li:before {
+    content: '\e166'
+}

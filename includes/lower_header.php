@@ -5,8 +5,8 @@
                 background-image: url('/img/NavyBlueCamo.png');
             }
         </style>
-        <link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+        <!--link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css"-->
+        <link rel="stylesheet" type="text/css" href="/style/combined.main.min.css">
 
 
         <?php

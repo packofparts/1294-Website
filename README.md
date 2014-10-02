@@ -42,5 +42,5 @@ You should make yourself familiar with bootstraps [built in styling](http://getb
 1. Using command prompt, install grunt
     * Use Command `npm install -g grunt-cli`
     * Navigate to 1294-Website/subtrees/bootstrap and run `npm install` 
-3. Grunt is now installed and ready to use
+2. Grunt is now installed and ready to use
     * Stay in that folder and run `grunt dist` to recompile everything in bootstraps /dist/ folder (CSS and Javascript)

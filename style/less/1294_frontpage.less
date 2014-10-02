@@ -1,0 +1,209 @@
+/********************************************************************
+*    FRONT PAGE ONLY
+*
+*   Only Items that can be found on the front page
+*********************************************************************/
+
+#wowslider-container1 {
+    margin-top: 60px!important;
+    /*This fixes a webkit bug that causes the wowslider
+         to make the text on the page change size randomly*/
+    -webkit-transform: translateZ(0);
+}
+
+
+
+#eastlake-logo {
+    /*IE will not accept the max-width/max-height without it being defined first
+        http://stackoverflow.com/questions/17392265/css-max-width-in-ie8
+    */
+    width: 100%;
+    height: 100%;
+    max-width: 25em;
+    max-height: 350px;
+    padding-top: 0px;
+    margin-right: 0px;
+    margin-left: -15px;
+    float: left;
+}
+
+
+@media (max-width: 695px) {
+  #eastlake-logo {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+
+
+
+/*
+@media (min-width: 497px) {
+  #eastlake-logo {
+    padding-right: 0px;
+  }
+}
+*/
+
+#Live-Stream{
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.4);
+    box-shadow: 0 0 15px rgba(0,0,0,.4);
+}
+
+.live-stream-container {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 0px;   
+    /*
+    background: url('/img/shadow-up.png') no-repeat scroll center bottom transparent;
+    */
+}
+
+#live-stream-title {
+    
+}
+
+#stream-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-top: 20px;
+}
+
+.event-link {
+    color: black;
+    font-weight: 800;
+}
+.event-link:hover {
+    color: black;
+
+}
+.event-times {
+    font-size: x-large;
+}
+
+.addthisevent {
+    margin-right: 5px;
+}
+
+.go-to-scores {
+    display: inline-block;
+    position: relative;
+    font-family: arial;
+    color: #333!important;
+    background: #f4f4f4;
+    text-decoration: none!important;
+    border: 1px solid #d9d9d9;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 9px 12px 8px 11px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    float: left;
+    margin-left: 5px;
+}
+.go-to-scores:hover {
+    border: 1px solid #aab9d4;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none!important;
+}
+
+.go-to-scores:active {
+top: 1px;
+}
+.go-to-stream {
+    display: inline-block;
+    position: relative;
+    font-family: arial;
+    color: #333!important;
+    background: #f4f4f4;
+    text-decoration: none!important;
+    border: 1px solid #d9d9d9;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 9px 12px 8px 11px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    float: right;
+    margin-right: 5px
+}
+.go-to-stream:hover {
+    border: 1px solid #aab9d4;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none!important;
+}
+
+.go-to-stream:active {
+    top: 1px;
+}
+
+hr.footer-seperator {
+    width: 100%;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+#fb-root {
+  display: none;
+}
+ 
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
+
+/*Upcoming Events*/
+
+.upcomingevents-event {
+   
+    font-family: 'Clear Sans';
+}
+
+.upcomingevents-dateheader {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.upcomingevents-title {
+    font-weight: 700;
+    font-size: 150%;
+    padding-bottom: 0px;
+}
+
+.upcomingevents-date-time{
+    font-size:13px;
+}
+
+.upcomingevents-time {
+    font-weight: 700;
+}
+
+.upcomingevents-date {
+    font-weight: 700;
+}
+.upcomingevents-description{
+    font-style: italic;
+}
+.upcomingevents-hr {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.upcomingevents-buttons{
+    margin-top: 10px;
+}
+    
+
