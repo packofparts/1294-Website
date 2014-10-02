@@ -16,7 +16,8 @@ Editing the style
 Compiling
 ---------
 
-If you have compiled `.less` files before using the less compiler, proceed to step 3.
+*If you have compiled `.less` files before using the less compiler, proceed to step 3.*
+
 0. Install [Node.js](http://nodejs.org/download/)
     * Install using reccomened features (ie, don't touch the settings).
 1. Using command prompt, install the less compiler
