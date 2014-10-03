@@ -5,6 +5,9 @@ Goals
 -----
 1. Make disclaimer appear **once**, and then **go away until** next session.
 
+Original README Content
+----
+
 > FRC-Team-1294
 > =============
 > 
