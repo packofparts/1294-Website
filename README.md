@@ -1,4 +1,9 @@
-**Attention: This code does not belong to me. This is a fork of [the FRC Team 1294 website](http://preview.team1294.org/ "Preview Site"). I am only expirementing with it.**
+Attention: This code does not belong to me. This is a fork of [the FRC Team 1294 website](http://preview.team1294.org/ "Preview Site"). I am only expirementing with it.
+====
+
+Goals
+-----
+1. Make disclaimer appear **once**, and then **go away until** next session.
 
 > FRC-Team-1294
 > =============
