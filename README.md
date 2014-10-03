@@ -1,4 +1,4 @@
-**attn: this is a fork of team1294.org. this is not my code. i am only experimenting.**
+**Attention: This code does not belong to me. This is a fork of [the FRC Team 1294 website](http://preview.team1294.org/ "Preview Site"). I am only expirementing with it.**
 
 > FRC-Team-1294
 > =============
