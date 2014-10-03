@@ -1,4 +1,4 @@
-FRC-Team-1294
+FRC-Team-1294 [![Bootstrap version](https://badge.fury.io/js/bootstrap.svg)](http://badge.fury.io/js/bootstrap) [![Less Version](https://badge.fury.io/js/less.svg)]
 =============
 
 The Official Website of the FRC Team 1294.
