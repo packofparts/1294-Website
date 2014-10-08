@@ -3,7 +3,7 @@ Attention: This code does not belong to me. This is a fork of [the FRC Team 1294
 
 Goals
 -----
-1. Make disclaimer appear **once**, and then **go away until** next session.
+~~1. Make disclaimer appear **once**, and then **go away until** next session.~~
 
 Original README Content
 ----
