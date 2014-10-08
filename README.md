@@ -3,7 +3,7 @@ Attention: This code does not belong to me. This is a fork of [the FRC Team 1294
 
 Goals
 -----
-1. Make disclaimer appear **once**, and then **go away until** next session.
+1. Make preview disclaimer appear **once**, and then **go away until** next session.
    - This makes the disclaimer better for mobile users, as the disclaimer fills their screen.
       - Users are notified once, but they don't need it to fill up their screen every time they go to another page on the site.
 
