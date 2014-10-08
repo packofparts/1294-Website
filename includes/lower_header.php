@@ -103,14 +103,31 @@
         </div>
         <![endif]-->
         </div>        
-
         
-        <div class="alert alert-dismissable alert-warning popup">
+        <div class="alert alert-dismissable alert-warning popup" id="preview-popup">
                 <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
                 <h4>Warning!</h4>
                 <p class="chromeframe">You are viewing a <strong>preview version</strong> of our website. Viewing this version of our website might result in <strong>random errors, formatting problems, usability problems, and other unknown issues that aren't fixed yet.</strong> Please visit our full stable website at <a class="alert-link" href="http://www.team1294.org">http://www.team1294.org</a> to avoid encountering errors. You may continue to view our site here, but don't be suprised when you find something that doesn't work.</p>
         </div>
         
+
+        <script>
+        	// Check sessionStorage for key
+        	try{ // wrapped in a try catch in case if we have a browser that doesn't support sessionStorage
+	        	if(!sessionStorage.getItem('previewMessageDisplayed')){ // checks the sessionStorage if the key 'previewMessageDisplayed' doesn't exist (returns null)
+	        		sessionStorage.setItem('previewMessageDisplayed', true); // if it does not, set it to true, and do nothing
+	        	}else{
+	        		document.getElementById('preview-popup').parentNode.removeChild(document.getElementById('preview-popup')); // if it does exist, delete the popup message node
+	        	}
+	        }catch(e){
+	        	// uh-oh, browser that doesn't support sessionStorage
+	        	// (not really doing anything with this error)
+	        }
+
+	        document.getElementsBySelector('#preview-popup i').addEventListener('click', function(){ // when the icon is clicked on in the popup,
+	        	document.getElementById('preview-popup').parentNode.removeChild(document.getElementById('preview-popup')); // delete the popup's node
+	        });
+        </script>
 
     
  
