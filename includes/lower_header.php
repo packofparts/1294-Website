@@ -7,6 +7,7 @@
         </style>
         <!--link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css"-->
         <link rel="stylesheet" type="text/css" href="/style/combined.main.min.css">
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
 
         <?php
@@ -53,7 +54,7 @@
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
         <!--END Facebook SDK-->
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <!--<img alt="All Team members" class="headerimage" src="/img/Big_Header.JPG" width="1271px" />-->
             <div class="container">
                 <div class="navbar-header">
@@ -71,14 +72,14 @@
                         <li class="dropdown <?php echo $active['about']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/about/team/"><span class="glyphicon glyphicon-user"></span> The Team</a></li>
+                                <li><a href="/about/team/"><i class="fa fa-users"></i> The Team</a></li>
                                 <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
                             </ul>
                         </li>
                         <li class="dropdown <?php echo $active['media']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"></span> Media <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/media/video/"><span class="glyphicon glyphicon-facetime-video"></span> Videos</a></li>
+                                <li><a href="https://youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Videos</a></li>
                                 <li><a href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
                             </ul>
                         </li>
@@ -92,7 +93,7 @@
                     -->
                 </div>
             </div>
-        </div>
+        </nav>
         
         <div>
         <!--[if lt IE 8]>
