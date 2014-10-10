@@ -1,4 +1,4 @@
-FRC-Team-1294 ![](http://img.shields.io/badge/bootstrap-3.2.0-brightgreen.svg) ![](http://img.shields.io/badge/less-1.7.5-brightgreen.svg)
+FRC-Team-1294 ![](http://img.shields.io/badge/bootstrap-3.2.0-brightgreen.svg)   ![](http://img.shields.io/badge/less-1.7.5-brightgreen.svg)   ![](http://img.shields.io/badge/font%20awesome-1.7.5-brightgreen.svg)
 =============
 
 The Official Website of the FRC Team 1294.
@@ -36,7 +36,7 @@ Setting up your machine to edit the website is easy.
 Using Bootstrap
 ---------------
 We use [bootstrap](http://getbootstrap.com/) as a framwork and we pulled it into our project as a [subtree](https://help.github.com/articles/about-git-subtree-merges). We keep it in our `/subtrees/` along with any other projects that our website uses.
-You should make yourself familiar with bootstraps [built in styling](http://getbootstrap.com/css/), [formatting](http://getbootstrap.com/css/#grid), [javascript](http://getbootstrap.com/javascript/) and [components](http://getbootstrap.com/components/) before attempting a major change to the website. Whenever a change is made to the bootstraps LESS files, bootstrap must be [compiled using grunt](http://getbootstrap.com/getting-started/#grunt).
+You should make yourself familiar with bootstraps [built in styling](http://getbootstrap.com/css/), [formatting](http://getbootstrap.com/css/#grid), [javascript](http://getbootstrap.com/javascript/) and [components](http://getbootstrap.com/components/) before attempting a major change to the website. In the past we would use [grunt](http://getbootstrap.com/getting-started/#grunt) but recently we have switched to using the [Less Compiler](http://lesscss.org/).
 
 0. Install [Node.js](http://nodejs.org/download/)
 1. Using command prompt, install grunt
