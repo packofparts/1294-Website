@@ -58,6 +58,7 @@
                     <form id= "contactForm" class="form-horizontal" role="form">
                         <fieldset>
                             <legend><h2>Contact us directly with this form!</h2></legend>
+                            <h4><i class="fa fa-exclamation-triangle"></i> Warning: This Form Does Not Currently Work <i class="fa fa-exclamation-triangle"></i></h4>
                             <div class="form-group">
                                 <label for="firstName" class="col-lg-2 control-label">Name</label>
                                 <div class="col-lg-5">
