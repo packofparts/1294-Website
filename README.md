@@ -10,7 +10,7 @@ Goals
 Original README Content
 ----
 
-> FRC-Team-1294
+> FRC-Team-1294 ![](http://img.shields.io/badge/bootstrap-3.2.0-brightgreen.svg)   ![](http://img.shields.io/badge/less-1.7.5-brightgreen.svg)   ![](http://img.shields.io/badge/font%20awesome-1.7.5-brightgreen.svg)
 > =============
 > 
 > The Official Website of the FRC Team 1294.
@@ -37,7 +37,7 @@ Original README Content
 > (These steps assume you are familiar on how to use git and are able to clone the repository)
 > 
 > 0. Download [Microsoft WebMatrix](http://www.microsoft.com/web/webmatrix/)
-> 1. When the web installer is down downloading/installing click the "Install Now" button
+> 1. When the web installer is done downloading/installing click the "Install Now" button
 > 2. Open WebMatrix
 >     * Click on "Open"
 >     * Click on "Folder"
@@ -47,8 +47,8 @@ Original README Content
 > 
 > Using Bootstrap
 > ---------------
-> We use [bootstrap](http://getbootstrap.com/) as a framwork and we pulled it into our project as a  [subtree](https://help.github.com/articles/about-git-subtree-merges). We keep it in our `/subtrees/` along with any other projects that our website uses.
-You should make yourself familiar with bootstraps [built in styling](http://getbootstrap.com/css/), [formatting](http://getbootstrap.com/css/#grid), [javascript](http://getbootstrap.com/javascript/) and [components](http://getbootstrap.com/components/) before attempting a major change to the website. Whenever a change is made to the bootstraps LESS files, bootstrap must be [compiled using grunt](http://getbootstrap.com/getting-started/#grunt).
+> We use [bootstrap](http://getbootstrap.com/) as a framwork and we pulled it into our project as a [subtree](https://help.github.com/articles/about-git-subtree-merges). We keep it in our `/subtrees/` along with any other projects that our website uses.
+You should make yourself familiar with bootstraps [built in styling](http://getbootstrap.com/css/), [formatting](http://getbootstrap.com/css/#grid), [javascript](http://getbootstrap.com/javascript/) and [components](http://getbootstrap.com/components/) before attempting a major change to the website. In the past we would use [grunt](http://getbootstrap.com/getting-started/#grunt) but recently we have switched to using the [Less Compiler](http://lesscss.org/)
 
 > 0. Install [Node.js](http://nodejs.org/download/)
 > 1. Using command prompt, install grunt

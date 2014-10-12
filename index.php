@@ -51,8 +51,8 @@
         <div class="container">
             <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
             <h1>We are Top Gun Robotics</h1>
-            <p>We are a high school robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been participating in FRC since 2004.
-                    <span style="font-style: italic">Our goal statement would go here that would talk about why we do what we do.</span></p>
+            <p>We are a high school robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been participating in FRC since 2004.</p>
+            <p><i>"Our goal is to transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders."- Dean Kamen, Founder of FIRST Robotics</i></p>
             <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
         </div>
     </div>
@@ -63,7 +63,7 @@
 <div class="body-container">
     <div class="container">
         <!-- Example row of columns -->
-        <div class="row">
+        <div class="row-fluid">
             <div class="col-md-4">
                 <h2 class="section-header">Find us on Facebook!</h2>
                 <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div><br>
@@ -265,7 +265,7 @@
                     <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
-                <p><a class="btn btn-default" href="/media/videos"><span class="glyphicon glyphicon-facetime-video"></span> Videos &raquo;</a></p>
+                <p><a class="btn btn-default" href="/media/videos"><i class="fa fa-youtube-play"></i> Visit Our Youtube Channel &raquo;</a></p>
                 <h3 class="section-header">Featured Picture</h3>
                 <img class="img-responsive img-thumbnail" alt="A super high score in Aerial Assist" src="/WOWSlider/data1/images/img_0206.jpg" />
                 <br><br>
@@ -276,8 +276,8 @@
 </div>
 <div class="body-container">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-3">
+        <div class="row-fluid">
+            <div class="col-md-3 section-container">
                 <h3 class="section-header">Want to Join the Team?</h3>
                 <p class="center-content">
                     Look at the calendar for the next meeting!
@@ -300,7 +300,6 @@
             <div class="col-md-2 col-md-offset-7">
                 <h3 class="section-header">Donate</h3>
                 <p><i>Donations are always appreciated!</i></p>
-                <p>Please drop us an email for donations.</p>
             </div>
         </div>
     </div>

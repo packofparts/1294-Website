@@ -53,7 +53,7 @@
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
         <!--END Facebook SDK-->
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <!--<img alt="All Team members" class="headerimage" src="/img/Big_Header.JPG" width="1271px" />-->
             <div class="container">
                 <div class="navbar-header">
@@ -69,16 +69,17 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="dropdown <?php echo $active['about']?>">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> About <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> Information <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/about/team/"><span class="glyphicon glyphicon-user"></span> The Team</a></li>
+                                <li><a href="/about/team/"><i class="fa fa-users"></i> The Team</a></li>
                                 <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
+                                <li><a href="/about/donate/"><i class="fa fa-money"></i> Donate</a></li>
                             </ul>
                         </li>
                         <li class="dropdown <?php echo $active['media']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"></span> Media <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/media/video/"><span class="glyphicon glyphicon-facetime-video"></span> Videos</a></li>
+                                <li><a href="https://youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Videos</a></li>
                                 <li><a href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
                             </ul>
                         </li>
@@ -92,7 +93,7 @@
                     -->
                 </div>
             </div>
-        </div>
+        </nav>
         
         <div>
         <!--[if lt IE 8]>
@@ -106,7 +107,7 @@
         
         <div class="alert alert-dismissable alert-warning popup" id="preview-popup">
                 <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
-                <h4>Warning!</h4>
+                <h4><span class="glyphicon glyphicon-warning-sign"></span> Warning!</h4>
                 <p class="chromeframe">You are viewing a <strong>preview version</strong> of our website. Viewing this version of our website might result in <strong>random errors, formatting problems, usability problems, and other unknown issues that aren't fixed yet.</strong> Please visit our full stable website at <a class="alert-link" href="http://www.team1294.org">http://www.team1294.org</a> to avoid encountering errors. You may continue to view our site here, but don't be suprised when you find something that doesn't work.</p>
         </div>
         
