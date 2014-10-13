@@ -30,3 +30,22 @@
 .mobile-calendar-container iframe,
 .mobile-calendar-container object,
 .mobile-calendar-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* first-child makes sure to grab the first element inside
+   your fa-stack. The top margin shifts the inner icon down */
+.fa-stack-1x { top: .25em; }
+
+.fa-stack {
+  /* sizes whole .fa-stack down to make them the regular sized */
+  font-size: .5em;
+  /* makes sure regular and stacked icons vertically align */
+  vertical-align: -16%;
+}
+
+/* Styles text for doc type. Oswald is a great condensed
+   Google Web Font */
+.filetype-text {
+  font-size: .7em;
+  font-weight: 700;
+  font-family: 'Oswald';
+}

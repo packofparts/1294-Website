@@ -20,14 +20,10 @@
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
                         <div class="">
-                            <div class="fb-like fb_iframe_widget" style="padding: 0px 30px 0px 30px;" data-width="450" data-href="https://www.facebook.com/topgunrobotics/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" fb-xfbml-state="rendered"></div>
+                            <div class="fb-like" id="fb-like-footer" data-href="https://www.facebook.com/topgunrobotics/" data-width="450" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                             <hr>
-                        </div>
-
-                        <div class="footer-links">
                             <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org/">US First</a> | <a class="footer-links" title="Washingotn First Robotics" href="http://firstwa.org/">First WA</a> | <a class="footer-links" href="https://plus.google.com/103733199754924235388" rel="publisher">Google+</a> | <a class="footer-links" title="Star or Fork us on GitHub" href="https://github.com/FRC-1294">GitHub</a>
                         </div>
-
                     </div>
                 </div>
             </footer>

@@ -68,21 +68,22 @@
                 <h2 class="section-header">Find us on Facebook!</h2>
                 <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div><br>
                 <br>
-                <p><a class="btn btn-default" href="https://www.facebook.com/topgunrobotics">View us on Facebook! <span class="glyphicon glyphicon-new-window"></span></a></p>
+                <p><a class="btn btn-default" href="https://www.facebook.com/topgunrobotics"><i class="fa fa-facebook"></i> View us on Facebook! &raquo;</a></p>
             </div>
             <div class="col-md-4">
                 <h2 class="section-header">Upcoming Events</h2>
                 <div class="upcomingevents" style="width:100%;">
                     <?php
-                        //The Following PHP Code is for reading the Google Calendar that has all of our meetings in it. 
-                        //This code was initally written by 'jamescrodland' on github (https://github.com/media-uk/GCalPHP)
-                        //The code has been edited from its original version to best suit our website
+                        //The Following PHP Code is for reading and displaying the teams Google Calendar that contains all important events
+                        //This code was initally written by 'jamescrodland' and was posted publically on github (https://github.com/media-uk/GCalPHP)
+                        //The code has been heavily edited from its original version to best suit our website
 
                         // Your private feed - which you get by right-clicking the 'xml' button in the 'Private Address' section of 'Calendar Details'.
+                        // (We made our calendar public so I just grabbed the public feed)
                         if (!isset($calendarfeed)) {$calendarfeed = "https://www.google.com/calendar/feeds/frc1294%40gmail.com/public/basic"; }
 
                         // Date format you want your details to appear
-                        $dateformat="l, F jS"; // Wednesday, September 1st - see http://www.php.net/date for details
+                        $dateformat="l, F jS"; // Wednesday, September 1st - see http://www.php.net/date for details and different formats
                         $dateformat2="n/j/y"; // 9/1/14
                         $timeformat="g:i A"; // 12:15 AM
 
@@ -101,10 +102,11 @@
                         // The separate date header is here
                         $event_dateheader='<div class="panel panel-default"><div class="panel-body upcomingevents-dateheader text-center">###DATE###</div>';
                         $GroupByDate=true;
-                        // Change the above to 'false' if you don't want to group this by dates.
+                        // Change the above to 'false' if you don't want to group this by dates. (This will break the css formatting)
 
                         // ...and how many you want to display (leave at 999 for everything)
-                        $items_to_show=3;
+                        // (Currently it looks best with only 2 or 3)
+                        $items_to_show=2;
 
                         // ...and here's where you tell it to use a cache.
                         // Your PHP will need to be able to write to a file called "gcal.xml" in your root. Create this file by SSH'ing into your box and typing these three commands...
@@ -112,9 +114,14 @@
                         // > chmod 666 gcal.xml
                         // > touch -t 01101200 gcal.xml
                         // If you don't need this, or this is all a bit complex, change this to 'false'
+                        // (We use the cache but we have to do the SSH instructions to get it to work with our webhost.)
                         $use_cache=true;
 
+                        //Location of cache file
+                        $cache_file = $_SERVER['DOCUMENT_ROOT'].'/cache/gcal.xml';
+
                         // And finally, change this to 'true' to see lots of fancy debug code
+                        // MAKE SURE YOU ABSOLUTLY DISABLE THIS BEFORE MERGING TO THE MASTER BRANCH
                         $debug_mode=false;
 
                         //
@@ -136,7 +143,7 @@
                                 //
        
                                 $cache_time = 3600*12; // 12 hours
-                                $cache_file = $_SERVER['DOCUMENT_ROOT'].'/cache/gcal.xml'; //xml file saved on server
+                                //Cache file location is defined in the configuration block
        
                                 if ($debug_mode) {echo "<P>Your cache is saved at ".$cache_file."</P>";}
        
@@ -155,7 +162,7 @@
                                                 fwrite ($f, $str, strlen($str));
                                                 fclose($f);
                                                 if ($debug_mode) {echo "<P>Cache saved :)</P>";}
-                                        } else { echo "<P>Can't write to the cache.</P>"; }
+                                        } else { echo "<P>Can't write to the cache file, please contact the webmaster.</P>"; }
                                 }
        
                                 //done!
@@ -199,10 +206,11 @@
                                 $temp_event=str_replace("###DESCRIPTION###",$description,$temp_event);
                             }
 	                        if ($gCalDateStart!=$gCalDateEnd) {
-	                            //This starts and ends on a different date, so show the dates
+	                            //this event starts and ends on DIFFERENT days, show the dates and times
 	                            $temp_event=str_replace("###DATESTART###",$gCalDateStart,$temp_event);
 	                            $temp_event=str_replace("###DATEEND###",$gCalDateEnd,$temp_event);
 	                        } else {
+                                //event starts and ends on the SAME day, only show the times
 	                            $temp_event=str_replace("###DATESTART###",'',$temp_event);
 	                            $temp_event=str_replace("###DATEEND###",'',$temp_event);
 	                        }
@@ -212,7 +220,8 @@
 	                        $temp_event=str_replace("###FROM###",$gCalStartTime,$temp_event);
 	                        $temp_event=str_replace("###UNTIL###",$gCalEndTime,$temp_event);
                         
-                            //If the location is Eastlake High School, show a different set of text. If empty, show nothing
+                            //If the location is Eastlake High School, show a different set of text (Only show "Eastlake High School").
+                            //If empty, show nothing and disable the map link button
                             if (strpos($gCalLocation,'Eastlake High School') !== false) {
                                 $temp_event=str_replace("###WHERE###",('Eastlake High School<br>'),$temp_event);
                                 $temp_event=str_replace("###MAPLINK###", '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode($gCalLocation).'" class="btn btn-primary btn-xs">Map It</a>',$temp_event);
@@ -226,13 +235,18 @@
                             $temp_event=str_replace("###WHERE###",($gCalLocation . '</br>'),$temp_event);
 	                        $temp_event=str_replace("###LINK###",$entry->link->attributes()->href,$temp_event);
 	                        //$temp_event=str_replace("###MAPLINK###","https://maps.google.com/?q=".urlencode($gCalLocation),$temp_event);//OLD CODE DOWN HERE
-	                        // Accept and translate HTML
+	                        // Accept and translate to valid HTML
 	                        $temp_event=str_replace("&lt;","<",$temp_event);
 	                        $temp_event=str_replace("&gt;",">",$temp_event);
 	                        $temp_event=str_replace("&quot;","\"",$temp_event);
                    
 	                        if (($items_to_show>0 AND $items_shown<$items_to_show)) {
                                 /*
+
+                                Old origianl code, this would group together events that occured on the same day
+                                but I couldn't find a nice way to format due to constrants with the code.
+                                So we just print out each event as its own block
+
                                 if ($GroupByDate) {
                                     if ($gCalDate!=$old_date) {
                                         //An event as occured on a new date
@@ -265,7 +279,7 @@
                     <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
-                <p><a class="btn btn-default" href="/media/videos"><i class="fa fa-youtube-play"></i> Visit Our Youtube Channel &raquo;</a></p>
+                <p><a class="btn btn-default" href="/media/videos"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
                 <h3 class="section-header">Featured Picture</h3>
                 <img class="img-responsive img-thumbnail" alt="A super high score in Aerial Assist" src="/WOWSlider/data1/images/img_0206.jpg" />
                 <br><br>
@@ -277,22 +291,22 @@
 <div class="body-container">
     <div class="container">
         <div class="row-fluid">
-            <div class="col-md-3 section-container">
+            <div class="col-md-3">
                 <h3 class="section-header">Want to Join the Team?</h3>
                 <p class="center-content">
                     Look at the calendar for the next meeting!
                     Here are some helpful documents for new members.
                 </p>
                 <div>
-                    <ul class="list-unstyled icon-list gi-save">
-                        <li><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
-                        <li><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">Robotics Info Sheet</a></li>
-                        <li><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Permission Letter</a></li>
+                    <ul class="no-bullets">
+                        <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Permission Letter</a></li>
                     </ul>
                 </div>
                 <div class="center-content center-text">
-                    <div class="btn-group">
-                        <a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
+                    <div class="btn-group btn-group-justified">
+                        <a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                         <a class="btn btn-default" href="/documents/new-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
                     </div>
                 </div>

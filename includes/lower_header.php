@@ -34,7 +34,6 @@
                 $active[$folder] = ($directory[0] == $folder)? "active":"";
             }
             */
-            $browserlocale = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
             
         ?>
         
@@ -49,7 +48,7 @@
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
               js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/<?php echo $browserlocale ?>/all.js#xfbml=1";
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
         <!--END Facebook SDK-->
@@ -71,9 +70,11 @@
                         <li class="dropdown <?php echo $active['about']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> Information <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/about/team/"><i class="fa fa-users"></i> The Team</a></li>
-                                <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
-                                <li><a href="/about/donate/"><i class="fa fa-money"></i> Donate</a></li>
+                                <li><a href="/about/team/"><i class="fa fa-users"></i> Our Team</a></li>
+                                <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> The Website</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/about/joining/"><span class="glyphicon glyphicon-heart-empty"></span> Join Us!</a></li>
+                                <li><a href="/about/donate/"><i class="fa fa-money"></i> Donations</a></li>
                             </ul>
                         </li>
                         <li class="dropdown <?php echo $active['media']?>">
@@ -107,7 +108,7 @@
 
         
         <div class="alert alert-dismissable alert-warning popup">
-                <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
+                <i class="close glyphicon glyphicon-remove" data-dismiss="alert"><span class="sr-only">Close</span></i>
                 <h4><span class="glyphicon glyphicon-warning-sign"></span> Warning!</h4>
                 <p class="chromeframe">You are viewing a <strong>preview version</strong> of our website. Viewing this version of our website might result in <strong>random errors, formatting problems, usability problems, and other unknown issues that aren't fixed yet.</strong> Please visit our full stable website at <a class="alert-link" href="http://www.team1294.org">http://www.team1294.org</a> to avoid encountering errors. You may continue to view our site here, but don't be suprised when you find something that doesn't work.</p>
         </div>

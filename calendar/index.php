@@ -29,18 +29,38 @@
         <div class="row">
             <div style="display:none;">
                 <div id="ics-link">
+                    href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics"
                     <h4>Use this .ics link to add the Official Calendar to your own calendar</h4>
                     <p><a href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics">https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics</a></p>
                 </div>
             </div>
 
             <h3>For Match scores from events visit <a href="http://www.thebluealliance.com/team/1294">thebluealliance.com</a></h3>
-            <a style="margin-top: -40px;" id="ics-btn" class="btn btn-default pull-right visible-md visible-lg add-tooltip" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics" data-toggle="tooltip" data-placement="top" title="Use This Link To Add This Calendar to Your Personal Calendar"><i class="fa fa-download"></i> Click Here To Get .ics Feed</a>
-            <a class="btn btn-default pull-left visible-sm visible-xs center-content" rel="nofollow" href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics"><i class="fa fa-download"></i> Click Here Get .ics Feed</a>
+            <a style="margin-top: -3em;" id="ics-btn" class="btn btn-default pull-right add-tooltip" rel="nofollow" data-toggle="modal" data-target="#ics-link-modal" data-toggle="tooltip" data-placement="top" title="Use This Link To Add This Calendar to Your Personal Calendar"><i class="fa fa-link"></i> Click Here To Get .ics Feed <i class="fa fa-angle-double-right"></i></a>
+            <!--a class="btn btn-default pull-left visible-sm visible-xs center-content" rel="nofollow" data-toggle="modal" data-target="#ics-link-modal"><i class="fa fa-download"></i> Click Here Get .ics Feed</a-->
         </div>
-       
     </div>
 </div>
+
+<!-- Start Modal (Must be outside any containers to prevent formatting errors)-->
+<div class="modal fade" id="ics-link-modal" tabindex="-1" role="dialog" aria-labelledby="Popup with .ics feed link" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel"><span class="fa-stack hidden-xs"><span class="fa-stack-1x filetype-text">ICS</span><i class="fa fa-file-o fa-stack-2x"></i></span> Add our calendar to your calendar!</h4>
+            </div>
+            <div class="modal-body">
+                <p>It's simple, just add the following <code>.ics</code> feed to your preferred calendar service to have our events automatically show in your phone or calendar!</p>
+                <p class="text-center"><a href="https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics"><i class="fa fa-link hidden-xs"></i>&nbsp;https://www.google.com/calendar/ical/frc1294%40gmail.com/public/basic.ics</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>&nbsp;Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Modal-->
 <?php 
     $ExtraFooterTags="";
     require($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php');
