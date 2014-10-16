@@ -1,7 +1,7 @@
         <style>
             body {
                 padding-top: 0px;
-                padding-bottom: 20px;
+                padding-bottom: 10px;
                 background-image: url('/img/NavyBlueCamo.png');
             }
         </style>
@@ -11,10 +11,7 @@
 
         <?php
             /*
-            *There might be some extra tags that need to be placed in the header,
-            *Any extra tags needed will be added by setting the $ExtraTags Variable right before the include statement
-            *on a webpage, first we check if there is a tag set, if it is, we add it the extra tags to the header.
-            *There is also a $ExtraFooterTags variable that can be set to add extra tags to the footer.
+                The <title> and description tags are set in betweeen the upper header and lower header include statements
             */
 
             //Figures out what page your on for the top bar menu
@@ -36,8 +33,7 @@
             */
             
         ?>
-        
-        <!--In oreder to get the WOWSlider to work, we have to put the jquery tags in the head section-->
+       
     </head>
     <body>
 
@@ -87,7 +83,7 @@
                         <li class="<?php echo $active['calendar']?>"><a href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
                         <li class="<?php echo $active['contact']?>"><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>                        
                     </ul>
-                    <div class="addthis_horizontal_follow_toolbox navbar-right"></div>
+                    <div class="addthis_horizontal_follow_toolbox social-media-icons navbar-right"></div>
                     <!--<ul class="nav navbar-right">
                         <li><a id="donate-btn" href="/portal" class="btn btn-success navbar-btn">Portal</a></li>
                     </ul>

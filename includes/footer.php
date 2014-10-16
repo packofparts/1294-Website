@@ -28,7 +28,7 @@
                 </div>
             </footer>
         </div>
-        <script type="text/javascript" src="//code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
         <script>window.jQuery || document.write('<script type="text/javascript" src="/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
         <script type="text/javascript" async src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5428b7f92d869d2c&async=1&domready=1"></script>
         <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -37,8 +37,9 @@
         <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.min.js?v=1.0.6"></script>
 
         <script type="text/javascript" src="/js/main.min.js"></script>
+
         <?php
-            /*To Add extra footer tags such as scripts, just set the $ExtraFooterTags Variable before the include statement at the top of the document*/
+            /*To Add extra footer tags such as scripts, just set the $ExtraFooterTags Variable before the include statement*/
             if (!empty($ExtraFooterTags)) {
                 echo $ExtraFooterTags;
             }

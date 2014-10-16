@@ -291,7 +291,7 @@
 <div class="body-container">
     <div class="container">
         <div class="row-fluid">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h3 class="section-header">Want to Join the Team?</h3>
                 <p class="center-content">
                     Look at the calendar for the next meeting!
@@ -311,7 +311,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 col-md-offset-7">
+            <div class="col-md-2 col-md-offset-6">
                 <h3 class="section-header">Donate</h3>
                 <p><i>Donations are always appreciated!</i></p>
             </div>

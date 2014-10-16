@@ -19,7 +19,11 @@ All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
     /*max-width: 550px;*/
     margin-top: 40px;
     max-height: 155px;
-}
+    @media (min-width: @screen-xs-max) {
+        margin-top: 80px;
+    }
+}    
+
 /*
 @media (max-width: 350px) {
     #sponsor-boeing {
@@ -36,14 +40,7 @@ All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
 }
 
 #sponsor-orora {
-
-}
-
-@media (min-width: 767px) {
-    #sponsor-orora {
-        margin-top: 80px;
-    }
-    #sponsor-boeing {
+    @media (min-width: @screen-xs-max) {
         margin-top: 80px;
     }
 }
