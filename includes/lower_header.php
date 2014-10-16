@@ -1,7 +1,7 @@
         <style>
             body {
                 padding-top: 0px;
-                padding-bottom: 20px;
+                padding-bottom: 10px;
                 background-image: url('/img/NavyBlueCamo.png');
             }
         </style>
@@ -11,10 +11,7 @@
 
         <?php
             /*
-            *There might be some extra tags that need to be placed in the header,
-            *Any extra tags needed will be added by setting the $ExtraTags Variable right before the include statement
-            *on a webpage, first we check if there is a tag set, if it is, we add it the extra tags to the header.
-            *There is also a $ExtraFooterTags variable that can be set to add extra tags to the footer.
+                The <title> and description tags are set in betweeen the upper header and lower header include statements
             */
 
             //Figures out what page your on for the top bar menu
@@ -34,11 +31,9 @@
                 $active[$folder] = ($directory[0] == $folder)? "active":"";
             }
             */
-            $browserlocale = str_replace('-', '_', ($_SERVER['HTTP_ACCEPT_LANGUAGE']));
             
         ?>
-        
-        <!--In oreder to get the WOWSlider to work, we have to put the jquery tags in the head section-->
+       
     </head>
     <body>
 
@@ -49,7 +44,7 @@
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
               js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/<?php echo $browserlocale ?>/all.js#xfbml=1";
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
         <!--END Facebook SDK-->
@@ -71,9 +66,11 @@
                         <li class="dropdown <?php echo $active['about']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> Information <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/about/team/"><i class="fa fa-users"></i> The Team</a></li>
-                                <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
-                                <li><a href="/about/donate/"><i class="fa fa-money"></i> Donate</a></li>
+                                <li><a href="/about/team/"><i class="fa fa-users"></i> Our Team</a></li>
+                                <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> The Website</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/about/joining/"><span class="glyphicon glyphicon-heart-empty"></span> Join Us!</a></li>
+                                <li><a href="/about/donate/"><i class="fa fa-money"></i> Donations</a></li>
                             </ul>
                         </li>
                         <li class="dropdown <?php echo $active['media']?>">
@@ -86,7 +83,7 @@
                         <li class="<?php echo $active['calendar']?>"><a href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
                         <li class="<?php echo $active['contact']?>"><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>                        
                     </ul>
-                    <div class="addthis_horizontal_follow_toolbox navbar-right"></div>
+                    <div class="addthis_horizontal_follow_toolbox social-media-icons navbar-right"></div>
                     <!--<ul class="nav navbar-right">
                         <li><a id="donate-btn" href="/portal" class="btn btn-success navbar-btn">Portal</a></li>
                     </ul>
@@ -105,8 +102,13 @@
         <![endif]-->
         </div>
         
+<<<<<<< HEAD
         <div class="alert alert-dismissable alert-warning popup" id="preview-popup">
                 <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
+=======
+        <div class="alert alert-dismissable alert-warning popup">
+                <i class="close glyphicon glyphicon-remove" data-dismiss="alert"><span class="sr-only">Close</span></i>
+>>>>>>> 521f70e2d255cf5d543a1246531502e3242d3c39
                 <h4><span class="glyphicon glyphicon-warning-sign"></span> Warning!</h4>
                 <p class="chromeframe">You are viewing a <strong>preview version</strong> of our website. Viewing this version of our website might result in <strong>random errors, formatting problems, usability problems, and other unknown issues that aren't fixed yet.</strong> Please visit our full stable website at <a class="alert-link" href="http://www.team1294.org">http://www.team1294.org</a> to avoid encountering errors. You may continue to view our site here, but don't be suprised when you find something that doesn't work.</p>
         </div>

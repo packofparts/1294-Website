@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
     addthis.init()
+    $('.add-tooltip').tooltip();
+    $('.add-popover').popover();
 	$(".fancybox").fancybox();
     $(".various").fancybox({
 		maxWidth	: 2000,
@@ -29,6 +31,7 @@ $(document).ready(function() {
 	});
 });
 $('.add-tooltip').tooltip();
+$('.add-popover').popover();
 
 //Fixes old IE Problems
 if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
