@@ -103,7 +103,7 @@
                 <p class="chromeframe">You are using a <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser to one that supports current web standards</a> <span id="Google-Chrome-Frame-Hint">*cough*</span><a class="alert-link" href="https://www.google.com/intl/en/chrome/browser/"/>Google Chrome</a><span id="Google-Chrome-Frame-Hint">*cough*</span></a> to improve your experience witht the internet as a whole</p>
         </div>
         <![endif]-->
-        </div>        
+        </div>
         
         <div class="alert alert-dismissable alert-warning popup" id="preview-popup">
                 <i class="close glyphicon glyphicon-remove" data-dismiss="alert"></i>
@@ -113,7 +113,16 @@
         
 
         <script>
-        	// Check sessionStorage for key
+
+            /* 
+             * This code hides the preview disclaimer after one view, by checking if a entry called 'previewMessageDisplayed' exists in the browser's sessionStorage
+             * If sessionStorage doesn't exist, nothing (should) happen.
+             * You can check http://caniuse.com/#feat=namevalue-storage for cross-platform compatability.
+             * This addition really helps on devices such as my phone when browsing in mobile Chrome, because the message is hidden after one exposure. Since the message pretty much fills my screen, this makes it easier to browse the page.
+             *
+             * Addition by Austin Jenchi (timtim17 on GitHub)
+             */
+        	
         	try{ // wrapped in a try catch in case if we have a browser that doesn't support sessionStorage
 	        	if(!sessionStorage.getItem('previewMessageDisplayed')){ // checks the sessionStorage if the key 'previewMessageDisplayed' doesn't exist (returns null)
 	        		sessionStorage.setItem('previewMessageDisplayed', true); // if it does not, set it to true, and do nothing
@@ -124,10 +133,6 @@
 	        	// uh-oh, browser that doesn't support sessionStorage
 	        	// (not really doing anything with this error)
 	        }
-
-	        document.getElementsBySelector('#preview-popup i').addEventListener('click', function(){ // when the icon is clicked on in the popup,
-	        	document.getElementById('preview-popup').parentNode.removeChild(document.getElementById('preview-popup')); // delete the popup's node
-	        });
         </script>
 
     
