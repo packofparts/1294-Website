@@ -1,6 +1,7 @@
 /*Place all Custom JavaScript in this file*/
 
 $(document).ready(function() {
+    hidePreviewMessage();
     addthis.init()
     $('.add-tooltip').tooltip();
     $('.add-popover').popover();
@@ -29,7 +30,6 @@ $(document).ready(function() {
         href        : '#ics-link',
         modal       : true
 	});
-    hidePreviewMessage();
 });
 
 function hidePreviewMessage(){
