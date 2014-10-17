@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
     addthis.init()
+    $('.add-tooltip').tooltip();
+    $('.add-popover').popover();
 	$(".fancybox").fancybox();
     $(".various").fancybox({
 		maxWidth	: 2000,
@@ -27,8 +29,35 @@ $(document).ready(function() {
         href        : '#ics-link',
         modal       : true
 	});
+    hidePreviewMessage();
 });
-$('.add-tooltip').tooltip();
+
+function hidePreviewMessage(){
+    /* 
+     * This code hides the preview disclaimer after one view, by checking if a entry called 'previewMessageDisplayed' exists in the browser's sessionStorage
+     * The sessionStorage is cleared after the session ends automaticly by the browser.
+     * If you would like to see the the warning box again for some reason, you can also access the sessionStorage from your browser's dev tools. For example, in chrome, Ctrl+Shift+J, clicking on the resources tab, expanding "Session Storage", and clicking on the URL hosting your version of the site will show you the sessionStorage.
+     * From there you can then click the X at the bottom to delete the key.
+     * However, the key returns the next time the location changes to another page on the site.
+     * If sessionStorage doesn't exist, nothing (should) happen.
+     * You can check http://caniuse.com/#feat=namevalue-storage for cross-platform compatability.
+     * This addition really helps on devices such as my phone when browsing in mobile Chrome, because the message is hidden after one exposure. Since the message pretty much fills my screen, this makes it easier to browse the page.
+     * Another option is to simply comment out this code.
+     *
+     * Addition by Austin Jenchi (timtim17 on GitHub)
+     */
+        	
+    try{ // wrapped in a try catch in case if we have a browser that doesn't support sessionStorage
+	    if(!sessionStorage.getItem('previewMessageDisplayed')){ // checks the sessionStorage if the key 'previewMessageDisplayed' doesn't exist (returns null)
+	        sessionStorage.setItem('previewMessageDisplayed', true); // if it does not, set it to true, and do nothing
+	    }else{
+	        document.getElementById('preview-popup').parentNode.removeChild(document.getElementById('preview-popup')); // if it does exist, delete the popup message node
+	    }
+    }catch(e){
+	    // uh-oh, browser that doesn't support sessionStorage
+	    // (not really doing anything with this error)
+    }
+}
 
 //Fixes old IE Problems
 if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
