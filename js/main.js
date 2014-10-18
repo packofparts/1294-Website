@@ -1,35 +1,46 @@
-/*Place all Custom JavaScript in this file*/
+/*
+*   Place all Custom JavaScript in this file
+*   Be sure to minimize it to 'main.min.js' before commiting it to github
+*/
 
 $(document).ready(function() {
+    /*Start Initialization Block*/
+        //Initialize the AddThis plugin
+        //addthis.init(); Not working due to unknown reasons
+
+        //Initialize the tooltop plugin
+        $('.add-tooltip').tooltip();
+        //Initialize the popover plugin
+        $('.add-popover').popover();
+    
+        /*Initialize fancybox*/
+	    $(".fancybox").fancybox();
+        $(".various").fancybox({
+		    maxWidth	: 2000,
+		    maxHeight	: 2000,
+		    fitToView	: false,
+		    width		: '80%',
+		    height		: '80%',
+		    autoSize	: true,
+		    closeClick	: false,
+		    openEffect	: 'none',
+		    closeEffect	: 'none'
+	    });
+        $(".icds").fancybox({
+		    maxWidth	: 800,
+		    maxHeight	: 600,
+		    fitToView	: false,
+		    width		: '70%',
+		    height		: '70%',
+		    autoSize	: false,
+		    closeClick	: false,
+		    openEffect	: 'none',
+		    closeEffect	: 'none',
+            href        : '#ics-link',
+            modal       : true
+	    });
+    /*End of Initilization Block*/
     hidePreviewMessage();
-    addthis.init()
-    $('.add-tooltip').tooltip();
-    $('.add-popover').popover();
-	$(".fancybox").fancybox();
-    $(".various").fancybox({
-		maxWidth	: 2000,
-		maxHeight	: 2000,
-		fitToView	: false,
-		width		: '80%',
-		height		: '80%',
-		autoSize	: true,
-		closeClick	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	});
-    $(".icds").fancybox({
-		maxWidth	: 800,
-		maxHeight	: 600,
-		fitToView	: false,
-		width		: '70%',
-		height		: '70%',
-		autoSize	: false,
-		closeClick	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none',
-        href        : '#ics-link',
-        modal       : true
-	});
 });
 
 function hidePreviewMessage(){
@@ -49,13 +60,16 @@ function hidePreviewMessage(){
         	
     try{ // wrapped in a try catch in case if we have a browser that doesn't support sessionStorage
 	    if(!sessionStorage.getItem('previewMessageDisplayed')){ // checks the sessionStorage if the key 'previewMessageDisplayed' doesn't exist (returns null)
-	        sessionStorage.setItem('previewMessageDisplayed', true); // if it does not, set it to true, and do nothing
+	        // if it does not, set it to true, and do nothing
+            sessionStorage.setItem('previewMessageDisplayed', true); 
 	    }else{
-	        document.getElementById('preview-popup').parentNode.removeChild(document.getElementById('preview-popup')); // if it does exist, delete the popup message node
+            // if it does exist, delete the popup message node
+	        //document.getElementById('preview-popup').parentNode.removeChild(document.getElementById('preview-popup')); 
+            $("#preview-popup").remove(); // .hide .remove and .empty are all valid operaters to use here
 	    }
     }catch(e){
 	    // uh-oh, browser that doesn't support sessionStorage
-	    // (not really doing anything with this error)
+        // (not really doing anything with this error)
     }
 }
 
@@ -69,7 +83,7 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   )
   document.querySelector('head').appendChild(msViewportStyle)
 }
-//Fixes stock android problems
+//Fixes stock android browser problems
 $(function () {
   var nua = navigator.userAgent
   var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
