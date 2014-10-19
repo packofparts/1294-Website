@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 id="live-stream-title">Watch our event LIVE here!</h2>
-                <p class="lead">We will be live streaming from the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">Autodesk PNW FRC Championship 2014</a> on <br>
-                <span class="event-times">April 10th 5pm until April 12th 5pm</span>
+                <p class="lead">We will be live streaming from the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">PNW Auburn Mountainville District Event</a> on <br>
+                <span class="event-times">February 26th until February 28th</span>
                 </p>
             </div>
         </div>

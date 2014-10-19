@@ -61,7 +61,7 @@ We Then import all of our custom css styling (we use `.less` files instead of `.
 ```css
 
 /*Pulling in the CSS/Less files for plugins*/
-@import "../WOWSlider/engine1/style.min.less";
+@import "../WOWSlider/engine1/style.less";
 @import "../fancybox/source/jquery.fancybox.min.less";
 @import "../subtrees/font-awesome/less/font-awesome.less";
 

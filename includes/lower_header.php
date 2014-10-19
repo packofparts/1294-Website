@@ -93,7 +93,7 @@
         </nav>
         
         <div>
-        <!--[if lt IE 8]>
+        <!--[if lte IE 8]>
         <div class="alert alert-warning popup">
                 <h4>Warning!</h4>
                 <p class="chromeframe">You are using a <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser to one that supports current web standards</a> <span class="Google-Chrome-Frame-Hint">*cough*</span><a class="alert-link" href="https://www.google.com/intl/en/chrome/browser/"/>Google Chrome</a><span class="Google-Chrome-Frame-Hint">*cough*</span> to improve your experience with the internet as a whole</p>
