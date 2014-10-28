@@ -311,10 +311,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 col-md-offset-6">
-                <h3 class="section-header">Donate</h3>
-                <p><i>Donations are always appreciated!</i></p>
-            </div>
+
         </div>
     </div>
 </div>
