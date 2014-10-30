@@ -15,9 +15,10 @@
             */
 
 
-            $preview_url = "www.preview.team1294.org"; // Your Sub domain
-            echo $_SERVER['HTTP_HOST'];
-            if ($_SERVER['HTTP_HOST'] == $preview_url) {
+            $preview_url = "www.preview.team1294.org"; // The Preview Domain
+            $preview_overide = false; //Overide into beta mode
+
+            if ($_SERVER['HTTP_HOST'] == $preview_url || $preview_overide) {
                 $preview = true;
             } else {
                 $preview = false;
