@@ -15,8 +15,8 @@
             */
 
 
-            $preview_url = "preview.team1294.org"; // Your Sub domain
-
+            $preview_url = "www.preview.team1294.org"; // Your Sub domain
+            echo $_SERVER['HTTP_HOST'];
             if ($_SERVER['HTTP_HOST'] == $preview_url) {
                 $preview = true;
             } else {
