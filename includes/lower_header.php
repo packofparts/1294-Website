@@ -14,6 +14,16 @@
                 The <title> and description tags are set in betweeen the upper header and lower header include statements
             */
 
+
+            $preview_url = "preview.team1294.org"; // Your Sub domain
+
+            if ($_SERVER['HTTP_HOST'] == $preview_url) {
+                $preview = true;
+            } else {
+                $preview = false;
+            }
+
+
             //Figures out what page your on for the top bar menu
             // gets the current URI, remove the left / and then everything after the / on the right
             $directory = explode('/', ltrim($_SERVER['REQUEST_URI'], '/'));
@@ -63,16 +73,18 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown <?php echo $active['about']?>">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> Information <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/about/team/"><i class="fa fa-users"></i> Our Team</a></li>
-                                <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> The Website</a></li>
-                                <li class="divider"></li>
-                                <li><a href="/about/joining/"><span class="glyphicon glyphicon-heart-empty"></span> Join Us!</a></li>
-                                <li><a href="/about/donate/"><i class="fa fa-money"></i> Donations</a></li>
-                            </ul>
-                        </li>
+                        <?php if($preview){ /*Block out beta only products*/?>
+                            <li class="dropdown <?php echo $active['about']?>">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> Information <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/about/team/"><i class="fa fa-users"></i> Our Team</a></li>
+                                    <li><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> The Website</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="/about/joining/"><span class="glyphicon glyphicon-heart-empty"></span> Join Us!</a></li>
+                                    <li><a href="/about/donate/"><i class="fa fa-money"></i> Donations</a></li>
+                                </ul>
+                            </li>
+                        <?php } //End of preview only block ?>
                         <li class="dropdown <?php echo $active['media']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"></span> Media <b class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -101,11 +113,13 @@
         <![endif]-->
         </div>
         
-        <div class="alert alert-dismissable alert-warning popup" id="preview-popup">
-                <i class="close glyphicon glyphicon-remove" data-dismiss="alert"><span class="sr-only">Close</span></i>
-                <h4><span class="glyphicon glyphicon-warning-sign"></span> Warning!</h4>
-                <p class="chromeframe">You are viewing a <strong>preview version</strong> of our website. Viewing this version of our website might result in <strong>random errors, formatting problems, usability problems, and other unknown issues that aren't fixed yet.</strong> Please visit our full stable website at <a class="alert-link" href="http://www.team1294.org">http://www.team1294.org</a> to avoid encountering errors. You may continue to view our site here, but don't be suprised when you find something that doesn't work.</p>
-        </div>
+        <?php if($preview){ ?>
+            <div class="alert alert-dismissable alert-warning popup" id="preview-popup">
+                    <i class="close glyphicon glyphicon-remove" data-dismiss="alert"><span class="sr-only">Close</span></i>
+                    <h4><span class="glyphicon glyphicon-warning-sign"></span> Warning!</h4>
+                    <p class="chromeframe">You are viewing a <strong>preview version</strong> of our website. Viewing this version of our website might result in <strong>random errors, formatting problems, usability problems, and other unknown issues that aren't fixed yet.</strong> Please visit our full stable website at <a class="alert-link" href="http://www.team1294.org">http://www.team1294.org</a> to avoid encountering errors. You may continue to view our site here, but don't be suprised when you find something that doesn't work.</p>
+            </div>
+        <?php } ?>
 
     
  
