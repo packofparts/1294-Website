@@ -14,6 +14,13 @@
                 The <title> and description tags are set in betweeen the upper header and lower header include statements
             */
 
+            /*
+            * Checks if you are viewing the beta version and sets a variable 
+            * that can be tested against throughout the entitre website.
+            *
+            * An example of usage would be in the footer, a different analytics code is
+            * used for the beta version of this website which is visible at http://www.team1294.org/
+            */
 
             $preview_url = "www.preview.team1294.org"; // The Preview Domain
             $preview_overide = false; //Overide into beta mode
