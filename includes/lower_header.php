@@ -17,8 +17,9 @@
 
             $preview_url = "www.preview.team1294.org"; // The Preview Domain
             $preview_overide = false; //Overide into beta mode
+            $url = $_SERVER['HTTP_HOST'];
 
-            if ($_SERVER['HTTP_HOST'] == $preview_url || $preview_overide) {
+            if ($url == $preview_url || strpos($url,'localhost') !== false || $preview_overide) {
                 $preview = true;
             } else {
                 $preview = false;
