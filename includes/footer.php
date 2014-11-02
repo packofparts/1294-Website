@@ -46,13 +46,24 @@
         ?>
 
         <script>
+            <?php 
+                /*Set a different tracking code based on if your viewing this website on the beta version or the full version*/
+                if($preview){
+                    //Beta Code
+                    $analytics_code = 'UA-54892835-2';
+                }
+                else {
+                    //Non-beta code
+                    $analytics_code = 'UA-54892835-1';
+                }
+            ?>
             /*Google Analytics Tracking Code*/
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
             
-            ga('create', '<?php if($preview){/*Beta Version*/ echo 'UA-54892835-2';} else{ echo 'UA-54892835-1';} /*Changes Anlytics code based on if its beta or not*/ ?>', 'auto');
+            ga('create', '<?php echo $analytics_code; ?>', 'auto');
             ga('require', 'displayfeatures');
             ga('require', 'linkid', 'linkid.js');
             ga('send', 'pageview');
