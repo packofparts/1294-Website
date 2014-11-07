@@ -274,13 +274,13 @@
                 <p><a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
             </div>
             <div class="col-md-4">
-                <h3 class="section-header">Featured Video </h3>
+                <h2 class="section-header">Featured Video </h2>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
                 <p><a class="btn btn-default" href="/media/videos"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
-                <h3 class="section-header">Featured Picture</h3>
+                <h2 class="section-header">Featured Picture</h2>
                 <img class="img-responsive img-thumbnail" alt="A super high score in Aerial Assist" src="/WOWSlider/data1/images/img_0206.jpg" />
                 <br><br>
                 <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Gallery &raquo;</a></p>
@@ -291,23 +291,63 @@
 <div class="body-container">
     <div class="container">
         <div class="row-fluid">
-            <div class="col-md-4">
-                <h3 class="section-header">Want to Join the Team?</h3>
-                <p class="center-content">
-                    Look at the calendar for the next meeting!
-                    Here are some helpful documents for new members.
+            <div class="col-md-4 col-md-offset-1">
+                <h3 class="section-header">New Members</h3>
+                <hr class="section-header-hr">
+                <p>
+                    Want to join the team? Consult the documents below for more information about joining our team.<br>
                 </p>
                 <div>
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">Robotics Info Sheet</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Permission Letter</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>
+                <p>
+                    After you have reviewed the documents and have attended a meeting, fill out the following form so we have your contact information.
+                </p>
+                <div>
+                    <ul class="no-bullets">
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1DO14AK_qE7DOcej8IGRMaCixI1_KLAMvIfx4TfQUuGM/viewform?usp=send_form">Offical Contact Information Form</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Check out our calendar so you can attend the next meeting!<br>
+                </p>
+                <div class="center-content center-text">
+                    <div class="btn-group btn-group-justified">
+                        <a class="btn btn-default" href="/documents/new-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                        <a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-2">
+                <h3 class="section-header">Past/Existing Memebers</h3>
+                <hr class="section-header-hr">
+                <p class="center-content">
+                    Past Members are still required to turn in safety form and pass safety training<br>
+                </p>
+                <div>
+                    <ul class="no-bullets">
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Past members should fill out the contact information form so we know that you are returning this year.
+                </p>
+                <div>
+                    <ul class="no-bullets">
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1DO14AK_qE7DOcej8IGRMaCixI1_KLAMvIfx4TfQUuGM/viewform?usp=send_form">Offical Contact Information Form</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Consult the calendar so you can attend our next meeting.<br>
+                </p>
                 <div class="center-content center-text">
                     <div class="btn-group btn-group-justified">
                         <a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
-                        <a class="btn btn-default" href="/documents/new-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
                     </div>
                 </div>
             </div>
