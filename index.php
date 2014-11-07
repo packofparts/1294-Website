@@ -322,6 +322,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 col-md-offset-2">
                 <h3 class="section-header">Past/Existing Memebers</h3>
                 <hr class="section-header-hr">
@@ -330,8 +331,8 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">2015 Robotics Info Sheet</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -343,10 +344,11 @@
                     </ul>
                 </div>
                 <p>
-                    Consult the calendar so you can attend our next meeting.<br>
+                    Consult the calendar so you can attend our next meeting<br>
                 </p>
                 <div class="center-content center-text">
                     <div class="btn-group btn-group-justified">
+                        <a class="btn btn-default" href="/documents/past-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
                         <a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                     </div>
                 </div>
