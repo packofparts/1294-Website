@@ -291,7 +291,7 @@
 <div class="body-container">
     <div class="container">
         <div class="row-fluid">
-            <div class="col-md-4 col-md-offset-1">
+            <div class="col-md-4">
                 <h3 class="section-header">New Members</h3>
                 <hr class="section-header-hr">
                 <p>
@@ -301,6 +301,13 @@
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
                         <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">2015 Robotics Info Sheet</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Fill out the safety form and turn it in at the next meeting to get access to the shop.
+                </p>
+                <div>
+                    <ul class="no-bullets">
                         <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>
@@ -318,13 +325,31 @@
                 <div class="center-content center-text">
                     <div class="btn-group btn-group-justified">
                         <a class="btn btn-default" href="/documents/new-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
-                        <a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
+                        <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4 col-md-offset-2">
-                <h3 class="section-header">Past/Existing Memebers</h3>
+            <div class="col-md-4">
+                <h3 class="section-header">General Information</h3>
+                <hr class="section-header-hr">
+                <div class="text-justified">
+                    <p>
+                        Anyone is allowed to Join the Eastlake Robotics Team. It doesn't matter what school you belong to or what your experience or interests are<br>
+                    </p>
+                    <p class="text-center" style="font-style:italic; font-weight: bold;">
+                        If you want to join the team, you can join.<br>
+                        No experience neccasary.<br>
+                    </p>
+                        Our team participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, which is the 4th and final league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology">FIRST</a> Robotics. <br>
+                    
+                    </p>
+                    <p>
+                        After the form is signed and returned, a 100 question state safety test is required in addition to hands on training before being allowed to use equipment.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="section-header">Past / Existing Memebers</h3>
                 <hr class="section-header-hr">
                 <p class="center-content">
                     Past Members are still required to turn in safety form and pass safety training<br>
@@ -336,7 +361,7 @@
                     </ul>
                 </div>
                 <p>
-                    Past members should fill out the contact information form so we know that you are returning this year.
+                    Please fill out the contact information form so we know that you are returning this year.
                 </p>
                 <div>
                     <ul class="no-bullets">
@@ -349,7 +374,7 @@
                 <div class="center-content center-text">
                     <div class="btn-group btn-group-justified">
                         <a class="btn btn-default" href="/documents/past-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
-                        <a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
+                        <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                     </div>
                 </div>
             </div>
