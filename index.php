@@ -51,9 +51,14 @@
         <div class="container">
             <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
             <h1>We are Top Gun Robotics</h1>
-            <p>We are a high school robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been participating in FRC since 2004.</p>
-            <p><i>"Our goal is to transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders."- Dean Kamen, Founder of FIRST Robotics</i></p>
-            <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
+            <p>
+                We are a high school <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a> robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington.
+                Since 2004, we have been giving students a place where they can develop and practice their interests in science, technology, engineering, and math based fields. All thanks to our awesome mentors,   and generous sponsors.
+            </p>
+            <p>
+                <a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a>
+            </p>
+            
         </div>
     </div>
 </div>
@@ -274,13 +279,13 @@
                 <p><a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
             </div>
             <div class="col-md-4">
-                <h3 class="section-header">Featured Video </h3>
+                <h2 class="section-header">Featured Video </h2>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
                 <p><a class="btn btn-default" href="/media/videos"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
-                <h3 class="section-header">Featured Picture</h3>
+                <h2 class="section-header">Featured Picture</h2>
                 <img class="img-responsive img-thumbnail" alt="A super high score in Aerial Assist" src="/WOWSlider/data1/images/img_0206.jpg" />
                 <br><br>
                 <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Gallery &raquo;</a></p>
@@ -291,26 +296,102 @@
 <div class="body-container">
     <div class="container">
         <div class="row-fluid">
+
             <div class="col-md-4">
-                <h3 class="section-header">Want to Join the Team?</h3>
-                <p class="center-content">
-                    Look at the calendar for the next meeting!
-                    Here are some helpful documents for new members.
+                <h3 class="section-header">New Members</h3>
+                <hr class="section-header-hr">
+                <p>
+                    Want to join the team? Consult the documents below for more information about joining our team.<br>
                 </p>
                 <div>
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">Robotics Info Sheet</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Permission Letter</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">2015 Robotics Info Sheet</a></li>
                     </ul>
                 </div>
+                <p>
+                    Fill out the safety form and turn it in at the next meeting to get access to the shop.
+                </p>
+                <div>
+                    <ul class="no-bullets">
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
+                    </ul>
+                </div>
+                <p>
+                    After you have reviewed the documents and have attended a meeting, fill out the following form so we have your contact information.
+                </p>
+                <div>
+                    <ul class="no-bullets">
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1DO14AK_qE7DOcej8IGRMaCixI1_KLAMvIfx4TfQUuGM/viewform?usp=send_form">Offical Contact Information Form</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Check out our calendar so you can attend the next meeting!<br>
+                </p>
                 <div class="center-content center-text">
                     <div class="btn-group btn-group-justified">
-                        <a class="btn btn-default" href="/calendar"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                         <a class="btn btn-default" href="/documents/new-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                        <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-4">
+                <h3 class="section-header">General Information</h3>
+                <hr class="section-header-hr">
+                <div class="text-justified">         
+                    <p>
+                        Top Gun robotics participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, the oldest and most popular league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology">FIRST</a> first robotics.
+                    </p>      
+                    <p>
+                        Anyone is allowed to Join the Eastlake Robotics Team. It doesn't matter what school you belong to or what your experience or interests are<br>
+                    </p>
+                    <p class="text-center" style="font-style:italic; font-weight: bold;">
+                        If you want to join the team, you can join.<br>
+                        No experience neccasary.<br>
+                    <br>
+                    <p>
+                        Feel free to review our reference documents and workshop presentations at any time.
+                    </p>
+                    <div>
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/folderview?id=0B00pbMpQbO7mTXVtTThMbTRVa28&usp=sharing">Reference Documents/Presentations</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="section-header">Past / Existing Memebers</h3>
+                <hr class="section-header-hr">
+                <p class="center-content">
+                    Past Members are still required to turn in safety form and pass safety training<br>
+                </p>
+                <div>
+                    <ul class="no-bullets">
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/EHS_Robotics_Info_Sheet_2014-2015_ver1.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Please fill out the contact information form so we know that you are returning this year.
+                </p>
+                <div>
+                    <ul class="no-bullets">
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1DO14AK_qE7DOcej8IGRMaCixI1_KLAMvIfx4TfQUuGM/viewform?usp=send_form">Offical Contact Information Form</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Consult the calendar so you can attend our next meeting<br>
+                </p>
+                <div class="center-content center-text">
+                    <div class="btn-group btn-group-justified">
+                        <a class="btn btn-default" href="/documents/past-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                        <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

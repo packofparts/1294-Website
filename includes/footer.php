@@ -10,7 +10,7 @@
                          <img class="img-responsive center-block" id="sponsor-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>
                     </div>
                     <div class="col-sm-4">                        
-                       <img class="img-responsive center-block" id="sponsor-SAE" alt="SAE Northwest Logo" src="https://www.sae.org/images/sections/ms049/NWL_317138991_SAE_Northwest_Logo.jpg"/>
+                       <img class="img-responsive center-block" id="sponsor-SAE" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_380839334_sae_nw_logo_smaller.gif"/>
                     </div>
                     <div class="col-sm-4">
                         <img class="img-responsive center-block" id="sponsor-boeing" alt="Boeing Logo" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
