@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 id="live-stream-title">Watch our event LIVE here!</h2>
-                <p class="lead">We will be live streaming from the <a class="event-link" href="http://oregonfirst.org/events/pnw-frc-championship/">PNW Auburn Mountainville District Event</a> on <br>
+                <p class="lead">We will be live streaming from the <a class="event-link" href="http://www.thebluealliance.com/event/2015waamv/">PNW Auburn Mountainville District Event</a> on <br>
                 <span class="event-times">February 26th until February 28th</span>
                 </p>
             </div>

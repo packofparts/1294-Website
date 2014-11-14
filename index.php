@@ -51,9 +51,14 @@
         <div class="container">
             <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
             <h1>We are Top Gun Robotics</h1>
-            <p>We are a high school robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been participating in FRC since 2004.</p>
-            <p><i>"Our goal is to transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders."- Dean Kamen, Founder of FIRST Robotics</i></p>
-            <p><a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a></p>
+            <p>
+                We are a high school <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a> robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington.
+                Since 2004, we have been giving students a place where they can develop and practice their interests in science, technology, engineering, and math based fields. All thanks to our awesome mentors,   and generous sponsors.
+            </p>
+            <p>
+                <a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a>
+            </p>
+            
         </div>
     </div>
 </div>
@@ -291,6 +296,7 @@
 <div class="body-container">
     <div class="container">
         <div class="row-fluid">
+
             <div class="col-md-4">
                 <h3 class="section-header">New Members</h3>
                 <hr class="section-header-hr">
@@ -329,25 +335,32 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <h3 class="section-header">General Information</h3>
                 <hr class="section-header-hr">
-                <div class="text-justified">
+                <div class="text-justified">         
+                    <p>
+                        Top Gun robotics participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, the oldest and most popular league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology">FIRST</a> first robotics.
+                    </p>      
                     <p>
                         Anyone is allowed to Join the Eastlake Robotics Team. It doesn't matter what school you belong to or what your experience or interests are<br>
                     </p>
                     <p class="text-center" style="font-style:italic; font-weight: bold;">
                         If you want to join the team, you can join.<br>
                         No experience neccasary.<br>
-                    </p>
-                        Our team participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, which is the 4th and final league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology">FIRST</a> Robotics. <br>
-                    
-                    </p>
+                    <br>
                     <p>
-                        After the form is signed and returned, a 100 question state safety test is required in addition to hands on training before being allowed to use equipment.
+                        Feel free to review our reference documents and workshop presentations at any time.
                     </p>
+                    <div>
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/folderview?id=0B00pbMpQbO7mTXVtTThMbTRVa28&usp=sharing">Reference Documents/Presentations</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <h3 class="section-header">Past / Existing Memebers</h3>
                 <hr class="section-header-hr">
@@ -378,6 +391,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
