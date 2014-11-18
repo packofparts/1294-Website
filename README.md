@@ -2,7 +2,7 @@ FRC-Team-1294 ![](http://img.shields.io/badge/bootstrap-3.2.0-brightgreen.svg)  
 =============
 
 The Official Website of the FRC Team 1294.
-http://team1294.org (Not currently Live)
+[http://team1294.org](http://team1294.org)
 
 The website is built in PHP utilizing the bootstrap framework.
 Anticpated Release Time is Septemeber of 2014
