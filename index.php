@@ -12,7 +12,7 @@
     <meta name="description" content="The Official Website of the Top Gun Robotics (FRC 1294) Located In Sammmamish Washington participating in FIRST Robotics FRC Competitions"/>
 
     <!--link rel="stylesheet" type="text/css" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
-	<link rel="stylesheet" type="text/css" href="/WOWSlider/engine1/style.min.css" /--->
+	<link rel="stylesheet" type="text/css" href="/WOWSlider/engine1/style.min.css" /-->
 <?php
     require'includes/lower_header.php';
 ?>
@@ -78,7 +78,7 @@
             <div class="col-md-4">
                 <h2 class="section-header">Upcoming Events</h2>
                     <p>
-                        Unfortunately, Google has decided to block there XML Google Calendar feeds so upcoming events cannot be shown here.<br>
+                        Unfortunately, Google has decided to block their XML Google Calendar feeds so upcoming events cannot be shown here.<br>
                         <br>
                         However, upcoming events can still be seen at our regular calendar that is linked below.
                     </p>
