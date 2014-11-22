@@ -1,4 +1,4 @@
-<div class="upcomingevents" style="width:100%;">
+<div class="upcoming-events" style="width:100%;">
 <?php
     /*
     This code is used for reading and displaying the
@@ -25,21 +25,29 @@
         .'/events?key='
         .$apiKey; // Concatanate all of the parameters into one URL.
 
-    $data;
-
     $cache = true; // Whether or not to cache and use cache files.
     $cacheFilePath = $_SERVER['DOCUMENT_ROOT'].'/cache/gcal.json';
+
     if($cache){
-        $timedif = @(time() - filemtime());
+        $timedif = @(time() - filemtime($cacheFilePath));
         if(file_exists($cacheFilePath) && $timedif < 43200 /* 12 hours in seconds */){
             $data = file_get_contents($cacheFilePath);
         }else{
-            $curl = curl_init();
-            curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-            $data = curl_exec($curl);
-            curl_close($curl);
+            getDataFromApi();
         }
+    }else{
+        getDataFromApi();
     }
     $data = json_decode($data);
+    echo $data;
+
+
+    function getDataFromApi(){
+        $curl = curl_init($apiUrl);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        $data = curl_exec($curl);
+        curl_close($curl);
+        //if($cache){file_put_contents($cacheFilePath, $data);}
+    }
 ?>
 </div>
