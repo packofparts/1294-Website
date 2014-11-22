@@ -37,8 +37,8 @@
             global $apiKey, $apiUrl, $calendarId, $data, $cache, $cacheFilePath;
             error_reporting(-1);
             ini_set('display_errors', 'On');
-            set_include_path(get_include_path().PATH_SEPARATOR.$_SERVER['DOCUMENT_ROOT'].'/includes/vendor/google-apis-client/src');
-            require_once '/includes/vendor/google-apis-client/autoload.php';
+            set_include_path(get_include_path().PATH_SEPARATOR.$_SERVER['DOCUMENT_ROOT'].'/subtrees/google-apis/src');
+            require_once $_SERVER['DOCUMENT_ROOT'].'/subtrees/google-apis/autoload.php';
             $client = new Google_Client();
             $client->setDeveloperKey($apiKey);
             $client->addScope('https://www.googleapis.com/auth/calendar.readonly');
