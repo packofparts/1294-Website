@@ -77,10 +77,7 @@
             </div>
             <div class="col-md-4">
                 <h2 class="section-header">Upcoming Events</h2>
-                <div id="upcoming-events" style="width:100%;">
-                    <script src="js/vendor/jquery-1.11.1.min.js"></script>
-                    <script src="js/upcoming-events.js"></script>
-                </div>
+                <?php include 'includes/upcoming_events.php' ?>
                 <p><a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
             </div>
             <div class="col-md-4">
