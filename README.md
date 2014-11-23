@@ -5,7 +5,6 @@ The Official Website of the FRC Team 1294.
 [http://www.team1294.org](http://www.team1294.org)
 
 The website is built in PHP utilizing the bootstrap framework.
-Anticpated Release Time is Septemeber of 2014
 
 Contributions
 -------------
