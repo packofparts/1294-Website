@@ -1,4 +1,4 @@
-<div class="upcoming-events" style="width:100%; overflow-wrap: break-word;">
+<div class="upcomingevents" style="width:100%;">
 <?php
     /*
     This code is used for reading and displaying the
@@ -14,7 +14,6 @@
     Jenchi (timtim17 on GitHub). It doesn't have as many features
     as the previous version, but it gets the job done.
     */
-    echo date("Y-m-d\TH:i:sP");
 
     $apiKey = 'AIzaSyDbVDRAzrz64cO98PU7yTm-yEHtQ5ZN_8w'; // Your API Key Would Go Here
     // Your calendar id would go here, it can be found in your calendar details.
@@ -23,11 +22,9 @@
     $cache = false; // Whether or not to cache and use cache files.
     $cacheFilePath = $_SERVER['DOCUMENT_ROOT'].'/cache/gcal.json';
 
-    $debugMode = true;
+    $debugMode = false;
 
     $reqSettings = array(
-        'orderBy' => 'startTime',
-        'maxResults' => 3,
         'timeMin' => date("Y-m-d\TH:i:sP"),
         'showDeleted' => false,
         'singleEvents' => true
@@ -75,8 +72,6 @@
         }catch(Exception $e){
             if($debugMode){
                 echo "<p>We had a problem getting the data from the server, here's the exception:\n".$e;
-            }else{
-                echo "Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.";
             }
         }
     }
@@ -89,11 +84,37 @@
             echo "<li>".($event->summary)."</li>";
         }
         echo "</ul>";
+
+        for($i = 0; $i < 3; $i++){
+            $name = $event -> summary;
+            $startTime = $event -> originalStartTime -> dateTime;
+            $startDate = $event -> originalStartTime -> date;
+            $endTime = $event -> originalEndTime->dateTime;
+            $endDate = $event -> originalEndTime->date;
+            $desc = $event->description;
+            if(!($desc == "" || $desc == " ")){
+                $desc += "<br>";
+            }
+            $location = ($event -> location).'<br>';
+            $mapLink;
+            $link = $event -> htmlLink;
+            // If the location is Eastlake High School, show a different set of text (Only show "Eastlake High School").
+            // If empty, show nothing and disable the map link button
+            if($location == "Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States"){
+                $location = 'Eastlake High School<br>';
+                $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode("Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States").'" class="btn btn-primary btn-xs">Map It</a>';
+            }else if($location == " " || $location == ""){
+                $mapLink = '<a rel="nofollow" disabled="disabled" href="" class="btn btn-primary btn-xs">No Location</a>';
+            }else{                
+                $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode($location).'" class="btn btn-primary btn-xs">Map It</a>';
+            }
+            echo '<div class="upcomingevents-event panel-footer"><div class="upcomingevents-title text-center">'.$name.'</div><div class="upcomingevents-date-time text-center"><span class="upcomingevents-time">'.$startTime.'</span><span class="upcomingevents-date">'.$startDate.'</span> until <span class="upcomingevents-time">'.$endTime.'</span><span class="upcomingevents-date">'.$endDate.'</span></div><hr class="upcomingevents-hr"><span class="upcomingevents-description">'.$desc.'</span>'.$location.'<div class="btn-group btn-group-justified upcomingevents-buttons">'.$mapLink.'<a rel="nofollow" href="'.$link.'" class="btn btn-default btn-xs">Add This</a></div></div></div>';
+        }
     }else{
         if($debugMode){
             echo "<p>Uh oh! The data is null.</p>";
         }else{
-            echo "Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.";
+            echo "<p>Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.</p>";
         }
     }
     if($debugMode){echo "<p><strong>Done!</strong></p>";}
