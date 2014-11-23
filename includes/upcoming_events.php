@@ -22,7 +22,7 @@
     $cache = false; // Whether or not to cache and use cache files.
     $cacheFilePath = $_SERVER['DOCUMENT_ROOT'].'/cache/gcal.json';
 
-    $debugMode = false;
+    $debugMode = true;
 
     $reqSettings = array(
         'timeMin' => date("Y-m-d\TH:i:sP"),
@@ -55,8 +55,6 @@
         try{
             if($debugMode){echo "<p>We're going to set up the request now.</p>";}
             global $apiKey, $calendarId, $data, $cache, $cacheFilePath, $reqSettings;
-            error_reporting(-1);
-            ini_set('display_errors', 'On');
             set_include_path(get_include_path().PATH_SEPARATOR.$_SERVER['DOCUMENT_ROOT'].'/subtrees/google-apis/src');
             require_once $_SERVER['DOCUMENT_ROOT'].'/subtrees/google-apis/autoload.php';
             $client = new Google_Client();
@@ -65,7 +63,7 @@
             $service = new Google_Service_Calendar($client);
             $data = $service->events->listEvents($calendarId, $reqSettings)->getItems();
             if($debugMode){echo "<p>We've made the request!</p>";}
-            if(true){
+            if($cache){
                 file_put_contents($cacheFilePath, json_encode($data));
                 if($debugMode){echo "<p>We've put the data in the cache file here: ".$cacheFilePath."</p>";}
             }
@@ -79,28 +77,21 @@
     if($debugMode){echo "<p>Checking to see if the data doesn't return null.</p>";}
     if($data){
         if($debugMode){echo "<p>About ready to format the data!</p>";}
-        echo "<ul>";
-        foreach ($data as $event){
-            echo "<li>".($event->summary)."</li>";
-        }
-        echo "</ul>";
-
-        for($i = 0; $i < 3; $i++){
-            $name = $event -> summary;
-            $startTime = $event -> originalStartTime -> dateTime;
-            $startDate = $event -> originalStartTime -> date;
-            $endTime = $event -> originalEndTime->dateTime;
-            $endDate = $event -> originalEndTime->date;
-            $desc = $event->description;
-            if(!($desc == "" || $desc == " ")){
-                $desc += "<br>";
+        for($i = 0; $i < 2; $i++){
+            $name = $data[$i] -> summary;
+            $startDate = $data[$i] -> getStart() -> date;
+            $startTime = $data[$i] -> getStart() -> date;
+            $endTime = $data[$i] -> getEnd() -> date;
+            $desc = $data[$i]->description.'<br>';
+            if(!$desc){
+                $desc = "";
             }
-            $location = ($event -> location).'<br>';
+            $location = ($data[$i] -> location).'<br>';
             $mapLink;
-            $link = $event -> htmlLink;
+            $link = $data[$i] -> htmlLink;
             // If the location is Eastlake High School, show a different set of text (Only show "Eastlake High School").
             // If empty, show nothing and disable the map link button
-            if($location == "Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States"){
+            if($location == "Eastlake High School, 400 228th Ave NE, Sammamish, WA 98074, United States<br>"){
                 $location = 'Eastlake High School<br>';
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode("Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States").'" class="btn btn-primary btn-xs">Map It</a>';
             }else if($location == " " || $location == ""){
@@ -108,7 +99,34 @@
             }else{                
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode($location).'" class="btn btn-primary btn-xs">Map It</a>';
             }
-            echo '<div class="upcomingevents-event panel-footer"><div class="upcomingevents-title text-center">'.$name.'</div><div class="upcomingevents-date-time text-center"><span class="upcomingevents-time">'.$startTime.'</span><span class="upcomingevents-date">'.$startDate.'</span> until <span class="upcomingevents-time">'.$endTime.'</span><span class="upcomingevents-date">'.$endDate.'</span></div><hr class="upcomingevents-hr"><span class="upcomingevents-description">'.$desc.'</span>'.$location.'<div class="btn-group btn-group-justified upcomingevents-buttons">'.$mapLink.'<a rel="nofollow" href="'.$link.'" class="btn btn-default btn-xs">Add This</a></div></div></div>';
+            echo '
+                <div class="panel panel-default">
+                    <div class="panel-body upcomingevents-dateheader text-center">
+                        '.$startDate.'
+                    </div>
+                    <div class="upcomingevents-event panel-footer">
+                        <div class="upcomingevents-title text-center">
+                            '.$name.'
+                        </div>
+                        <div class="upcomingevents-date-time text-center">
+                            <span class="upcomingevents-time">
+                                '.$startTime.'
+                            </span>
+                             until 
+                            <span class="upcomingevents-time">
+                                '.$endTime.'
+                            </span>
+                        </div>
+                        <hr class="upcomingevents-hr">
+                        <span class="upcomingevents-description">
+                            '.$desc.'
+                        </span> '.$location.'
+                        <div class="btn-group btn-group-justified upcomingevents-buttons">
+                            '.$mapLink.'
+                            <a rel="nofollow" href="'.$link.'" class="btn btn-default btn-xs">Add This</a>
+                        </div>
+                    </div>
+                </div>';
         }
     }else{
         if($debugMode){
