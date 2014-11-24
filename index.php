@@ -77,7 +77,7 @@
             </div>
             <div class="col-md-4">
                 <h2 class="section-header">Upcoming Events</h2>
-                <?php include 'includes/upcoming_events.php' ?>
+                <?php include 'includes/upcoming_events.zend.php' ?>
                 <p><a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
             </div>
             <div class="col-md-4">

@@ -80,7 +80,7 @@
     if($debugMode){echo "<p>Checking to see if the data doesn't return null.</p>";}
     if($data){
         if($debugMode){echo "<p>About ready to format the data!</p>";}
-        for($i = 0; $i < 2; $i++){
+        for($i = 0; $i < count($data); $i++){
             if($data[$i] -> summary){
                 $name = $data[$i] -> summary;
             
