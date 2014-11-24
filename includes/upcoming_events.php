@@ -25,10 +25,14 @@
     $debugMode = true;
 
     $reqSettings = array(
+        'orderBy' => 'startTime',
         'timeMin' => date("Y-m-d\TH:i:sP"),
         'showDeleted' => false,
-        'singleEvents' => true
+        'singleEvents' => false
     );
+
+    $dateFormat = 'l, F jS'; // Wednesday, November 19th
+    $timeFormat = 'g:i A'; // 7:00 PM
 
     $data;
 
@@ -62,6 +66,12 @@
             $client->addScope('https://www.googleapis.com/auth/calendar.readonly');
             $service = new Google_Service_Calendar($client);
             $data = $service->events->listEvents($calendarId, $reqSettings)->getItems();
+            uasort($data, "sortEvents");
+            echo "<ul>";
+            foreach($data as $event){
+                echo "<li>".$event -> getSummary()."</li>";
+            }
+            echo "</ul>";
             if($debugMode){echo "<p>We've made the request!</p>";}
             if($cache){
                 file_put_contents($cacheFilePath, json_encode($data));
@@ -73,19 +83,82 @@
             }
         }
     }
+    function sortEvents($a, $b){
+        $startAD = $a -> getStart() -> date;
+        $startBD = $b -> getStart() -> date;
+        $startADT = $a -> getStart() -> dateTime;
+        $startBDT = $b -> getStart() -> dateTime;
+        if(!$startADT){
+            if($startB -> dateTime && $startA -> date == $startB -> date){
+                return -1;
+            }else{
+                if($startA -> date == $startB -> date){
+                    return 0;
+                }else if(intval(date_format(date_create($startA -> date), 'Ynj')) < intval(date_format(date_create($startB -> date), 'Ynj'))){
+                    return -1;
+                }else{
+                    return 1;
+                }
+            }
+        }else if(!$startBDT){
+            if($startB -> dateTime && $startA -> date == $startB -> date){
+                return -1;
+            }else{
+                if($startA -> date == $startB -> date){
+                    return 0;
+                }else if(intval(date_format(date_create($startA -> date), 'Ynj')) < intval(date_format(date_create($startB -> date), 'Ynj'))){
+                    return -1;
+                }else{
+                    return 1;
+                }
+            }
+        }else{
+            if($startA -> date == $startB -> date){
+                if(intval(date_format(date_create($startA -> dateTime), 'Gi')) == intval(date_format(date_create($startB -> dateTime), 'Gi'))){
+                    return 0;
+                }else if(intval(date_format(date_create($startA -> dateTime), 'Gi')) < intval(date_format(date_create($startB -> dateTime), 'Gi'))){
+                    return -1;
+                }else if(intval(date_format(date_create($startA -> dateTime), 'Gi')) > intval(date_format(date_create($startB -> dateTime), 'Gi'))){
+                    return 1;
+                }
+            }else if(intval(date_format(date_create($startA -> date), 'Ynj')) < intval(date_format(date_create($startB -> date), 'Ynj'))){
+                return -1;
+            }else if(intval(date_format(date_create($startA -> date), 'Ynj')) > intval(date_format(date_create($startB -> date), 'Ynj'))){
+                return 1;
+            }
+        }
+    }
     
     if($debugMode){echo "<p>Checking to see if the data doesn't return null.</p>";}
     if($data){
         if($debugMode){echo "<p>About ready to format the data!</p>";}
         for($i = 0; $i < 2; $i++){
             $name = $data[$i] -> summary;
-            $startDate = $data[$i] -> getStart() -> date;
-            $startTime = $data[$i] -> getStart() -> date;
-            $endTime = $data[$i] -> getEnd() -> date;
+            
+            $date = date_format(date_create($data[$i] -> getStart() -> date), $dateFormat);
+
+            $timeString;
+            $start = $data[$i] -> getStart();
+            $end = $data[$i] -> getEnd();
+            $tempStart = $start -> dateTime;
+            $tempEnd = $end -> dateTime;
+            if($tempStart == NULL){
+                $tempStart = $start -> date;
+                $tempEnd = $end -> date;
+                if(intval(date_format(date_create($tempStart), 'Ynj')) == intval(date_format(date_create($tempEnd), 'Ynj')) - 1){
+                    $timeString = "";
+                }else{
+                    $timeString = '<span class="upcomingevents-time">'.date_format(date_create($tempStart), $dateFormat).'</span> until <span class="upcomingevents-time">'.date_format(date_create($tempEnd), $dateFormat).'</span>';
+                }
+            }else{
+                $timeString = '<span class="upcomingevents-time">'.date_format(date_create($tempStart), $timeFormat).'</span> until <span class="upcomingevents-time">'.date_format(date_create($tempEnd), $timeFormat).'</span>';
+            }
+
             $desc = $data[$i]->description.'<br>';
-            if(!$desc){
+            if($desc == "<br>"){
                 $desc = "";
             }
+
             $location = ($data[$i] -> location).'<br>';
             $mapLink;
             $link = $data[$i] -> htmlLink;
@@ -99,23 +172,18 @@
             }else{                
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode($location).'" class="btn btn-primary btn-xs">Map It</a>';
             }
+
             echo '
                 <div class="panel panel-default">
                     <div class="panel-body upcomingevents-dateheader text-center">
-                        '.$startDate.'
+                        '.$date.'
                     </div>
                     <div class="upcomingevents-event panel-footer">
                         <div class="upcomingevents-title text-center">
                             '.$name.'
                         </div>
                         <div class="upcomingevents-date-time text-center">
-                            <span class="upcomingevents-time">
-                                '.$startTime.'
-                            </span>
-                             until 
-                            <span class="upcomingevents-time">
-                                '.$endTime.'
-                            </span>
+                            '.$timeString.'
                         </div>
                         <hr class="upcomingevents-hr">
                         <span class="upcomingevents-description">
