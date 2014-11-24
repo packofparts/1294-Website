@@ -25,7 +25,6 @@
     $debugMode = true;
 
     $reqSettings = array(
-        'orderBy' => 'startTime',
         'timeMin' => date("Y-m-d\TH:i:sP"),
         'showDeleted' => false,
         'singleEvents' => false
@@ -59,7 +58,7 @@
         try{
             if($debugMode){echo "<p>We're going to set up the request now.</p>";}
             global $apiKey, $calendarId, $data, $cache, $cacheFilePath, $reqSettings;
-            set_include_path(get_include_path().PATH_SEPARATOR.$_SERVER['DOCUMENT_ROOT'].'/subtrees/google-apis/src');
+            set_include_path(get_include_path().PATH_SEPARATOR.'/subtrees/google-apis/src');
             require_once $_SERVER['DOCUMENT_ROOT'].'/subtrees/google-apis/autoload.php';
             $client = new Google_Client();
             $client->setDeveloperKey($apiKey);
