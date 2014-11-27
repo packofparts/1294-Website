@@ -124,7 +124,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1DO14AK_qE7DOcej8IGRMaCixI1_KLAMvIfx4TfQUuGM/viewform?usp=send_form">Offical Contact Information Form</a></li>
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1DO14AK_qE7DOcej8IGRMaCixI1_KLAMvIfx4TfQUuGM/viewform">Offical Contact Information Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -157,7 +157,7 @@
                     </p>
                     <div>
                         <ul class="no-bullets">
-                            <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/folderview?id=0B00pbMpQbO7mTXVtTThMbTRVa28&usp=sharing">Reference Documents/Presentations</a></li>
+                            <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/a/team1294.org/folderview?id=0B00pbMpQbO7mTXVtTThMbTRVa28">Reference Documents/Presentations</a></li>
                         </ul>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1DO14AK_qE7DOcej8IGRMaCixI1_KLAMvIfx4TfQUuGM/viewform?usp=send_form">Offical Contact Information Form</a></li>
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1DO14AK_qE7DOcej8IGRMaCixI1_KLAMvIfx4TfQUuGM/viewform">Offical Contact Information Form</a></li>
                     </ul>
                 </div>
                 <p>
