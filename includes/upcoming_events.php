@@ -26,6 +26,7 @@
     $debugMode = true;
 
     $reqSettings = array( // Create an array of options used in the request to Google
+        'orderBy' => 'startTime',
         'timeMin' => date("Y-m-d\TH:i:sP"), // Minimum start time for events returned. Set to current time.
         'showDeleted' => false, // Don't return deleted elements.
         'singleEvents' => true // Return recurring events as multiple events, not one.
@@ -71,17 +72,10 @@
             $client->addScope('https://www.googleapis.com/auth/calendar.readonly'); // add the calendar.readonly scope
             $service = new Google_Service_Calendar($client); // create a new gcal service
             $data = $service->events->listEvents($calendarId, $reqSettings)->getItems(); // get a list of events on the specified calendar
-            foreach($data as $event){ // do some basic cleanup of the data
-                // For some reason, Google returns recurring events as blank events (no summaries, times, etc.) with only an id to access
-                // it's master event. If the id exists, get it's id.
-                if($event -> recurringEventId){
-                    $event = $service -> events -> get($calendarId, $event -> recurringEventId);
-                }
+            foreach($data as $event){
                 $event -> start = $event -> getStart();
                 $event -> end = $event -> getEnd();
             }
-            uasort($data, 'sortByDate');
-            uasort($data, 'sortByTime');
             if($debugMode){echo "<p>We've made the request!</p>";}
             if($cache){
                 file_put_contents($cacheFilePath, json_encode($data));
