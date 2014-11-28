@@ -41,7 +41,7 @@
     $reqSettings = array( // Create an array of options used in the request to Google
         'orderBy' => 'startTime',
         'timeMin' => date("Y-m-d\TH:i:sP"), // Minimum start time for events returned. Set to current time.
-        'maxResults' => 2,
+        'maxResults' => 2, // Number of events to get
         'showDeleted' => false, // Don't return deleted elements.
         'singleEvents' => true // Return recurring events as multiple events, not one.
     );
