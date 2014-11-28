@@ -13,10 +13,22 @@
      * This version uses the new v3 API and was created by Austin
      * Jenchi (timtim17 on GitHub). It doesn't have as many features
      * as the previous version, but it gets the job done.
+     *
+     *
+     *  Create the cache file by SSH'ing into your box and typing these three commands...
+     *  <note>These commands only need to run when deployed to the webserver</note>
+     *
+     * > touch gcal.json
+     * > chmod 666 gcal.json
+     * > touch -t 01101200 gcal.json
+     *
      */
 
+
+
+
     /* CONFIG BLOCK START */
-    $apiKey = 'AIzaSyDbVDRAzrz64cO98PU7yTm-yEHtQ5ZN_8w'; // Your API Key Would Go Here
+    $apiKey = 'AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0'; // Your API Key Would Go Here
     // Your calendar id would go here, it can be found in your calendar details.
     $calendarId = 'frc1294@gmail.com';
 
@@ -82,9 +94,7 @@
                 if($debugMode){echo "<p>We've put the data in the cache file here: ".$cacheFilePath."</p>";}
             }
         }catch(Exception $e){
-            if($debugMode){
-                echo "<p>We had a problem getting the data from the server, here's the exception:\n".$e;
-            }
+            echo "<p>We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e;
         }
     }
 
@@ -134,7 +144,7 @@
             // If the location is Eastlake High School, show a different set of text (Only show "Eastlake High School").
             // If empty, show nothing and disable the map link button
             // Otherwise, just show the event
-            if($location == "Eastlake High School, 400 228th Ave NE, Sammamish, WA 98074, United States"){
+            if($location == "Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States"){
                 $location = 'Eastlake High School<br>';
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode("Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States").'" class="btn btn-primary btn-xs">Map It</a>';
             }else if(!$location){
