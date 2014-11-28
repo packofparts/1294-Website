@@ -29,19 +29,19 @@
 
     /* CONFIG BLOCK START */
     $apiKey = 'AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0'; // Your API Key Would Go Here
+
     // Your calendar id would go here, it can be found in your calendar details.
     $calendarId = 'frc1294@gmail.com';
 
     $cache = true; // Whether or not to cache and use cache files.
     $cacheFilePath = $_SERVER['DOCUMENT_ROOT'].'/cache/gcal.json'; // Filepath where cache file is stored.
 
-    $eventsToShow = 2;
-
     $debugMode = false;
 
     $reqSettings = array( // Create an array of options used in the request to Google
         'orderBy' => 'startTime',
         'timeMin' => date("Y-m-d\TH:i:sP"), // Minimum start time for events returned. Set to current time.
+        'maxResults' => 2,
         'showDeleted' => false, // Don't return deleted elements.
         'singleEvents' => true // Return recurring events as multiple events, not one.
     );
@@ -94,30 +94,30 @@
                 if($debugMode){echo "<p>We've put the data in the cache file here: ".$cacheFilePath."</p>";}
             }
         }catch(Exception $e){
-            echo "<p>We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e;
+            echo "<p style=\"overflow-wrap: break-word;\">We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e."</p>";
         }
     }
 
     if($debugMode){echo "<p>Checking to see if the data doesn't return null.</p>";} // if the data is null, somewhere along the line we had a problem
     if($data){
         if($debugMode){echo "<p>About ready to format the data!</p>";}
-        for($i = 0; $i < $eventsToShow; $i++){
+        foreach($data as $event){
             $date;
-            if($data[$i] -> start -> dateTime){ // if the event has a dateTime, it doesn't have a date
-                $date = date_format(date_create($data[$i] -> start -> dateTime), $dateFormat); // get the start date from the event
+            if($event -> start -> dateTime){ // if the event has a dateTime, it doesn't have a date
+                $date = date_format(date_create($event -> start -> dateTime), $dateFormat); // get the start date from the event
             }else{
-                $date = date_format(date_create($data[$i] -> start -> date), $dateFormat); // get the start date from the event dateTime
+                $date = date_format(date_create($event -> start -> date), $dateFormat); // get the start date from the event dateTime
             }
             $header = '
                     <div class="panel-body upcomingevents-dateheader text-center">
                         '.$date.'
                     </div>'; // create the top part of the event
 
-            $name = $data[$i] -> summary; // get the event title
+            $name = $event -> summary; // get the event title
 
             $timeString; // create the var later used in the final element
-            $start = $data[$i] -> start; // get refrences to the start and end time objects
-            $end = $data[$i] -> end;
+            $start = $event -> start; // get refrences to the start and end time objects
+            $end = $event -> end;
             $tempStart = $start -> dateTime; // create some temp vars
             $tempEnd = $end -> dateTime;
             if(!$tempStart){ // if dateTime doesn't exist, we're in a whole day event
@@ -133,14 +133,14 @@
                 $timeString = '<span class="upcomingevents-time">'.date_format(date_create($tempStart), $timeFormat).'</span> until <span class="upcomingevents-time">'.date_format(date_create($tempEnd), $timeFormat).'</span>'; // if we do have a DateTime, just set the $timeString to "time until time"
             }
 
-            $desc = $data[$i] -> description.'<br>'; // set the description to the description + <br>
+            $desc = $event -> description.'<br>'; // set the description to the description + <br>
             if($desc == "<br>"){ // if we had no description, get rid of the lone <br>
                 $desc = "";
             }
 
-            $location = $data[$i] -> location; // get the event location
+            $location = $event -> location; // get the event location
             $mapLink; // create a var for the map link
-            $link = $data[$i] -> htmlLink; // get the link to the event in gcal
+            $link = $event -> htmlLink; // get the link to the event in gcal
             // If the location is Eastlake High School, show a different set of text (Only show "Eastlake High School").
             // If empty, show nothing and disable the map link button
             // Otherwise, just show the event
