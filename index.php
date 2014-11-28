@@ -77,12 +77,7 @@
             </div>
             <div class="col-md-4">
                 <h2 class="section-header">Upcoming Events</h2>
-                    <p>
-                        Unfortunately, Google has decided to block their XML Google Calendar feeds so upcoming events cannot be shown here.<br>
-                        <br>
-                        However, upcoming events can still be seen at our regular calendar that is linked below.
-                    </p>
-                
+                <?php include 'includes/upcoming_events.php' ?>
                 <p><a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> View Calendar &raquo;</a></p>
             </div>
             <div class="col-md-4">

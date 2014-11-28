@@ -1,6 +1,18 @@
 <div class="upcomingevents" style="width:100%;">
 <?php
-                        
+                        /*
+                        *   THE FOLLOWING IS THE OLD "UPCOMING EVENTS" PHP CODE
+                        *   IT USED THE V1 GOOGLE CALENDAR API WHICH HAS BEEN PHASED OUT
+                        *
+                        *   NEW CODE HAS BEEN WRITTEN MAKING THIS CODE UNUSED
+                        *   WORKING CODE IS VISIBLE IN "upcoming_events.php"
+                        *   THIS CODE IS ONLY BEING KEPT FOR REFERENCE PURPOSES
+                        *
+                        */   
+
+
+
+
                         //The Following PHP Code is for reading and displaying the teams Google Calendar that contains all important events
                         //This code was initally written by 'jamescrodland' and was posted publically on github (https://github.com/media-uk/GCalPHP)
                         //The code has been heavily edited from its original version to best suit our website
