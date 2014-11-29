@@ -183,6 +183,7 @@
             echo "<p>Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.</p>"; // give the user a nice error message
         }
     }
+
     if($debugMode){echo "<p><strong>Done!</strong></p>";}
 ?>
 </div>
