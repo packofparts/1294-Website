@@ -94,7 +94,7 @@
                 if($debugMode){echo "<p>We've put the data in the cache file here: ".$cacheFilePath."</p>";}
             }
         }catch(Exception $e){
-            echo "<p style=\"overflow-wrap: break-word;\">We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e."</p>";
+            echo "<p style=\"word-wrap: break-word;\">We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e."</p>";
         }
     }
 
