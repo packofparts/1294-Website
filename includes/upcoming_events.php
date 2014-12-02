@@ -145,13 +145,13 @@
             // If empty, show nothing and disable the map link button
             // Otherwise, just show the event
             if($location == "Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States"){
-                $location = 'Eastlake High School<br>';
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode("Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States").'" class="btn btn-primary btn-xs">Map It</a>';
+                $location = 'Eastlake High School<br>';
             }else if(!$location){
                 $mapLink = '<a rel="nofollow" disabled="disabled" href="" class="btn btn-primary btn-xs">No Location</a>';
             }else{
-                $location = $location."<br>";
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode($location).'" class="btn btn-primary btn-xs">Map It</a>';
+                $location = $location."<br>";
             }
 
             // Create the element for the event
