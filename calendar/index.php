@@ -37,7 +37,7 @@
                 </div>
 
                 <h3>For Match scores from events visit <a href="http://www.thebluealliance.com/team/1294">thebluealliance.com</a></h3>
-                <a id="ics-btn" class="btn btn-default add-tooltip" rel="nofollow" data-toggle="modal" data-target="#ics-link-modal" data-toggle="tooltip" data-placement="top" title="Use This Link To Add This Calendar to Your Personal Calendar"><i class="fa fa-link"></i> Click Here To Get .ics Feed <i class="fa fa-angle-double-right"></i></a>
+                <a id="ics-btn" class="btn btn-default add-tooltip" rel="nofollow" data-toggle="modal" data-target="#ics-link-modal" data-toggle="tooltip" data-placement="top" title="Use This Link to Add This Calendar to Your Personal Calendar"><i class="fa fa-link"></i> Click Here To Get .ics Feed <i class="fa fa-angle-double-right"></i></a>
                 <!--a class="btn btn-default pull-left visible-sm visible-xs center-content" rel="nofollow" data-toggle="modal" data-target="#ics-link-modal"><i class="fa fa-download"></i> Click Here Get .ics Feed</a-->
             </div>
         </div>

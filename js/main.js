@@ -47,7 +47,7 @@ function hidePreviewMessage(){
     /* 
      * This code hides the preview disclaimer after one view, by checking if a entry called 'previewMessageDisplayed' exists in the browser's sessionStorage
      * The sessionStorage is cleared after the session ends automaticly by the browser.
-     * If you would like to see the the warning box again for some reason, you can also access the sessionStorage from your browser's dev tools. For example, in chrome, Ctrl+Shift+J, clicking on the resources tab, expanding "Session Storage", and clicking on the URL hosting your version of the site will show you the sessionStorage.
+     * If you would like to see the the warning box again for some reason, you can also access the sessionStorage from your browser's dev tools. For example, in Chrome, Ctrl+Shift+J, clicking on the resources tab, expanding "Session Storage", and clicking on the URL hosting your version of the site will show you the sessionStorage.
      * From there you can then click the X at the bottom to delete the key.
      * However, the key returns the next time the location changes to another page on the site.
      * If sessionStorage doesn't exist, nothing (should) happen.
