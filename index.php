@@ -143,7 +143,7 @@
                 <hr class="section-header-hr">
                 <div class="text-justified">         
                     <p>
-                        Top Gun robotics participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, the oldest and most popular league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology">FIRST</a> first robotics.
+                        Top Gun robotics participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, the oldest and most popular league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology">FIRST</a> robotics.
                     </p>      
                     <p>
                         Anyone is allowed to Join the Eastlake Robotics Team. It doesn't matter what school you belong to or what your experience or interests are<br>
