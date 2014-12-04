@@ -94,7 +94,7 @@
                 if($debugMode){echo "<p>We've put the data in the cache file here: ".$cacheFilePath."</p>";}
             }
         }catch(Exception $e){
-            echo "<p style=\"overflow-wrap: break-word;\">We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e."</p>";
+            echo "<p style=\"word-wrap: break-word;\">We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e."</p>";
         }
     }
 
@@ -183,6 +183,7 @@
             echo "<p>Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.</p>"; // give the user a nice error message
         }
     }
+
     if($debugMode){echo "<p><strong>Done!</strong></p>";}
 ?>
 </div>
