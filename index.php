@@ -27,7 +27,7 @@
                 <li><img src="/WOWSlider/data1/images/img_0131.jpg" alt="Professionalism" title="Professionalism" id="wows1_1"/>We Strive to be the most Professional  as possible</li>
                 <li><img src="/WOWSlider/data1/images/img_0158.jpg" alt="Precision and Execution" title="Precision and Execution" id="wows1_2"/></li>
                 <li><img src="/WOWSlider/data1/images/img_0206.jpg" alt="Nothing but the Best" title="Nothing but the Best" id="wows1_3"/>Even if it means destroying the competition, we'll do it!</li>
-                <li><img src="/WOWSlider/data1/images/img_0217.jpg" alt="wordpress slider" title="Collaboration" id="wows1_4"/></a></li>
+                <li><img src="/WOWSlider/data1/images/img_0217.jpg" alt="wordpress slider" title="Collaboration" id="wows1_4"/></li>
                 <li><img src="/WOWSlider/data1/images/img_0226.jpg" alt="Speed and Efficency" title="Speed and Efficency" id="wows1_5"/></li>
             </ul>
         </div>
@@ -86,7 +86,7 @@
                     <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/-KhwzHqkZag?wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
-                <p><a class="btn btn-default" href="/media/videos"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
+                <p><a class="btn btn-default" href="https://www.youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
                 <h2 class="section-header">Featured Picture</h2>
                 <img class="img-responsive img-thumbnail" alt="A super high score in Aerial Assist" src="/WOWSlider/data1/images/img_0206.jpg" />
                 <br><br>
@@ -151,6 +151,7 @@
                     <p class="text-center" style="font-style:italic; font-weight: bold;">
                         If you want to join the team, you can join.<br>
                         No experience neccasary.<br>
+                    </p>
                     <br>
                     <p>
                         Feel free to review our reference documents and workshop presentations at any time.
