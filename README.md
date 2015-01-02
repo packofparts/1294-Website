@@ -35,11 +35,7 @@ Setting up your machine to edit the website is easy.
 Using Bootstrap
 ---------------
 We use [bootstrap](http://getbootstrap.com/) as a framwork and we pulled it into our project as a [subtree](https://help.github.com/articles/about-git-subtree-merges). We keep it in our `/subtrees/` along with any other projects that our website uses.
-You should make yourself familiar with bootstraps [built in styling](http://getbootstrap.com/css/), [formatting](http://getbootstrap.com/css/#grid), [javascript](http://getbootstrap.com/javascript/) and [components](http://getbootstrap.com/components/) before attempting a major change to the website. In the past we would use [grunt](http://getbootstrap.com/getting-started/#grunt) but recently we have switched to using the [Less Compiler](http://lesscss.org/).
+You should make yourself familiar with bootstraps [built in styling](http://getbootstrap.com/css/), [formatting](http://getbootstrap.com/css/#grid), [javascript](http://getbootstrap.com/javascript/) and [components](http://getbootstrap.com/components/) before attempting a major change to the website.
+In the past we would use [grunt](http://getbootstrap.com/getting-started/#grunt) but recently we have switched to using the [Less Compiler](http://lesscss.org/) to compile bootstraps `.less` files.
 
-0. Install [Node.js](http://nodejs.org/download/)
-1. Using command prompt, install grunt
-    * Use Command `npm install -g grunt-cli`
-    * Navigate to 1294-Website/subtrees/bootstrap and run `npm install` 
-2. Grunt is now installed and ready to use
-    * Stay in that folder and run `grunt dist` to recompile everything in bootstraps /dist/ folder (CSS and Javascript)
+Please consult the /style/ readme file for instructions on how to use `.less` and compile bootstrap.
