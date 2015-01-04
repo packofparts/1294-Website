@@ -28,8 +28,7 @@
 
 
     /* CONFIG BLOCK START */
-    //$apiKey = 'AIzaSyAe3Fa0uMaHUi88TkHZjuJ4ajQVhjqI9uA'; // Your API Key Would Go Here
-    $apiKey = 'AIzaSyDbVDRAzrz64cO98PU7yTm-yEHtQ5ZN_8w';
+    $apiKey = 'AIzaSyAe3Fa0uMaHUi88TkHZjuJ4ajQVhjqI9uA'; // Your API Key Would Go Here
 
     // Your calendar id would go here, it can be found in your calendar details.
     $calendarId = 'frc1294@gmail.com';
