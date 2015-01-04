@@ -162,7 +162,7 @@
                         </ul>
                     </div>
                     <p>
-                        Fill out our interest survery so we know what team you want to be apart of.
+                        Fill out our interest survery so we know what team you want to be a part of.
                     </p>
                     <div>
                         <ul class="no-bullets">
