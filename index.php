@@ -108,7 +108,7 @@
                 <div>
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver2.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver2.1.docx">2015 Robotics Info Sheet</a></li>
                     </ul>
                 </div>
                 <p>
@@ -161,6 +161,14 @@
                             <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/a/team1294.org/folderview?id=0B7dBlgLDUixVRTh6cVBud2NGQzA">Reference Documents/Presentations</a></li>
                         </ul>
                     </div>
+                    <p>
+                        Fill out our interest survery so we know what team you want to be apart of.
+                    </p>
+                    <div>
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1JGb9iQLvyGWxFoCNkBjunERuho3qNpvbB7mj1vNhhTY/viewform">Team Interest Survey</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -172,7 +180,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/EHS_Robotics_Info_Sheet_2014-2015_ver2.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/EHS_Robotics_Info_Sheet_2014-2015_ver2.1.docx">2015 Robotics Info Sheet</a></li>
                         <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>
