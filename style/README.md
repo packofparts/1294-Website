@@ -20,8 +20,9 @@ Compiling
 
 0. Install [Node.js](http://nodejs.org/download/)
     * Install using reccomened features (ie, don't touch the settings).
-1. Using command prompt, install the less compiler
+1. Using command prompt, install the less compiler, as well as the clean css plugin.
     * Use the command `npm install less -g` to install the less compiler globally
+    * Use the command `npm install -g less-plugin-clean-css` to install the clean css plugin globally
 2. Run the commands to compile the less files
     * Navigate using `cd` to the /style/ folder. Do not go any further into the folders.
     * Run command `lessc --clean-css 1294_style.main.less combined.main.css` and wait for completion

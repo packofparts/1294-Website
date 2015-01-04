@@ -28,7 +28,8 @@
 
 
     /* CONFIG BLOCK START */
-    $apiKey = 'AIzaSyAe3Fa0uMaHUi88TkHZjuJ4ajQVhjqI9uA'; // Your API Key Would Go Here
+    //$apiKey = 'AIzaSyAe3Fa0uMaHUi88TkHZjuJ4ajQVhjqI9uA'; // Your API Key Would Go Here
+    $apiKey = 'AIzaSyDbVDRAzrz64cO98PU7yTm-yEHtQ5ZN_8w';
 
     // Your calendar id would go here, it can be found in your calendar details.
     $calendarId = 'frc1294@gmail.com';
@@ -94,7 +95,7 @@
                 if($debugMode){echo "<p>We've put the data in the cache file here: ".$cacheFilePath."</p>";}
             }
         }catch(Exception $e){
-            echo "<p style=\"word-wrap: break-word;\">We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e."</p>";
+            echo "<p style=\"overflow-wrap: break-word;\">We had a problem getting the data from the server, please contact the webmaster with the following error:\n<pre>".$e."</pre></p>";
         }
     }
 
@@ -144,7 +145,10 @@
             // If the location is Eastlake High School, show a different set of text (Only show "Eastlake High School").
             // If empty, show nothing and disable the map link button
             // Otherwise, just show the event
-            if($location == "Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States"){
+            $temp;
+            preg_match("/Eastlake High School/", $location, $temp);
+            if(count($temp) > 0){
+                $location = 'Eastlake High School<br>';
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode("Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States").'" class="btn btn-primary btn-xs">Map It</a>';
                 $location = 'Eastlake High School<br>';
             }else if(!$location){
@@ -178,7 +182,7 @@
         }
     }else{
         if($debugMode){
-            echo "<p>Uh oh! The data is null.</p>";
+            echo "<p>Uh oh! The data is null. That probably means that we had a problem querying Google... Try checking for a <code>Google_Service_Exception</code> above.</p>";
         }else{
             echo "<p>Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.</p>"; // give the user a nice error message
         }
