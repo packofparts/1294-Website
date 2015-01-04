@@ -161,6 +161,14 @@
                             <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/a/team1294.org/folderview?id=0B7dBlgLDUixVRTh6cVBud2NGQzA">Reference Documents/Presentations</a></li>
                         </ul>
                     </div>
+                    <p>
+                        Fill out our interest survery so we know what team you want to be apart of.
+                    </p>
+                    <div>
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1JGb9iQLvyGWxFoCNkBjunERuho3qNpvbB7mj1vNhhTY/viewform">Team Interest Survey</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
