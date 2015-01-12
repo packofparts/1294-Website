@@ -35,7 +35,7 @@ Setting up your machine to edit the website is easy.
 Using Bootstrap
 ---------------
 We use [bootstrap](http://getbootstrap.com/) as a framwork and we pulled it into our project as a [subtree](https://help.github.com/articles/about-git-subtree-merges). We keep it in our `/subtrees/` along with any other projects that our website uses.
-You should make yourself familiar with bootstraps [built in styling](http://getbootstrap.com/css/), [formatting](http://getbootstrap.com/css/#grid), [javascript](http://getbootstrap.com/javascript/) and [components](http://getbootstrap.com/components/) before attempting a major change to the website.
-In the past we would use [grunt](http://getbootstrap.com/getting-started/#grunt) but recently we have switched to using the [Less Compiler](http://lesscss.org/) to compile bootstraps `.less` files.
+You should make yourself familiar with bootstrap's [built in styling](http://getbootstrap.com/css/), [formatting](http://getbootstrap.com/css/#grid), [Javascript](http://getbootstrap.com/javascript/) and [components](http://getbootstrap.com/components/) before attempting a major change to the website.
+In the past we would use [grunt](http://getbootstrap.com/getting-started/#grunt) but recently we have switched to using the [Less Compiler](http://lesscss.org/) to compile bootstrap's `.less` files.
 
-Please consult the /style/ readme file for instructions on how to use `.less` and compile bootstrap.
+Please consult the `/style/` readme file for instructions on how to use `.less` and compile bootstrap.
