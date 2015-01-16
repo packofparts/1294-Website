@@ -16,19 +16,23 @@ Editing the style
 Compiling
 ---------
 
-*If you have compiled `.less` files before using the less compiler, proceed to step 3.*
+*If you have compiled `.less` files before using the less compiler, proceed to step 2.*
 
 0. Install [Node.js](http://nodejs.org/download/)
     * Install using reccomened features (ie, don't touch the settings).
-1. Using command prompt, install the less compiler
+1. Using command prompt, install the less compiler, as well as the clean css plugin.
     * Use the command `npm install less -g` to install the less compiler globally
+    * Use the command `npm install -g less-plugin-clean-css` to install the clean css plugin globally
 2. Run the commands to compile the less files
     * Navigate using `cd` to the /style/ folder. Do not go any further into the folders.
     * Run command `lessc --clean-css 1294_style.main.less combined.main.css` and wait for completion
-        * This command will gnerate two files, `combined.main.css` and `combined.main.min.css`. Only `combined.main.min.css` is used on the website.
         * The syntax for the command is `lessc [option option=parameter ...] <source> [destination]`
         * [less compiler documentation](http://lesscss.org/usage/)
-    * Close command prompt 
+3. Close command prompt 
+4. Minify the generated css file.
+    * Right-click the file `combined.main.css` in [WebMatrix](http://www.microsoft.com/web/webmatrix/) and select Minify.
+    * We use a minified version of our styles on our website, but the less compiler no longer generates the minified version.
+        * Instead we use [OrangeBits](http://extensions.webmatrix.com/packages/OrangeBits) to minify the file.
 
 1294_style.main.less Logic
 --------------------
