@@ -86,7 +86,8 @@
                             <li class="dropdown <?php echo $active['about']?>">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> Information <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/about/team/"><i class="fa fa-connectdevelop"></i> Competitions</a></li>
+                                    <li><a href="/about/competitions/2015.php"><i class="fa fa-connectdevelop"></i> Competitions</a></li>
+                                    <li><a href="/about/forms/2015.php"><i class="fa fa-pencil-square-o"></i> Forms & Documents</a></li>
                                     <li style="display: none"><a href="/about/team/"><i class="fa fa-users"></i> Our Team</a></li>
                                     <li style="display: none"><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> The Website</a></li>
                                     <li style="display: none" class="divider"></li>

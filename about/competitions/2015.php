@@ -11,195 +11,94 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="center-block text-center">
-                    <h1 class="center-block">Need to contact us? This is the place to do it!</h1>
-                    <p class="lead">A very nice contact form as well with mailing list sign up, and direct contact information can be found here</p>
+                    <h1 class="center-block">2015 Competitions</h1>
+                    <p class="lead">Everything you need to know about competitions, from documents to addresses</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h2>Contact Information</h2>
+                <h2><a href="http://www.thebluealliance.com/event/2015waamv/">#1 - Auburn Mountainview</a></h2>
                 <hr style="margin-top: 0px; margin-bottom: 0px">
-                <p class=""></p><br>
-
+                <p class="">February 27th-28th</p>
                 <div class="row">
                     <div class="col-xs-12">
                         <address>
-                            <strong><a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a></strong><br>
-                            Steve Evans | Robotics Team<br>
-                            400 228th Ave, NE<br>
-                            Sammamish, WA 98074<br>
-                            <abbr title="Phone"><span class="glyphicon glyphicon-phone-alt"></span>:</abbr> +1 (425) 936-1500
+                            <strong><a href="http://www.auburn.wednet.edu/Domain/10">Auburn Mountainview High School</a></strong><br>
+                            28900 124th Avenue SE<br>
+                            Auburn, WA 98092<br>
                         </address>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Eastlake%20High%20School%2C%20228th%20Avenue%20Northeast%2C%20Sammamish%2C%20WA%2C%20United%20States&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Auburn%20Mountainview%20High%20School%2C%20124th%20Avenue%20Southeast%2C%20Auburn%2C%20WA%2C%20United%20States&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
                             <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div>
+                            <ul class="no-bullets">
+                                <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                                <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
+                                <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
+                                <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                            </ul>
+                        </div>
+                        <div class="center-content center-text">
+                            <div class="btn-group btn-group-justified">
+                                <a class="btn btn-default" href="/documents/competition_information_1.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                                <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <br>
-                <form id= "contactForm" class="form-horizontal" role="form">
-                    <fieldset>
-                        <legend><h2>Contact us directly with this form!</h2></legend>
-                        <h4><i class="fa fa-exclamation-triangle"></i> Warning: This Form Does Not Currently Work <i class="fa fa-exclamation-triangle"></i></h4>
-                        <div class="form-group">
-                            <label for="firstName" class="col-lg-2 control-label">Name</label>
-                            <div class="col-lg-5">
-                                <input type="text" id="firstName" class="form-control" name="firstName" placeholder="First Name" maxlength="30"/>
-                            </div>
-                            <label for="lastName" class="col-lg-2 control-label hidden-lg">Last Name</label>
-                            <div class="col-lg-5">
-                                <input type="text" id="lastName" class="form-control" name="lastName" placeholder="Last Name"  maxlength="30"/>
-                            </div>
-                        </div>                      
-                        
-                        
-                        <!--div class="form-group">
-                            <label for="subject" class="col-lg-2 control-label">Subject</label>
-                            <div class="col-lg-10 selectContainer inputGroupContainer">
-                                <select class="form-control" name="subject[]" id="subject">
-                                    <option value="" selected>Select an option</option>
-                                    <option value="sponsor" >Sponsor</option>
-                                    <option value="joinTeam" >Join the Team</option>
-                                    <option value="info" >Team Information</option>
-                                    <option value="compInfo">Competition Info</option>
-                                    <option value="other" >Other</option>
-                                </select>
-                            </div>
-                        </div-->
-                        <div class="form-group">
-                            <label class="col-lg-2 control-label">Subject</label>
-                            <div class="col-lg-10">
-                                <div class="btn-group" data-toggle="buttons">
-                                    <label class="btn btn-default">
-                                        <input type="radio" name="subject" value="sponsor" /> Sponsor
-                                    </label>
-                                    <label class="btn btn-default">
-                                        <input type="radio" name="subject" value="comp-info" /> Competition Info
-                                    </label>
-                                    <label class="btn btn-default">
-                                        <input type="radio" name="subject" value="join-team" /> Join the Team
-                                    </label>
-                                    <label class="btn btn-default">
-                                        <input type="radio" name="subject" value="other" /> Other
-                                    </label>
-                                </div>
+                <h2><a href="http://www.thebluealliance.com/event/2015wasno">#2 - Glacier Peak</a></h2>
+                <hr style="margin-top: 0px; margin-bottom: 0px">
+                <p class="">March 7th-8th</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <address>
+                            <strong><a href="http://glacierpeak.sno.wednet.edu/">Glacier Peak High School</a></strong><br>
+                            7401 144th Place NE<br>
+                            Snohomish, WA 98296<br>
+                        </address>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Galcier%20Peak%20High%20School%2C%20144th%20Place%20Northeast%2C%20Snohomish%2C%20WA%2C%20United%20States&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div>
+                            <ul class="no-bullets">
+                                <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                                <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
+                            </ul>
+                        </div>
+                        <div class="center-content center-text">
+                            <div class="btn-group btn-group-justified">
+                                <a class="btn btn-default" href="/documents/competition_information_2.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                                <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                             </div>
                         </div>
-
-                        <div class="form-group">
-                            <label for="email" class="col-lg-2 control-label">Email</label>
-                            <div class="col-lg-10">
-                                <!--input type="email" class="form-control" id="inputEmail" placeholder="Your Email" data-bv-emailaddress-message="try again" required />-->
-                                <input type="email" class="form-control" name="email" placeholder="Your Email Address" required/>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="formMessage" class="col-lg-2 control-label">Message</label>
-                            <div class="col-lg-10">
-                                <textarea class="form-control" rows="3" id="formMessage" name="formMessage" placeholder="We need to know what you're contacting us about" maxlength="500" required></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="mailingList" class="col-lg-2 control-label">Mailing List</label>
-                            <div class="col-lg-10">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="mailingBtn[]" id="mailingList" value="mailing-list">
-                                        If you plan to be a part of the team, Click This!
-                                        </input>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-lg-10 col-lg-offset-2">
-                            <button type="button" class="btn btn-danger pull-left add-tooltip" id="resetBtn" data-resetFormData="true" data-toggle="tooltip" data-placement="top" title="Click Here To Reset The Form"> Reset Form <span class="glyphicon glyphicon-remove-sign"></span></button>
-                            <button type="submit" class="btn btn-success pull-right" id="submitForm" name="submit" disabled="disabled" data-loading-text="Submiting..."> Submit <span class="glyphicon glyphicon-send"></span></button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="body-container">
-    <div class="container">
-        <div class="row text-center content-center">
-            <div class="col-xs-12">
-                <h2 class="section-header">Contact the Board</h2>
-            </div>
-        </div>
-        <div class="row text-center content-center">
-            <div id="presidents" class="col-xs-12">
-                <div class="col-sm-4 col-xs-12">
-                    <h3>Alex Friedberg</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Alex"/></div>
-                    <div class="club-role">President / Webmaster</div>
-                    <p><a class="btn btn-default" href="mailto:alex.friedberg@team1294.org">@ Email</a></p>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <h3>Steve Evans</h3>
-                    <div><img class="img-circle" height="150px" width="150px" src="" alt="Picture of Steve"/></div>
-                    <div class="club-role">Team Advisor</div>
-                    <p><button tab-index="0" class="add-popover btn btn-primary" data-toggle="popover" title="Call Steve Evans" data-placement="top"  data-content="+1 (425) 445-6035"><span class='glyphicon glyphicon-phone'></span> Call</button>&nbsp;<a class="btn btn-primary" href="mailto:steve.evans@team1294.org">@ Email</a></p>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <h3>Mike Jors</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Mike"/></div>
-                    <div class="club-role">Vice-President</div>
-                    <p><a class="btn btn-default"href="mailto:mike.jors@team1294.org">@ Email</a></p>
-                </div>
-            </div>
-            <div class="col-xs-12">
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <h3>Pranay Shoroff</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Pranay"/></div>
-                    <div class="club-role">Board</div>
-                    <p><a class="btn btn-default"href="mailto:pranay.shoroff@team1294.org">@ Email</a></p>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <h3>Tucker Sneed</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Tucker"/></div>
-                    <div class="club-role">Public-Relations</div>
-                    <p><a class="btn btn-default"href="mailto:tucker.sneed@team1294.org">@ Email</a></p>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <h3>Shea Cooke</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Shea"/></div>
-                    <div class="club-role">Board</div>
-                    <p><a class="btn btn-default"href="mailto:shea.cooke@team1294.org">@ Email</a></p>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <h3>Jose&nbsp;Rojas</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Jose"/></div>
-                    <div class="club-role">Board</div>
-                    <p><a class="btn btn-default"href="mailto:jose.rojas@team1294.org">@ Email</a></p>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <h3>Rebecca Zhou</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Rebecca"/></div>
-                    <div class="club-role">Board</div>
-                    <p><a class="btn btn-default"href="mailto:rebecca.zhou@team1294.org"> @ Email</a></p>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <h3>Aravind Sripada</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Aravind"/></div>
-                    <div class="club-role">Board</div>
-                    <p><a class="btn btn-default"href="mailto:aravind.sripada@team1294.org">@ Email</a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <?php 
     
     $ExtraFooterTags = '
