@@ -6,7 +6,7 @@
             }
         </style>
         <!--link rel="stylesheet" type="text/css" href="/subtrees/bootstrap/dist/css/bootstrap.min.css"-->
-        <link rel="stylesheet" type="text/css" href="/style/combined.main.min.css">
+        <link rel="stylesheet" type="text/css" href="/style/combined.main.css">
 
 
         <?php

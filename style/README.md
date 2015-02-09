@@ -24,8 +24,8 @@ Compiling
     * Use the command `npm install less -g` to install the less compiler globally
 2. Run the commands to compile the less files
     * Navigate using `cd` to the /style/ folder. Do not go any further into the folders.
-    * Run command `lessc --clean-css 1294_style.main.less combined.main.css` and wait for completion
-        * This command will gnerate two files, `combined.main.css` and `combined.main.min.css`. Only `combined.main.min.css` is used on the website.
+    * Run command `lessc -x 1294_style.main.less combined.main.css` and wait for completion
+        * This command will gnerate `combined.main.css` which has already been minized using the `-x` parameter
         * The syntax for the command is `lessc [option option=parameter ...] <source> [destination]`
         * [less compiler documentation](http://lesscss.org/usage/)
     * Close command prompt 
