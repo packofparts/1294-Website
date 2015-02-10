@@ -40,14 +40,12 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <div>
-                            <ul class="no-bullets">
-                                <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                                <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
-                                <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
-                                <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
-                            </ul>
-                        </div>
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                        </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
                                 <a class="btn btn-default" href="/documents/competition_information_1.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
@@ -80,12 +78,10 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <div>
-                            <ul class="no-bullets">
-                                <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                                <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
-                            </ul>
-                        </div>
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
+                        </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
                                 <a class="btn btn-default" href="/documents/competition_information_2.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
