@@ -88,11 +88,11 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="/about/competitions/2015.php"><i class="fa fa-connectdevelop"></i> Competitions</a></li>
                                     <li><a href="/about/forms/2015.php"><i class="fa fa-pencil-square-o"></i> Forms & Documents</a></li>
-                                    <li style="display: none"><a href="/about/team/"><i class="fa fa-users"></i> Our Team</a></li>
-                                    <li style="display: none"><a href="/about/website/"><span class="glyphicon glyphicon-globe"></span> The Website</a></li>
+                                    <li style="display: none"><a rel="nofollow" href ="/about/team/"><i class="fa fa-users"></i> Our Team</a></li>
+                                    <li style="display: none"><a rel="nofollow" href="/about/website/"><span class="glyphicon glyphicon-globe"></span> The Website</a></li>
                                     <li style="display: none" class="divider"></li>
-                                    <li style="display: none"><a href="/about/joining/"><span class="glyphicon glyphicon-heart-empty"></span> Join Us!</a></li>
-                                    <li style="display: none"><a href="/about/donate/"><i class="fa fa-money"></i> Donations</a></li>
+                                    <li style="display: none"><a rel="nofollow" href="/about/joining/"><span class="glyphicon glyphicon-heart-empty"></span> Join Us!</a></li>
+                                    <li style="display: none"><a rel="nofollow" href="/about/donate/"><i class="fa fa-money"></i> Donations</a></li>
                                 </ul>
                             </li>
                         <?php } //End of preview only block ?>

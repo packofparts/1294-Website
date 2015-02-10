@@ -51,8 +51,8 @@
                         <ul class="no-bullets">
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Abcense_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Abcense_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
                         </ul>
                     </div>
                 </div>
@@ -66,8 +66,8 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
                         </ul>
                     </div>
                 </div>

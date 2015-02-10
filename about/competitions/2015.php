@@ -1,7 +1,7 @@
 <?php 
     require($_SERVER['DOCUMENT_ROOT'].'/includes/upper_header.php'); 
 ?>
-    <title>1294 | Competition</title>
+    <title>1294 | Competitions</title>
     <meta name="description" content="Everything you need to know about the competitions!"/>
 <?php
     require($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php');
@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9 map-embeded">
-                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Auburn%20Mountainview%20High%20School%2C%20124th%20Avenue%20Southeast%2C%20Auburn%2C%20WA%2C%20United%20States&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Auburn+Mountainview+High+School,+28900+124th+Ave+SE,+Auburn,+WA+98092&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
                             <br>
                         </div>
                     </div>
@@ -43,12 +43,13 @@
                         <ul class="no-bullets">
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Ecsused_Abcense_Form_-_Auburn Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Abcense_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Abcense_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
                                 <a class="btn btn-default" href="/documents/competition_information_1.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                                <a class="btn btn-primary" href="https://www.google.com/maps/place/Auburn+Mountainview+High+School,+28900+124th+Ave+SE,+Auburn,+WA+98092/@47.341964,-122.171808,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                             </div>
                         </div>
@@ -71,7 +72,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9 map-embeded">
-                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Galcier%20Peak%20High%20School%2C%20144th%20Place%20Northeast%2C%20Snohomish%2C%20WA%2C%20United%20States&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Glacier+Peak+High+School,+7401+144th+Pl+SE,+Snohomish,+WA+98296&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
                             <br>
                         </div>
                     </div>
@@ -79,12 +80,13 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
                                 <a class="btn btn-default" href="/documents/competition_information_2.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                                <a class="btn btn-primary" href="https://www.google.com/maps/place/Glacier+Peak+High+School,+7401+144th+Pl+SE,+Snohomish,+WA+98296/@47.86665,-122.133345,17z"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                             </div>
                         </div>
