@@ -32,7 +32,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="embed-responsive embed-responsive-16by9">
+                        <div class="embed-responsive embed-responsive-16by9 map-embeded">
                             <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Auburn%20Mountainview%20High%20School%2C%20124th%20Avenue%20Southeast%2C%20Auburn%2C%20WA%2C%20United%20States&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
                             <br>
                         </div>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="embed-responsive embed-responsive-16by9">
+                        <div class="embed-responsive embed-responsive-16by9 map-embeded">
                             <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Galcier%20Peak%20High%20School%2C%20144th%20Place%20Northeast%2C%20Snohomish%2C%20WA%2C%20United%20States&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
                             <br>
                         </div>
