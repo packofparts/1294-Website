@@ -49,7 +49,7 @@
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
                                 <a class="btn btn-default" href="/documents/competition_information_1.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
-                                <a class="btn btn-primary" href="https://www.google.com/maps/place/Auburn+Mountainview+High+School,+28900+124th+Ave+SE,+Auburn,+WA+98092/@47.341964,-122.171808,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
+                                <a class="btn btn-default" href="https://www.google.com/maps/place/Auburn+Mountainview+High+School,+28900+124th+Ave+SE,+Auburn,+WA+98092/@47.341964,-122.171808,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
                                 <a class="btn btn-default" href="/documents/competition_information_2.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
-                                <a class="btn btn-primary" href="https://www.google.com/maps/place/Glacier+Peak+High+School,+7401+144th+Pl+SE,+Snohomish,+WA+98296/@47.86665,-122.133345,17z"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
+                                <a class="btn btn-default" href="https://www.google.com/maps/place/Glacier+Peak+High+School,+7401+144th+Pl+SE,+Snohomish,+WA+98296/@47.86665,-122.133345,17z"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                             </div>
                         </div>
