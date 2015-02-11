@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <h2><a href="http://www.thebluealliance.com/event/2015waamv/">#1 - Auburn Mountainview</a></h2>
-                <hr style="margin-top: 0px; margin-bottom: 0px">
+                <hr class="hr-underline">
                 <p class="">February 27th-28th</p>
                 <div class="row">
                     <div class="col-xs-12">
@@ -43,8 +43,8 @@
                         <ul class="no-bullets">
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Abcense_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Abcense_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Absence Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Absence Form</a></li>
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
@@ -58,7 +58,7 @@
             </div>
             <div class="col-sm-6">
                 <h2><a href="http://www.thebluealliance.com/event/2015wasno">#2 - Glacier Peak</a></h2>
-                <hr style="margin-top: 0px; margin-bottom: 0px">
+                <hr class="hr-underline"">
                 <p class="">March 7th-8th</p>
                 <div class="row">
                     <div class="col-xs-12">

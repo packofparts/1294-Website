@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <h3>General Documents and Forms</h3>
-                <hr style="margin-top: 0px; margin-bottom: 0px;">
+                <hr class="hr-underline">
                 <p class=""></p> 
                 <div class="row">
                     <div class="col-xs-12">
@@ -43,16 +43,14 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2015waamv/">#1 - Auburn Mountainview</a></h3>
-                <hr style="margin-top: 0px; margin-bottom: 0px">
-                <p class="">February 27th-28th</p>
+                <h3>Competitions</h3>
+                <hr class="hr-underline">
+                <p>General documents and forms for all Competitions we will be attending</p>
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Abcense_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Abcense_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Team_Letter_2-8-2015.docx">Competition Letter</a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,13 +58,29 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2015wasno">#2 - Glacier Peak</a></h3>
-                <hr style="margin-top: 0px; margin-bottom: 0px">
+                <h4><a href="http://www.thebluealliance.com/event/2015waamv/">#1 - Auburn Mountainview</a></h4>
+                <hr class="hr-underline">
                 <p class="">February 27th-28th</p>
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                            
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4><a href="http://www.thebluealliance.com/event/2015wasno">#2 - Glacier Peak</a></h4>
+                <hr class="hr-underline">
+                <p class="">February 27th-28th</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="no-bullets">
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
                         </ul>
                     </div>
