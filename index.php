@@ -108,7 +108,7 @@
                 <div>
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver2.1.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
                     </ul>
                 </div>
                 <p>
@@ -180,7 +180,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/EHS_Robotics_Info_Sheet_2014-2015_ver2.1.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
                         <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>

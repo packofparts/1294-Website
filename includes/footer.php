@@ -28,6 +28,9 @@
                 </div>
             </footer>
         </div>
+
+        <link rel="stylesheet" type="text/css" href="//brick.a.ssl.fastly.net/Clear+Sans:400,400i,500,600,700">
+
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script>window.jQuery || document.write('<script type="text/javascript" src="/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
         <script type="text/javascript" async src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5428b7f92d869d2c&async=1&domready=1"></script>

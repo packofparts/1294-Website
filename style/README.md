@@ -21,11 +21,12 @@ Compiling
 0. Install [Node.js](http://nodejs.org/download/)
     * Install using reccomened features (ie, don't touch the settings).
 1. Using command prompt, install the less compiler
-    * Use the command `npm install less -g` to install the less compiler globally
+    * Use the command `npm install -g less` to install the less compiler globally.
+    * Use the command `npm install -g less-plugin-clean-css` to install the css minimizer globally.
 2. Run the commands to compile the less files
     * Navigate using `cd` to the /style/ folder. Do not go any further into the folders.
     * Run command `lessc --clean-css 1294_style.main.less combined.main.css` and wait for completion
-        * This command will gnerate two files, `combined.main.css` and `combined.main.min.css`. Only `combined.main.min.css` is used on the website.
+        * This command will gnerate `combined.main.css` which has already been minized thanks to the `--clean-css` parameter
         * The syntax for the command is `lessc [option option=parameter ...] <source> [destination]`
         * [less compiler documentation](http://lesscss.org/usage/)
     * Close command prompt 
