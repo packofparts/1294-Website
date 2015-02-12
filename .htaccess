@@ -51,6 +51,8 @@ DirectoryIndex index.php
 # Removes comments before they are sent to the user
 <IfModule pagespeed_module>
     ModPagespeed on
-    ModPagespeedEnableFilters remove_comments,rewrite_images,lazyload_images
+    ModPagespeedEnableFilters remove_comments,rewrite_javascript,rewrite_css,rewrite_images
+    ModPagespeedEnableFilters elide_attributes,defer_javascript,move_css_to_head
+    ModPagespeedJpegRecompressionQuality -1
 </IfModule>
 
