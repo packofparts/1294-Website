@@ -52,6 +52,10 @@
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
                             <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Team_Letter_2-8-2015.docx">Competition Letter</a></li>
                         </ul>
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1Pfxs_BzTNbRDqIu_UbtCJFItiX5Vt_m5bAUdC1LO7Og/viewform">T-Shirt Order Form</a></li>
+                            
+                        </ul>
                     </div>
                 </div>
             </div>
