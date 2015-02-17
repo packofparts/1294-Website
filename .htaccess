@@ -17,9 +17,9 @@ DirectoryIndex index.php
 # Block access to "hidden" directories whose names begin with a period. This
 # includes directories used by version control systems such as Subversion or Git.
 <IfModule mod_rewrite.c>
-  RewriteCond %{SCRIPT_FILENAME} -d
-  RewriteCond %{SCRIPT_FILENAME} -f
-  RewriteRule "(^|/)\." - [F]
+    RewriteCond %{SCRIPT_FILENAME} -d [OR]
+    RewriteCond %{SCRIPT_FILENAME} -f
+    RewriteRule "(^|/)\." - [F]
 </IfModule>
 
 
@@ -33,20 +33,14 @@ DirectoryIndex index.php
   Satisfy All
 </FilesMatch>
 
-# Lets use gzip compression!
-# compress certain file types by extension:
-<ifmodule mod_deflate.c>
-    <FilesMatch "(\.(txt|html|xml|css|xml|xhtml|js|less|php|eot|svg|ttf|woff)|~)$">
-        SetOutputFilter DEFLATE
-    </FilesMatch>
-</ifmodule>
-
 # Cache pictures by putting a header on them.
 <ifModule mod_headers.c>
     <filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
     Header set Cache-Control "max-age=1296000, public"
     </filesMatch>
 </ifModule>
+
+
 
 # Removes comments before they are sent to the user
 <IfModule pagespeed_module>
@@ -56,3 +50,46 @@ DirectoryIndex index.php
     ModPagespeedJpegRecompressionQuality -1
 </IfModule>
 
+<IfModule mod_deflate.c>
+
+    # Force compression for mangled headers.
+    # http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping
+    <IfModule mod_setenvif.c>
+        <IfModule mod_headers.c>
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+        </IfModule>
+    </IfModule>
+
+    <FilesMatch "(\.(txt|html|xml|css|xml|xhtml|js|less|php|eot|svg|ttf|woff)|~)$">
+        SetOutputFilter DEFLATE
+    </FilesMatch>
+
+    # Compress all output labeled with one of the following MIME-types
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE application/atom+xml \
+                                      application/javascript \
+                                      application/json \
+                                      application/rss+xml \
+                                      application/vnd.ms-fontobject \
+                                      application/x-font-ttf \
+                                      application/x-web-app-manifest+json \
+                                      application/xhtml+xml \
+                                      application/xml \
+                                      font/opentype \
+                                      image/svg+xml \
+                                      image/x-icon \
+                                      text/css \
+                                      text/html \
+                                      text/plain \
+                                      text/x-component \
+                                      text/xml
+    </IfModule>
+
+</IfModule>
+
+# Use UTF-8 encoding for anything served text/plain or text/html
+AddDefaultCharset utf-8
+
+# Force UTF-8 for a number of file formats
+AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
