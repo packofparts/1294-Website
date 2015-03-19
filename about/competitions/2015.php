@@ -151,9 +151,6 @@
 
 <?php 
     
-    $ExtraFooterTags = '
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js"></script>
-    <script type="text/javascript" src="/js/Contact-Us.min.js"></script>';
-    
+    $ExtraFooterTags = '';
     require($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php');
  ?>
