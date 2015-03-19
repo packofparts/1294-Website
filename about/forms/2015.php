@@ -91,6 +91,22 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4><a href="http://pnwfirst.org/events/2015-district-championship/">#3 - PNW District Championship</a></h4>
+                <hr class="hr-underline">
+                <p class="">April 1st - 4th</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_3/District_Championship_Activities_and_Risks.docx">Activities and Risks</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_3/Letter_Parents_with_Hotel_Information.docx">Letter to Parents / Hotel Information</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_3/LWSD_Travel_Consent_Form.pdf">REQUIRED - LWSD Travel Consent Form</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
