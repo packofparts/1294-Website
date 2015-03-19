@@ -97,11 +97,60 @@
     </div>
 </div>
 
+<div class="body-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="center-block text-center">
+                    <h1 class="center-block">Championships</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><a href="http://www.thebluealliance.com/event/2015pncmp">#3 PNW District Championship</a></h2>
+                <hr class="hr-underline">
+                <p class="">April 1st - 4th, 2015</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <address>
+                            <strong><a href="http://pnwfirst.org/events/2015-district-championship/">Eastern Washington University</a></strong><br>
+                            1126 Washington Street<br>
+                            Cheney, WA 97045<br>
+                        </address>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="embed-responsive embed-responsive-16by9 map-embeded">
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Eastern+Washington+University+-+Reese+Court%0D%0A1126+Washington+Street%0D%0ACheney,+WA&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="no-bullets">
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_3/District_Championship_Activities_and_Risks.docx">Activities and Risks</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_3/Letter_Parents_with_Hotel_Information.docx">Letter to Parents / Hotel Information</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_3/LWSD_Travel_Consent_Form.pdf">REQUIRED - LWSD Travel Consent Form</a></li>
+                        </ul>
+                        <div class="center-content center-text">
+                            <div class="btn-group btn-group-justified">
+                                <a class="btn btn-default" href="/documents/competition_information_3.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                                <a class="btn btn-default" href="https://www.google.com/maps/place/Eastern+Washington+University+Reese+Court%0D%0A1126+Washington+Street%0D%0ACheney,+WA"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
+                                <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php 
     
-    $ExtraFooterTags = '
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js"></script>
-    <script type="text/javascript" src="/js/Contact-Us.min.js"></script>';
-    
+    $ExtraFooterTags = '';
     require($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php');
  ?>
