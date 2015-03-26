@@ -7,7 +7,7 @@
                 
                 <div class="row" class="sponsors">
                     <div class="col-sm-4">
-                         <img class="img-responsive center-block" id="sponsor-orora" alt="Orora Logo" src="http://nctrucking.wildapricot.org/Resources/Pictures/Kenworth%20Bar%20Logo%20with%20A%20PACCAR%20Company%20Black%20Trans%20Background%20800%20DPIpng.png"/>
+                         <img class="img-responsive center-block" id="sponsor-kenworth" alt="Kenworth Logo" src="http://nctrucking.wildapricot.org/Resources/Pictures/Kenworth%20Bar%20Logo%20with%20A%20PACCAR%20Company%20Black%20Trans%20Background%20800%20DPIpng.png"/>
                     </div>
                     <div class="col-sm-4">                        
                        <img class="img-responsive center-block" id="sponsor-SAE" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_380839334_sae_nw_logo_smaller.gif"/>
@@ -23,7 +23,7 @@
                             <div class="fb-like" id="fb-like-footer" data-href="https://www.facebook.com/topgunrobotics/" data-width="450" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                             <hr>
                             <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org/">US First</a> | <a class="footer-links" title="Washingotn First Robotics" href="http://firstwa.org/">First WA</a> | <a class="footer-links" href="https://plus.google.com/103733199754924235388" rel="publisher">Google+</a> | <a class="footer-links" title="Star or Fork us on GitHub" href="https://github.com/FRC-1294">GitHub</a>
-                        </div>
+                        </div>h
                     </div>
                 </div>
             </footer>

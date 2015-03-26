@@ -419,12 +419,12 @@ All sponsor logos have ideas that go as follows "sponsor-sponsorNAME"
     z-index: 50;
 }
 
-#sponsor-orora {
+#sponsor-kenworth {
 
 }
 
 @media (min-width: 767px) {
-    #sponsor-orora {
+    #sponsor-kenworth {
         margin-top: 80px;
     }
     #sponsor-boeing {
