@@ -7,7 +7,7 @@
                 
                 <div class="row" class="sponsors">
                     <div class="col-sm-4">
-                         <img class="img-responsive center-block" id="sponsor-orora" alt="Orora Logo" src="http://orora.com/logo20.png"/>
+                         <img class="img-responsive center-block" id="sponsor-orora" alt="Orora Logo" src="http://nctrucking.wildapricot.org/Resources/Pictures/Kenworth%20Bar%20Logo%20with%20A%20PACCAR%20Company%20Black%20Trans%20Background%20800%20DPIpng.png"/>
                     </div>
                     <div class="col-sm-4">                        
                        <img class="img-responsive center-block" id="sponsor-SAE" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_380839334_sae_nw_logo_smaller.gif"/>
