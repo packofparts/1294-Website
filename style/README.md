@@ -25,8 +25,11 @@ Compiling
     * Use the command `npm install -g less-plugin-clean-css` to install the css minimizer globally.
 2. Run the commands to compile the less files
     * Navigate using `cd` to the /style/ folder. Do not go any further into the folders.
-    * Run command `lessc --clean-css 1294_style.main.less combined.main.css` and wait for completion
-        * This command will gnerate `combined.main.css` which has already been minized thanks to the `--clean-css` parameter
+    * Run command `lessc --clean-css 1294_style.main.less [date].[version for that day].combined.main.css` and wait for completion
+        * An example for this command would be `lessc --clean-css 1294_style.main.less 3-27-15.01.combined.main.css`
+        * Including the date and version number for the day will force a refresh for cloudflare and prevent old caches from brekaing our sites appearence.
+        * Remember to change the css link name in `lower_header.php` file. Deleting the old css file as well.
+        * This command will gnerate `combined.main.css` which will be minized thanks to the `--clean-css` parameter
         * The syntax for the command is `lessc [option option=parameter ...] <source> [destination]`
         * [less compiler documentation](http://lesscss.org/usage/)
     * Close command prompt 
