@@ -120,7 +120,7 @@
                 if($debugMode){
                     echo "<p>Uh oh! The data has a length of 0. This means that there are no future events on the calendar.</p>";
                 }else{
-                    echo "<p>Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.</p>"; // give the user a nice error message
+                    echo "<p>Sorry, there are no events on our calendar currently. You can see our full calendar by clicking the button below.</p>"; // give the user a nice error message
                 }
             }
         }else{
