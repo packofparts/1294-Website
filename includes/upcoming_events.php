@@ -24,9 +24,6 @@
      *
      */
 
-
-
-
     /* CONFIG BLOCK START */
     $apiKey = 'AIzaSyAe3Fa0uMaHUi88TkHZjuJ4ajQVhjqI9uA'; // Your API Key Would Go Here
 
@@ -50,11 +47,6 @@
     $timeFormat = 'g:i A'; // 7:00 PM
     /* END OF CONFIG BLOCK */
 
-
-
-
-    $data; // initialize a variable to hold the data
-
     if($debugMode){ // set up error reporting and say hi
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
@@ -63,15 +55,28 @@
         echo "<p>We're just about ready to load the feed!</p>";
     }
 
-    // Check if the cache file is valid
-    $timedif = @(time() - filemtime($cacheFilePath));
-    if($cache && file_exists($cacheFilePath) && $timedif < 43200 /* 12 hours in seconds */){
-        if($debugMode){echo "<p>We have a valid cache file! It's stored at ".$cacheFilePath."</p>";}
-        $data = json_decode(file_get_contents($cacheFilePath)); // get the file contents and store them
-    }else{
-        if($debugMode && $cache){
-            echo "<p>Our cache file is too old, we can't use it.</p>";
+    function getCacheFileData(){
+        global $debugMode, $cacheFilePath;
+        if($debugMode){echo "<p>Caching is <strong>ON</strong>. Checking cache file validity.</p>";}
+        if(checkCacheFileDate()){
+            if($debugMode){echo "<p>We have a valid cache file! It's stored at ".$cacheFilePath."</p>";}
+            return json_decode(file_get_contents($cacheFilePath)); // get the file contents and store them
+        }else{
+            if($debugMode){
+                echo "<p>Our cache file is too old, we can't use it.</p>";
+            }
+            return getOnlineData();
         }
+    }
+
+    function checkCacheFileDate(){
+        global $cacheFilePath;
+        $timedif = @(time() - filemtime($cacheFilePath));
+        return file_exists($cacheFilePath) && $timedif < 43200 /* 12 hours in seconds */;
+    }
+
+    function getOnlineData(){
+        global $debugMode, $cache, $cacheFilePath, $apiKey, $calendarId, $reqSettings;
         // get data from api
         try{
             if($debugMode){echo "<p>We're going to set up the request now.</p>";}
@@ -94,15 +99,43 @@
                 if($debugMode){echo "<p>We've put the data in the cache file here: ".$cacheFilePath."</p>";}
             }
         }catch(Exception $e){
-            echo "<p style=\"word-wrap: break-word;\">We had a problem getting the data from the server, please contact the webmaster with the following error:\n".$e."</p>";
+            echo '<p style="word-wrap: break-word;">We had a problem getting the data from the server, please contact the webmaster with the following error:<br><button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#cal-error">See Error</button><pre id="cal-error" class="collapse">'.$e.'</pre></p>';
+            return null;
+        }
+
+        if($debugMode){echo 'Response recieved: <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#cal-response">See Response</button><pre id="cal-response" class="collapse">'; var_dump($data); echo "</pre>";}
+
+        return $data;
+    }
+
+    function parseData($data){
+        global $debugMode;
+        if($debugMode){echo "<p>Checking to see if the data doesn't return null.</p>";} // if the data is null, somewhere along the line we had a problem
+        if(!is_null($data)){
+            if($debugMode){echo "<p>The data is not null. Checking if the length > 0.";}
+            if(count($data) > 0){
+                if($debugMode){echo "<p>There is data! Starting to format it!</p>";}
+                formatData($data);
+            }else{
+                if($debugMode){
+                    echo "<p>Uh oh! The data has a length of 0. This means that there are no future events on the calendar.</p>";
+                }else{
+                    echo "<p>Sorry, there are no events on our calendar currently. You can see our full calendar by clicking the button below.</p>"; // give the user a nice error message
+                }
+            }
+        }else{
+            if($debugMode){
+                echo "<p>Uh oh! The data is null. This probably is because there was a problem with your API key, which should have raised a <code>Google_Service_Exception</code>.</p>";
+            }else{
+                echo "<p>Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.</p>"; // give the user a nice error message
+            }
         }
     }
 
-    if($debugMode){echo "<p>Checking to see if the data doesn't return null.</p>";} // if the data is null, somewhere along the line we had a problem
-    if($data){
-        if($debugMode){echo "<p>About ready to format the data!</p>";}
+    function formatData($data){
+        global $dateFormat, $timeFormat;
         foreach($data as $event){
-            $date;
+            $date = null;
             if($event -> start -> dateTime){ // if the event has a dateTime, it doesn't have a date
                 $date = date_format(date_create($event -> start -> dateTime), $dateFormat); // get the start date from the event
             }else{
@@ -115,7 +148,7 @@
 
             $name = $event -> summary; // get the event title
 
-            $timeString; // create the var later used in the final element
+            $timeString = null; // create the var later used in the final element
             $start = $event -> start; // get refrences to the start and end time objects
             $end = $event -> end;
             $tempStart = $start -> dateTime; // create some temp vars
@@ -139,12 +172,15 @@
             }
 
             $location = $event -> location; // get the event location
-            $mapLink; // create a var for the map link
+            $mapLink = null; // create a var for the map link
             $link = $event -> htmlLink; // get the link to the event in gcal
             // If the location is Eastlake High School, show a different set of text (Only show "Eastlake High School").
             // If empty, show nothing and disable the map link button
             // Otherwise, just show the event
-            if($location == "Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States"){
+            $temp = null;
+            preg_match("/Eastlake High School/", $location, $temp); // regex for a count of ocurances of "Eastlake High School" in $location
+            if(count($temp) > 0){
+                $location = 'Eastlake High School<br>';
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode("Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States").'" class="btn btn-primary btn-xs">Map It</a>';
                 $location = 'Eastlake High School<br>';
             }else if(!$location){
@@ -176,14 +212,20 @@
                     </div>
                 </div>';
         }
-    }else{
-        if($debugMode){
-            echo "<p>Uh oh! The data is null.</p>";
-        }else{
-            echo "<p>Sorry, we couldn't get data from the calendar. Please click the button bellow to look at our full calendar.</p>"; // give the user a nice error message
-        }
     }
 
-    if($debugMode){echo "<p><strong>Done!</strong></p>";}
+    function getCalendarData(){
+        global $cache, $debugMode;
+        if($cache){
+            $data = getCacheFileData();
+        }else{
+            $data = getOnlineData();
+        }
+        parseData($data);
+        if($debugMode){echo "<p><strong>Done!</strong></p>";}
+    }
+
+    getCalendarData();
+    
 ?>
 </div>
