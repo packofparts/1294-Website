@@ -9,7 +9,7 @@
     require'includes/upper_header.php'; 
 ?>
     <title>1294 | Top Gun Robotics</title>
-    <meta name="description" content="The Official Website of the Top Gun Robotics (FRC 1294) Located In Sammmamish Washington participating in FIRST&#0174; Robotics FRC&#0174; Competitions"/>
+    <meta name="description" content="The Official Website of the Top Gun Robotics (FRC&#0174; 1294) Located In Sammmamish Washington participating in FIRST&#0174; Robotics FRC Competitions"/>
 
     <!--link rel="stylesheet" type="text/css" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
 	<link rel="stylesheet" type="text/css" href="/WOWSlider/engine1/style.min.css" /-->
@@ -52,7 +52,7 @@
             <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
             <h1>We are Top Gun Robotics</h1>
             <p>
-                We are a high school <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition"><em>FRC&#0174;</em></a> robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington.
+                We are a high school <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC&#0174;</a> robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington.
                 Since 2004, we have been giving students a place where they can develop and practice their interests in science, technology, engineering, and math based fields. All thanks to our awesome mentors,   and generous sponsors.
             </p>
             <p>
@@ -143,7 +143,7 @@
                 <hr class="section-header-hr">
                 <div class="text-justified">         
                     <p>
-                        Top Gun robotics participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition"><em>FRC</em></a>, the oldest and most popular league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology"><em>FIRST&#0174;</em></a> robotics.
+                        Top Gun robotics participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, the oldest and most popular league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology"><em>FIRST&#0174;</em></a> robotics.
                     </p>      
                     <p>
                         Anyone is allowed to Join the Eastlake Robotics Team. It doesn't matter what school you belong to or what your experience or interests are<br>
