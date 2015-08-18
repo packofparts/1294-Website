@@ -1,7 +1,7 @@
 FRC-Team-1294 ![](http://img.shields.io/badge/bootstrap-3.2.0-brightgreen.svg)   ![](http://img.shields.io/badge/font%20awesome-4.3.0-brightgreen.svg)   ![](http://img.shields.io/badge/less-2.4.0-brightgreen.svg)
 =============
 
-The Official Website of the FRC Team 1294.
+The Official Website of the _FRC&#0174;_ Team 1294.
 [http://www.team1294.org](http://www.team1294.org)
 
 The website is built in PHP utilizing the bootstrap framework.
