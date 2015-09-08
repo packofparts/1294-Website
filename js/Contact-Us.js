@@ -1,5 +1,21 @@
 $(document).ready(function () {
-    $('#contactForm')
+    var contactForm = $('#contactForm'),
+        formSuccess = $('#formPostSuccess'),
+        formError = $('#formPostFail');
+
+    function resetForm () {
+        contactForm.data('bootstrapValidator').resetForm(true);
+        contactForm.find('.has-feedback, .has-success, .has-error').removeClass("has-feedback has-success has-error");
+        contactForm.find('.form-control-feedback').css('display', 'none');
+        contactForm.find('#subject .active').removeClass('active');
+        contactForm.find('#mailingList').prop('checked', false);
+        contactForm.find('i.form-control-feedback:not([data-bv-icon-for="subject"])').css('right', '15px').css('top', '0');
+        formSuccess.slideUp("slow", function() {
+            contactForm.slideDown("slow");
+        });
+    }
+
+    contactForm
         .bootstrapValidator({
             excluded: [':disabled', ':hidden', ':not(:visible)'],
             container: 'popover',
@@ -69,10 +85,33 @@ $(document).ready(function () {
             e.preventDefault();
             var btn = $('#submitForm');
             btn.button('loading');
-            alert("We would submit the form but theres no backend to support it yet");
-            //insert some Ajax here
+
+            var jsonObject = {
+                firstName: $('#firstName').val(),
+                lastName: $('#lastName').val(),
+                subject: $('#subject').find('.active input').val(),
+                email: $('#email').val(),
+                message: $('#formMessage').val(),
+                mailingList: $('#mailingList').is(':checked')
+            };
+            $.ajax({
+                contentType: 'text/plain',
+                data: {data: JSON.stringify(jsonObject)},
+                dataType: 'text',
+                method: 'POST',
+                url: 'form-response.php',
+                success: function () {
+                    formError.slideUp("slow", function () {
+                        contactForm.slideUp("slow", function () {
+                            formSuccess.slideDown("slow");
+                        });
+                    });
+                },
+                error: function () {
+                    formError.slideDown("slow");
+                }
+            });
             btn.button('reset');
-            //Do some cool fadeing after this so that the form disapears
         })
         .on('error.field.bv', function (e, data) {
             data.element
@@ -80,10 +119,14 @@ $(document).ready(function () {
                 .find('.help-block[data-bv-for="' + data.field + '"]').hide();
         });
 
+    $('#resetBtn').click(function () {
+        resetForm();
+    });
 
-});
-$('#resetBtn').click(function () {
-    $('#contactForm').data('bootstrapValidator').resetForm(true);
+    $('#btn-newform').click(function () {
+        resetForm();
+    });
+
 });
 
         

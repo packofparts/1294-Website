@@ -45,10 +45,12 @@
             </div>
             <div class="col-sm-6">
                 <br>
+                <div id="formPostFail" class="alert alert-danger" role="alert" style="display: none;">
+                    <p><strong>Error</strong> Sorry, but there has been a problem with the form. Please try again later or send us an email.</p>
+                </div>
                 <form id= "contactForm" class="form-horizontal" role="form">
                     <fieldset>
                         <legend><h2>Contact us directly with this form!</h2></legend>
-                        <h4><i class="fa fa-exclamation-triangle"></i> Warning: This Form Does Not Currently Work <i class="fa fa-exclamation-triangle"></i></h4>
                         <div class="form-group">
                             <label for="firstName" class="col-lg-2 control-label">Name</label>
                             <div class="col-lg-5">
@@ -77,7 +79,7 @@
                         <div class="form-group">
                             <label class="col-lg-2 control-label">Subject</label>
                             <div class="col-lg-10">
-                                <div class="btn-group" data-toggle="buttons">
+                                <div class="btn-group" id="subject" data-toggle="buttons">
                                     <label class="btn btn-default">
                                         <input type="radio" name="subject" value="sponsor" /> Sponsor
                                     </label>
@@ -128,6 +130,12 @@
                         </div>
                     </fieldset>
                 </form>
+                <div id="formPostSuccess" style="display: none;">
+                    <h1>Thank You!</h1>
+                    <p>Your response has been received.</p>
+                    <button type="button" class="btn btn-success"><a href="http://www.team1294.org" style="color: #FFF; text-decoration: none;">Return to Homepage</a></button>
+                    <button type="button" class="btn btn-success" id="btn-newform">Submit Another Response</button>
+                </div>
             </div>
         </div>
     </div>
