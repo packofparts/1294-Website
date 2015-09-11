@@ -176,10 +176,10 @@
                     <p><a class="btn btn-default"href="mailto:pranay.shoroff@team1294.org">@ Email</a></p>
                 </div>
                 <div class="col-md-2 col-sm-4 col-xs-6">
-                    <h3>Tucker Sneed</h3>
-                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of Tucker"/></div>
+                    <h3>------ -----</h3>
+                    <div><img class="img-circle" height="100px" width="100px" src="" alt="Picture of ------"/></div>
                     <div class="club-role">Public-Relations</div>
-                    <p><a class="btn btn-default"href="mailto:tucker.sneed@team1294.org">@ Email</a></p>
+                    <p><a class="btn btn-default"href="">@ Email</a></p>
                 </div>
                 <div class="col-md-2 col-sm-4 col-xs-6">
                     <h3>Shea Cooke</h3>
