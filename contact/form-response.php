@@ -8,6 +8,7 @@
 
 	/* START CONFIG BLOCK */
 	$sendToEmails = array("contact-us@team1294.org");  // an array of emails to send to ("email1@email.com", "email2@email.com")
+	$emailSubject = "1294 Email Response";
 	$emailTemplate = "
 	<h1>1294 Contact Form</h1>
 	<p>A new response has been sent via the 1294 contact form.</p>
@@ -61,7 +62,7 @@
 
     // act
     foreach ($sendToEmails as $email) {
-        mail($email, "My subject", $email, "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: <webmaster@team1294.org>\r\n");
+        mail($email, $emailSubject, $email, "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: <webmaster@team1294.org>\r\n");
     }
 
     // respond
