@@ -1,7 +1,7 @@
         <div class="body-container footer" style="">
             <footer class="container">
                 <div class="row">
-                    <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponosors!</h2><br>
+                    <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
                     <hr style="margin-top: -7px; ">
                 </div>
                 
