@@ -107,8 +107,8 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/2015/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">2015 Team Intro Power Point</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver1.docx">2016 Robotics Info Sheet</a></li>
                     </ul>
                 </div>
                 <p>
@@ -116,15 +116,15 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver1.pdf">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>
                 <p>
-                    After you have reviewed the documents and have attended a meeting, fill out the following form so we have your contact information.
+                    After you have reviewed the documents and have attended a meeting, fill out the following signup form so we have your contact information.
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1HM0CyWkmOcCk1gMqA6QRV1d9HfN_CvovlnqqLk30ha4/viewform">Offical Contact Information Form</a></li>
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform">Official Member Signup Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -132,7 +132,7 @@
                 </p>
                 <div class="center-content center-text">
                     <div class="btn-group btn-group-justified">
-                        <a class="btn btn-default" href="/documents/new-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                        <a class="btn btn-default disabled" href="/documents/2016/new-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
                         <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                     </div>
                 </div>
@@ -162,12 +162,12 @@
                         </ul>
                     </div>
                     <p>
-                        Fill out our interest survery so we know what team you want to be a part of.
+                        Fill out our member signup form so we have your contact information.
                     </p>
-                    <div>
-                        <ul class="no-bullets">
-                            <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/1JGb9iQLvyGWxFoCNkBjunERuho3qNpvbB7mj1vNhhTY/viewform">Team Interest Survey</a></li>
-                        </ul>
+                    <div class="center-content center-text">
+                        <div class="btn-group btn-group-justified">
+                            <a class="btn btn-primary" href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform"><span class="fa fa-file-text-o"></span> Official Member Signup Form</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -180,8 +180,8 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/past-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver1">2016 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver1.pdf">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -189,7 +189,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1HM0CyWkmOcCk1gMqA6QRV1d9HfN_CvovlnqqLk30ha4/viewform">Offical Contact Information Form</a></li>
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform">Official Member Signup Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -197,7 +197,7 @@
                 </p>
                 <div class="center-content center-text">
                     <div class="btn-group btn-group-justified">
-                        <a class="btn btn-default" href="/documents/past-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
+                        <a class="btn btn-default disabled" href="/documents/2016/past-members.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
                         <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
                     </div>
                 </div>
