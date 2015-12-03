@@ -184,7 +184,7 @@
                 <h3 class="section-header">Past / Existing Memebers</h3>
                 <hr class="section-header-hr">
                 <p class="center-content">
-                    Past members are still required to turn in safety form and pass safety training, as well as complete STIMS.<br>
+                    Past Members are still required to turn in safety form and pass safety training, as well as complete STIMS.<br>
                 </p>
                 <div>
                     <ul class="no-bullets">
