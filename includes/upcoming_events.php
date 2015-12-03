@@ -28,7 +28,7 @@
     $apiKey = 'AIzaSyAe3Fa0uMaHUi88TkHZjuJ4ajQVhjqI9uA'; // Your API Key Would Go Here
 
     // Your calendar id would go here, it can be found in your calendar details.
-    $calendarId = 'frc1294@gmail.com';
+    $calendarId = 'webmaster@team1294.org';
 
     $cache = true; // Whether or not to cache and use cache files.
     $cacheFilePath = $_SERVER['DOCUMENT_ROOT'].'/cache/gcal.json'; // Filepath where cache file is stored.
