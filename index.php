@@ -132,7 +132,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS</a></li>
+                        <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS Registration</a></li>
                     </ul>
                 </div>
                 <p>
