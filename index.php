@@ -132,7 +132,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS</a></li>
+                        <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS Registration</a></li>
                     </ul>
                 </div>
                 <p>
@@ -190,7 +190,7 @@
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver1">2016 Robotics Info Sheet</a></li>
                         <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver1.pdf">Required Permission/Safety Form</a></li>
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS</a></li>
+                        <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS Registration</a></li>
                     </ul>
                 </div>
                 <p>
