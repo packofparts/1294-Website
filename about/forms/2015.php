@@ -1,7 +1,7 @@
 <?php 
     require($_SERVER['DOCUMENT_ROOT'].'/includes/upper_header.php'); 
 ?>
-    <title>1294 | Forms and Documents</title>
+    <title>1294 | 2015 Forms and Documents</title>
     <meta name="description" content="All the forms and documents related to anything about our team"/>
 <?php
     require($_SERVER['DOCUMENT_ROOT'].'/includes/lower_header.php');
@@ -24,9 +24,9 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/new-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
+                            <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/2015/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">Team Intro Power Point</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/new-members/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/new-members/Robotics_Permission_Letter_ver1.doc">Required Permission/Safety Form</a></li>
                         </ul>
                         <ul class="no-bullets">
                             <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1HM0CyWkmOcCk1gMqA6QRV1d9HfN_CvovlnqqLk30ha4/viewform">Offical Contact Information Form</a></li>
@@ -49,8 +49,8 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/EHS_Team_Letter_2-8-2015.docx">Competition Letter</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_1/EHS_Team_Letter_2-8-2015.docx">Competition Letter</a></li>
                         </ul>
                         <ul class="no-bullets">
                             <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1Pfxs_BzTNbRDqIu_UbtCJFItiX5Vt_m5bAUdC1LO7Og/viewform">T-Shirt Order Form</a></li>
@@ -69,9 +69,9 @@
                     <div class="col-xs-12">
                         <ul class="no-bullets">
                             
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2015/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2015/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
                         </ul>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_2/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
                         </ul>
                     </div>
                 </div>
@@ -99,9 +99,9 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_3/District_Championship_Activities_and_Risks.docx">Activities and Risks</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_3/Letter_Parents_with_Hotel_Information.docx">Letter to Parents / Hotel Information</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_3/LWSD_Travel_Consent_Form.pdf">REQUIRED - LWSD Travel Consent Form</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_3/District_Championship_Activities_and_Risks.docx">Activities and Risks</a></li>
+                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_3/Letter_Parents_with_Hotel_Information.docx">Letter to Parents / Hotel Information</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2015/competition_information_3/LWSD_Travel_Consent_Form.pdf">REQUIRED - LWSD Travel Consent Form</a></li>
                         </ul>
                     </div>
                 </div>

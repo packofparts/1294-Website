@@ -1,7 +1,7 @@
         <div class="body-container footer" style="">
             <footer class="container">
                 <div class="row">
-                    <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponosors!</h2><br>
+                    <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
                     <hr style="margin-top: -7px; ">
                 </div>
                 
@@ -22,7 +22,7 @@
                         <div class="">
                             <div class="fb-like" id="fb-like-footer" data-href="https://www.facebook.com/topgunrobotics/" data-width="450" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                             <hr>
-                            <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="US First Robotics" href="http://usfirst.org/">US First</a> | <a class="footer-links" title="Washingotn First Robotics" href="http://firstwa.org/">First WA</a> | <a class="footer-links" href="https://plus.google.com/103733199754924235388" rel="publisher">Google+</a> | <a class="footer-links" title="Star or Fork us on GitHub" href="https://github.com/FRC-1294">GitHub</a>
+                            <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="US FIRST Robotics" href="http://usfirst.org/">US <em>FIRST</em></a> | <a class="footer-links" title="Washington FIRST Robotics" href="http://firstwa.org/"><em>FIRST</em> WA</a> | <a class="footer-links" href="https://plus.google.com/103733199754924235388" rel="publisher">Google+</a> | <a class="footer-links" title="Star or Fork us on GitHub" href="https://github.com/FRC-1294">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -31,8 +31,8 @@
 
         <link rel="stylesheet" type="text/css" href="//brick.a.ssl.fastly.net/Clear+Sans:400,400i,500,600,700">
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-        <script>window.jQuery || document.write('<script type="text/javascript" src="/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script>window.jQuery || document.write('<script type="text/javascript" src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script type="text/javascript" async src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5428b7f92d869d2c&async=1&domready=1"></script>
         <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
