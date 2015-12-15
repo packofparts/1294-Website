@@ -108,7 +108,7 @@
                 <div>
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/2015/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">2015 Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver1.docx">2016 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver2.docx">2016 Robotics Info Sheet</a></li>
                     </ul>
                 </div>
                 <p>
@@ -116,7 +116,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver1.pdf">Required Permission/Safety Form</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver2.pdf">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -188,8 +188,8 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver1">2016 Robotics Info Sheet</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver1.pdf">Required Permission/Safety Form</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver2">2016 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver2.pdf">Required Permission/Safety Form</a></li>
                         <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS Registration</a></li>
                     </ul>
                 </div>
