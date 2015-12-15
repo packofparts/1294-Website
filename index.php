@@ -52,8 +52,8 @@
             <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
             <h1>We are Top Gun Robotics</h1>
             <p>
-                We are a high school <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC&#0174;</a> robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish Washington.
-                Since 2004, we have been giving students a place where they can develop and practice their interests in science, technology, engineering, and math based fields. All thanks to our awesome mentors,   and generous sponsors.
+                We are a high school <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC&#0174;</a> robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish, Washington.
+                Since 2004, we have been giving students a place where they can develop and practice their interests in science, technology, engineering, and math based fields. All thanks to our awesome mentors, and generous sponsors.
             </p>
             <p>
                 <a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a>
@@ -108,7 +108,7 @@
                 <div>
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/2015/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">2015 Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver1.docx">2016 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver2.docx">2016 Robotics Info Sheet</a></li>
                     </ul>
                 </div>
                 <p>
@@ -116,7 +116,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver1.pdf">Required Permission/Safety Form</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Parent_Permission_Safety_Letter_ver2.pdf">Required Permission/Safety Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -151,14 +151,14 @@
                 <hr class="section-header-hr">
                 <div class="text-justified">         
                     <p>
-                        Top Gun robotics participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, the oldest and most popular league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology"><em>FIRST&#0174;</em></a> robotics.
+                        Top Gun Robotics participates in <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC</a>, the oldest and most popular league of <a href="http://www.usfirst.org/" title="For Inspiration and Recognition of Science and Technology"><em>FIRST&#0174;</em></a> robotics.
                     </p>      
                     <p>
-                        Anyone is allowed to Join the Eastlake Robotics Team. It doesn't matter what school you belong to or what your experience or interests are<br>
+                        Anyone is allowed to join the Eastlake Robotics Team. It doesn't matter what school you belong to or what your experience or interests are:<br>
                     </p>
                     <p class="text-center" style="font-style:italic; font-weight: bold;">
                         If you want to join the team, you can join.<br>
-                        No experience neccasary.<br>
+                        No experience necessary.<br>
                     </p>
                     <br>
                     <p>
@@ -181,15 +181,15 @@
             </div>
 
             <div class="col-md-4">
-                <h3 class="section-header">Past / Existing Memebers</h3>
+                <h3 class="section-header">Past / Existing Members</h3>
                 <hr class="section-header-hr">
                 <p class="center-content">
-                    Past Members are still required to turn in safety form and pass safety training, as well as complete STIMS.<br>
+                    Past Members are still required to turn in a safety form and pass safety training, as well as complete STIMS.<br>
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver1">2016 Robotics Info Sheet</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/EHS_Robotics_Parent_Permission_Safety_Letter_ver1.pdf">Required Permission/Safety Form</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver2">2016 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Parent_Permission_Safety_Letter_ver2.pdf">Required Permission/Safety Form</a></li>
                         <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS Registration</a></li>
                     </ul>
                 </div>
