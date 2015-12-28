@@ -88,7 +88,7 @@
                 <br><br>
                 <p><a class="btn btn-default" href="https://www.youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
                 <h2 class="section-header">Featured Picture</h2>
-                <img class="img-responsive img-thumbnail" alt="Our 2015 Robot" src="http://www.gallery.team1294.org/galleries/2015/2GlacierPeak/16759002032_5b6a4dc827_o.jpg" />
+                <img class="img-responsive img-thumbnail" alt="Our 2015 Robot" src="/img/featured_picture.jpg" />
                 <br><br>
                 <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Gallery &raquo;</a></p>
             </div>
