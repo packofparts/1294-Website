@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2 id="live-stream-title">Watch kickoff LIVE here!</h2>
+                <h2 id="live-stream-title">Watch Kickoff LIVE here!</h2>
                 <p class="lead">The FRC kickoff will be streaming live <a class="event-link" href="http://corporate.comcast.com/news-information/news-feed/2016-first-robotics-competition-kickoff">here</a> at<br>
                 <span class="event-times">7:30 on January 9th</span>
                 </p>
