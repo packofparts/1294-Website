@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2 id="live-stream-title">Watch our event LIVE here!</h2>
-                <p class="lead">We will be live streaming from the <a class="event-link" href="http://www.thebluealliance.com/event/2015wasno">PNW Glacier Peak District Event</a> on <br>
-                <span class="event-times">March 6th until March 8th</span>
+                <h2 id="live-stream-title">Watch kickoff LIVE here!</h2>
+                <p class="lead">The FRC kickoff will be streaming live <a class="event-link" href="http://corporate.comcast.com/news-information/news-feed/2016-first-robotics-competition-kickoff">here</a> at<br>
+                <span class="event-times">7:30 on January 9th</span>
                 </p>
             </div>
         </div>
@@ -12,11 +12,11 @@
             <!--<div class="col-lg-10 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1">-->
             <div class="col-xs-12">
                 <div class="embed-responsive embed-responsive-16by9" id="">
-                    <iframe id="Live-Stream" class="embed-responsive-item" src="http://www.ustream.tv/embed/20054416?v=3&amp;wmode=direct&wmode=opaque" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
+                    <iframe id="Live-Stream" class="embed-responsive-item" src="http://livestream.com/accounts/10738586/events/4654888/player?autoPlay=true_mute=false;wmode=direct&wmode=opaque" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="display:none;"> <!-- This row isn't really needed for kickoff -->
             <div class="col-md-12">
                 <table id="stream-buttons">
                     <tbody>
