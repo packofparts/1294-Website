@@ -12,7 +12,7 @@
             <!--<div class="col-lg-10 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1">-->
             <div class="col-xs-12">
                 <div class="embed-responsive embed-responsive-16by9" id="">
-                    <iframe id="Live-Stream" class="embed-responsive-item" src="http://livestream.com/accounts/10738586/events/4654888/player?autoPlay=true_mute=false;wmode=direct&wmode=opaque" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
+                    <iframe id="Live-Stream" class="embed-responsive-item" src="http://corporate.comcast.com/news-information/news-feed/2016-first-robotics-competition-kickoff" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless></iframe>
                 </div>
             </div>
         </div>
