@@ -27,7 +27,7 @@
                                 </a>
                             </td>
                             <td>
-                                <a href="http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank" class="add-tooltip btn btn-default" data-toggle="tooltip" data-placement="top" data-title="Read FIRST Stronghold documents such as the game manual at the FIRST website."  >
+                                <a href="http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank" class="add-tooltip btn btn-default" data-toggle="tooltip" data-placement="top" data-title="Read FIRST Stronghold documents such as the game manual at the FIRST website"  >
                                     <span class="glyphicon glyphicon-book"></span> <em>FIRST</em> Stronghold Resources
                                 </a>
                             </td>
