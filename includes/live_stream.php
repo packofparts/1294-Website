@@ -22,12 +22,12 @@
                     <tbody>
                         <tr style="width:100%;">
                             <td>
-                                <a href="https://www.youtube.com/playlist?list=PLZT9pIgNOV6bD_66hoAdtz0y76zr9c4ok" data-placement="top" data-toggle="tooltip" title="Go to ustream.com to view this live stream directly" class="add-tooltip btn btn-default">
+                                <a href="https://www.youtube.com/playlist?list=PLZT9pIgNOV6bD_66hoAdtz0y76zr9c4ok" data-placement="top" data-toggle="tooltip" title="Watch the FIRST Stronghold kickoff videos on YouTube" class="add-tooltip btn btn-default">
                                     <span class="glyphicon glyphicon-film"></span> Kickoff Videos
                                 </a>
                             </td>
                             <td>
-                                <a href="http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank" class="add-tooltip btn btn-default" data-toggle="tooltip" data-placement="top" data-title="Click here to get current match scores for this event"  >
+                                <a href="http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank" class="add-tooltip btn btn-default" data-toggle="tooltip" data-placement="top" data-title="Read FIRST Stronghold documents such as the game manual at the FIRST website."  >
                                     <span class="glyphicon glyphicon-book"></span> <em>FIRST</em> Stronghold Resources
                                 </a>
                             </td>
@@ -43,7 +43,7 @@
                         <tr style="width:100%;">
                             <?php
                             /*
-                            *The following code is to get ride of the calendar button when the event is in progress or when the event has passed
+                            *The following code is to get rid of the calendar button when the event is in progress or when the event has passed
                             *We'll eventually be able to do this by checking the event database
                             */
                             $eventDate='26-03-2014';
