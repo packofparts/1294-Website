@@ -32,6 +32,9 @@
                             <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform">Official Member Signup Form</a></li>
                         </ul>
                         <ul class="no-bullets">
+                            <li><i class="fa fa-fighter-jet icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1RS7h-h0rUN2yARcoIo133ww9HzDfd-zKQOgIIqIGLzM/viewform">T-Shirt Order Form</a></li>
+                        </ul>
+                        <ul class="no-bullets">
                             <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/a/team1294.org/folderview?id=0B7dBlgLDUixVRTh6cVBud2NGQzA">Reference Documents/Presentations</a></li>
                             
                         </ul>
