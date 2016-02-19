@@ -46,7 +46,7 @@
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents need to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
+                                <a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
                                 <a class="btn btn-default" href="https://www.google.com/maps/place/Auburn+Mountainview+High+School,+28900+124th+Ave+SE,+Auburn,+WA+98092/@47.341964,-122.171808,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                             </div>
@@ -83,7 +83,7 @@
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default btn-primary add-tooltip disabled" href="" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents need to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
+                                <a class="btn btn-default btn-primary add-tooltip disabled" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
                                 <a class="btn btn-default" href="https://www.google.com/maps/place/Mount+Vernon+High+School/@48.4237301,-122.3292279,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                             </div>
@@ -101,27 +101,28 @@
             <div class="col-xs-12">
                 <div class="center-block text-center">
                     <h2 class="center-block">Championships</h2>
+                    <p class="lead">We will only be attending these events if we qualify</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2015pncmp">#3 PNW District Championship</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016pncmp">#3 PNW District Championship</a></h3>
                 <hr class="hr-underline">
-                <p class="">April 1st - 4th, 2015</p>
+                <p class="">April 6st - 6th</p>
                 <div class="row">
                     <div class="col-xs-12">
                         <address>
-                            <strong><a href="http://pnwfirst.org/events/2015-district-championship/">Eastern Washington University</a></strong><br>
-                            1126 Washington Street<br>
-                            Cheney, WA 97045<br>
+                            <strong><a href="http://pnwfirst.org/events/2016-district-championship/">Veterans Memorial Coliseum</a></strong><br>
+                            300 North Winning Way<br>
+                            Portland, OR 97227<br>
                         </address>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9 map-embeded">
-                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Eastern+Washington+University+-+Reese+Court%0D%0A1126+Washington+Street%0D%0ACheney,+WA&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJz39MDlOnlVQRAlGuv4fc780&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
                             <br>
                         </div>
                     </div>
@@ -129,15 +130,13 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_3/District_Championship_Activities_and_Risks.docx">Activities and Risks</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_3/Letter_Parents_with_Hotel_Information.docx">Letter to Parents / Hotel Information</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/competition_information_3/LWSD_Travel_Consent_Form.pdf">REQUIRED - LWSD Travel Consent Form</a></li>
+                            <li><i class="fa fa-times icon-bullet"></i>More information will be added as it becomes available</li>
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default" href="/documents/competition_information_3.zip"><span class="glyphicon glyphicon-compressed"></span> Download All</a>
-                                <a class="btn btn-default" href="https://www.google.com/maps/place/Eastern+Washington+University+Reese+Court%0D%0A1126+Washington+Street%0D%0ACheney,+WA"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
-                                <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
+                                <a class="btn btn-default btn-primary add-tooltip disabled" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
+                                <a class="btn btn-default" href="https://www.google.com/maps/place/Veterans+Memorial+Coliseum/@45.532141,-122.6693299,17z/data=!4m2!3m1!1s0x0:0x3e7a8de21c9d8b3d"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
+                                <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                             </div>
                         </div>
                     </div>
