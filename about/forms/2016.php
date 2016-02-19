@@ -48,18 +48,6 @@
                 <h3>Competitions</h3>
                 <hr class="hr-underline">
                 <p>General documents and forms for all Competitions we will be attending</p>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_1/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_1/EHS_Team_Letter_2-8-2015.docx">Competition Letter</a></li>
-                        </ul>
-                        <ul class="no-bullets">
-                            <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1Pfxs_BzTNbRDqIu_UbtCJFItiX5Vt_m5bAUdC1LO7Og/viewform">T-Shirt Order Form</a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="row">
@@ -71,9 +59,8 @@
                     <div class="col-xs-12">
                         <ul class="no-bullets">
                             
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2015/competition_information_1/Competition_Auburn_Mountainview.docx">Auburn Mountainview Event Information</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2015/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_EHS.pdf">EHS Excused Abscense Form</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2015/competition_information_1/Excused_Absence_Form_-_Auburn_Mountainview_-_STEM.pdf">STEM Excused Abscense Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/EHS_Excused_Absence_Form-Auburn_Mountainview.pdf">EHS Excused Absence Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/STEM_Excused_Absence_Form-Auburn_Mountainview.pdf">STEM Excused Absence Form</a></li>
                         </ul>
                     </div>
                 </div>
