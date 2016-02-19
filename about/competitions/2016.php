@@ -83,7 +83,7 @@
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default btn-primary add-tooltip disabled" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
+                                <a class="btn btn-default btn-primary add-tooltip disabled" href="https://docs.google.com/a/team1294.org/forms/d/1o4EcrC8TxtcvYCacGxSVbCHvpOfQ1RQzKlYv77IMrKI/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
                                 <a class="btn btn-default" href="https://www.google.com/maps/place/Mount+Vernon+High+School/@48.4237301,-122.3292279,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                             </div>
@@ -109,7 +109,7 @@
             <div class="col-sm-6">
                 <h3><a href="http://www.thebluealliance.com/event/2016pncmp">#3 PNW District Championship</a></h3>
                 <hr class="hr-underline">
-                <p class="">April 6st - 6th</p>
+                <p class="">April 6th - 9th</p>
                 <div class="row">
                     <div class="col-xs-12">
                         <address>
