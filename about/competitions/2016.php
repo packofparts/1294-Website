@@ -18,7 +18,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2016waamv">#1 - Auburn Mountainview</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016waamv/">#1 - Auburn Mountainview</a></h3>
                 <hr class="hr-underline">
                 <p class="">March 4th-5th</p>
                 <div class="row">
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2016wamou">#2 - Mount Vernon</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016wamou/">#2 - Mount Vernon</a></h3>
                 <hr class="hr-underline"">
                 <p class="">March 18th-19th</p>
                 <div class="row">
@@ -107,7 +107,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2016pncmp">#3 PNW District Championship</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016pncmp/">#3 PNW District Championship</a></h3>
                 <hr class="hr-underline">
                 <p class="">April 6th - 9th</p>
                 <div class="row">
