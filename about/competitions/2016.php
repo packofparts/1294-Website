@@ -18,7 +18,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2015waamv/">#1 - Auburn Mountainview</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016waamv">#1 - Auburn Mountainview</a></h3>
                 <hr class="hr-underline">
                 <p class="">March 4th-5th</p>
                 <div class="row">
@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9 map-embeded">
-                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Auburn+Mountainview+High+School,+28900+124th+Ave+SE,+Auburn,+WA+98092&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH3-eMzNfkFQRBFmpP21suu0&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
                             <br>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents need to signup" ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
+                                <a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents need to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
                                 <a class="btn btn-default" href="https://www.google.com/maps/place/Auburn+Mountainview+High+School,+28900+124th+Ave+SE,+Auburn,+WA+98092/@47.341964,-122.171808,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                             </div>
@@ -55,22 +55,22 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2015wasno">#2 - Glacier Peak</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016wamou">#2 - Mount Vernon</a></h3>
                 <hr class="hr-underline"">
-                <p class="">March 7th-8th</p>
+                <p class="">March 18th-19th</p>
                 <div class="row">
                     <div class="col-xs-12">
                         <address>
-                            <strong><a href="http://glacierpeak.sno.wednet.edu/">Glacier Peak High School</a></strong><br>
-                            7401 144th Place NE<br>
-                            Snohomish, WA 98296<br>
+                            <strong><a href="http://mountvernonhigh.mountvernonschools.org/pages/Mount_Vernon_High">Mount Vernon High School</a></strong><br>
+                            314 N 9th Street<br>
+                            Mount Vernon, WA 98273<br>
                         </address>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9 map-embeded">
-                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Glacier+Peak+High+School,+7401+144th+Pl+SE,+Snohomish,+WA+98296&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
+                            <iframe class="embed-responsive-item" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJGSCaAKhuhVQRefulMyoM2l0&key=AIzaSyD0cv4HwJNZDZbKIFNpvEKthoyg6xK4fV0"></iframe>
                             <br>
                         </div>
                     </div>
@@ -78,14 +78,14 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/EHS_Robotics_Info_Sheet_2014-2015_ver3.1.docx">2015 Robotics Info Sheet</a></li>
-                            <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/competition_information_2/Competition_Glacier_Peak_Snohomish.docx">Glacier Peak Event Information</a></li>
+                            <li><i class="fa fa-times icon-bullet"></i>More information will be added as it becomes available</li>
+                            <li><i class="icon-bullet"></i></li>
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default disabled" href="/documents/competition_information_1.zip"><span class="fa fa-pencil-square-o"></span> Sign Up</a>
-                                <a class="btn btn-default" href="https://www.google.com/maps/place/Glacier+Peak+High+School,+7401+144th+Pl+SE,+Snohomish,+WA+98296/@47.86665,-122.133345,17z"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
-                                <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar &raquo;</a>
+                                <a class="btn btn-default btn-primary add-tooltip disabled" href="" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents need to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
+                                <a class="btn btn-default" href="https://www.google.com/maps/place/Mount+Vernon+High+School/@48.4237301,-122.3292279,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
+                                <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                             </div>
                         </div>
                     </div>
