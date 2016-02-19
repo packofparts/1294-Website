@@ -101,7 +101,7 @@
             <div class="col-xs-12">
                 <div class="center-block text-center">
                     <h2 class="center-block">Championships</h2>
-                    <p class="lead">We will only be attending these events if we qualify</p>
+                    <p class="lead">We will only attend these events if we qualify</p>
                 </div>
             </div>
         </div>
