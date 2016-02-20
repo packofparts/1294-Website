@@ -77,6 +77,7 @@
                     <div class="col-xs-12">
                         <ul class="no-bullets">
                             
+                            <li><i class="fa fa-pencil-square-o icon-bullet"></i><a class="add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1o4EcrC8TxtcvYCacGxSVbCHvpOfQ1RQzKlYv77IMrKI/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup.">Sign Up</a></li>
                             <li><i class="fa fa-times icon-bullet"></i>More information will be added as it becomes available</li>
                             
                         </ul>
@@ -92,7 +93,8 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            
+                        
+                            <li><i class="fa fa-pencil-square-o icon-bullet"></i><a class="add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1tbelTuK36pmwmjVbaf4azU1LpL-uWP0ylWvaY7OykrY/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup.">Sign Up</a></li>                            
                             <li><i class="fa fa-times icon-bullet"></i>More information will be added as it becomes available</li>
                            
                         </ul>
