@@ -43,6 +43,65 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Competitions</h3>
+                <hr class="hr-underline">
+                <p>General documents and forms for all Competitions we will be attending</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4><a href="http://www.thebluealliance.com/event/2016waamv/">#1 - Auburn Mountainview</a></h4>
+                <hr class="hr-underline">
+                <p class="">March 4th-5th</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="no-bullets">
+                            
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/EHS_Excused_Absence_Form-Auburn_Mountainview.pdf">EHS Excused Absence Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/STEM_Excused_Absence_Form-Auburn_Mountainview.pdf">STEM Excused Absence Form</a></li>
+                            <li><i class="fa fa-pencil-square-o icon-bullet"></i><a class="add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup.">Sign Up</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4><a href="http://www.thebluealliance.com/event/2016wamou/">#2 - Mount Vernon</a></h4>
+                <hr class="hr-underline">
+                <p class="">March 18th-19th</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="no-bullets">
+                            
+                            <li><i class="fa fa-pencil-square-o icon-bullet"></i><a class="add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1o4EcrC8TxtcvYCacGxSVbCHvpOfQ1RQzKlYv77IMrKI/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup.">Sign Up</a></li>
+                            <li><i class="fa fa-times icon-bullet"></i>More information will be added as it becomes available</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4><a href="http://www.thebluealliance.com/event/2016pncmp/">#3 PNW District Championship</a></h4>
+                <hr class="hr-underline">
+                <p class="">April 6th - 9th</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="no-bullets">
+                        
+                            <li><i class="fa fa-pencil-square-o icon-bullet"></i><a class="add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1tbelTuK36pmwmjVbaf4azU1LpL-uWP0ylWvaY7OykrY/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup.">Sign Up</a></li>                            
+                            <li><i class="fa fa-times icon-bullet"></i>More information will be added as it becomes available</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

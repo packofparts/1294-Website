@@ -18,7 +18,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2016waamv">#1 - Auburn Mountainview</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016waamv/">#1 - Auburn Mountainview</a></h3>
                 <hr class="hr-underline">
                 <p class="">March 4th-5th</p>
                 <div class="row">
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2016wamou">#2 - Mount Vernon</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016wamou/">#2 - Mount Vernon</a></h3>
                 <hr class="hr-underline"">
                 <p class="">March 18th-19th</p>
                 <div class="row">
@@ -83,7 +83,7 @@
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default btn-primary add-tooltip disabled" href="https://docs.google.com/a/team1294.org/forms/d/1o4EcrC8TxtcvYCacGxSVbCHvpOfQ1RQzKlYv77IMrKI/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
+                                <a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1o4EcrC8TxtcvYCacGxSVbCHvpOfQ1RQzKlYv77IMrKI/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
                                 <a class="btn btn-default" href="https://www.google.com/maps/place/Mount+Vernon+High+School/@48.4237301,-122.3292279,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                             </div>
@@ -107,7 +107,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h3><a href="http://www.thebluealliance.com/event/2016pncmp">#3 PNW District Championship</a></h3>
+                <h3><a href="http://www.thebluealliance.com/event/2016pncmp/">#3 PNW District Championship</a></h3>
                 <hr class="hr-underline">
                 <p class="">April 6th - 9th</p>
                 <div class="row">
@@ -134,7 +134,7 @@
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default btn-primary add-tooltip disabled" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
+                                <a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1tbelTuK36pmwmjVbaf4azU1LpL-uWP0ylWvaY7OykrY/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
                                 <a class="btn btn-default" href="https://www.google.com/maps/place/Veterans+Memorial+Coliseum/@45.532141,-122.6693299,17z/data=!4m2!3m1!1s0x0:0x3e7a8de21c9d8b3d"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                             </div>
