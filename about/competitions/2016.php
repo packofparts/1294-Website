@@ -41,8 +41,9 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/EHS_Excused_Absence_Form-Auburn_Mountainview.pdf">EHS Excused Absence Form</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/STEM_Excused_Absence_Form-Auburn_Mountainview.pdf">STEM Excused Absence Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/EHS_Excused_Absence_Form-Auburn_Mountainview.pdf">EHS excused absence form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/STEM_Excused_Absence_Form-Auburn_Mountainview.pdf">STEM excused absence form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/Auburn_Mountainview_Site_Specific_Information_2016.pdf">Event information and schedule</a></li>
                         </ul>
                         <div class="center-content center-text">
                             <div class="btn-group btn-group-justified">

@@ -59,8 +59,9 @@
                     <div class="col-xs-12">
                         <ul class="no-bullets">
                             
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/EHS_Excused_Absence_Form-Auburn_Mountainview.pdf">EHS Excused Absence Form</a></li>
-                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/STEM_Excused_Absence_Form-Auburn_Mountainview.pdf">STEM Excused Absence Form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/EHS_Excused_Absence_Form-Auburn_Mountainview.pdf">EHS Excused absence form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/STEM_Excused_Absence_Form-Auburn_Mountainview.pdf">STEM Excused absence form</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/Auburn_Mountainview_Site_Specific_Information_2016.pdf">Event information and schedule</a></li>
                             <li><i class="fa fa-pencil-square-o icon-bullet"></i><a class="add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup.">Sign Up</a></li>
                             
                         </ul>
