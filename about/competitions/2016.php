@@ -46,13 +46,9 @@
                             <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/Auburn_Mountainview_Site_Specific_Information_2016.pdf">Event information and schedule</a></li>
                         </ul>
                         <div class="center-content center-text">
-                        
-	                        <div class="btn-group btn-group-justified">
-	                        	<a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup." ><span class="fa fa-pencil-square-o"></span> Sign Up</a>
-	                    	</div>
-	                    	<br />
+
                             <div class="btn-group btn-group-justified">
-                                <a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform"><span class="fa fa-pencil-square-o"></span> Event information</a>
+                                <a class="btn btn-default btn-primary add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1OjuIm9JtKeosUBHDsP8gmMdTkvNE7_wFslMvE9FNUW4/viewform"><span class="fa fa-pencil-square-o"></span> Sign Up</a>
                                 <a class="btn btn-default" href="https://www.google.com/maps/place/Auburn+Mountainview+High+School,+28900+124th+Ave+SE,+Auburn,+WA+98092/@47.341964,-122.171808,17z/"><span class="glyphicon glyphicon-map-marker"></span> Map It</a>
                                 <a class="btn btn-default" href="/calendar/"><span class="glyphicon glyphicon-calendar"></span> Calendar</a>
                                 
