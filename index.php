@@ -56,7 +56,7 @@
                 Since 2004, we have been giving students a place where they can develop and practice their interests in science, technology, engineering, and math based fields. All thanks to our awesome mentors, and generous sponsors.
             </p>
             <p>
-                <a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a>
+                <a class="btn btn-primary btn-lg disabled learn-more" href="/about/team/">Learn more &raquo;</a>
             </p>
             
         </div>
