@@ -22,16 +22,16 @@
     The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
     <div id="wowslider-container1">
         <div class="ws_images"><ul>
-		        <li><img src="/WOWSlider/data1/images/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="TEST FIRST IMAGE" id="wows1_0"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175" title="20140301_RoboticsCompetition_0175" id="wows1_1"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203" title="20140424_FIRSTRoboticsWorldChampionships_0203" id="wows1_2"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211" title="20140424_FIRSTRoboticsWorldChampionships_0211" id="wows1_3"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786" title="20140425_FIRSTRoboticsWorldChampionships_0786" id="wows1_4"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867" title="20140425_FIRSTRoboticsWorldChampionships_0867" id="wows1_5"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886" title="20140426_FIRSTRoboticsWorldChampionships_0886" id="wows1_6"/></li>
-		        <li><img src="/WOWSlider/data1/images/img_3205.jpg" alt="IMG_3205" title="IMG_3205" id="wows1_7"/></li>
-		        <li><a href="http://wowslider.com/vi"><img src="/WOWSlider/data1/images/img_7066.jpg" alt="slider" title="IMG_7066" id="wows1_8"/></a></li>
-		        <li><img src="/WOWSlider/data1/images/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536" title="20140412_PortlandRoboticsRegional_0536" id="wows1_9"/></li>
+		        <li><img src="/WOWSlider/data1/images/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175" title="" id="wows1_1"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203" title="" id="wows1_2"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211" title="" id="wows1_3"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786" title="" id="wows1_4"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867" title="" id="wows1_5"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886" title="" id="wows1_6"/></li>
+		        <li><img src="/WOWSlider/data1/images/img_3205.jpg" alt="IMG_3205" title="" id="wows1_7"/></li>
+		        <li><a href="http://wowslider.com/vi"><img src="/WOWSlider/data1/images/img_7066.jpg" alt="slider" title="" id="wows1_8"/></a></li>
+		        <li><img src="/WOWSlider/data1/images/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536" title="" id="wows1_9"/></li>
 	        </ul></div>
 	        <div class="ws_bullets"><div>
 		        <a href="#" title="16141082923_5ba28a67d5_o"><span><img src="/WOWSlider/data1/tooltips/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o"/>1</span></a>
