@@ -22,7 +22,7 @@
     The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
     <div id="wowslider-container1">
         <div class="ws_images"><ul>
-		        <li><img src="/WOWSlider/data1/images/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="16141082923_5ba28a67d5_o" id="wows1_0"/></li>
+		        <li><img src="/WOWSlider/data1/images/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="TEST FIRST IMAGE" id="wows1_0"/></li>
 		        <li><img src="/WOWSlider/data1/images/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175" title="20140301_RoboticsCompetition_0175" id="wows1_1"/></li>
 		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203" title="20140424_FIRSTRoboticsWorldChampionships_0203" id="wows1_2"/></li>
 		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211" title="20140424_FIRSTRoboticsWorldChampionships_0211" id="wows1_3"/></li>
@@ -44,7 +44,7 @@
 		        <a href="#" title="IMG_3205"><span><img src="/WOWSlider/data1/tooltips/img_3205.jpg" alt="IMG_3205"/>8</span></a>
 		        <a href="#" title="IMG_7066"><span><img src="/WOWSlider/data1/tooltips/img_7066.jpg" alt="IMG_7066"/>9</span></a>
 		        <a href="#" title="20140412_PortlandRoboticsRegional_0536"><span><img src="/WOWSlider/data1/tooltips/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536"/>10</span></a>
-	        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div>
+	        </div></div><!--div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div-->
         <div class="ws_shadow"></div>
     </div>	
     <!-- End WOWSlider.com BODY section -->
