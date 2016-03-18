@@ -79,7 +79,8 @@
                         <ul class="no-bullets">
                             
                             <li><i class="fa fa-pencil-square-o icon-bullet"></i><a class="add-tooltip" href="https://docs.google.com/a/team1294.org/forms/d/1o4EcrC8TxtcvYCacGxSVbCHvpOfQ1RQzKlYv77IMrKI/viewform" data-toggle="tooltip" data-placement="top" data-container="body" title="All students AND parents are required to signup.">Sign Up</a></li>
-                            <li><i class="fa fa-times icon-bullet"></i>More information will be added as it becomes available</li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/Mount_Vernon_Schedule.pdf">Event Schedule</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/Mount_Vernon_Site_Specific_Information_2016.pdf">Event Information</a></li>
                             
                         </ul>
                     </div>

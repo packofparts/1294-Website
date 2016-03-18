@@ -18,31 +18,36 @@
 ?>
 
 
-    <!--Start WOWSlider.com BODY section     Updated with Version 6.2
+    <!--Start WOWSlider.com BODY section     Updated with Version 8.7
     The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
-	<div id="wowslider-container1">
-	    <div class="ws_images">
-            <ul>
-                <li><img src="/WOWSlider/data1/images/img_0256.jpg" alt="The Team" title="The Team" id="wows1_0"/></li>
-                <li><img src="/WOWSlider/data1/images/img_0131.jpg" alt="Professionalism" title="Professionalism" id="wows1_1"/>We Strive to be the most Professional  as possible</li>
-                <li><img src="/WOWSlider/data1/images/img_0158.jpg" alt="Precision and Execution" title="Precision and Execution" id="wows1_2"/></li>
-                <li><img src="/WOWSlider/data1/images/img_0206.jpg" alt="Nothing but the Best" title="Nothing but the Best" id="wows1_3"/>Even if it means destroying the competition, we'll do it!</li>
-                <li><img src="/WOWSlider/data1/images/img_0217.jpg" alt="wordpress slider" title="Collaboration" id="wows1_4"/></li>
-                <li><img src="/WOWSlider/data1/images/img_0226.jpg" alt="Speed and Efficency" title="Speed and Efficency" id="wows1_5"/></li>
-            </ul>
-        </div>
-        <div class="ws_bullets">
-            <a href="#" title="The Team"><img src="/WOWSlider/data1/tooltips/img_0256.jpg" alt="The Team"/>1</a>
-            <a href="#" title="Professionalism"><img src="/WOWSlider/data1/tooltips/img_0131.jpg" alt="Professionalism"/>2</a>
-            <a href="#" title="Precision and Execution"><img src="/WOWSlider/data1/tooltips/img_0158.jpg" alt="Precision and Execution"/>3</a>
-            <a href="#" title="Nothing but the Best"><img src="/WOWSlider/data1/tooltips/img_0206.jpg" alt="Nothing but the Best"/>4</a>
-            <a href="#" title="Collaboration"><img src="/WOWSlider/data1/tooltips/img_0217.jpg" alt="Collaboration"/>5</a>
-            <a href="#" title="Speed and Efficency"><img src="/WOWSlider/data1/tooltips/img_0226.jpg" alt="Speed and Efficency"/>6</a>
-        </div>
-        <span class="wsl"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v6.4</span>
-	    <div class="ws_shadow"></div>
-	</div>	
-	<!-- End WOWSlider.com BODY section -->
+    <div id="wowslider-container1">
+        <div class="ws_images"><ul>
+		        <li><img src="/WOWSlider/data1/images/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175" title="" id="wows1_1"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203" title="" id="wows1_2"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211" title="" id="wows1_3"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786" title="" id="wows1_4"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867" title="" id="wows1_5"/></li>
+		        <li><img src="/WOWSlider/data1/images/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886" title="" id="wows1_6"/></li>
+		        <li><img src="/WOWSlider/data1/images/img_3205.jpg" alt="IMG_3205" title="" id="wows1_7"/></li>
+		        <li><a href="http://wowslider.com/vi"><img src="/WOWSlider/data1/images/img_7066.jpg" alt="slider" title="" id="wows1_8"/></a></li>
+		        <li><img src="/WOWSlider/data1/images/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536" title="" id="wows1_9"/></li>
+	        </ul></div>
+	        <div class="ws_bullets"><div>
+		        <a href="#" title="16141082923_5ba28a67d5_o"><span><img src="/WOWSlider/data1/tooltips/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o"/>1</span></a>
+		        <a href="#" title="20140301_RoboticsCompetition_0175"><span><img src="/WOWSlider/data1/tooltips/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175"/>2</span></a>
+		        <a href="#" title="20140424_FIRSTRoboticsWorldChampionships_0203"><span><img src="/WOWSlider/data1/tooltips/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203"/>3</span></a>
+		        <a href="#" title="20140424_FIRSTRoboticsWorldChampionships_0211"><span><img src="/WOWSlider/data1/tooltips/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211"/>4</span></a>
+		        <a href="#" title="20140425_FIRSTRoboticsWorldChampionships_0786"><span><img src="/WOWSlider/data1/tooltips/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786"/>5</span></a>
+		        <a href="#" title="20140425_FIRSTRoboticsWorldChampionships_0867"><span><img src="/WOWSlider/data1/tooltips/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867"/>6</span></a>
+		        <a href="#" title="20140426_FIRSTRoboticsWorldChampionships_0886"><span><img src="/WOWSlider/data1/tooltips/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886"/>7</span></a>
+		        <a href="#" title="IMG_3205"><span><img src="/WOWSlider/data1/tooltips/img_3205.jpg" alt="IMG_3205"/>8</span></a>
+		        <a href="#" title="IMG_7066"><span><img src="/WOWSlider/data1/tooltips/img_7066.jpg" alt="IMG_7066"/>9</span></a>
+		        <a href="#" title="20140412_PortlandRoboticsRegional_0536"><span><img src="/WOWSlider/data1/tooltips/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536"/>10</span></a>
+	        </div></div><!--div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div-->
+        <div class="ws_shadow"></div>
+    </div>	
+    <!-- End WOWSlider.com BODY section -->
 
 
 <div class="body-container" style="padding-bottom: 0px">
@@ -56,7 +61,7 @@
                 Since 2004, we have been giving students a place where they can develop and practice their interests in science, technology, engineering, and math based fields. All thanks to our awesome mentors, and generous sponsors.
             </p>
             <p>
-                <a class="btn btn-primary btn-lg learn-more" href="/about/team/">Learn more &raquo;</a>
+                <a class="btn btn-primary btn-lg disabled learn-more" href="/about/team/">Learn more &raquo;</a>
             </p>
             
         </div>

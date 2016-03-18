@@ -82,8 +82,8 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <ul class="no-bullets">
-                            <li><i class="fa fa-times icon-bullet"></i>More information will be added as it becomes available</li>
-                            <li><i class="icon-bullet"></i></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/Mount_Vernon_Schedule.pdf">Event Schedule</a></li>
+                            <li><i class="fa fa-file-pdf-o icon-bullet"></i><a href="/documents/2016/Mount_Vernon_Site_Specific_Information_2016.pdf">Event Information</a></li>
                             <li><i class="icon-bullet"></i></li>
                         </ul>
                         <div class="center-content center-text">
