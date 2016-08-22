@@ -60,9 +60,10 @@
                 We are a high school <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC&#0174;</a> robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish, Washington.
                 Since 2004, we have been giving students a place where they can develop and practice their interests in science, technology, engineering, and math based fields. All thanks to our awesome mentors, and generous sponsors.
             </p>
-            <p>
+            <!--p>
+            	This button goes nowhere, and is disabled anyways, so we might as well just hide it.
                 <a class="btn btn-primary btn-lg disabled learn-more" href="/about/team/">Learn more &raquo;</a>
-            </p>
+            </p-->
             
         </div>
     </div>
