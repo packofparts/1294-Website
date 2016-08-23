@@ -49,7 +49,7 @@
         else error();
     }
     $subject = parseSubjectString($data->subject);
-    $email = $data->email;
+    $submitter = $data->email;
     $message = $data->message;
     $mailingList = $data->mailingList;
     if($mailingList == true){
@@ -58,11 +58,12 @@
     	$mailingList = "No";
     }
 
-    $email = preg_replace(array('{{firstName}}', '{{lastName}}', '{{email}}', '{{subject}}', '{{message}}', '{{mailingList}}'), array($firstName, $lastName, $subject, $email, $message, $mailingList), $emailTemplate);
+    $body = preg_replace(array('{{firstName}}', '{{lastName}}', '{{email}}', '{{subject}}', '{{message}}', '{{mailingList}}'), array($firstName, $lastName, $subject, $submitter, $message, $mailingList), $emailTemplate);
+    $headers = "From: webmaster@team1294.org\r\nReply-To: ".$submitter."\r\nMIME-Version: 1.0\r\nContent-Type: text/html; charset=ISO-8859-1\r\n";
 
     // act
-    foreach ($sendToEmails as $e) {
-        $success = mail($e, $emailSubject, $email, "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: <webmaster@team1294.org>\r\n");
+    foreach ($sendToEmails as $email) {
+        $success = mail($email, $emailSubject, $body, $headers);
         if (!$success) error();
     }
 
