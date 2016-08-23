@@ -7,7 +7,7 @@
 	 */
 
 	/* START CONFIG BLOCK */
-	$sendToEmails = array("contact-us@team1294.org");  // an array of emails to send to ("email1@email.com", "email2@email.com")
+	$sendToEmails = array("austin.jenchi@team1294.org");  // an array of emails to send to ("email1@email.com", "email2@email.com")
 	$emailSubject = "1294 Form Response";
 	$emailTemplate = "
 	<h1>1294 Contact Form</h1>
