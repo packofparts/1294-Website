@@ -61,8 +61,8 @@
     $email = preg_replace(array('{{firstName}}', '{{lastName}}', '{{email}}', '{{subject}}', '{{message}}', '{{mailingList}}'), array($firstName, $lastName, $subject, $email, $message, $mailingList), $emailTemplate);
 
     // act
-    foreach ($sendToEmails as $email) {
-        $success = mail($email, $emailSubject, $email, "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: <webmaster@team1294.org>\r\n");
+    foreach ($sendToEmails as $e) {
+        $success = mail($e, $emailSubject, $email, "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: <webmaster@team1294.org>\r\n");
         if (!$success) error();
     }
 
