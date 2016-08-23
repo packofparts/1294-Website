@@ -100,7 +100,7 @@
                             <label for="email" class="col-lg-2 control-label">Email</label>
                             <div class="col-lg-10">
                                 <!--input type="email" class="form-control" id="inputEmail" placeholder="Your Email" data-bv-emailaddress-message="try again" required />-->
-                                <input type="email" class="form-control" name="email" placeholder="Your Email Address" required/>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address" required/>
                             </div>
                         </div>
                         <div class="form-group">
