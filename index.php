@@ -17,37 +17,76 @@
     require'includes/lower_header.php';
 ?>
 
+<div class="body-container" style="padding-bottom: 0; margin-top: 60px!important;">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+            <li data-target="#carousel" data-slide-to="5"></li>
+            <li data-target="#carousel" data-slide-to="6"></li>
+            <li data-target="#carousel" data-slide-to="7"></li>
+            <li data-target="#carousel" data-slide-to="8"></li>
+            <li data-target="#carousel" data-slide-to="9"></li>
+        </ol>
 
-    <!--Start WOWSlider.com BODY section     Updated with Version 8.7
-    The WOWSlider MUST be created using the program available at Wowslider.com, simple editing though may be done here-->
-    <div id="wowslider-container1">
-        <div class="ws_images"><ul>
-		        <li><img src="/WOWSlider/data1/images/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175" title="" id="wows1_1"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203" title="" id="wows1_2"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211" title="" id="wows1_3"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786" title="" id="wows1_4"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867" title="" id="wows1_5"/></li>
-		        <li><img src="/WOWSlider/data1/images/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886" title="" id="wows1_6"/></li>
-		        <li><img src="/WOWSlider/data1/images/img_3205.jpg" alt="IMG_3205" title="" id="wows1_7"/></li>
-		        <li><a href="http://wowslider.com/vi"><img src="/WOWSlider/data1/images/img_7066.jpg" alt="slider" title="" id="wows1_8"/></a></li>
-		        <li><img src="/WOWSlider/data1/images/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536" title="" id="wows1_9"/></li>
-	        </ul></div>
-	        <div class="ws_bullets"><div>
-		        <a href="#" title="16141082923_5ba28a67d5_o"><span><img src="/WOWSlider/data1/tooltips/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o"/>1</span></a>
-		        <a href="#" title="20140301_RoboticsCompetition_0175"><span><img src="/WOWSlider/data1/tooltips/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175"/>2</span></a>
-		        <a href="#" title="20140424_FIRSTRoboticsWorldChampionships_0203"><span><img src="/WOWSlider/data1/tooltips/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203"/>3</span></a>
-		        <a href="#" title="20140424_FIRSTRoboticsWorldChampionships_0211"><span><img src="/WOWSlider/data1/tooltips/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211"/>4</span></a>
-		        <a href="#" title="20140425_FIRSTRoboticsWorldChampionships_0786"><span><img src="/WOWSlider/data1/tooltips/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786"/>5</span></a>
-		        <a href="#" title="20140425_FIRSTRoboticsWorldChampionships_0867"><span><img src="/WOWSlider/data1/tooltips/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867"/>6</span></a>
-		        <a href="#" title="20140426_FIRSTRoboticsWorldChampionships_0886"><span><img src="/WOWSlider/data1/tooltips/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886"/>7</span></a>
-		        <a href="#" title="IMG_3205"><span><img src="/WOWSlider/data1/tooltips/img_3205.jpg" alt="IMG_3205"/>8</span></a>
-		        <a href="#" title="IMG_7066"><span><img src="/WOWSlider/data1/tooltips/img_7066.jpg" alt="IMG_7066"/>9</span></a>
-		        <a href="#" title="20140412_PortlandRoboticsRegional_0536"><span><img src="/WOWSlider/data1/tooltips/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536"/>10</span></a>
-	        </div></div><!--div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div-->
-        <div class="ws_shadow"></div>
-    </div>	
-    <!-- End WOWSlider.com BODY section -->
+        <!-- Slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="/WOWSlider/data1/images/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175" title="" id="wows1_1"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203" title="" id="wows1_2"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211" title="" id="wows1_3"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786" title="" id="wows1_4"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867" title="" id="wows1_5"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886" title="" id="wows1_6"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/img_3205.jpg" alt="IMG_3205" title="" id="wows1_7"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/img_7066.jpg" alt="slider" title="" id="wows1_8"/>
+            </div>
+
+            <div class="item">
+                <img src="/WOWSlider/data1/images/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536" title="" id="wows1_9"/>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
 
 
 <div class="body-container" style="padding-bottom: 0px">
