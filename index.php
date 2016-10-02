@@ -36,43 +36,43 @@
         <!-- Slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="/WOWSlider/data1/images/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/>
+                <img src="/img/carousel/wowslider/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175" title="" id="wows1_1"/>
+                <img src="/img/carousel/wowslider/20140301_roboticscompetition_0175.jpg" alt="20140301_RoboticsCompetition_0175" title="" id="wows1_1"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203" title="" id="wows1_2"/>
+                <img src="/img/carousel/wowslider/20140424_firstroboticsworldchampionships_0203.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0203" title="" id="wows1_2"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211" title="" id="wows1_3"/>
+                <img src="/img/carousel/wowslider/20140424_firstroboticsworldchampionships_0211.jpg" alt="20140424_FIRSTRoboticsWorldChampionships_0211" title="" id="wows1_3"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786" title="" id="wows1_4"/>
+                <img src="/img/carousel/wowslider/20140425_firstroboticsworldchampionships_0786.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0786" title="" id="wows1_4"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867" title="" id="wows1_5"/>
+                <img src="/img/carousel/wowslider/20140425_firstroboticsworldchampionships_0867.jpg" alt="20140425_FIRSTRoboticsWorldChampionships_0867" title="" id="wows1_5"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886" title="" id="wows1_6"/>
+                <img src="/img/carousel/wowslider/20140426_firstroboticsworldchampionships_0886.jpg" alt="20140426_FIRSTRoboticsWorldChampionships_0886" title="" id="wows1_6"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/img_3205.jpg" alt="IMG_3205" title="" id="wows1_7"/>
+                <img src="/img/carousel/wowslider/img_3205.jpg" alt="IMG_3205" title="" id="wows1_7"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/img_7066.jpg" alt="slider" title="" id="wows1_8"/>
+                <img src="/img/carousel/wowslider/img_7066.jpg" alt="slider" title="" id="wows1_8"/>
             </div>
 
             <div class="item">
-                <img src="/WOWSlider/data1/images/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536" title="" id="wows1_9"/>
+                <img src="/img/carousel/wowslider/20140412_portlandroboticsregional_0536.jpg" alt="20140412_PortlandRoboticsRegional_0536" title="" id="wows1_9"/>
             </div>
         </div>
 
