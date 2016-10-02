@@ -93,7 +93,7 @@
     <!-- Main jumbotron-->
     <div class="jumbotron">
         <div class="container">
-            <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
+            <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Wolf-Image.svg"/>
             <h1>We are Top Gun Robotics</h1>
             <p>
                 We are a high school <a href="http://www.usfirst.org/roboticsprograms/frc" title="First Robotics Competition">FRC&#0174;</a> robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School</a> in Sammamish, Washington.
