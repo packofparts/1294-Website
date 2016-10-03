@@ -23,7 +23,7 @@
     <!-- Main jumbotron-->
     <div class="jumbotron">
         <div class="container">
-            <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Eastlake-Logo.png"/>
+            <img class="img-responsive" id="eastlake-logo" alt="Eastlake Logo" src="/img/Wolf-Image.svg"/>
             <h1>We are Top Gun Robotics</h1>
             <p>We are a high school robotics team located at <a href="http://www.lwsd.org/school/ehs/Pages/default.aspx">Eastlake High School <span class="glyphicon glyphicon-new-window"></span></a> in Sammamish, Washington that has been participating in FRC since 2004.</p>
             <p><i>"Our goal is to transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders."- Dean Kamen, Founder of FIRST Robotics</i></p>
