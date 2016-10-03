@@ -31,11 +31,16 @@
             <li data-target="#carousel" data-slide-to="7"></li>
             <li data-target="#carousel" data-slide-to="8"></li>
             <li data-target="#carousel" data-slide-to="9"></li>
+            <li data-target="#carousel" data-slide-to="10"></li>
         </ol>
 
         <!-- Slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
+                <img src="/img/carousel/1294_community_night.jpg" alt="Come to our Community Night! 6 PM Oct. 12th @ Sammamish EX3 Teen Center!" title="Come to our Community Night! 6 PM Oct. 12th @ Sammamish EX3 Teen Center!"/>
+            </div>
+
+            <div class="item">
                 <img src="/img/carousel/wowslider/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/>
             </div>
 
@@ -77,11 +82,17 @@
         </div>
 
         <!-- Left and right controls -->
-        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <a href="#" role="button" id="playpause">
+            <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
+            <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
+            <span class="sr-only">Pause/Resume</span>
+        </a>
+
+        <a class="left carousel-control" href="#" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <a class="right carousel-control" href="#" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -266,8 +277,27 @@
 </div>
 <?php 
     $ExtraFooterTags='<script type="text/javascript" src="//js.addthisevent.com/atemay.js"></script>
-        <script type="text/javascript" src="/WOWSlider/engine1/wowslider.min.js"></script>
-	    <script type="text/javascript" src="/WOWSlider/engine1/script.min.js"></script>';
+        <script>
+                $(function() {
+                    const $carousel = $(\'#carousel\');
+                    const $carouselPause = $(\'#carousel-pause\');
+                    const $carouselPlay = $(\'#carousel-play\');
+                    $carousel.carousel({
+                        interval: 5000,
+                        pause: "false"
+                    });
+                    $carouselPause.click(function () {
+                        $carousel.carousel(\'pause\');
+                        $carouselPlay.show();
+                        $carouselPause.hide();
+                    });
+                    $carouselPlay.click(function () {
+                        $carousel.carousel(\'cycle\');
+                        $carouselPause.show();
+                        $carouselPlay.hide();
+                    });
+                });
+            </script>';
 
     require'includes/footer.php';
 ?>
