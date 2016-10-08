@@ -140,7 +140,7 @@
             <div class="col-md-4">
                 <h2 class="section-header">Featured Video </h2>
                 <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/37GBEBLfhWA;wmode=transparent" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/37GBEBLfhWA?;wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
                 <p><a class="btn btn-default" href="https://www.youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
