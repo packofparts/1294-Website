@@ -119,7 +119,8 @@
     </div>
 </div>
 
-<?php include 'includes/live_stream.php'  ?>
+    <!-- uncomment this after kick off-->
+    <?php //include 'includes/live_stream.php'  ?>
 
 <div class="body-container">
     <div class="container">
