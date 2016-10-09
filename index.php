@@ -140,12 +140,12 @@
             <div class="col-md-4">
                 <h2 class="section-header">Featured Video </h2>
                 <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/PFNH1x9r2uM?list=PLL1agQEsn8lTo09Px9e1RgcrX6TAwfIS7;wmode=transparent" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/37GBEBLfhWA?;wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
                 <p><a class="btn btn-default" href="https://www.youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
                 <h2 class="section-header">Featured Picture</h2>
-                <img class="img-responsive img-thumbnail" alt="Our 2015 Robot" src="/img/featured_picture.jpg" />
+                <img class="img-responsive img-thumbnail" alt="Our 2016 Robot" src="/img/featured_picture.jpg" />
                 <br><br>
                 <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Gallery &raquo;</a></p>
             </div>
