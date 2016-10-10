@@ -5,7 +5,6 @@
                     <hr style="margin-top: -7px; ">
                 </div>
                 
-                         <img class="img-responsive center-block" id="sponsor-kenworth" alt="Kenworth Logo" src="http://nctrucking.wildapricot.org/Resources/Pictures/Kenworth%20Bar%20Logo%20with%20A%20PACCAR%20Company%20Black%20Trans%20Background%20800%20DPIpng.png"/>
                 <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 400px; margin: 0 auto">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
