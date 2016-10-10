@@ -5,17 +5,84 @@
                     <hr style="margin-top: -7px; ">
                 </div>
                 
-                <div class="row" class="sponsors">
-                    <div class="col-sm-4">
                          <img class="img-responsive center-block" id="sponsor-kenworth" alt="Kenworth Logo" src="http://nctrucking.wildapricot.org/Resources/Pictures/Kenworth%20Bar%20Logo%20with%20A%20PACCAR%20Company%20Black%20Trans%20Background%20800%20DPIpng.png"/>
+                <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 400px; margin: 0 auto">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="1"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="2"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="3"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="4"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="5"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="6"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="7"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="8"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="9"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="10"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="11"></li>
+                        <li data-target="#carouselSponsor" data-slide-to="12"></li>
+                        
+                    </ol>
+
+                    <!-- Slides -->
+                    <div class="carousel-inner" role="listbox">
+                         <div class="item active">
+                            <img src="/img/sponsors/ehs.jpg" alt="/img/sponsors/ehs.jpg" title="Eastlake High School"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/google.jpg" alt="/img/sponsors/google.jpg" title="Google"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/lwsd.jpg" alt="/img/sponsors/lwsd.jpg" title="Lake Washington School District"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/boeing.jpg" alt="/img/sponsors/boeing.jpg" title="Boeing"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/chase.jpg" alt="/img/sponsors/chase.jpg" title="Chase"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/FIRSTWa.jpg" alt="/img/sponsors/FIRSTWa.jpg" title="FIRST Washington"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/godaddy.jpg" alt="/img/sponsors/godaddy.jpg" title="Go Daddy"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/honeywell.jpg" alt="/img/sponsors/honeywell.jpg" title="Honeywell"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/kenworth.jpg" alt="/img/sponsors/kenworth.jpg" title="Kenworth"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/microsoft.jpg" alt="/img/sponsors/microsoft.jpg" title="Microsoft"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/ospi.jpg" alt="/img/sponsors/ospi.jpg" title="Office of Superintendent of Public Instruction"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/rocketdyne.jpg" alt="/img/sponsors/rocketdyne.jpg" title="Aerojet Rocketdyne"/>
+                        </div>
+                        <div class="item">
+                            <img src="/img/sponsors/sae.jpg" alt="/img/sponsors/sae.jpg" title="SAE International"/>
+                        </div>
                     </div>
-                    <div class="col-sm-4">                        
-                       <img class="img-responsive center-block" id="sponsor-SAE" alt="SAE Northwest Logo" src="http://www.sae.org/images/sections/ms049/NWL_380839334_sae_nw_logo_smaller.gif"/>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-responsive center-block" id="sponsor-boeing" alt="Boeing Logo" src="http://www.iptv.org/medialib/media/Boeing_RGB_blue_std_P.JPG"/>
-                    </div>
-                    <hr>
+
+                    <!-- Left and right controls -->
+                    <a href="#" role="button" id="playpause">
+                        <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
+                        <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
+                        <span class="sr-only">Pause/Resume</span>
+                    </a>
+
+                    <a class="left carousel-control" href="#" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev');">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
