@@ -5,6 +5,7 @@
                     <hr style="margin-top: -7px; ">
                 </div>
                 
+                <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width 80%; height: 60%; margin: 0 auto">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
@@ -20,7 +21,6 @@
                         <li data-target="#carouselSponsor" data-slide-to="10"></li>
                         <li data-target="#carouselSponsor" data-slide-to="11"></li>
                         <li data-target="#carouselSponsor" data-slide-to="12"></li>
-                        
                     </ol>
 
                     <!-- Slides -->
@@ -44,7 +44,7 @@
                             <img src="/img/sponsors/FIRSTWa.jpg" alt="/img/sponsors/FIRSTWa.jpg" title="FIRST Washington"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/godaddy.jpg" alt="/img/sponsors/godaddy.jpg" title="Go Daddy"/>
+                            <img src="/img/sponsors/godaddy.jpg" alt="/img/sponsors/godaddy.jpg" title="GoDaddy"/>
                         </div>
                         <div class="item">
                             <img src="/img/sponsors/honeywell.jpg" alt="/img/sponsors/honeywell.jpg" title="Honeywell"/>
@@ -73,11 +73,11 @@
                         <span class="sr-only">Pause/Resume</span>
                     </a>
 
-                    <a class="left carousel-control" href="#" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev');">
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev');">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right carousel-control" href="#" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');">
+                    <a class="right carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
