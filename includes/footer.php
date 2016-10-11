@@ -68,11 +68,15 @@
 
                     <!-- Left and right controls -->
 <<<<<<< HEAD
+<<<<<<< HEAD
                     
 
 <<<<<<< HEAD
 =======
 >>>>>>> 0fa2bf29701c8aa156873bc694f8e43e29590b08
+=======
+ 
+>>>>>>> origin/master
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
