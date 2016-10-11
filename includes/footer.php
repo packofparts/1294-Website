@@ -68,7 +68,7 @@
 
                     <!-- Left and right controls -->
                     <a href="#" role="button" id="playpause">
-                        <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
+                        <span class="glyphic on glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
                         <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
                         <span class="sr-only">Pause/Resume</span>
                     </a>
