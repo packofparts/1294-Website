@@ -1,4 +1,4 @@
-<div class="body-container footer" style="" xmlns:background-image="http://www.w3.org/1999/xhtml">
+        <div class="body-container footer" style="">
             <footer class="container">
                 <div class="row">
                     <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
@@ -32,7 +32,7 @@
                             <img src="/img/sponsors/google.jpg" alt="/img/sponsors/google.jpg" title="Google"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/lwsd.jpg" alt="/img/sponsors/lwsd.jpg" title="Lake Washington School Foundation"/>
+                            <img src="/img/sponsors/lwsd.jpg" alt="/img/sponsors/lwsd.jpg" title="Lake Washington School District"/>
                         </div>
                         <div class="item">
                             <img src="/img/sponsors/boeing.jpg" alt="/img/sponsors/boeing.jpg" title="Boeing"/>
@@ -56,23 +56,24 @@
                             <img src="/img/sponsors/microsoft.jpg" alt="/img/sponsors/microsoft.jpg" title="Microsoft"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/ospi.jpg" alt="/img/sponsors/ospi.jpg" title="Office of the Superintendent of Public Instruction"/>
+                            <img src="/img/sponsors/ospi.jpg" alt="/img/sponsors/ospi.jpg" title="Office of Superintendent of Public Instruction"/>
                         </div>
                         <div class="item">
                             <img src="/img/sponsors/rocketdyne.jpg" alt="/img/sponsors/rocketdyne.jpg" title="Aerojet Rocketdyne"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/sae.jpg" alt="/img/sponsors/sae.jpg" title="SAE Wa"/>
+                            <img src="/img/sponsors/sae.jpg" alt="/img/sponsors/sae.jpg" title="SAE International"/>
                         </div>
                     </div>
 
                     <!-- Left and right controls -->
-<<<<<<< HEAD
-                    
+                    <a href="#" role="button" id="playpause">
+                        <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
+                        <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
+                        <span class="sr-only">Pause/Resume</span>
+                    </a>
 
-<<<<<<< HEAD
-=======
->>>>>>> 0fa2bf29701c8aa156873bc694f8e43e29590b08
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev');">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>

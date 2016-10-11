@@ -67,11 +67,23 @@
                     </div>
 
                     <!-- Left and right controls -->
-<<<<<<< HEAD
-                    
+                    <style type="text/css">
+                        .left, .right {
+                            background: none !important;
+                            outline: 0;
+                        }
+                    </style>
+
+                    <a href="#carouselSponsor" role="button" id="playpause" onClick="$('#carouselSponsor').carousel('pause');">
+
+                        <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
+                        <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
+                    </a>
 
 <<<<<<< HEAD
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev'); style="background-image: none">
 =======
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev');">
 >>>>>>> 0fa2bf29701c8aa156873bc694f8e43e29590b08
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
