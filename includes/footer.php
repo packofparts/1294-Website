@@ -5,7 +5,6 @@
                     <hr style="margin-top: -7px; ">
                 </div>
                 
-                <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 400px; margin: 0 auto">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
