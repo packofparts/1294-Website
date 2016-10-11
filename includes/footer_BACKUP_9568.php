@@ -81,7 +81,9 @@
                     </a>
 
 <<<<<<< HEAD
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev'); style="background-image: none">
 =======
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev');">
 >>>>>>> 0fa2bf29701c8aa156873bc694f8e43e29590b08
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>

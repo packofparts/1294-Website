@@ -5,7 +5,7 @@
                     <hr style="margin-top: -7px; ">
                 </div>
                 
-                <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
+                <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 400px; margin: 0 auto">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
@@ -21,6 +21,7 @@
                         <li data-target="#carouselSponsor" data-slide-to="10"></li>
                         <li data-target="#carouselSponsor" data-slide-to="11"></li>
                         <li data-target="#carouselSponsor" data-slide-to="12"></li>
+                        
                     </ol>
 
                     <!-- Slides -->
@@ -80,9 +81,7 @@
                         <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
                     </a>
 
-<<<<<<< HEAD
-=======
->>>>>>> 0fa2bf29701c8aa156873bc694f8e43e29590b08
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev'); style="background-image: none">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
