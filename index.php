@@ -85,7 +85,6 @@
         <a href="#" role="button" id="playpause">
             <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
             <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
-            <span class="sr-only">Pause/Resume</span>
         </a>
 
         <a class="left carousel-control" href="#" role="button" data-slide="prev" onclick="$('#carousel').carousel('prev');">
