@@ -26,43 +26,43 @@
                     <!-- Slides -->
                     <div class="carousel-inner" role="listbox">
                          <div class="item active">
-                            <img src="/img/sponsors/ehs.jpg" alt="/img/sponsors/ehs.jpg" title="Eastlake High School"/>
+                            <img src="/img/sponsors/ehs.jpg" alt="Eastlake High School Logo" title="Eastlake High School"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/google.jpg" alt="/img/sponsors/google.jpg" title="Google"/>
+                            <img src="/img/sponsors/google.jpg" alt="Google Logo" title="Google"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/lwsd.jpg" alt="/img/sponsors/lwsd.jpg" title="Lake Washington School Foundation"/>
+                            <img src="/img/sponsors/lwsd.jpg" alt="Lake Washington School Foundation Logo" title="Lake Washington School Foundation"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/boeing.jpg" alt="/img/sponsors/boeing.jpg" title="Boeing"/>
+                            <img src="/img/sponsors/boeing.jpg" alt="Boeing Logo" title="Boeing"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/chase.jpg" alt="/img/sponsors/chase.jpg" title="Chase"/>
+                            <img src="/img/sponsors/chase.jpg" alt="Chase Logo" title="Chase"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/FIRSTWa.jpg" alt="/img/sponsors/FIRSTWa.jpg" title="FIRST Washington"/>
+                            <img src="/img/sponsors/FIRSTWa.jpg" alt="FIRST Washington Logo" title="FIRST Washington"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/godaddy.jpg" alt="/img/sponsors/godaddy.jpg" title="GoDaddy"/>
+                            <img src="/img/sponsors/godaddy.jpg" alt="GoDaddy Logo" title="GoDaddy"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/honeywell.jpg" alt="/img/sponsors/honeywell.jpg" title="Honeywell"/>
+                            <img src="/img/sponsors/honeywell.jpg" alt="Honeywell Logo" title="Honeywell"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/kenworth.jpg" alt="/img/sponsors/kenworth.jpg" title="Kenworth"/>
+                            <img src="/img/sponsors/kenworth.jpg" alt="Kenworth Logo" title="Kenworth"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/microsoft.jpg" alt="/img/sponsors/microsoft.jpg" title="Microsoft"/>
+                            <img src="/img/sponsors/microsoft.jpg" alt="Microsoft Logo" title="Microsoft"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/ospi.jpg" alt="/img/sponsors/ospi.jpg" title="Office of the Superintendent of Public Instruction"/>
+                            <img src="/img/sponsors/ospi.jpg" alt="Office of the Superintendant of Public health Logo" title="Office of the Superintendent of Public Instruction"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/rocketdyne.jpg" alt="/img/sponsors/rocketdyne.jpg" title="Aerojet Rocketdyne"/>
+                            <img src="/img/sponsors/rocketdyne.jpg" alt="Aerojet Rocketdyne Logo" title="Aerojet Rocketdyne"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/sae.jpg" alt="/img/sponsors/sae.jpg" title="SAE Wa"/>
+                            <img src="/img/sponsors/sae.jpg" alt="SAE Washington Logo" title="SAE Washington"/>
                         </div>
                     </div>
 
@@ -79,7 +79,7 @@
                         <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
                         <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
                     </a>
-                    
+
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
