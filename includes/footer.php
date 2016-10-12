@@ -4,9 +4,9 @@
                     <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
                     <hr style="margin-top: -7px; ">
                 </div>
-                
+                <!--
+
                 <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
-                    <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselSponsor" data-slide-to="1"></li>
@@ -23,7 +23,6 @@
                         <li data-target="#carouselSponsor" data-slide-to="12"></li>
                     </ol>
 
-                    <!-- Slides -->
                     <div class="carousel-inner" role="listbox">
                          <div class="item active">
                             <img src="/img/sponsors/ehs.jpg" alt="Eastlake High School Logo" title="Eastlake High School"/>
@@ -66,13 +65,47 @@
                         </div>
                     </div>
 
-                    <!-- Left and right controls -->
+                    -->
+
                     <style type="text/css">
                         .left, .right {
                             background: none !important;
                             outline: 0;
                         }
+
+                        .tech-slideshow {
+                            height: 600px;
+                            max-width: 10400px;
+                            margin: 0 auto;
+                            position: relative;
+                            overflow: hidden;
+                            transform: translate3d(0, 0, 0);
+                        }
+
+                        .tech-slideshow > div {
+                            width: 10400px;
+                            background: url('../../img/sponsors/sponsorSlides.jpg');
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            transform: translate3d(0, 0, 0);
+                        }
+                        .tech-slideshow .mover-1 {
+                            animation: moveSlideshow 30s linear infinite;
+                        }
+                        .tech-slideshow:hover .mover-2 {
+                            opacity: 1;
+                        }
+
+                        @keyframes moveSlideshow {
+                            100% {
+                                transform: translateX(-100%);
+                            }
+                        }
                     </style>
+
+                    <!--
 
                     <a href="#carouselSponsor" role="button" id="playpause" onClick="$('#carouselSponsor').carousel('pause');">
                         <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
@@ -95,6 +128,13 @@
                             <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="FIRST" href="http://www.firstinspires.org/"><em>FIRST</em></a> | <a class="footer-links" title="FIRST Washington" href="http://firstwa.org/"><em>FIRST</em> Washington</a> | <a class="footer-links" href="https://plus.google.com/103733199754924235388" rel="publisher">Google+</a> | <a class="footer-links" title="Star or Fork us on GitHub" href="https://github.com/FRC-1294">GitHub</a>
                         </div>
                     </div>
+                </div>
+
+                -->
+
+
+                <div class="tech-slideshow">
+                    <div class="mover-1"></div>
                 </div>
             </footer>
         </div>
