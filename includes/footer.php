@@ -1,4 +1,4 @@
-<div class="body-container footer" style="" xmlns:background-image="http://www.w3.org/1999/xhtml">
+<div class="body-container footer" style="">
             <footer class="container">
                 <div class="row">
                     <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
@@ -56,7 +56,7 @@
                             <img src="/img/sponsors/microsoft.jpg" alt="Microsoft Logo" title="Microsoft"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/ospi.jpg" alt="Office of the Superintendant of Public health Logo" title="Office of the Superintendent of Public Instruction"/>
+                            <img src="/img/sponsors/ospi.jpg" alt="Office of the Superintendant of Public Instruction Logo" title="Office of the Superintendent of Public Instruction"/>
                         </div>
                         <div class="item">
                             <img src="/img/sponsors/rocketdyne.jpg" alt="Aerojet Rocketdyne Logo" title="Aerojet Rocketdyne"/>
@@ -78,11 +78,11 @@
                         <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
                         <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
                     </a>
-                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('prev');">
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('prev');" style="color: darkslategray">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');">
+                    <a class="right carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');" style="color: darkslategray">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
