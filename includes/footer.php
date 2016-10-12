@@ -4,9 +4,65 @@
                     <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
                     <hr style="margin-top: -7px; ">
                 </div>
-                <!--
+                <style type="text/css">
+                    .left, .right {
+                        background: none !important;
+                        outline: 0;
+                    }
 
-                <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
+                    .tech-slideshow {
+                        height: 300px;
+                        max-width: 5200px;
+                        margin: 0 auto;
+                        position: relative;
+                        overflow: hidden;
+                        transform: translate3d(0, 0, 0);
+                    }
+
+                    .tech-slideshow > div {
+                        width: 5200px;
+                        background: url('../../img/sponsors/sponsorSlidesSmall.jpg');
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        transform: translate3d(0, 0, 0);
+                    }
+                    .tech-slideshow .mover-1 {
+                        animation: moveSlideshow 35s linear infinite;
+                    }
+                    .tech-slideshow:hover .mover-2 {
+                        opacity: 1;
+                    }
+
+                    @keyframes moveSlideshow {
+                        100% {
+                            transform: translateX(-100%);
+                        }
+                    }
+
+                    @media (min-width:600px) {
+                        .desktop-only {
+                            display:block !important;
+                        }
+                        .mobile-only{
+                            display:none !important;
+                        }
+                    }
+
+
+                    @media (max-width: 599px) {
+                        .mobile-only {
+                            display:block !important;
+                        }
+
+                        .desktop-only {
+                            display:none !important;
+                        }
+                    }
+                </style>
+
+                <div id="carouselSponsor" class="carousel slide mobile-only" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselSponsor" data-slide-to="1"></li>
@@ -65,48 +121,6 @@
                         </div>
                     </div>
 
-                    -->
-
-                    <style type="text/css">
-                        .left, .right {
-                            background: none !important;
-                            outline: 0;
-                        }
-
-                        .tech-slideshow {
-                            height: 600px;
-                            max-width: 10400px;
-                            margin: 0 auto;
-                            position: relative;
-                            overflow: hidden;
-                            transform: translate3d(0, 0, 0);
-                        }
-
-                        .tech-slideshow > div {
-                            width: 10400px;
-                            background: url('../../img/sponsors/sponsorSlides.jpg');
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            height: 100%;
-                            transform: translate3d(0, 0, 0);
-                        }
-                        .tech-slideshow .mover-1 {
-                            animation: moveSlideshow 30s linear infinite;
-                        }
-                        .tech-slideshow:hover .mover-2 {
-                            opacity: 1;
-                        }
-
-                        @keyframes moveSlideshow {
-                            100% {
-                                transform: translateX(-100%);
-                            }
-                        }
-                    </style>
-
-                    <!--
-
                     <a href="#carouselSponsor" role="button" id="playpause" onClick="$('#carouselSponsor').carousel('pause');">
                         <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
                         <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
@@ -120,6 +134,9 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                <div class="tech-slideshow desktop-only">
+                    <div class="mover-1"></div>
+                </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
                         <div class="">
@@ -130,12 +147,6 @@
                     </div>
                 </div>
 
-                -->
-
-
-                <div class="tech-slideshow">
-                    <div class="mover-1"></div>
-                </div>
             </footer>
         </div>
 
