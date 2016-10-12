@@ -78,7 +78,7 @@
                         <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
                         <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
                     </a>
-                    
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('prev');">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
