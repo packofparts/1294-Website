@@ -40,29 +40,11 @@
                             transform: translateX(-100%);
                         }
                     }
-
-                    @media (min-width:600px) {
-                        .desktop-only {
-                            display:block !important;
-                        }
-                        .mobile-only{
-                            display:none !important;
-                        }
-                    }
-
-
-                    @media (max-width: 599px) {
-                        .mobile-only {
-                            display:block !important;
-                        }
-
-                        .desktop-only {
-                            display:none !important;
-                        }
-                    }
                 </style>
 
-                <div id="carouselSponsor" class="carousel slide mobile-only" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
+
+
+                <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselSponsor" data-slide-to="1"></li>
@@ -134,7 +116,7 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <div class="tech-slideshow desktop-only">
+                <div class="tech-slideshow" id="slideshow">
                     <div class="mover-1"></div>
                 </div>
                 <div class="row">
@@ -170,6 +152,15 @@
         ?>
 
         <script>
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+                document.getElementById('carouselSponsor').style.display = 'block';
+                document.getElementById('slideshow').style.display = 'none';
+            }
+            else{
+                document.getElementById('carouselSponsor').style.display = 'none';
+                document.getElementById('slideshow').style.display = 'block';
+            }
+
             <?php 
                 /*Set a different tracking code based on if your viewing this website on the beta version or the full version*/
                 if($preview){
