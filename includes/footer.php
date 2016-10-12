@@ -75,11 +75,10 @@
                     </style>
 
                     <a href="#carouselSponsor" role="button" id="playpause" onClick="$('#carouselSponsor').carousel('pause');">
-
                         <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
                         <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
                     </a>
-
+                    
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
