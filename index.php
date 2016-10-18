@@ -31,16 +31,11 @@
             <li data-target="#carousel" data-slide-to="7"></li>
             <li data-target="#carousel" data-slide-to="8"></li>
             <li data-target="#carousel" data-slide-to="9"></li>
-            <li data-target="#carousel" data-slide-to="10"></li>
         </ol>
 
         <!-- Slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="/img/carousel/1294_community_night.jpg" alt="Come to our Community Night! 6 PM Oct. 12th @ Sammamish EX3 Teen Center!" title="Come to our Community Night! 6 PM Oct. 12th @ Sammamish EX3 Teen Center!"/>
-            </div>
-
-            <div class="item">
+	    <div class="item active">
                 <img src="/img/carousel/wowslider/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/>
             </div>
 
