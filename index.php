@@ -31,16 +31,11 @@
             <li data-target="#carousel" data-slide-to="7"></li>
             <li data-target="#carousel" data-slide-to="8"></li>
             <li data-target="#carousel" data-slide-to="9"></li>
-            <li data-target="#carousel" data-slide-to="10"></li>
         </ol>
 
         <!-- Slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="/img/carousel/1294_community_night.jpg" alt="Come to our Community Night! 6 PM Oct. 12th @ Sammamish EX3 Teen Center!" title="Come to our Community Night! 6 PM Oct. 12th @ Sammamish EX3 Teen Center!"/>
-            </div>
-
-            <div class="item">
+	    <div class="item active">
                 <img src="/img/carousel/wowslider/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/>
             </div>
 
@@ -88,11 +83,11 @@
             <span class="sr-only">Pause/Resume</span>
         </a>
 
-        <a class="left carousel-control" href="#" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#" role="button" data-slide="prev" onclick="$('#carousel').carousel('prev');">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#" role="button" data-slide="next">
+        <a class="right carousel-control" href="#" role="button" data-slide="next" onclick="$('#carousel').carousel('next');">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -119,7 +114,8 @@
     </div>
 </div>
 
-<?php include 'includes/live_stream.php'  ?>
+    <!-- uncomment this after kick off-->
+    <?php //include 'includes/live_stream.php'  ?>
 
 <div class="body-container">
     <div class="container">
@@ -144,7 +140,7 @@
                 <br><br>
                 <p><a class="btn btn-default" href="https://www.youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
                 <h2 class="section-header">Featured Picture</h2>
-                <img class="img-responsive img-thumbnail" alt="Our 2015 Robot" src="/img/featured_picture.jpg" />
+                <img class="img-responsive img-thumbnail" alt="Our 2016 Robot" src="/img/featured_picture.jpg" />
                 <br><br>
                 <p><a class="btn btn-default" href="http://www.gallery.team1294.org/"><span class="glyphicon glyphicon-picture"></span> Gallery &raquo;</a></p>
             </div>
@@ -188,7 +184,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS Registration</a></li>
+                        <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://docs.google.com/document/d/1isQTzYaHEu6TrQler2vk6iKLZwRkeOFJeInwfTNg6d8/edit?usp=sharing">STIMS Registration Guide</a></li>
                     </ul>
                 </div>
                 <p>
@@ -234,6 +230,7 @@
                             <a class="btn btn-primary" href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform"><i class="fa fa-file-text-o"></i> Member Signup Form</a>
 			    			<!--a class="btn btn-default" href="https://docs.google.com/a/team1294.org/forms/d/1RS7h-h0rUN2yARcoIo133ww9HzDfd-zKQOgIIqIGLzM/viewform"><i class="fa fa-fighter-jet"></i> T-Shirt Order Form</a-->
 			    			<a class="btn btn-default" href="/about/competitions/2016.php"><i class="fa fa-file-text-o"></i> Competition Information</a>
+				<a class="btn btn-default" href="https://docs.google.com/presentation/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing"><i class="fa fa-file-powerpoint-o"></i> Info Meeting Presentation</a>
                         </div>
              
                     </div>
@@ -250,7 +247,7 @@
                     <ul class="no-bullets">
                         <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver2.docx">2016 Robotics Info Sheet</a></li>
                         <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Parent_Permission_Safety_Letter_ver2.pdf">Required Permission/Safety Form</a></li>
-                        <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://my.usfirst.org/stims/Login.aspx">STIMS Registration</a></li>
+                        <li><i class="fa fa-pencil-square-o icon-bullet"></i><a href="https://docs.google.com/document/d/1isQTzYaHEu6TrQler2vk6iKLZwRkeOFJeInwfTNg6d8/edit?usp=sharing">STIMS Registration Guide</a></li>
                     </ul>
                 </div>
                 <p>
