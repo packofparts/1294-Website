@@ -71,6 +71,10 @@
             <!--<img alt="All Team members" class="headerimage" src="/img/Big_Header.JPG" width="1271px" />-->
             <div class="container">
                 <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Top Gun Robotics" src="/img/logo.png">
+                    </a>
+
                     <!--Start of Mobile Only Buttons-->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
