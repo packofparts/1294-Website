@@ -135,7 +135,7 @@
             <div class="col-md-4">
                 <h2 class="section-header">Featured Video </h2>
                 <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/37GBEBLfhWA?;wmode=transparent" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/PFNH1x9r2uM?;wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
                 <p><a class="btn btn-default" href="https://www.youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
@@ -159,8 +159,8 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/2015/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">2015 Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver2.docx">2016 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="https://docs.google.com/presentation/u/1/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing">2017 Team Intro Power Point</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2017/EHS_Robotics_Info_Sheet_2016-2017_ver3.docx">2017 Robotics Info Sheet</a></li>
                     </ul>
                 </div>
                 <p>
@@ -228,7 +228,7 @@
                     
                         <div class="btn-group-vertical btn-block">
                             <a class="btn btn-primary" href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform"><i class="fa fa-file-text-o"></i> Member Signup Form</a>
-			    			<a class="btn btn-default" href="https://docs.google.com/a/team1294.org/forms/d/1RS7h-h0rUN2yARcoIo133ww9HzDfd-zKQOgIIqIGLzM/viewform"><i class="fa fa-fighter-jet"></i> T-Shirt Order Form</a>
+			    			<!--a class="btn btn-default" href="https://docs.google.com/a/team1294.org/forms/d/1RS7h-h0rUN2yARcoIo133ww9HzDfd-zKQOgIIqIGLzM/viewform"><i class="fa fa-fighter-jet"></i> T-Shirt Order Form</a-->
 			    			<a class="btn btn-default" href="/about/competitions/2016.php"><i class="fa fa-file-text-o"></i> Competition Information</a>
 				<a class="btn btn-default" href="https://docs.google.com/presentation/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing"><i class="fa fa-file-powerpoint-o"></i> Info Meeting Presentation</a>
                         </div>
