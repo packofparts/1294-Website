@@ -176,7 +176,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform">Official Member Signup Form</a></li>
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform">Official Member Signup Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -227,7 +227,7 @@
                     <div class="center-content center-text">
                     
                         <div class="btn-group-vertical btn-block">
-                            <a class="btn btn-primary" href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform"><i class="fa fa-file-text-o"></i> Member Signup Form</a>
+                            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform"><i class="fa fa-file-text-o"></i> Member Signup Form</a>
 			    			<!--a class="btn btn-default" href="https://docs.google.com/a/team1294.org/forms/d/1RS7h-h0rUN2yARcoIo133ww9HzDfd-zKQOgIIqIGLzM/viewform"><i class="fa fa-fighter-jet"></i> T-Shirt Order Form</a-->
 			    			<a class="btn btn-default" href="/about/competitions/2016.php"><i class="fa fa-file-text-o"></i> Competition Information</a>
 				<a class="btn btn-default" href="https://docs.google.com/presentation/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing"><i class="fa fa-file-powerpoint-o"></i> Info Meeting Presentation</a>
@@ -255,7 +255,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform">Official Member Signup Form</a></li>
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform">Official Member Signup Form</a></li>
                     </ul>
                 </div>
                 <p>
