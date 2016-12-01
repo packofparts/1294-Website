@@ -219,6 +219,7 @@
                     <div>
                         <ul class="no-bullets">
                             <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/a/team1294.org/folderview?id=0B7dBlgLDUixVRTh6cVBud2NGQzA">Reference Documents/Presentations</a></li>
+				<li><i class="fa fa-file-text-o"></i><a href="http://www.lwsd.org/school/EHS/SiteCollectionDocuments/EHS%20Community%20Service%20Form.pdf"> Community Service Form</a></li>
                         </ul>
                     </div>
                     <p>
@@ -228,7 +229,7 @@
                     
                         <div class="btn-group-vertical btn-block">
                             <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform"><i class="fa fa-file-text-o"></i> Member Signup Form</a>
-			    			<!--a class="btn btn-default" href="https://docs.google.com/a/team1294.org/forms/d/1RS7h-h0rUN2yARcoIo133ww9HzDfd-zKQOgIIqIGLzM/viewform"><i class="fa fa-fighter-jet"></i> T-Shirt Order Form</a-->
+			    			<a class="btn btn-default" href="https://www.customink.com/g/qvz0-00au-fjyx"><i class="fa fa-fighter-jet"></i> Build Season T-Shirt Order Form</a>
 			    			<a class="btn btn-default" href="/about/competitions/2016.php"><i class="fa fa-file-text-o"></i> Competition Information</a>
 				<a class="btn btn-default" href="https://docs.google.com/presentation/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing"><i class="fa fa-file-powerpoint-o"></i> Info Meeting Presentation</a>
                         </div>
