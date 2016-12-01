@@ -219,7 +219,7 @@
                     <div>
                         <ul class="no-bullets">
                             <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/a/team1294.org/folderview?id=0B7dBlgLDUixVRTh6cVBud2NGQzA">Reference Documents/Presentations</a></li>
-			    <li><i class="fa fa-file-text-o"></i><a href="http://www.lwsd.org/school/EHS/SiteCollectionDocuments/EHS%20Community%20Service%20Form.pdf"> Community Service Form</a></li>
+			    <li><i class="fa fa-file-text-o icon-bullet"></i><a href="http://www.lwsd.org/school/EHS/SiteCollectionDocuments/EHS%20Community%20Service%20Form.pdf"> Community Service Form</a></li>
                         </ul>
                     </div>
                     <p>
