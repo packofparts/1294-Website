@@ -231,6 +231,7 @@
                             <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform"><i class="fa fa-file-text-o"></i> Member Signup Form</a>
 			    			<a class="btn btn-default" href="https://www.customink.com/g/qvz0-00au-fjyx"><i class="fa fa-fighter-jet"></i> Build Season T-Shirt Order Form</a>
 			    			<a class="btn btn-default" href="/about/competitions/2016.php"><i class="fa fa-file-text-o"></i> Competition Information</a>
+						<a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeSGcBeB9W8qm5ogL-6R-P1x3JaAxAo0L59piwlrakNwvYnFg/viewform"><i class="fa fa-file-text-o"></i> Event Signup</a>
 				<a class="btn btn-default" href="https://docs.google.com/presentation/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing"><i class="fa fa-file-powerpoint-o"></i> Info Meeting Presentation</a>
                         </div>
              
