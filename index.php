@@ -17,7 +17,7 @@
     require'includes/lower_header.php';
 ?>
 
-<div class="body-container" style="padding-bottom: 0; margin-top: 60px!important;">
+<div class="body-container" style="padding-bottom: 0; margin-top: 50px!important;">
     <div id="carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -95,7 +95,7 @@
 </div>
 
 
-<div class="body-container" style="padding-bottom: 0px">
+<div class="body-container" style="padding-bottom: 0px; margin-top: 0;">
     <!-- Main jumbotron-->
     <div class="jumbotron">
         <div class="container">
