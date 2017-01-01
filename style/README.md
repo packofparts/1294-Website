@@ -37,19 +37,16 @@ Compiling
 1294_style.main.less Logic
 --------------------
 
-```css
-
+```less
 @import "../subtrees/bootstrap/less/bootstrap.less";
 
 /*
 *   We use the Bootstrap Framework for our website.
 *   bootstrap.less is the master file for all of Bootstrap
 */
-
 ```
 At the top of the file we import the main bootstrap `.less` file, this special `bootstrap.less` file containes every bootstrap styling element
-```css
-
+```less
 @import "/less/1294_variables.less";
 @import "/less/1294_navbar.less";
 @import "/less/1294_global.less";
@@ -59,14 +56,11 @@ At the top of the file we import the main bootstrap `.less` file, this special `
 @import "/less/1294_contact.less";
 @import "/less/1294_footer.less";
 @import "/less/1294_icon-list.less";
-
 ```
 We Then import all of our custom css styling (we use `.less` files instead of `.css` because it allows us to define our own variables and use some from bootstrap, but most importantly we use it because it lets us combine all of them).
-```css
-
+```less
 /*Pulling in the CSS/Less files for plugins*/
 @import "../fancybox/source/jquery.fancybox.min.less";
 @import "../subtrees/font-awesome/less/font-awesome.less";
-
 ```
 At the bottom of the file we import all of the styling for various plugins we use. Normally these are `.css ` files but I copied and changed the file extension of them so that they can be combined into a single file during the compiling. The original file still exits in the original location.

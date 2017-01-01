@@ -17,7 +17,7 @@
     require'includes/lower_header.php';
 ?>
 
-<div class="body-container" style="padding-bottom: 0; margin-top: 60px!important;">
+<div class="body-container" style="padding-bottom: 0; margin-top: 50px!important;">
     <div id="carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -31,16 +31,11 @@
             <li data-target="#carousel" data-slide-to="7"></li>
             <li data-target="#carousel" data-slide-to="8"></li>
             <li data-target="#carousel" data-slide-to="9"></li>
-            <li data-target="#carousel" data-slide-to="10"></li>
         </ol>
 
         <!-- Slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="/img/carousel/1294_community_night.jpg" alt="Come to our Community Night! 6 PM Oct. 12th @ Sammamish EX3 Teen Center!" title="Come to our Community Night! 6 PM Oct. 12th @ Sammamish EX3 Teen Center!"/>
-            </div>
-
-            <div class="item">
+	    <div class="item active">
                 <img src="/img/carousel/wowslider/16141082923_5ba28a67d5_o.jpg" alt="16141082923_5ba28a67d5_o" title="" id="wows1_0"/>
             </div>
 
@@ -99,7 +94,7 @@
 </div>
 
 
-<div class="body-container" style="padding-bottom: 0px">
+<div class="body-container" style="padding-bottom: 0px; margin-top: 0;">
     <!-- Main jumbotron-->
     <div class="jumbotron">
         <div class="container">
@@ -139,7 +134,7 @@
             <div class="col-md-4">
                 <h2 class="section-header">Featured Video </h2>
                 <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/PFNH1x9r2uM?list=PLL1agQEsn8lTo09Px9e1RgcrX6TAwfIS7;wmode=transparent" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/PFNH1x9r2uM?;wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
                 <p><a class="btn btn-default" href="https://www.youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
@@ -163,8 +158,8 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="/documents/2015/new-members/EHS_Team_1294_Intro_10-1-2014.pptx">2015 Team Intro Power Point</a></li>
-                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2016/EHS_Robotics_Info_Sheet_2015-2016_ver2.docx">2016 Robotics Info Sheet</a></li>
+                        <li><i class="fa fa-file-powerpoint-o icon-bullet"></i><a href="https://docs.google.com/presentation/u/1/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing">2017 Team Intro Power Point</a></li>
+                        <li><i class="fa fa-file-word-o icon-bullet"></i><a href="/documents/2017/EHS_Robotics_Info_Sheet_2016-2017_ver3.docx">2017 Robotics Info Sheet</a></li>
                     </ul>
                 </div>
                 <p>
@@ -180,7 +175,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform">Official Member Signup Form</a></li>
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform">Official Member Signup Form</a></li>
                     </ul>
                 </div>
                 <p>
@@ -223,6 +218,7 @@
                     <div>
                         <ul class="no-bullets">
                             <li><i class="fa fa-share-square-o icon-bullet"></i><a href="https://drive.google.com/a/team1294.org/folderview?id=0B7dBlgLDUixVRTh6cVBud2NGQzA">Reference Documents/Presentations</a></li>
+			    <li><i class="fa fa-file-text-o icon-bullet"></i><a href="http://www.lwsd.org/school/EHS/SiteCollectionDocuments/EHS%20Community%20Service%20Form.pdf"> Community Service Form</a></li>
                         </ul>
                     </div>
                     <p>
@@ -231,9 +227,10 @@
                     <div class="center-content center-text">
                     
                         <div class="btn-group-vertical btn-block">
-                            <a class="btn btn-primary" href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform"><i class="fa fa-file-text-o"></i> Member Signup Form</a>
-			    			<a class="btn btn-default" href="https://docs.google.com/a/team1294.org/forms/d/1RS7h-h0rUN2yARcoIo133ww9HzDfd-zKQOgIIqIGLzM/viewform"><i class="fa fa-fighter-jet"></i> T-Shirt Order Form</a>
+                            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform"><i class="fa fa-file-text-o"></i> Member Signup Form</a>
+<!-- 			    			<a class="btn btn-default" href="https://www.customink.com/g/qvz0-00au-fjyx"><i class="fa fa-fighter-jet"></i> Build Season T-Shirt Order Form</a> -->
 			    			<a class="btn btn-default" href="/about/competitions/2016.php"><i class="fa fa-file-text-o"></i> Competition Information</a>
+						<a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeSGcBeB9W8qm5ogL-6R-P1x3JaAxAo0L59piwlrakNwvYnFg/viewform"><i class="fa fa-file-text-o"></i> Event Signup</a>
 				<a class="btn btn-default" href="https://docs.google.com/presentation/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing"><i class="fa fa-file-powerpoint-o"></i> Info Meeting Presentation</a>
                         </div>
              
@@ -259,7 +256,7 @@
                 </p>
                 <div>
                     <ul class="no-bullets">
-                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/a/team1294.org/forms/d/1e2LtHBRZiF_DzdaH4S2ZOcQ5QGcEYKexqQW1R8Hwx3k/viewform">Official Member Signup Form</a></li>
+                        <li><i class="fa fa-file-text-o icon-bullet"></i><a href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform">Official Member Signup Form</a></li>
                     </ul>
                 </div>
                 <p>
