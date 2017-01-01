@@ -1,50 +1,12 @@
-<div class="body-container footer" style="">
+        <div class="body-container footer" style="">
             <footer class="container">
                 <div class="row">
                     <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
                     <hr style="margin-top: -7px; ">
                 </div>
-                <style type="text/css">
-                    .left, .right {
-                        background: none !important;
-                        outline: 0;
-                    }
-
-                    .tech-slideshow {
-                        height: 300px;
-                        max-width: 5200px;
-                        margin: 0 auto;
-                        position: relative;
-                        overflow: hidden;
-                        transform: translate3d(0, 0, 0);
-                    }
-
-                    .tech-slideshow > div {
-                        width: 5200px;
-                        background: url('../../img/sponsors/sponsorSlidesSmall.jpg');
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        height: 100%;
-                        transform: translate3d(0, 0, 0);
-                    }
-                    .tech-slideshow .mover-1 {
-                        animation: moveSlideshow 35s linear infinite;
-                    }
-                    .tech-slideshow:hover .mover-2 {
-                        opacity: 1;
-                    }
-
-                    @keyframes moveSlideshow {
-                        100% {
-                            transform: translateX(-100%);
-                        }
-                    }
-                </style>
-
-
-
+                
                 <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
+                    <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselSponsor" data-slide-to="1"></li>
@@ -61,63 +23,64 @@
                         <li data-target="#carouselSponsor" data-slide-to="12"></li>
                     </ol>
 
+                    <!-- Slides -->
                     <div class="carousel-inner" role="listbox">
                          <div class="item active">
-                            <img src="/img/sponsors/ehs.jpg" alt="Eastlake High School Logo" title="Eastlake High School"/>
+                            <img src="/img/sponsors/ehs.jpg" alt="/img/sponsors/ehs.jpg" title="Eastlake High School"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/google.jpg" alt="Google Logo" title="Google"/>
+                            <img src="/img/sponsors/google.jpg" alt="/img/sponsors/google.jpg" title="Google"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/lwsd.jpg" alt="Lake Washington School Foundation Logo" title="Lake Washington School Foundation"/>
+                            <img src="/img/sponsors/lwsd.jpg" alt="/img/sponsors/lwsd.jpg" title="Lake Washington School District"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/boeing.jpg" alt="Boeing Logo" title="Boeing"/>
+                            <img src="/img/sponsors/boeing.jpg" alt="/img/sponsors/boeing.jpg" title="Boeing"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/chase.jpg" alt="Chase Logo" title="Chase"/>
+                            <img src="/img/sponsors/chase.jpg" alt="/img/sponsors/chase.jpg" title="Chase"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/FIRSTWa.jpg" alt="FIRST Washington Logo" title="FIRST Washington"/>
+                            <img src="/img/sponsors/FIRSTWa.jpg" alt="/img/sponsors/FIRSTWa.jpg" title="FIRST Washington"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/godaddy.jpg" alt="GoDaddy Logo" title="GoDaddy"/>
+                            <img src="/img/sponsors/godaddy.jpg" alt="/img/sponsors/godaddy.jpg" title="GoDaddy"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/honeywell.jpg" alt="Honeywell Logo" title="Honeywell"/>
+                            <img src="/img/sponsors/honeywell.jpg" alt="/img/sponsors/honeywell.jpg" title="Honeywell"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/kenworth.jpg" alt="Kenworth Logo" title="Kenworth"/>
+                            <img src="/img/sponsors/kenworth.jpg" alt="/img/sponsors/kenworth.jpg" title="Kenworth"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/microsoft.jpg" alt="Microsoft Logo" title="Microsoft"/>
+                            <img src="/img/sponsors/microsoft.jpg" alt="/img/sponsors/microsoft.jpg" title="Microsoft"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/ospi.jpg" alt="Office of the Superintendant of Public Instruction Logo" title="Office of the Superintendent of Public Instruction"/>
+                            <img src="/img/sponsors/ospi.jpg" alt="/img/sponsors/ospi.jpg" title="Office of Superintendent of Public Instruction"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/rocketdyne.jpg" alt="Aerojet Rocketdyne Logo" title="Aerojet Rocketdyne"/>
+                            <img src="/img/sponsors/rocketdyne.jpg" alt="/img/sponsors/rocketdyne.jpg" title="Aerojet Rocketdyne"/>
                         </div>
                         <div class="item">
-                            <img src="/img/sponsors/sae.jpg" alt="SAE Washington Logo" title="SAE Washington"/>
+                            <img src="/img/sponsors/sae.jpg" alt="/img/sponsors/sae.jpg" title="SAE International"/>
                         </div>
                     </div>
 
-                    <a href="#carouselSponsor" role="button" id="playpause" onClick="$('#carouselSponsor').carousel('pause');">
+                    <!-- Left and right controls -->
+                    <a href="#" role="button" id="playpause">
                         <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
                         <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
+                        <span class="sr-only">Pause/Resume</span>
                     </a>
-                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('prev');" style="color: darkslategray">
+
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="prev" onclick="$('#carouselSponsor').carousel('prev');">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');" style="color: darkslategray">
+                    <a class="right carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
-                <div class="tech-slideshow" id="slideshow">
-                    <div class="mover-1"></div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
@@ -128,12 +91,10 @@
                         </div>
                     </div>
                 </div>
-
             </footer>
         </div>
 
-        <!--link rel="stylesheet" type="text/css" href="//brick.a.ssl.fastly.net/Clear+Sans:400,400i,500,600,700"-->
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//brick.a.ssl.fastly.net/Clear+Sans:400,400i,500,600,700">
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <script>window.jQuery || document.write('<script type="text/javascript" src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
@@ -153,15 +114,6 @@
         ?>
 
         <script>
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-                document.getElementById('carouselSponsor').style.display = 'block';
-                document.getElementById('slideshow').style.display = 'none';
-            }
-            else{
-                document.getElementById('carouselSponsor').style.display = 'none';
-                document.getElementById('slideshow').style.display = 'block';
-            }
-
             <?php 
                 /*Set a different tracking code based on if your viewing this website on the beta version or the full version*/
                 if($preview){
