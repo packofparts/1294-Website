@@ -1,4 +1,4 @@
-<div class="body-container footer" style="">
+<div class="body-container footer" style="overflow: hidden;">
             <footer class="container">
                 <div class="row">
                     <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
@@ -12,38 +12,34 @@
 
                     .tech-slideshow {
                         height: 300px;
-                        max-width: 5200px;
-                        margin: 0 auto;
+                        width: 6700px;
+                        /*margin: 0 auto;*/
                         position: relative;
                         overflow: hidden;
                         transform: translate3d(0, 0, 0);
+                      text-align: initial;
                     }
 
-                    .tech-slideshow > div {
-                        width: 5200px;
-                        background: url('../img/sponsors/sponsorSlidesSmall.jpg');
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        height: 100%;
-                        transform: translate3d(0, 0, 0);
-                    }
-                    .tech-slideshow .mover-1 {
-                        animation: moveSlideshow 10s linear infinite;
-                    }
-                    .tech-slideshow:hover .mover-2 {
-                        opacity: 1;
+                  .tech-slideshow img {
+                    max-height: 300px;
+                  }
+
+                  /* https://designshack.net/articles/css/infinitephotobanner/ */
+                  .tech-slideshow img.sponsor-first {
+                    animation: bannermove 30s linear infinite;
+                  }
+
+                  @keyframes bannermove {
+                    0% {
+                      margin-left: 0px;
                     }
 
-                    @keyframes moveSlideshow {
-                        0% {
-                          transform: translateX(100%);
-                        }
-
-                        100% {
-                          transform: translateX(-100%);
-                        }
+                    100% {
+                      margin-left: -5249px;
                     }
+                  }
+
+
                 </style>
 
 
@@ -122,7 +118,22 @@
                 </div>
 
                 <div class="tech-slideshow hidden-xs" id="slideshow">
-                    <div class="mover-1"></div>
+                  <img class="sponsor-first" src="/img/sponsors/ehs.jpg" alt="Eastlake High School Logo" title="Eastlake High School"/>
+                  <img src="/img/sponsors/google.jpg" alt="Google Logo" title="Google"/>
+                  <img src="/img/sponsors/lwsd.jpg" alt="Lake Washington School Foundation Logo" title="Lake Washington School Foundation"/>
+                  <img src="/img/sponsors/boeing.jpg" alt="Boeing Logo" title="Boeing"/>
+                  <img src="/img/sponsors/chase.jpg" alt="Chase Logo" title="Chase"/>
+                  <img src="/img/sponsors/FIRSTWa.jpg" alt="FIRST Washington Logo" title="FIRST Washington"/>
+                  <img src="/img/sponsors/godaddy.jpg" alt="GoDaddy Logo" title="GoDaddy"/>
+                  <img src="/img/sponsors/honeywell.jpg" alt="Honeywell Logo" title="Honeywell"/>
+                  <img src="/img/sponsors/kenworth.jpg" alt="Kenworth Logo" title="Kenworth"/>
+                  <img src="/img/sponsors/microsoft.jpg" alt="Microsoft Logo" title="Microsoft"/>
+                  <img src="/img/sponsors/ospi.jpg" alt="Office of the Superintendant of Public Instruction Logo" title="Office of the Superintendent of Public Instruction"/>
+                  <img src="/img/sponsors/rocketdyne.jpg" alt="Aerojet Rocketdyne Logo" title="Aerojet Rocketdyne"/>
+                  <img src="/img/sponsors/sae.jpg" alt="SAE Washington Logo" title="SAE Washington"/>
+                  <img src="/img/sponsors/ehs.jpg" alt="Eastlake High School Logo" title="Eastlake High School"/>
+                  <img src="/img/sponsors/google.jpg" alt="Google Logo" title="Google"/>
+                  <img src="/img/sponsors/lwsd.jpg" alt="Lake Washington School Foundation Logo" title="Lake Washington School Foundation"/>
                 </div>
 
                 <div class="row">
