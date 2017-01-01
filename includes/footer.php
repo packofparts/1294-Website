@@ -4,7 +4,7 @@
                     <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
                     <hr style="margin-top: -7px; ">
                 </div>
-                <style type="text/css">
+                <style>
                     .left, .right {
                         background: none !important;
                         outline: 0;
@@ -21,7 +21,7 @@
 
                     .tech-slideshow > div {
                         width: 5200px;
-                        background: url('../../img/sponsors/sponsorSlidesSmall.jpg');
+                        background: url('../img/sponsors/sponsorSlidesSmall.jpg');
                         position: absolute;
                         top: 0;
                         left: 0;
@@ -44,7 +44,7 @@
 
 
 
-                <div id="carouselSponsor" class="carousel slide" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
+                <div id="carouselSponsor" class="carousel slide hidden-sm-down" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselSponsor" data-slide-to="1"></li>
@@ -116,9 +116,11 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <div class="tech-slideshow" id="slideshow">
+
+                <div class="tech-slideshow hidden-md-up" id="slideshow">
                     <div class="mover-1"></div>
                 </div>
+
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
                         <div class="">
@@ -153,15 +155,6 @@
         ?>
 
         <script>
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-                document.getElementById('carouselSponsor').style.display = 'block';
-                document.getElementById('slideshow').style.display = 'none';
-            }
-            else{
-                document.getElementById('carouselSponsor').style.display = 'none';
-                document.getElementById('slideshow').style.display = 'block';
-            }
-
             <?php 
                 /*Set a different tracking code based on if your viewing this website on the beta version or the full version*/
                 if($preview){
