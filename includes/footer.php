@@ -29,22 +29,26 @@
                         transform: translate3d(0, 0, 0);
                     }
                     .tech-slideshow .mover-1 {
-                        animation: moveSlideshow 35s linear infinite;
+                        animation: moveSlideshow 10s linear infinite;
                     }
                     .tech-slideshow:hover .mover-2 {
                         opacity: 1;
                     }
 
                     @keyframes moveSlideshow {
+                        0% {
+                          transform: translateX(100%);
+                        }
+
                         100% {
-                            transform: translateX(-100%);
+                          transform: translateX(-100%);
                         }
                     }
                 </style>
 
 
 
-                <div id="carouselSponsor" class="carousel slide hidden-sm-down" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
+                <div id="carouselSponsor" class="carousel slide hidden-sm hidden-md hidden-lg" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselSponsor" data-slide-to="1"></li>
@@ -117,7 +121,7 @@
                     </a>
                 </div>
 
-                <div class="tech-slideshow hidden-md-up" id="slideshow">
+                <div class="tech-slideshow hidden-xs" id="slideshow">
                     <div class="mover-1"></div>
                 </div>
 
