@@ -8,6 +8,7 @@
                     .left, .right {
                         background: none !important;
                         outline: 0;
+                      color: darkslategrey;
                     }
 
                     .tech-slideshow {
@@ -39,13 +40,21 @@
                     }
                   }
 
+                  div#carouselSponsor ol.carousel-indicators#sp-carousel-indicators li {
+                    border-color: darkslategrey;
+                  }
+
+                  div#carouselSponsor ol.carousel-indicators#sp-carousel-indicators li.active {
+                    background-color: darkslategrey;
+                  }
+
 
                 </style>
 
 
 
                 <div id="carouselSponsor" class="carousel slide hidden-sm hidden-md hidden-lg" data-ride="carousel" style="width: 70%; height: 60%; margin: 0 auto">
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators" id="sp-carousel-indicators">
                         <li data-target="#carouselSponsor" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselSponsor" data-slide-to="1"></li>
                         <li data-target="#carouselSponsor" data-slide-to="2"></li>
@@ -103,15 +112,15 @@
                         </div>
                     </div>
 
-                    <a href="#carouselSponsor" role="button" id="playpause" onClick="$('#carouselSponsor').carousel('pause');">
-                        <span class="glyphicon glyphicon-pause" aria-hidden="true" id="carousel-pause"></span>
-                        <span class="glyphicon glyphicon-play" aria-hidden="true" id="carousel-play" style="display: none;"></span>
+                    <a href="#carouselSponsor" role="button" id="playpause" onClick="toggleSponsorCarousel()">
+                        <span class="glyphicon glyphicon-pause" aria-hidden="true" id="sp-carousel-pause"></span>
+                        <span class="glyphicon glyphicon-play" aria-hidden="true" id="sp-carousel-play" style="display: none;"></span>
                     </a>
-                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('prev');" style="color: darkslategray">
+                    <a class="left carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('prev');">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');" style="color: darkslategray">
+                    <a class="right carousel-control" href="#carouselSponsor" role="button" data-slide="next" onclick="$('#carouselSponsor').carousel('next');">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -170,6 +179,24 @@
         ?>
 
         <script>
+            const $sponsorCarousel = $('#carouselSponsor');
+            const $sponsorPlay = $('#sp-carousel-play');
+            const $sponsorPause = $('#sp-carousel-pause');
+            let sponsorCarouselState = true; // false == paused
+
+            function toggleSponsorCarousel() {
+              sponsorCarouselState = !sponsorCarouselState;
+              if (sponsorCarouselState) {
+                $sponsorCarousel.carousel('cycle');
+                $sponsorPlay.hide();
+                $sponsorPause.show();
+              } else {
+                $sponsorCarousel.carousel('pause');
+                $sponsorPlay.show();
+                $sponsorPause.hide();
+              }
+            }
+
             <?php 
                 /*Set a different tracking code based on if your viewing this website on the beta version or the full version*/
                 if($preview){
