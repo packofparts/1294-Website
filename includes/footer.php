@@ -27,7 +27,7 @@
 
                   /* https://designshack.net/articles/css/infinitephotobanner/ */
                   .tech-slideshow img.sponsor-first {
-                    animation: bannermove 30s linear infinite;
+                    animation: bannermove 60s linear infinite;
                   }
 
                   @keyframes bannermove {
