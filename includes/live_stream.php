@@ -66,7 +66,7 @@
 //                                /*It has passed the event date, the event may be live streaming right now so show the correct buttons accordingly*/
 //                            ?>
                             <td>
-                                <a href="https://www.youtube.com/playlist?list=PLZT9pIgNOV6bpbpEKQBVqIUG09i9Ai3jM" data-placement="top" data-toggle="tooltip" title="Go to FIRST's website to learn more about kickoff" class="add-tooltip btn btn-default">
+                                <a href="https://www.youtube.com/playlist?list=PLZT9pIgNOV6bpbpEKQBVqIUG09i9Ai3jM" data-placement="top" data-toggle="tooltip" title="Watch all of the Kickoff videos on YouTube" class="add-tooltip btn btn-default">
                                     <span class="fa fa-youtube-play" aria-hidden="true"></span> <em>FIRST</em> STEAMworks Kickoff Playlist
                                     <!--Well eventually get the link through the database and do everything automatically-->
                                 </a>
