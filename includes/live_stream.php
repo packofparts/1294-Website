@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2 id="live-stream-title">Watch the <em>FIRST®</em> STEAMworks Kickoff LIVE here!</h2>
+                <h2 id="live-stream-title">Watch the <em>FIRST®</em> STEAMworks Kickoff Game Animation!</h2>
                 <p class="lead"><!-- We will be live streaming from the <a class="event-link" href="http://www.thebluealliance.com/event/2016wamou">PNW Mount Vernon District Event</a> on <br> -->
-                <span class="event-times">January 7th @ 7:00 AM PST</span>
+<!--                 <span class="event-times">January 7th @ 7:00 AM PST</span> -->
                 </p>
             </div>
         </div>
@@ -12,7 +12,7 @@
             <!--<div class="col-lg-10 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1">-->
             <div class="col-xs-12">
                 <div class="embed-responsive embed-responsive-16by9" id="">
-                    <iframe id="Live-Stream" class="embed-responsive-item" src="https://player.twitch.tv/?channel=firstinspires&!autoplay" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless allowfullscreen="allowfullscreen"></iframe>
+                    <iframe id="Live-Stream" class="embed-responsive-item" src="https://www.youtube.com/embed/EMiNmJW7enI?list=PLZT9pIgNOV6bpbpEKQBVqIUG09i9Ai3jM" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless allowfullscreen="allowfullscreen"></iframe>
                 </div>
             </div>
         </div>
@@ -66,14 +66,14 @@
 //                                /*It has passed the event date, the event may be live streaming right now so show the correct buttons accordingly*/
 //                            ?>
                             <td>
-                                <a href="http://www.firstinspires.org/robotics/frc/2017-broadcast" data-placement="top" data-toggle="tooltip" title="Go to FIRST's website to learn more about kickoff" class="add-tooltip btn btn-default">
-                                    <span class="fa fa-twitch" aria-hidden="true"></span> <em>FIRST</em> Kickoff Site
+                                <a href="https://www.youtube.com/playlist?list=PLZT9pIgNOV6bpbpEKQBVqIUG09i9Ai3jM" data-placement="top" data-toggle="tooltip" title="Watch all of the Kickoff videos on YouTube" class="add-tooltip btn btn-default">
+                                    <span class="fa fa-youtube-play" aria-hidden="true"></span> <em>FIRST</em> STEAMworks Kickoff Playlist
                                     <!--Well eventually get the link through the database and do everything automatically-->
                                 </a>
                             </td>
                             <td>
                                 <a href="http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank" class="add-tooltip btn btn-default" data-toggle="tooltip" data-placement="top" data-title="Click here for more information about FIRST STEAMworks"  >
-                                    <span class="fa fa-book" aria-hidden="true"></span> Game & Season Information
+                                    <span class="fa fa-book" aria-hidden="true"></span> Game &amp; Season Information
                                 </a>
                             </td>
 <!--                            --><?php
