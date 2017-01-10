@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2 id="live-stream-title">Watch the <em>FIRST®</em> STEAMworks Kickoff Game Animation!</h2>
+                <h2 id="live-stream-title">Watch the <em>FIRST®</em> STEAMworks Game Animation!</h2>
                 <p class="lead"><!-- We will be live streaming from the <a class="event-link" href="http://www.thebluealliance.com/event/2016wamou">PNW Mount Vernon District Event</a> on <br> -->
 <!--                 <span class="event-times">January 7th @ 7:00 AM PST</span> -->
                 </p>
