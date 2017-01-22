@@ -48,7 +48,10 @@
                     background-color: darkslategrey;
                   }
 
-
+                            footer {
+                                    margin-left: 0;
+                                        padding: 0;
+                            }
                 </style>
 
 
