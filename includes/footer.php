@@ -50,7 +50,7 @@
 
                             footer {
                                     margin-left: 0 !important;
-                                        padding: 0;
+                                        padding-left: 0 !important;
                             }
                 </style>
 
