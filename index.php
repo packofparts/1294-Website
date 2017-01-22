@@ -125,6 +125,8 @@
                 <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div><br>
                 <br>
                 <p><a class="btn btn-default" href="https://www.facebook.com/topgunrobotics"><i class="fa fa-facebook"></i> View us on Facebook! &raquo;</a></p>
+		<h2 class="section-header">Find us on Twitter!</h2>
+                <a class="twitter-timeline" href="https://twitter.com/TopGun1294">Tweets by TopGun1294</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div class="col-md-4">
                 <h2 class="section-header">Upcoming Events</h2>
@@ -134,7 +136,7 @@
             <div class="col-md-4">
                 <h2 class="section-header">Featured Video </h2>
                 <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/PFNH1x9r2uM?;wmode=transparent" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/jQKYky6ib7g?;wmode=transparent" allowfullscreen></iframe>
                 </div>
                 <br><br>
                 <p><a class="btn btn-default" href="https://www.youtube.com/user/TopGun1294/"><i class="fa fa-youtube-play"></i> Visit our Youtube Channel &raquo;</a></p>
