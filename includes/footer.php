@@ -49,7 +49,7 @@
                   }
 
                             footer {
-                                    margin-left: 0;
+                                    margin-left: 0 !important;
                                         padding: 0;
                             }
                 </style>
