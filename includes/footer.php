@@ -146,6 +146,7 @@
                   <img src="/img/sponsors/ehs.jpg" alt="Eastlake High School Logo" title="Eastlake High School"/>
                   <img src="/img/sponsors/google.jpg" alt="Google Logo" title="Google"/>
                   <img src="/img/sponsors/lwsd.jpg" alt="Lake Washington School Foundation Logo" title="Lake Washington School Foundation"/>
+                  <img src="/img/sponsors/boeing.jpg" alt="Boeing Logo" title="Boeing"/>
                 </div>
 
                 <div class="row">
