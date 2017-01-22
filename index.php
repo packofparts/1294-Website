@@ -122,8 +122,17 @@
         <div class="row-fluid">
             <div class="col-md-4">
                 <h2 class="section-header">Find us on Facebook!</h2>
-                <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div><br>
-                <br>
+                <div class="fb-like-box" data-href="https://www.facebook.com/topgunrobotics" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>
+		<style>
+			div.fb-like-box.fb_iframe_widget span {
+				height: 400px !important;
+			}
+			
+			div.fb-like-box.fb_iframe_widget span iframe {
+				height: 100% !important;
+			}
+		</style>
+		<br><br>
                 <p><a class="btn btn-default" href="https://www.facebook.com/topgunrobotics"><i class="fa fa-facebook"></i> View us on Facebook! &raquo;</a></p>
 		<h2 class="section-header">Find us on Twitter!</h2>
                 <a class="twitter-timeline" href="https://twitter.com/TopGun1294">Tweets by TopGun1294</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
