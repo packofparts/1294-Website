@@ -243,8 +243,8 @@
 <!-- 			    			<a class="btn btn-default" href="/about/competitions/2016.php"><i class="fa fa-file-text-o"></i> Competition Information</a> -->
 						<a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeSGcBeB9W8qm5ogL-6R-P1x3JaAxAo0L59piwlrakNwvYnFg/viewform"><i class="fa fa-file-text-o"></i> Event Signup</a>
 				<a class="btn btn-default" href="https://docs.google.com/presentation/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing"><i class="fa fa-file-powerpoint-o"></i> Info Meeting Presentation</a>
-                        <button class="btn btn-default" href="/documents/2017/bus_2017waamv.jpeg"><i class="fa fa-file-text-o"></i> Bus Form - Auburn Mountainview</button>
-                        <button class="btn btn-default" href="/documents/2017/bus_2017wasno.jpeg"><i class="fa fa-file-text-o"></i> Bus Form - Glacier Peak</button>
+                        <a class="btn btn-default" href="/documents/2017/bus_2017waamv.jpeg"><i class="fa fa-file-text-o"></i> Bus Form - Auburn Mountainview</a>
+                        <a class="btn btn-default" href="/documents/2017/bus_2017wasno.jpeg"><i class="fa fa-file-text-o"></i> Bus Form - Glacier Peak</a>
                         </div>
              
                     </div>
