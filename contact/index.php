@@ -140,7 +140,7 @@
         </div>
     </div>
 </div>
-<div class="body-container">
+<!-- <div class="body-container">
     <div class="container">
         <div class="row text-center content-center">
             <div class="col-xs-12">
@@ -208,7 +208,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <?php 
     
     $ExtraFooterTags = '
