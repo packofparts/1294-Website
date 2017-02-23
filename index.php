@@ -296,9 +296,9 @@ require 'includes/lower_header.php';
               <div class="row">
                 <div class="btn-group btn-group-justified">
                   <a class="btn btn-default" href="/documents/2017/bus_2017waamv.jpeg"><i class="fa fa-file-text-o"></i>
-                    Auburn MV Bus</a>
+                    Auburn MV Permission Form</a>
                   <a class="btn btn-default" href="/documents/2017/bus_2017wasno.jpeg"><i class="fa fa-file-text-o"></i>
-                    Glacier Peak Bus</a>
+                    Glacier Peak Bus Permission Form</a>
                 </div>
               </div>
             </div>
