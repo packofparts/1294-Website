@@ -82,7 +82,7 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                            <li class="dropdown <?php echo $active['about']?>">
+<!--                             <li class="dropdown <?php echo $active['about']?>">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> Information <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="/about/forms/2016.php"><i class="fa fa-pencil-square-o"></i> Forms & Documents</a></li>
@@ -97,7 +97,7 @@
                                     <li style="display: none"><a rel="nofollow" href="/about/donate/"><i class="fa fa-money"></i> Donations</a></li>
                                     <?php } //End of preview only block ?>
                                 </ul>
-                            </li>
+                            </li> -->
                         <li class="dropdown <?php echo $active['media']?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"></span> Media <b class="caret"></b></a>
                             <ul class="dropdown-menu">
