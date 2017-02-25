@@ -297,6 +297,10 @@ require 'includes/lower_header.php';
                     Auburn MV Permission Form</a>
                   <a class="btn btn-default" href="/documents/2017/bus_2017wasno.jpeg"><i class="fa fa-file-text-o"></i>
                     Glacier Peak Permission Form</a>
+                  <a class="btn btn-default" href="/documents/2017/2017pnwcmp.jpeg"><i class="fa fa-file-text-o"></i>
+                    PNW District Championship Permission</a>
+                  <a class="btn btn-default" href="/documents/2017/private_auto.pdf"><i class="fa fa-file-text-o"></i>
+                    Private Auto Authorization</a>
             </div>
 
           </div>
