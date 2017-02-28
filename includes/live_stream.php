@@ -40,8 +40,8 @@
 //                            if(strtotime($eventDate) > strtotime('today')){
 //                                /*Its not passed the event date, show the "before event" button*/ ?>
                             <td style="width: 50%;">
-                                <a href="https://calendar.google.com/calendar/render?eid=NmtlMDY4YXR0ZWhjajhiajI4YWZkNG5hNDQgd2VibWFzdGVyQHRlYW0xMjk0Lm9yZw&sf=true&output=xml" title="Add to Calendar" class="addthisevent go-to-scores" target="_blank">
-                                    Add to Calendar
+                                <a href="https://calendar.google.com/calendar/render?eid=NmtlMDY4YXR0ZWhjajhiajI4YWZkNG5hNDQgd2VibWFzdGVyQHRlYW0xMjk0Lm9yZw&sf=true&output=xml" title="Add to Calendar" class="go-to-scores" target="_blank">
+                                    <span class="glyphicon glyphicon-calendar"></span> Add to Calendar
                                 </a>
                             </td>
                             <td style="width: 50%;">
