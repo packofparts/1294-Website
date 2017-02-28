@@ -40,18 +40,8 @@
 //                            if(strtotime($eventDate) > strtotime('today')){
 //                                /*Its not passed the event date, show the "before event" button*/ ?>
                             <td style="width: 50%;">
-                                <a href="http://www.thebluealliance.com/event/2016wamou" title="Add to Calendar" class="addthisevent">
+                                <a href="https://calendar.google.com/calendar/render?eid=NmtlMDY4YXR0ZWhjajhiajI4YWZkNG5hNDQgd2VibWFzdGVyQHRlYW0xMjk0Lm9yZw&sf=true&output=xml" title="Add to Calendar" class="addthisevent go-to-scores" target="_blank">
                                     Add to Calendar
-                                    <span class="_start">04-03-2017 8:15:00</span>
-                                    <span class="_end">05-03-2017 17:30:00</span>
-                                    <span class="_zonecode">6</span>
-                                    <span class="_summary">FIRST Washington: Auburn Mountainview District Event</span>
-                                    <span class="_description">FIRST Washington: Auburn Mountainview District Event</span>
-                                    <span class="_location">28900 124th Ave SE, Auburn, WA 98092</span>
-                                    <span class="_organizer">FIRST Washington</span>
-                                    <span class="_organizer_email">admin@firstwa.org</span>
-                                    <span class="_all_day_event">false</span>
-                                    <span class="_date_format">DD/MM/YYYY</span>
                                 </a>
                             </td>
                             <td style="width: 50%;">
