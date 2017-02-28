@@ -45,10 +45,10 @@
                                     <span class="_start">04-03-2017 8:15:00</span>
                                     <span class="_end">05-03-2017 17:30:00</span>
                                     <span class="_zonecode">6</span>
-                                    <span class="_summary"><em>FIRST</em> Washington: Auburn Mountainview District Event</span>
-                                    <span class="_description"><em>FIRST</em> Washington: Auburn Mountainview District Event</span>
+                                    <span class="_summary">FIRST Washington: Auburn Mountainview District Event</span>
+                                    <span class="_description">FIRST Washington: Auburn Mountainview District Event</span>
                                     <span class="_location">28900 124th Ave SE, Auburn, WA 98092</span>
-                                    <span class="_organizer"><em>FIRST</em> Washington</span>
+                                    <span class="_organizer">FIRST Washington</span>
                                     <span class="_organizer_email">admin@firstwa.org</span>
                                     <span class="_all_day_event">false</span>
                                     <span class="_date_format">DD/MM/YYYY</span>
