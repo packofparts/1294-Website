@@ -151,7 +151,7 @@
 
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
-                        <div class="">
+                        <div class="" style="overflow: hidden;">
                             <div class="fb-like" id="fb-like-footer" data-href="https://www.facebook.com/topgunrobotics/" data-width="450" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                             <hr>
                             <a class="footer-links" title="Contact Us" href="/contact/">Contact Us</a> | <a class="footer-links" title="FIRST" href="http://www.firstinspires.org/"><em>FIRST</em></a> | <a class="footer-links" title="FIRST Washington" href="http://firstwa.org/"><em>FIRST</em> Washington</a> | <a class="footer-links" href="https://plus.google.com/103733199754924235388" rel="publisher">Google+</a> | <a class="footer-links" title="Star or Fork us on GitHub" href="https://github.com/FRC-1294">GitHub</a>
