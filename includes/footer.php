@@ -1,6 +1,6 @@
 <div class="body-container footer" style="overflow: hidden;">
-            <footer class="container">
-                <div class="row">
+            <div class="container">
+                <div class="row-fluid">
                     <h2 id="sponsor-title">At Top Gun Robotics, We Love Our Sponsors!</h2><br>
                     <hr style="margin-top: -7px; ">
                 </div>
@@ -159,7 +159,7 @@
                     </div>
                 </div>
 
-            </footer>
+            </div>
         </div>
 
         <!--link rel="stylesheet" type="text/css" href="//brick.a.ssl.fastly.net/Clear+Sans:400,400i,500,600,700"-->
