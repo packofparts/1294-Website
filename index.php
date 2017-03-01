@@ -284,8 +284,8 @@ require 'includes/lower_header.php';
               <a class="btn btn-primary"
                  href="https://docs.google.com/forms/d/e/1FAIpQLSdkeCPjQeAL1Of2QDF-U4mLEp5sDpo6ALCi97klyPdRhFpNjw/viewform"><i
                         class="fa fa-file-text-o"></i> Member Signup Form</a>
-              <a class="btn btn-default" href="/documents/2017/merch_order.pdf"><i class="fa fa-fighter-jet"></i>
-                Competition Merch Order Form</a>
+<!--               <a class="btn btn-default" href="/documents/2017/merch_order.pdf"><i class="fa fa-fighter-jet"></i> -->
+<!--                 Competition Merch Order Form</a> -->
               <!-- 			    			<a class="btn btn-default" href="/about/competitions/2016.php"><i class="fa fa-file-text-o"></i> Competition Information</a> -->
               <a class="btn btn-default"
                  href="https://docs.google.com/forms/d/e/1FAIpQLSeSGcBeB9W8qm5ogL-6R-P1x3JaAxAo0L59piwlrakNwvYnFg/viewform"><i
