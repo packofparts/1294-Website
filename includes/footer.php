@@ -19,6 +19,7 @@
                         overflow: hidden;
                         transform: translate3d(0, 0, 0);
                       text-align: initial;
+                                margin-left: -65px;
                     }
 
                   .tech-slideshow img {
