@@ -299,6 +299,10 @@ require 'includes/lower_header.php';
                     PNW District Championship Permission</a>
                   <a class="btn btn-default" href="/documents/2017/private_auto.pdf"><i class="fa fa-file-text-o"></i>
                     Private Auto Form</a>
+                  <a class="btn btn-default" href="/documents/2017/instructions_for_districts.docx"><i class="fa fa-file-text-o"></i>
+                    Instructions for Districts</a>
+                  <a class="btn btn-default" href="/documents/2017/perm_to_room.docx"><i class="fa fa-file-text-o"></i>
+                    Permission to Room</a>
             </div>
 
           </div>
