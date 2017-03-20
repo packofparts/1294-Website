@@ -293,16 +293,8 @@ require 'includes/lower_header.php';
               <a class="btn btn-default"
                  href="https://docs.google.com/presentation/d/1KL-ak2xcdzXG72XSD3EO0rhAUvoiOWN6mUxiZ7xl4n8/edit?usp=sharing"><i
                         class="fa fa-file-powerpoint-o"></i> Info Meeting Presentation</a>
-                  <a class="btn btn-default" href="/documents/2017/bus_2017wasno.jpeg"><i class="fa fa-file-text-o"></i>
-                    Glacier Peak Permission Form</a>
-                  <a class="btn btn-default" href="/documents/2017/2017pnwcmp.jpeg"><i class="fa fa-file-text-o"></i>
-                    PNW District Championship Permission</a>
-                  <a class="btn btn-default" href="/documents/2017/private_auto.pdf"><i class="fa fa-file-text-o"></i>
-                    Private Auto Form</a>
-                  <a class="btn btn-default" href="/documents/2017/instructions_for_districts.docx"><i class="fa fa-file-text-o"></i>
-                    Instructions for Districts</a>
-                  <a class="btn btn-default" href="/documents/2017/perm_to_room.docx"><i class="fa fa-file-text-o"></i>
-                    Permission to Room</a>
+                  <a class="btn btn-default" href="https://drive.google.com/drive/folders/0B7dBlgLDUixVRUJzejExNkdIdTQ?usp=sharing"><i class="fa fa-file-text-o"></i>
+                    Forms for Competition</a>
             </div>
 
           </div>
