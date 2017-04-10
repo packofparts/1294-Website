@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2 id="live-stream-title">Watch Maverick compete at Glacier Peak!</h2>
+                <h2 id="live-stream-title">Watch Maverick compete at the <em>FIRST</em> Championship: Houston!</h2>
                 <p class="lead">We will be compiting at the <a class="event-link" href="http://www.thebluealliance.com/event/2017wasno">PNW Glacier Peak District Event</a> on <br>
                  <span class="event-times">March 25th &amp; 26th</span>
                 </p>
@@ -12,7 +12,7 @@
             <!--<div class="col-lg-10 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1">-->
             <div class="col-xs-12">
                 <div class="embed-responsive embed-responsive-16by9" id="">
-                    <iframe id="Live-Stream" class="embed-responsive-item" src="https://player.twitch.tv/?channel=firstwa_blue" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless allowfullscreen="allowfullscreen"></iframe>
+                    <iframe id="Live-Stream" class="embed-responsive-item" src="https://player.twitch.tv/?channel=firstinspires" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless allowfullscreen="allowfullscreen"></iframe>
                 </div>
             </div>
         </div>
@@ -40,12 +40,12 @@
 //                            if(strtotime($eventDate) > strtotime('today')){
 //                                /*Its not passed the event date, show the "before event" button*/ ?>
                             <td style="width: 50%;">
-                                <a href="https://www.google.com/calendar/event?eid=bmFhYjFhZWpxc2hvMTZnY21hcXY0aHZlZG8gd2VibWFzdGVyQHRlYW0xMjk0Lm9yZw" title="Add to Calendar" class="go-to-scores" target="_blank">
+                                <a href="https://www.google.com/calendar/event?eid=dXMycTM1bmp1NWlwdmlvdXVya2hmdGw2ODQgd2VibWFzdGVyQHRlYW0xMjk0Lm9yZw" title="Add to Calendar" class="go-to-scores" target="_blank">
                                     <span class="glyphicon glyphicon-calendar"></span> Add to Calendar
                                 </a>
                             </td>
                             <td style="width: 50%;">
-                                <a href="https://www.thebluealliance.com/event/2017wasno/" target="_blank" title="Go to The Blue Alliance" class="go-to-scores" >
+                                <a href="https://www.thebluealliance.com/event/2017cmptx/" target="_blank" title="Go to The Blue Alliance" class="go-to-scores" >
                                     <span class="glyphicon glyphicon-list-alt"></span> More Information at The Blue Alliance
                                 </a>
                             </td>
