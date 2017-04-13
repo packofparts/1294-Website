@@ -12,7 +12,7 @@
             <!--<div class="col-lg-10 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1">-->
             <div class="col-xs-12">
                 <div class="embed-responsive embed-responsive-16by9" id="">
-                    <iframe id="Live-Stream" class="embed-responsive-item" src="https://player.twitch.tv/?channel=firstinspires" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless allowfullscreen="allowfullscreen"></iframe>
+                    <iframe id="Live-Stream" class="embed-responsive-item" src="https://player.twitch.tv/?channel=firstinspires_newton" scrolling="no" frameborder="0" style="border: 0px none transparent;" seamless allowfullscreen="allowfullscreen"></iframe>
                 </div>
             </div>
         </div>
