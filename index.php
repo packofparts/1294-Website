@@ -151,7 +151,7 @@ require 'includes/lower_header.php';
         <p><a class="btn btn-default" href="https://www.facebook.com/topgunrobotics"><i class="fa fa-facebook"></i> View
             us on Facebook! &raquo;</a></p>
         <h2 class="section-header">Find us on Twitter!</h2>
-        <a class="twitter-timeline" href="https://twitter.com/TopGun1294">Tweets by TopGun1294</a>
+        <a class="twitter-timeline" href="https://twitter.com/TopGun1294" data-width="300" data-height="400">Tweets by TopGun1294</a>
         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       <div class="col-md-4">
