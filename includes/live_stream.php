@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 id="live-stream-title">Watch Maverick compete at the <em>FIRST</em> Championship: Houston!</h2>
-                <p class="lead">We will be compiting at the <a class="event-link" href="http://www.thebluealliance.com/event/2017wasno">PNW Glacier Peak District Event</a> on <br>
-                 <span class="event-times">March 25th &amp; 26th</span>
+                <p class="lead">We will be competing at the <a class="event-link" href="http://www.thebluealliance.com/event/2017new"><em>FIRST</em> Championship: Newton Division</a> on <br>
+                 <span class="event-times">April 19th - 22nd</span>
                 </p>
             </div>
         </div>
@@ -45,7 +45,7 @@
                                 </a>
                             </td>
                             <td style="width: 50%;">
-                                <a href="https://www.thebluealliance.com/event/2017cmptx/" target="_blank" title="Go to The Blue Alliance" class="go-to-scores" >
+                                <a href="https://www.thebluealliance.com/event/2017new/" target="_blank" title="Go to The Blue Alliance" class="go-to-scores" >
                                     <span class="glyphicon glyphicon-list-alt"></span> More Information at The Blue Alliance
                                 </a>
                             </td>
