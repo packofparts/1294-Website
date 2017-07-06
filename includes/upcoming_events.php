@@ -72,7 +72,7 @@
     function checkCacheFileDate(){
         global $cacheFilePath;
         $timedif = @(time() - filemtime($cacheFilePath));
-        return file_exists($cacheFilePath) && $timedif < 43200 /* 12 hours in seconds */;
+        return file_exists($cacheFilePath) && $timedif < 3600; // 1 hour in seconds
     }
 
     function getOnlineData(){
