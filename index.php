@@ -128,7 +128,7 @@ require 'includes/lower_header.php';
   </div>
 </div>
 
-<?php include 'includes/live_stream.php' ?>
+<?php //include 'includes/live_stream.php' ?>
 
 <div class="body-container">
   <div class="container">
