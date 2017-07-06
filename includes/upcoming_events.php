@@ -180,7 +180,6 @@
             $temp = null;
             preg_match("/Eastlake High School/", $location, $temp); // regex for a count of ocurances of "Eastlake High School" in $location
             if(count($temp) > 0){
-                $location = 'Eastlake High School<br>';
                 $mapLink = '<a rel="nofollow" href="https://maps.google.com/?q='.urlencode("Eastlake High School, 400 228th Ave NE, Sammamish, WA, United States").'" class="btn btn-primary btn-xs">Map It</a>';
                 $location = 'Eastlake High School<br>';
             }else if(!$location){
